@@ -1,24 +1,17 @@
 {% include base_path %}
-
 <div class="page__footer-follow">
   <ul class="social-icons">
-    {% if site.data.ui-text[site.locale].follow_label %}
-      <li><strong>{{ site.data.ui-text[site.locale].follow_label }}</strong></li>
-    {% endif %}
-    {% if site.twitter.username %}
-      <li><a href="https://twitter.com/{{ site.twitter.username }}"><i class="fab fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
-    {% endif %}
-    {% if site.facebook.username %}
-      <li><a href="https://facebook.com/{{ site.facebook.username }}"><i class="fab fa-facebook-square" aria-hidden="true"></i> Facebook</a></li>
-    {% endif %}
-    {% if site.author.github %}
-      <li><a href="http://github.com/{{ site.author.github }}"><i class="fab fa-github" aria-hidden="true"></i> GitHub</a></li>
-    {% endif %}
-    {% if site.author.bitbucket %}
-      <li><a href="http://bitbucket.org/{{ site.author.bitbucket }}"><i class="fab fa-bitbucket" aria-hidden="true"></i> Bitbucket</a></li>
-    {% endif %}
-    <li><a href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ base_path }}/feed.xml{% endif %}"><i class="fa fa-fw fa-rss-square" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].feed_label | default: "Feed" }}</a></li>
+    <li><a href="mailto:michael.pfarrhofer@plus.ac.at">Email</a></li>
+    <li><a href="https://twitter.com/mpfarrho">Twitter</a></li>
+    <li><a href="https://scholar.google.at/citations?user=ymlNJ_UAAAAJ&hl=en">Scholar</a></li>
+    <li><a href="https://github.com/mpfarrho">Github</a></li>
+    <li><a href="https://ideas.repec.org/e/ppf31.html">IDEAS</a></li>
+    <li><a href="https://orcid.org/0000-0002-0168-688X">ORCID</a></li>
+    <li><a href="https://www.researchgate.net/profile/Michael-Pfarrhofer">Researchgate</a></li>
+    <li><a href="https://www.scopus.com/authid/detail.uri?authorId=57195352542">Scopus</a></li>
+    <li><a href="https://publons.com/researcher/1987247/michael-pfarrhofer/">Publons</a></li>
+    <li><a href="https://uni-salzburg.elsevierpure.com/de/persons/michael-pfarrhofer-5">PURE</a></li>
   </ul>
 </div>
 
-<div class="page__footer-copyright">&copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}. {{ site.data.ui-text[site.locale].powered_by | default: "Powered by" }} <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://github.com/academicpages/academicpages.github.io">AcademicPages</a>, a fork of <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+<div class="page__footer-copyright"><a href="https://github.com/academicpages/academicpages.github.io">Link to page source code (Github).</a></div>
