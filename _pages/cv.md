@@ -59,4 +59,4 @@ Teaching and other activities
 ======
 * _Undergraduate_: Macroeconomics (University of Salzburg, 2018/19, 2019/20)
 * _Graduate_: Macroeconometrics I (University of Salzburg, 2020), Advanced Macroeconometrics (Vienna University of Economics and Business, 2019), Methods in Economics (University of Salzburg, 2019/20, 2020/21), Macroeconometrics: Structural and predictive inference (University of Salzburg, 2021).
-* _Other_: Curriculum Committee Master Economics and Business (University of Salzburg, 2019), Analysis of the performance of students (University of Salzburg, 2019)
+* _Other_: Curriculum Committee Master Economics and Business (University of Salzburg, 2019), Analysis of the performance of students (University of Salzburg, 2019), Rethinking Economics: "Predictive inference and forecast evaluation metrics" (University of Tübingen, 2022)
