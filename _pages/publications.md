@@ -11,6 +11,7 @@ author_profile: true
 
 {% include base_path %}
 
+* Approximate Bayesian inference and forecasting in huge-dimensional panel VARs, with Feldkircher M., Huber F., and G. Koop, forthcoming in _International Economic Review_. DOI / [WP](https://arxiv.org/abs/2103.04944)
 * Measuring international uncertainty using global vector autoregressions with drifting parameters, forthcoming in _Macroeconomic Dynamics_.
   [DOI](https://doi.org/10.1017/S1365100521000663) / [WP](https://arxiv.org/abs/1908.06325) / [Code](https://github.com/mpfarrho/tvp-gvar-fsvm)
 * Nowcasting in a pandemic using non-parametric mixed frequency VARs, with Huber, F., Koop, G., Onorante, L., and J. Schreiner, forthcoming in the _Journal of Econometrics_. [DOI](https://doi.org/10.1016/j.jeconom.2020.11.006) / [WP](https://arxiv.org/abs/2008.12706) / [Code](https://github.com/mpfarrho/mf-bavart)
@@ -33,7 +34,6 @@ Working papers
 * Modeling tail risks of inflation using unobserved component quantile regressions. [WP](https://arxiv.org/abs/2103.03632) / [Code](https://github.com/mpfarrho/tvp-qr)
 * Investigating Growth at Risk Using a Multi-country Non-parametric Quantile Factor Model, Clark T.E., Huber F., Koop G., and M. Marcellino. [WP](https://arxiv.org/abs/2110.03411)
 * Tail Forecasting with Multivariate Bayesian Additive Regression Trees, with Clark T.E., Huber F., Koop G., and M. Marcellino. [WP](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3809866)
-* Approximate Bayesian inference and forecasting in huge-dimensional panel VARs, with Feldkircher M., Huber F., and G. Koop, revise and resubmit in _International Economic Review_. [WP](https://arxiv.org/abs/2103.04944)
 * General Bayesian time-varying parameter VARs for predicting government bond yields, with Fischer M.M., Hauzenberger N., and F. Huber, revise and resubmit in the _Journal of Applied Econometrics_. [WP](https://arxiv.org/abs/2102.13393)
 * Sparse time-varying parameter VECMs with an application to modeling electricity prices, with Hauzenberger N., and L. Rossini. [WP](https://arxiv.org/abs/2011.04577)
 * Bayesian inference in high-dimensional time-varying parameter models using integrated rotated Gaussian approximations, with Huber, F. and G. Koop. [WP](https://arxiv.org/abs/2002.10274)
