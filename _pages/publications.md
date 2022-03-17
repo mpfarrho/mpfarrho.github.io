@@ -9,6 +9,8 @@ author_profile: true
   You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
 {% endif %}
 
+{% include base_path %}
+
 Most important publications
 ======
 * Approximate Bayesian inference and forecasting in huge-dimensional panel VARs, with Feldkircher M., Huber F., and G. Koop, forthcoming in _International Economic Review_. DOI / [WP](https://arxiv.org/abs/2103.04944)
