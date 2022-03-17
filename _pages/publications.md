@@ -11,7 +11,7 @@ author_profile: true
 
 {% include base_path %}
 
-Most important publications
+Most important
 ======
 * Approximate Bayesian inference and forecasting in huge-dimensional panel VARs, with Feldkircher M., Huber F., and G. Koop, forthcoming in _International Economic Review_. DOI / [WP](https://arxiv.org/abs/2103.04944)
 * Nowcasting in a pandemic using non-parametric mixed frequency VARs, with Huber, F., Koop, G., Onorante, L., and J. Schreiner, forthcoming in the _Journal of Econometrics_. [DOI](https://doi.org/10.1016/j.jeconom.2020.11.006) / [WP](https://arxiv.org/abs/2008.12706) / [Code](https://github.com/mpfarrho/mf-bavart)
