@@ -43,6 +43,7 @@ Working papers
 ======
 * Tail Forecasting with Multivariate Bayesian Additive Regression Trees, with Clark T.E., Huber F., Koop G., and M. Marcellino, revise and resubmit in the _International Economic Review_. [WP](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3809866)
 * General Bayesian time-varying parameter VARs for predicting government bond yields, with Fischer M.M., Hauzenberger N., and F. Huber, revise and resubmit in the _Journal of Applied Econometrics_. [WP](https://arxiv.org/abs/2102.13393)
+* A Bayesian panel VAR model to analyze the impact of climate change on high-income economies, with Kristzin T. and F. Huber, revise and resubmit in _Annals of Applied Statistics_. [WP](https://arxiv.org/abs/1804.01554)
 * Measuring Shocks to Central Bank Independence using Legal Rulings, with Griller S. and F. Huber. [WP](https://arxiv.org/abs/2202.12695)
 * Modeling tail risks of inflation using unobserved component quantile regressions. [WP](https://arxiv.org/abs/2103.03632) / [Code](https://github.com/mpfarrho/tvp-qr)
 * Investigating Growth at Risk Using a Multi-country Non-parametric Quantile Factor Model, with Clark T.E., Huber F., Koop G., and M. Marcellino. [WP](https://arxiv.org/abs/2110.03411)
