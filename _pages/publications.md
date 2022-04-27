@@ -54,7 +54,6 @@ Working papers
 Other papers
 ======
 * The international effects of central bank information shocks, with A. Stelzer. [WP](https://arxiv.org/abs/1912.03158)
-* A Bayesian panel VAR model to analyze the impact of climate change on high-income economies, with Krisztin, T. and F. Huber. [WP](https://arxiv.org/abs/1804.01554)
 * Introducing shrinkage in heavy-tailed state space models to predict equity excess returns, with Huber, F., and G. Kastner. [WP](https://arxiv.org/abs/1805.12217)
 * Implications of macroeconomic volatility in the Euro area, with Hauzenberger, N., Böck, M., Stelzer, A. and G. Zens, 2018. [ESRB](https://www.esrb.europa.eu/pub/pdf/wp/esrb.wp80.en.pdf?3d22daf2cf5665f0c8314cca792924a1)
 
