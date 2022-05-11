@@ -13,8 +13,10 @@ Michael Pfarrhofer, born on June 1, 1993 (Linz, Austria). [PDF of CV](https://ww
 
 Academic positions
 ======
-* _Visiting researcher_, Department of Economics at Bocconi University (Milan, Italy; since 03/2022)
-* _Post-doc researcher_, Department of Economics at University of Salzburg (Salzburg, Austria; since 10/2019)
+* _Visiting Professor of Macroeconomics_, University of Vienna (Vienna, Austria; _starting_ 09/2022––08/2023)\\
+  Department of Economics, position accepted.
+* _Visiting researcher_, Department of Economics at Bocconi University (Milan, Italy; _since_ 03/2022)
+* _Post-doc researcher_, Department of Economics at University of Salzburg (Salzburg, Austria; _since_ 10/2019)
 * _Senior scientist_, Salzburg Centre of European Union Studies (SCEUS) at University of Salzburg (Salzburg, Austria; 11/2018–09/2019)
 * _Research associate_, Institute for Macroeconomics at Vienna University of Economics and Business (Vienna, Austria; 02/2018–09/2019)
 
@@ -32,7 +34,7 @@ Education
 
 Referee
 ======
-* ECB Working Paper Series, Econometrics and Statistics, Economic Modelling, Empirica, Empirical Economics, Energy Journal, Energy Strategy Reviews, German Economic Review, International Economics, Economia Internazionale/International Economics, Journal of Business & Economic Statistics, Journal of International Money and Finance, Oxford Bulletin of Economics and Statistics, PLOS ONE, Prague Economic Papers, Public Finance Review, Real Estate Economics, Review of International Economics, Statistica Sinica
+* ECB Working Paper Series, Econometrics and Statistics, Economic Modelling, Empirica, Empirical Economics, Energy Journal, Energy Strategy Reviews, German Economic Review, International Economics, Economia Internazionale/International Economics, Journal of Business & Economic Statistics, Journal of International Money and Finance, OeNB Jubiläumsfonds, Oxford Bulletin of Economics and Statistics, PLOS ONE, Prague Economic Papers, Public Finance Review, Real Estate Economics, Review of International Economics, Statistica Sinica.
 
 Memberships
 ======
@@ -50,6 +52,7 @@ Honors and awards
 
 Conferences and presentations
 ======
+* _2022 (planned)_: Internal Research Seminar (European Commission, JRC Ispra), Internal Research Seminar (Economics, Bocconi University), Occasional Research Seminar (Decision Sciences, Bocconi University), Annual Meeting of the Austrian Economic Association (NOeG), 12th European Seminar on Bayesian Econometrics (_scientific committee member_, Salzburg), 15th International Conference on Computational and Financial Econometrics (CFE 2021, _session organizer_, London).
 * _2021_: American Economic Association (AEA) – Allied Social Science Association (ASSA 2021, online, presented by co-author), UC Louvain ISBA/CORE seminar (online, presented by co-author), Department of Economics Research Seminar (University of Salzburg), Economic Analysis and Research Department Seminar (Oesterreichische Nationalbank), 11th ECB Conference on Forecasting Techniques (Macroeconomic forecasting in abnormal times, online, presented by co-author), 2021 IAAE Annual Conference (online), Annual Meeting of the Austrian Economic Association (NOeG), 11th European Seminar on Bayesian Econometrics (ESOBE, Madrid, online), 4th Annual Workshop on Financial Econometrics (Örebro University School of Business and Kommuninvest (online)
 * _2020_: Monetral Econometrics Seminar 2020 (online, presented by co-author), Annual Meeting of the Austrian Economic Association (NOeG, Vienna, AT)
 * _2019_: 2nd International Conference on Data Science in Finance with R (DSF-R, invited talk, Vienna, AT), 10th European Seminar on Bayesian Econometrics (ESOBE, St. Andrews, UK), Annual Meeting of the Austrian Economic Association (NOeG, Graz, AT), Department of Economics Research Seminar (University of Salzburg, AT)
