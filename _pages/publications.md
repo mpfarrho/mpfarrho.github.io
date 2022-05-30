@@ -21,7 +21,7 @@ Most important publications
 
 List of all publications
 ======
-* General Bayesian time-varying parameter VARs for predicting government bond yields, with Fischer M.M., Hauzenberger N., and F. Huber, accepted in the _Journal of Applied Econometrics_. [DOI](https://arxiv.org/abs/2102.13393) / [WP](https://arxiv.org/abs/2102.13393)
+* General Bayesian time-varying parameter VARs for predicting government bond yields, with Fischer M.M., Hauzenberger N., and F. Huber, forthcoming in _Journal of Applied Econometrics_. [DOI](https://arxiv.org/abs/2102.13393) / [WP](https://arxiv.org/abs/2102.13393)
 * Approximate Bayesian inference and forecasting in huge-dimensional panel VARs, with Feldkircher M., Huber F., and G. Koop, forthcoming in _International Economic Review_. [DOI](https://doi.org/10.1111/iere.12577) / [WP](https://arxiv.org/abs/2103.04944)
 * Measuring international uncertainty using global vector autoregressions with drifting parameters, forthcoming in _Macroeconomic Dynamics_.
   [DOI](https://doi.org/10.1017/S1365100521000663) / [WP](https://arxiv.org/abs/1908.06325) / [Code](https://github.com/mpfarrho/tvp-gvar-fsvm)
