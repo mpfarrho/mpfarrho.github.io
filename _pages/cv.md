@@ -14,8 +14,8 @@ Michael Pfarrhofer, born on June 1, 1993 (Linz, Austria). [PDF of CV](https://ww
 Academic positions
 ======
 * _Professor of Macroeconomics_ (§99), Department of Economics at University of Vienna (Vienna, Austria; _starting_ 09/2022–08/2023, position accepted).
-* _Visiting researcher_, Department of Economics at Bocconi University (Milan, Italy; _since_ 03/2022)
-* _Post-doc researcher_, Department of Economics at University of Salzburg (Salzburg, Austria; _since_ 10/2019)
+* _Post-doc researcher_, Department of Economics at University of Salzburg (Salzburg, Austria; 10/2019–08/2022)
+* _Visiting researcher_, Department of Economics at Bocconi University (Milan, Italy; 03/2022–08/2022)
 * _Senior scientist_, Salzburg Centre of European Union Studies (SCEUS) at University of Salzburg (Salzburg, Austria; 11/2018–09/2019)
 * _Research associate_, Institute for Macroeconomics at Vienna University of Economics and Business (Vienna, Austria; 02/2018–09/2019)
 
