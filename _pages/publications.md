@@ -21,7 +21,7 @@ Most important publications
 
 List of all publications
 ======
-* A Bayesian panel VAR model to analyze the impact of climate change on high-income economies, with Kristzin T. and F. Huber, accepted in _The Annals of Applied Statistics_. [DOI](https://arxiv.org/abs/1804.01554) / [WP](https://arxiv.org/abs/1804.01554)
+* A Bayesian panel vector autoregression to analyze the impact of climate shocks on high-income economies, with Kristzin T. and F. Huber, accepted in _The Annals of Applied Statistics_. [DOI](https://arxiv.org/abs/1804.01554) / [WP](https://arxiv.org/abs/1804.01554)
 * Modeling tail risks of inflation using unobserved component quantile regressions, forthcoming in _Journal of Economic Dynamics and Control_. [DOI](https://www.sciencedirect.com/science/article/abs/pii/S016518892200197X) / [WP](https://arxiv.org/abs/2103.03632) / [Code](https://github.com/mpfarrho/tvp-qr)
 * General Bayesian time-varying parameter VARs for predicting government bond yields, with Fischer M.M., Hauzenberger N., and F. Huber, forthcoming in _Journal of Applied Econometrics_. [DOI](https://arxiv.org/abs/2102.13393) / [WP](https://arxiv.org/abs/2102.13393)
 * Approximate Bayesian inference and forecasting in huge-dimensional panel VARs, with Feldkircher M., Huber F., and G. Koop, forthcoming in _International Economic Review_. [DOI](https://doi.org/10.1111/iere.12577) / [WP](https://arxiv.org/abs/2103.04944)
