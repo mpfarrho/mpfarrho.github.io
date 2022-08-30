@@ -36,9 +36,9 @@ Referee
 ======
 * Computational Economics, ECB Working Paper Series, Econometrics and Statistics, Economic Modelling, Economic Systems, Empirica, Empirical Economics, Energy Economics, Energy Journal, Energy Strategy Reviews, German Economic Review, IMF Economic Review, International Economics, Economia Internazionale/International Economics, Journal of Business & Economic Statistics, Journal of International Money and Finance, OeNB Jubiläumsfonds, Oxford Bulletin of Economics and Statistics, PLOS ONE, Prague Economic Papers, Public Finance Review, Real Estate Economics, Review of International Economics, Statistica Sinica.
 
-Memberships
+Memberships (past/present)
 ======
-* American Economic Association (AEA), Austrian Economic Association (NOeG), Euro Area Business Cycle Network (EABCN), Econometric Society (ES), International Society for Bayesian Analysis (ISBA)
+* American Economic Association (AEA), Austrian Economic Association (NOeG), Euro Area Business Cycle Network (EABCN), European Economic Association (EEA), Econometric Society (ES), International Society for Bayesian Analysis (ISBA)
 
 Research grants
 ======
