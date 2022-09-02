@@ -21,7 +21,7 @@ Academic positions
 
 Professional experience
 ======
-* _Expert_, scientific consultancy for the "Macro Modelling and Nowcast Pool" of the European Commission (Joint Research Centre, Ispra, Italy; since 12/2020)
+* _Expert_, scientific consultancy for the "Macro Modelling and Nowcast Pool" of the European Commission (Joint Research Centre, Ispra, Italy; 12/2020-08/2022)
 * _Research scholar_, scientific consultancy for the "Biodiversity and Natural Resources" program at International Institute for Applied Systems Analysis (IIASA, Laxenburg, Austria; 11/2020–10/2021)
 * _Consultant_, Klaus Liebscher Economic Research Scholarship, scientific consultancy for the "Economic Analysis and Research Department" of the Oesterreichische Nationalbank (OeNB, Vienna, Austria; 05/2021–10/2021)
 
