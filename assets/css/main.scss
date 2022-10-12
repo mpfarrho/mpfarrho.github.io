@@ -10,7 +10,12 @@
  *
 */
 
-$link-color: blue;
+$link-color: white;
+$body-color: black;
+$background-color: black;
+$text-color: grey;
+$masthead-link-color: white;
+
 $intro-transition  : none;
 
 @import "vendor/breakpoint/breakpoint"; // media query mixins
