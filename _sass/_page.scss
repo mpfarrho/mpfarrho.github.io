@@ -8,8 +8,8 @@
   margin-top: 2em;
   padding-left: 1em;
   padding-right: 1em;
-  animation: intro 0.3s both;
-  animation-delay: 0.1s;
+  animation: intro 0s both;
+  animation-delay: 0s;
 
   @include breakpoint($x-large) {
     max-width: $x-large;
