@@ -9,11 +9,11 @@ redirect_from:
 
 {% include base_path %}
 
-Michael Pfarrhofer, born on June 1, 1993 (Linz, Austria). [PDF of CV](https://www.dropbox.com/s/2xgz0ge1h4enc6i/cv.pdf?dl=0).
+Michael Pfarrhofer, born on June 1, 1993 (Linz, Austria). [PDF of CV](https://www.dropbox.com/s/2xgz0ge1h4enc6i/cv.pdf?dl=0)
 
 Academic positions
 ======
-* _Professor of Macroeconomics_, Department of Economics at University of Vienna (Vienna, Austria; §99, 09/2022–08/2023).
+* _Professor of Macroeconomics_, Department of Economics at University of Vienna (Vienna, Austria; §99, 09/2022–08/2023)
 * _Post-doc researcher_, Department of Economics at University of Salzburg (Salzburg, Austria; 10/2019–08/2022)
 * _Visiting researcher_, Department of Economics at Bocconi University (Milan, Italy; 03/2022–08/2022)
 * _Senior scientist_, Salzburg Centre of European Union Studies (SCEUS) at University of Salzburg (Salzburg, Austria; 11/2018–09/2019)
@@ -34,7 +34,7 @@ Education
 
 Referee
 ======
-* Computational Economics, ECB Working Paper Series, Econometrics and Statistics, Economic Modelling, Economic Systems, Empirica, Empirical Economics, Energy Economics, Energy Journal, Energy Strategy Reviews, German Economic Review, IMF Economic Review, International Economics, Economia Internazionale/International Economics, Journal of Business & Economic Statistics, Journal of International Money and Finance, Macroeconomic Dynamics, OeNB Jubiläumsfonds, Oxford Bulletin of Economics and Statistics, PLOS ONE, Prague Economic Papers, Public Finance Review, Real Estate Economics, Review of International Economics, Statistica Sinica.
+* Computational Economics, ECB Working Paper Series, Econometrics and Statistics, Economic Modelling, Economic Systems, Empirica, Empirical Economics, Energy Economics, Energy Journal, Energy Strategy Reviews, German Economic Review, IMF Economic Review, International Economics, Economia Internazionale/International Economics, Journal of Business & Economic Statistics, Journal of International Money and Finance, Macroeconomic Dynamics, OeNB Jubiläumsfonds, Oxford Bulletin of Economics and Statistics, PLOS ONE, Prague Economic Papers, Public Finance Review, Real Estate Economics, Review of International Economics, Statistica Sinica
 
 Memberships (past/present)
 ======
@@ -52,7 +52,7 @@ Honors and awards
 
 Conferences and presentations
 ======
-* _2022_: Internal Research Seminar (European Commission, JRC Ispra), Macro Brownbag Seminar (Economics, Bocconi University), Research Seminar (Decision Sciences, Bocconi University), Annual Meeting of the Austrian Economic Association (NOeG), 12th European Seminar on Bayesian Econometrics (_scientific committee member_, Salzburg), 15th International Conference on Computational and Financial Econometrics (CFE 2021, _session organizer_, London).
+* _2022_: Internal Research Seminar (European Commission, JRC Ispra), Macro Brownbag Seminar (Economics, Bocconi University), Research Seminar (Decision Sciences, Bocconi University), Annual Meeting of the Austrian Economic Association (NOeG), 12th European Seminar on Bayesian Econometrics (_scientific committee member_, Salzburg), 15th International Conference on Computational and Financial Econometrics (CFE 2021, _session organizer_, London)
 * _2021_: American Economic Association (AEA) – Allied Social Science Association (ASSA 2021, online, presented by co-author), UC Louvain ISBA/CORE seminar (online, presented by co-author), Department of Economics Research Seminar (University of Salzburg), Economic Analysis and Research Department Seminar (Oesterreichische Nationalbank), 11th ECB Conference on Forecasting Techniques (Macroeconomic forecasting in abnormal times, online, presented by co-author), 2021 IAAE Annual Conference (online), Annual Meeting of the Austrian Economic Association (NOeG), 11th European Seminar on Bayesian Econometrics (ESOBE, Madrid, online), 4th Annual Workshop on Financial Econometrics (Örebro University School of Business and Kommuninvest, online)
 * _2020_: Monetral Econometrics Seminar 2020 (online, presented by co-author), Annual Meeting of the Austrian Economic Association (NOeG, Vienna, AT)
 * _2019_: 2nd International Conference on Data Science in Finance with R (DSF-R, invited talk, Vienna, AT), 10th European Seminar on Bayesian Econometrics (ESOBE, St. Andrews, UK), Annual Meeting of the Austrian Economic Association (NOeG, Graz, AT), Department of Economics Research Seminar (University of Salzburg, AT)
@@ -61,6 +61,6 @@ Conferences and presentations
 
 Teaching and other activities
 ======
-* _Undergraduate_: Macroeconomics (University of Salzburg, 2018/19, 2019/20), Macroeconomics (University of Vienna, 2022/23).
-* _Graduate_: Macroeconometrics I (University of Salzburg, 2020), Advanced Macroeconometrics (Vienna University of Economics and Business, 2019), Methods in Economics (University of Salzburg, 2019/20, 2020/21), Macroeconometrics: Structural and predictive inference (University of Salzburg, 2021), Foundational Econometrics (University of Vienna, 2022/23), Introduction to Bayesian Econometrics (Univie, 2022/23), Macroeconometrics (planned, University of Vienna, 2023), Advanced Topics in Macroeconometrics (planned, University of Vienna, 2023).
-* _Other_: Curriculum Committee Master Economics and Business (University of Salzburg, 2019), Analysis of the performance of students (University of Salzburg, 2019), Rethinking Economics: "Predictive inference and forecast evaluation metrics" (University of Tübingen, 2022), Sommeradakademie (Talente OÖ, for high-potential students in high school, 2022, guest talk on crises, central banking and financial markets).
+* _Undergraduate_: Macroeconomics (University of Salzburg, 2018/19, 2019/20), Macroeconomics (University of Vienna, 2022/23)
+* _Graduate_: Macroeconometrics I (University of Salzburg, 2020), Advanced Macroeconometrics (Vienna University of Economics and Business, 2019), Methods in Economics (University of Salzburg, 2019/20, 2020/21), Macroeconometrics: Structural and predictive inference (University of Salzburg, 2021), Foundational Econometrics (University of Vienna, 2022/23), Introduction to Bayesian Econometrics (Univie, 2022/23), Macroeconometrics (planned, University of Vienna, 2023), Advanced Topics in Macroeconometrics (planned, University of Vienna, 2023)
+* _Other_: Curriculum Committee Master Economics and Business (University of Salzburg, 2019), Analysis of the performance of students (University of Salzburg, 2019), Rethinking Economics: "Predictive inference and forecast evaluation metrics" (University of Tübingen, 2022), Sommeradakademie (Talente OÖ, for high-potential students in high school, 2022, guest talk on crises, central banking and financial markets)
