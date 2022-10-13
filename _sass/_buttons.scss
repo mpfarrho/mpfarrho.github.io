@@ -68,40 +68,41 @@
   /* information */
 
   &--info {
-    background-color: $info-color;
+    color: $white;
+    background-color: transparent;
 
     &:hover {
-      background-color: mix(#000, $info-color, 20%);
+      background-color: mix(#000, $white, 20%);
     }
   }
 
   /* warning */
 
   &--warning {
-    background-color: $warning-color;
+    background-color: transparent;
 
     &:hover {
-      background-color: mix(#000, $warning-color, 20%);
+      background-color: mix(#000, $white, 20%);
     }
   }
 
   /* success */
 
   &--success {
-    background-color: $success-color;
+    background-color: transparent;
 
     &:hover {
-      background-color: mix(#000, $success-color, 20%);
+      background-color: mix(#000, $white, 20%);
     }
   }
 
   /* danger */
 
   &--danger {
-    background-color: $danger-color;
+    background-color: transparent;
 
     &:hover {
-      background-color: mix(#000, $danger-color, 20%);
+      background-color: mix(#000, $white, 20%);
     }
   }
 
