@@ -13,7 +13,7 @@ author_profile: true
 
 Most important publications
 ======
-* "Approximate Bayesian inference and forecasting in huge-dimensional panel VARs," with Feldkircher M., Huber F., and G. Koop, forthcoming in _International Economic Review_. [DOI](https://doi.org/10.1111/iere.12577) / [WP](https://arxiv.org/abs/2103.04944)
+* "Approximate Bayesian inference and forecasting in huge-dimensional panel VARs," with Feldkircher M., Huber F., and G. Koop, forthcoming in _International Economic Review_. [[DOI](https://doi.org/10.1111/iere.12577) / [WP](https://arxiv.org/abs/2103.04944)]
 * "Nowcasting in a pandemic using non-parametric mixed frequency VARs," with Huber, F., Koop, G., Onorante, L., and J. Schreiner, forthcoming in the _Journal of Econometrics_. [DOI](https://doi.org/10.1016/j.jeconom.2020.11.006) / [WP](https://arxiv.org/abs/2008.12706) / [Code](https://github.com/mpfarrho/mf-bavart)
 * "Dynamic shrinkage in time-varying parameter stochastic volatility in mean models," with F. Huber, _Journal of Applied Econometrics_ **36**(2), 262–270, 2021. [DOI](https://doi.org/10.1002/jae.2804) / [WP](https://arxiv.org/abs/2005.06851) / [Data](http://qed.econ.queensu.ca/jae/datasets/huber005/)
 * "On the effectiveness of the European Central Bank's conventional and unconventional policies under uncertainty," with Hauzenberger N. and A. Stelzer, _Journal of Economic Behavior and Organisation_ **191**, 822–845, 2021. [DOI](https://doi.org/10.1016/j.jebo.2021.09.041) / [WP](https://arxiv.org/abs/2011.14424)
