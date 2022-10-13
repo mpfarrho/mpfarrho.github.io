@@ -50,7 +50,7 @@ $type-size-8                : 0.625em;  // ~10px
 $black                      : #000;
 $white                      : #fff;
 $gray                       : #7a8288;
-$dark-gray                  : mix(#000, $gray, 40%);
+$dark-gray                  : mix(#000, $whie, 50%);
 $darker-gray                : mix(#000, $gray, 60%);
 $light-gray                 : mix(#fff, $gray, 50%);
 $lighter-gray               : #CDCDCD;
@@ -92,9 +92,9 @@ $xing-color                 : #006567;
 
 
 /* links */
-$link-color                 : $lighter-gray;
+$link-color                 : $dark-gray;
 $link-color-hover           : #fff;
-$link-color-visited         : $lighter-gray;
+$link-color-visited         : $dark-gray;
 $masthead-link-color        : #fff;
 $masthead-link-color-hover  : #fff;
 
