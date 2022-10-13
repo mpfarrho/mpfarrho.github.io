@@ -6,7 +6,7 @@
    Typography
    ========================================================================== */
 
-$doc-font-size              : 16;
+$doc-font-size              : 14;
 
 /* paragraph indention */
 $paragraph-indent           : false; // true, false (default)
@@ -94,7 +94,7 @@ $xing-color                 : #006567;
 /* links */
 $link-color                 : $lighter-gray;
 $link-color-hover           : #fff;
-$link-color-visited         : #fff;
+$link-color-visited         : $lighter-gray;
 $masthead-link-color        : $lighter-gray;
 $masthead-link-color-hover  : #fff;
 
