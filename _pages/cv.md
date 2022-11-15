@@ -11,19 +11,16 @@ redirect_from:
 
 Michael Pfarrhofer, born on June 1, 1993 in Linz, Austria [[PDF of CV](https://www.dropbox.com/s/2xgz0ge1h4enc6i/cv.pdf?dl=0)]
 
-Academic positions
+Academic positions and professional experience
 ======
 * _Professor of Macroeconomics_, Department of Economics at University of Vienna (Vienna, Austria; §99, 09/2022–08/2023)
 * _Post-doc researcher_, Department of Economics at University of Salzburg (Salzburg, Austria; 10/2019–08/2022)
 * _Visiting researcher_, Department of Economics at Bocconi University (Milan, Italy; 03/2022–08/2022)
+* _Expert_, scientific consultancy for the "Macro Modelling and Nowcast Pool" of the European Commission (Joint Research Centre, Ispra, Italy; 12/2020-12/2022)
+* _Consultant_, Klaus Liebscher Economic Research Scholarship, scientific consultancy for the "Economic Analysis and Research Department" of the Oesterreichische Nationalbank (OeNB, Vienna, Austria; 05/2021–10/2021)
+* _Research scholar_, scientific consultancy for the "Biodiversity and Natural Resources" program at International Institute for Applied Systems Analysis (IIASA, Laxenburg, Austria; 11/2020–10/2021)
 * _Senior scientist_, Salzburg Centre of European Union Studies (SCEUS) at University of Salzburg (Salzburg, Austria; 11/2018–09/2019)
 * _Research associate_, Institute for Macroeconomics at Vienna University of Economics and Business (Vienna, Austria; 02/2018–09/2019)
-
-Professional experience
-======
-* _Expert_, scientific consultancy for the "Macro Modelling and Nowcast Pool" of the European Commission (Joint Research Centre, Ispra, Italy; 12/2020-08/2022)
-* _Research scholar_, scientific consultancy for the "Biodiversity and Natural Resources" program at International Institute for Applied Systems Analysis (IIASA, Laxenburg, Austria; 11/2020–10/2021)
-* _Consultant_, Klaus Liebscher Economic Research Scholarship, scientific consultancy for the "Economic Analysis and Research Department" of the Oesterreichische Nationalbank (OeNB, Vienna, Austria; 05/2021–10/2021)
 
 Education
 ======
