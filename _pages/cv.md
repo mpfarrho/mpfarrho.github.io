@@ -24,7 +24,7 @@ Academic positions and professional experience
 
 Education
 ======
-* _Venia docendi in Economics_ at University of Salzburg (_submitted_ 05/2022), habilitation "Structural and predictive inference with parametric and nonparametric models in economics"
+* _Venia docendi in Economics_ at University of Salzburg (_expected_ 12/2022), habilitation "Structural and predictive inference with parametric and nonparametric models in economics"
 * _Ph.D. in Economics_ at Vienna University of Economics and Business (2018–2019), thesis "Bayesian inference in high-dimensional multivariate time series models with applications in macroeconomics and finance"
 * _MSc. in Economics_ at Vienna University of Economics and Business (2016–2018)
 * _BSc. in Business, Economics and Social Sciences_ at Vienna University of Economics and Business (2013–2016)
