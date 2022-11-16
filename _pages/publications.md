@@ -21,6 +21,7 @@ Most important publications
 
 List of all publications
 ======
+* "Tail Forecasting with Multivariate Bayesian Additive Regression Trees," with Clark T.E., Huber F., Koop G., and M. Marcellino, conditionally accepted in _International Economic Review_. [[WP](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3809866)]
 * "A Bayesian panel vector autoregression to analyze the impact of climate shocks on high-income economies," with Kristzin T. and F. Huber, accepted in _The Annals of Applied Statistics_. [[DOI](https://arxiv.org/abs/1804.01554)/[WP](https://arxiv.org/abs/1804.01554)]
 * "General Bayesian time-varying parameter VARs for predicting government bond yields," with Fischer M.M., Hauzenberger N., and F. Huber, forthcoming in _Journal of Applied Econometrics_. [[DOI](https://doi.org/10.1002/jae.2936)/[WP](https://arxiv.org/abs/2102.13393)]
 * "Approximate Bayesian inference and forecasting in huge-dimensional panel VARs," with Feldkircher M., Huber F., and G. Koop, forthcoming in _International Economic Review_. [[DOI](https://doi.org/10.1111/iere.12577)/[WP](https://arxiv.org/abs/2103.04944)]
@@ -44,7 +45,6 @@ Book chapters
 
 Working papers
 ======
-* "Tail Forecasting with Multivariate Bayesian Additive Regression Trees," with Clark T.E., Huber F., Koop G., and M. Marcellino, revise and resubmit in the _International Economic Review_. [[WP](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3809866)]
 * "Investigating Growth at Risk Using a Multi-country Non-parametric Quantile Factor Model," with Clark T.E., Huber F., Koop G., and M. Marcellino, revise and resubmit in the _Journal of Business & Economic Statistics_. [[WP](https://arxiv.org/abs/2110.03411)]
 * "Forecasts with Bayesian vector autoregressions under real time conditions," revise and resubmit in the _Journal of Forecasting_. [[WP](https://arxiv.org/abs/2004.04984)]
 * "Forecasting euro area inflation using a huge panel of survey expectations," with Huber F., and L. Onorante. [[WP](https://arxiv.org/abs/2207.12225)]
