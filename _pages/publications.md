@@ -22,7 +22,7 @@ Most important publications
 List of all publications
 ======
 * "Tail Forecasting with Multivariate Bayesian Additive Regression Trees," with Clark T.E., Huber F., Koop G., and M. Marcellino, forthcoming in _International Economic Review_. [[WP](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3809866)]
-* "A Bayesian panel vector autoregression to analyze the impact of climate shocks on high-income economies," with Kristzin T. and F. Huber, forthcoming in _The Annals of Applied Statistics_. [[DOI](https://arxiv.org/abs/1804.01554)/[WP](https://arxiv.org/abs/1804.01554)]
+* "A Bayesian panel vector autoregression to analyze the impact of climate shocks on high-income economies," with Kristzin T. and F. Huber, forthcoming in _The Annals of Applied Statistics_. [[DOI](https://www.e-publications.org/ims/submission/AOAS/user/submissionFile/53324?confirm=a7c2b0f0)/[WP](https://arxiv.org/abs/1804.01554)]
 * "General Bayesian time-varying parameter VARs for predicting government bond yields," with Fischer M.M., Hauzenberger N., and F. Huber, forthcoming in _Journal of Applied Econometrics_. [[DOI](https://doi.org/10.1002/jae.2936)/[WP](https://arxiv.org/abs/2102.13393)]
 * "Measuring international uncertainty using global vector autoregressions with drifting parameters," forthcoming in _Macroeconomic Dynamics_.
   [[DOI](https://doi.org/10.1017/S1365100521000663)/[WP](https://arxiv.org/abs/1908.06325)/[Code](https://github.com/mpfarrho/tvp-gvar-fsvm)]
