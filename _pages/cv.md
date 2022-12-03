@@ -14,7 +14,7 @@ Michael Pfarrhofer, born on June 1, 1993 [[PDF of CV](https://www.dropbox.com/s/
 Academic positions and professional experience
 ======
 * _Professor of Macroeconomics_, Department of Economics at University of Vienna (Vienna, Austria; §99, 09/2022–08/2023)
-* _Expert_, European Commission "Macro Modelling and Nowcast Pool" (Joint Research Centre, Ispra, Italy; 12/2020-present)
+* _Expert_, European Commission "Macro Modelling and Nowcast Pool" (Joint Research Centre, Ispra, Italy; 12/2020–present)
 * _Post-doc researcher_, Department of Economics at University of Salzburg (Salzburg, Austria; 10/2019–08/2022)
 * _Visiting researcher_, Department of Economics at Bocconi University (Milan, Italy; 03/2022–08/2022)
 * _Consultant_, Klaus Liebscher Economic Research Scholarship, scientific consultancy for the "Economic Analysis and Research Department" of the Oesterreichische Nationalbank (OeNB, Vienna, Austria; 05/2021–10/2021)
