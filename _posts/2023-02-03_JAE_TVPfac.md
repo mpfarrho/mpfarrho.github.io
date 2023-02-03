@@ -1,5 +1,5 @@
 ---
-title: 'Nowcasting in a pandemic using non-parametric mixed frequency VARs'
+title: 'General Bayesian time-varying parameter vector autoregressions for modeling government bond yields'
 date: 2023-02-03
 permalink: /posts/2023/02/JAE_TVPfac/
 tags:
