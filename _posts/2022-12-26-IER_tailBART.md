@@ -1,7 +1,7 @@
 ---
 title: 'Tail forecasting with multivariate Bayesian additive regression trees'
 date: 2022-12-26
-permalink: /posts/2022/12/IER_tailbart/
+permalink: /posts/2022/12/IER_tailBART/
 tags:
   - research
   - publication
