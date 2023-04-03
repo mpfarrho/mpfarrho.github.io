@@ -15,7 +15,7 @@ Employment
 ======
 * _Professor of Macroeconomics_, Department of Economics at University of Vienna (Vienna, Austria; §99, 09/2022–08/2023)
 * _Expert_, European Commission "Macro Modelling and Nowcast Pool" (Joint Research Centre, Ispra, Italy; 12/2020–present)
-* _Assistant Professor_, Department of Economics at WU Vienna (Vienna, Austria; tenure-track, QV; starting 09/2023)
+* _Assistant Professor_, Department of Economics at WU Vienna (Vienna, Austria; tenure-track, QV; _starting_ 09/2023)
 
 Academic positions and professional experience
 ======
