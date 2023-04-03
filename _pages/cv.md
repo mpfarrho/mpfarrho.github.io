@@ -15,6 +15,7 @@ Academic positions and professional experience
 ======
 * _Professor of Macroeconomics_, Department of Economics at University of Vienna (Vienna, Austria; §99, 09/2022–08/2023)
 * _Expert_, European Commission "Macro Modelling and Nowcast Pool" (Joint Research Centre, Ispra, Italy; 12/2020–present)
+* _Assistant Professor_, Department of Economics at WU Vienna (Vienna, Austria; tenure-track [QV], starting 09/2023)
 * _Post-doc researcher_, Department of Economics at University of Salzburg (Salzburg, Austria; 10/2019–08/2022)
 * _Visiting researcher_, Department of Economics at Bocconi University (Milan, Italy; 03/2022–08/2022)
 * _Consultant_, Klaus Liebscher Economic Research Scholarship, scientific consultancy for the "Economic Analysis and Research Department" of the Oesterreichische Nationalbank (OeNB, Vienna, Austria; 05/2021–10/2021)
@@ -49,7 +50,7 @@ Honors and awards
 
 Conferences and presentations
 ======
-* _2023_: 27th International Conference on Macroeconomic Analysis and International Finance (Rethymno, Crete), 12th ECB Conference on Forecasting Techniques (Frankfurt, _keynote_, presented by co-author)
+* _2023_: 27th International Conference on Macroeconomic Analysis and International Finance (Rethymno, Crete), 12th ECB Conference on Forecasting Techniques (_Keynote_, presented by co-author, Frankfurt)
 * _2022_: Internal Research Seminar (European Commission, JRC Ispra), Macro Brownbag Seminar (Economics, Bocconi University), Research Seminar (Decision Sciences, Bocconi University), Annual Meeting of the Austrian Economic Association (NOeG), 12th European Seminar on Bayesian Econometrics (_scientific committee member_, Salzburg), 15th International Conference on Computational and Financial Econometrics (CFE 2021, _session organizer_, London)
 * _2021_: American Economic Association (AEA) – Allied Social Science Association (ASSA 2021, online, presented by co-author), UC Louvain ISBA/CORE seminar (online, presented by co-author), Department of Economics Research Seminar (University of Salzburg), Economic Analysis and Research Department Seminar (Oesterreichische Nationalbank), 11th ECB Conference on Forecasting Techniques (Macroeconomic forecasting in abnormal times, online, presented by co-author), 2021 IAAE Annual Conference (online), Annual Meeting of the Austrian Economic Association (NOeG), 11th European Seminar on Bayesian Econometrics (ESOBE, Madrid, online), 4th Annual Workshop on Financial Econometrics (Örebro University School of Business and Kommuninvest, online)
 * _2020_: Monetral Econometrics Seminar 2020 (online, presented by co-author), Annual Meeting of the Austrian Economic Association (NOeG, Vienna)
