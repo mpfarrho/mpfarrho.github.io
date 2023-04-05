@@ -13,14 +13,14 @@ Michael Pfarrhofer, born on June 1, 1993 [[PDF of CV](https://www.dropbox.com/s/
 
 Employment
 ======
-* _Professor of Macroeconomics_, Department of Economics at University of Vienna (Vienna, Austria; §99, 09/2022–08/2023)
-* _Expert_, European Commission "Macro Modelling and Nowcast Pool" (Joint Research Centre, Ispra, Italy; 12/2020–present)
 * _Assistant Professor_, Department of Economics at WU Vienna (Vienna, Austria; tenure-track, QV; _starting_ 09/2023)
+* _Expert_, European Commission "Macro Modelling and Nowcast Pool" (Joint Research Centre, Ispra, Italy; 12/2020–present)
+* _Professor of Macroeconomics_, Department of Economics at University of Vienna (Vienna, Austria; §99, 09/2022–08/2023)
 
 Academic positions and professional experience
 ======
-* _Post-doc researcher_, Department of Economics at University of Salzburg (Salzburg, Austria; 10/2019–08/2022)
 * _Visiting researcher_, Department of Economics at Bocconi University (Milan, Italy; 03/2022–08/2022)
+* _Post-doc researcher_, Department of Economics at University of Salzburg (Salzburg, Austria; 10/2019–08/2022)
 * _Consultant_, Klaus Liebscher Economic Research Scholarship, scientific consultancy for the "Economic Analysis and Research Department" of the Oesterreichische Nationalbank (OeNB, Vienna, Austria; 05/2021–10/2021)
 * _Research scholar_, scientific consultancy for the "Biodiversity and Natural Resources" program at International Institute for Applied Systems Analysis (IIASA, Laxenburg, Austria; 11/2020–10/2021)
 * _Senior scientist_, Salzburg Centre of European Union Studies (SCEUS) at University of Salzburg (Salzburg, Austria; 11/2018–09/2019)
@@ -29,9 +29,9 @@ Academic positions and professional experience
 Education
 ======
 * _Venia docendi in Economics_ at University of Salzburg (01/2023), habilitation "Structural and predictive inference with parametric and nonparametric models in economics"
-* _Ph.D. in Economics_ at Vienna University of Economics and Business (2018–2019), thesis "Bayesian inference in high-dimensional multivariate time series models with applications in macroeconomics and finance"
-* _MSc. in Economics_ at Vienna University of Economics and Business (2016–2018)
-* _BSc. in Business, Economics and Social Sciences_ at Vienna University of Economics and Business (2013–2016)
+* _Ph.D. in Economics_ at Vienna University of Economics and Business (09/2019), thesis "Bayesian inference in high-dimensional multivariate time series models with applications in macroeconomics and finance"
+* _MSc. in Economics_ at Vienna University of Economics and Business (06/2018)
+* _BSc. in Business, Economics and Social Sciences_ at Vienna University of Economics and Business (07/2016)
 
 Referee
 ======
@@ -43,8 +43,8 @@ Memberships (past/present)
 
 Research grants
 ======
-* "Between fostering and limiting central bank independence: The impact of constitutional courts decisions," (co-PI, principal investigator: Florian Huber), total funding EUR 118,000.00 by Jubiläumsfonds der Oesterreichischen Nationalbank (OeNB), 2020-2022
-* "Inference with Bayesian nonparametric models in the presence of measurement errors and outliers," (PI), total funding EUR 168,000.00 by Jubiläumsfonds der Oesterreichischen Nationalbank (OeNB)
+* Jubiläumsfonds der Oesterreichischen Nationalbank (OeNB): "Between fostering and limiting central bank independence: The impact of constitutional courts decisions," (co-PI, principal investigator: Florian Huber), total funding EUR 118,000.00, 2020-2022
+* Jubiläumsfonds der Oesterreichischen Nationalbank (OeNB): "Inference with Bayesian nonparametric models in the presence of measurement errors and outliers," (PI), total funding EUR 168,000.00, 2022-24
 
 Honors and awards
 ======
