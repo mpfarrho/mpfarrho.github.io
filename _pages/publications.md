@@ -45,7 +45,7 @@ Book chapters
 
 Working papers
 ======
-* "Investigating Growth at Risk Using a Multi-country Non-parametric Quantile Factor Model," with Clark, Huber, Koop, and Marcellino, R&R _Journal of Business & Economic Statistics_. [[WP](https://arxiv.org/abs/2110.03411)]
+* "Investigating Growth-at-Risk Using a Multicountry Nonparametric Quantile Factor Model," with Clark, Huber, Koop, and Marcellino, R&R _Journal of Business & Economic Statistics_. [[WP](https://arxiv.org/abs/2110.03411)]
 * "Financial markets and legal challenges to unconventional monetary policy," with Griller and Huber, R&R _European Economic Review_. [[WP](https://arxiv.org/abs/2202.12695)]
 * "Forecasting euro area inflation using a huge panel of survey expectations," with Huber and Onorante, R&R _International Journal of Forecasting_. [[WP](https://arxiv.org/abs/2207.12225)]
 * "Forecasts with Bayesian vector autoregressions under real time conditions," R&R _Journal of Forecasting_. [[WP](https://arxiv.org/abs/2004.04984)]
