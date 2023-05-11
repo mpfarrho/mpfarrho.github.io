@@ -24,6 +24,7 @@ List of all publications
 * "Tail Forecasting with Multivariate Bayesian Additive Regression Trees," with Clark, Huber, Koop, and Marcellino, forthcoming in _International Economic Review_. [[DOI](https://onlinelibrary.wiley.com/doi/10.1111/iere.12619)/[WP](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3809866)]
 * "Measuring international uncertainty using global vector autoregressions with drifting parameters," forthcoming in _Macroeconomic Dynamics_.
   [[DOI](https://doi.org/10.1017/S1365100521000663)/[WP](https://arxiv.org/abs/1908.06325)/[Code](https://github.com/mpfarrho/tvp-gvar-fsvm)]
+* "Introducing shrinkage in heavy-tailed state space models to predict equity excess returns," with Huber and Kastner, forthcoming in _Empirical Economics_. [[WP](https://arxiv.org/abs/1805.12217)]
 * "A Bayesian panel vector autoregression to analyze the impact of climate shocks on high-income economies," with Kristzin and Huber, _The Annals of Applied Statistics_ **17**(2), 1543-1573, 2023. [[DOI](http://dx.doi.org/10.1214/22-AOAS1681)/[PDF](https://www.dropbox.com/s/kc5nh1pbmmi2x44/AOAS1681.pdf?dl=0)/[WP](https://arxiv.org/abs/1804.01554)]
 * "General Bayesian time-varying parameter VARs for predicting government bond yields," with Fischer, Hauzenberger, and Huber, _Journal of Applied Econometrics_ **38**(1), 69-87, 2023. [[DOI](https://doi.org/10.1002/jae.2936)/[WP](https://arxiv.org/abs/2102.13393)]
 * "Nowcasting in a pandemic using non-parametric mixed frequency VARs," with Huber, Koop, Onorante, and Schreiner, _Journal of Econometrics_ **232**(1), 52-69, 2023. [[DOI](https://doi.org/10.1016/j.jeconom.2020.11.006)/[WP](https://arxiv.org/abs/2008.12706)/[Code](https://github.com/mpfarrho/mf-bavart)]
@@ -49,7 +50,6 @@ Working papers
 * "Financial markets and legal challenges to unconventional monetary policy," with Griller and Huber, R&R _European Economic Review_. [[WP](https://arxiv.org/abs/2202.12695)]
 * "Forecasting euro area inflation using a huge panel of survey expectations," with Huber and Onorante, R&R _International Journal of Forecasting_. [[WP](https://arxiv.org/abs/2207.12225)]
 * "Forecasts with Bayesian vector autoregressions under real time conditions," R&R _Journal of Forecasting_. [[WP](https://arxiv.org/abs/2004.04984)]
-* "Introducing shrinkage in heavy-tailed state space models to predict equity excess returns," with Huber and Kastner, R&R _Empirical Economics_. [[WP](https://arxiv.org/abs/1805.12217)]
 * "Sparse time-varying parameter VECMs with an application to modeling electricity prices," with Hauzenberger and Rossini. [[WP](https://arxiv.org/abs/2011.04577)]
 * "Bayesian inference in high-dimensional time-varying parameter models using integrated rotated Gaussian approximations," with Huber and Koop. [[WP](https://arxiv.org/abs/2002.10274)]
 * "The international effects of central bank information shocks," with Stelzer. [[WP](https://arxiv.org/abs/1912.03158)]
