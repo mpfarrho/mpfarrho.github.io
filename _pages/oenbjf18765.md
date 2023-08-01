@@ -1,6 +1,6 @@
 ---
 permalink: /oenbjf18765/
-title: "OeNB JF: Project 18765"
+title: "OeNB JF Project 18765"
 excerpt: "Inference with Bayesian nonparametric models in the presence of measurement errors and outliers"
 author_profile: true
 redirect_from: 
