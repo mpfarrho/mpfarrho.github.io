@@ -40,11 +40,6 @@ Memberships (past/present)
 ======
 * American Economic Association (AEA), Austrian Economic Association (NOeG), Euro Area Business Cycle Network (EABCN), European Economic Association (EEA), Econometric Society (ES), International Society for Bayesian Analysis (ISBA)
 
-Research grants
-======
-* Jubiläumsfonds der Oesterreichischen Nationalbank (OeNB): "Between fostering and limiting central bank independence: The impact of constitutional courts decisions," (co-PI, principal investigator: Florian Huber), total funding EUR 118,000.00, 2020-2022
-* Jubiläumsfonds der Oesterreichischen Nationalbank (OeNB): "Inference with Bayesian nonparametric models in the presence of measurement errors and outliers," (PI), total funding EUR 168,000.00, [project website](https://mpfarrho.github.io/project18765), 2022-24
-
 Honors and awards
 ======
 * "Award of Excellence" ([Staatspreis](https://www.bmbwf.gv.at/Ministerium/Staatspreise-und-Auszeichnungen/Staatspreise.html)) for the dissertation "Bayesian inference in high-dimensional multivariate time series models with applications in macroeconomics and finance," awarded by the Austrian Federal Ministry of Education, Science and Research, 2020
