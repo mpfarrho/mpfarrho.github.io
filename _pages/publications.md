@@ -14,10 +14,10 @@ author_profile: true
 Five most important publications
 ======
 * "Nowcasting in a pandemic using non-parametric mixed frequency VARs," with Huber, Koop, Onorante, and Schreiner, _Journal of Econometrics_ **232**(1), 52-69, 2023. [[DOI](https://doi.org/10.1016/j.jeconom.2020.11.006)/[WP](https://arxiv.org/abs/2008.12706)/[Code](https://github.com/mpfarrho/mf-bavart)]
+* "A Bayesian panel vector autoregression to analyze the impact of climate shocks on high-income economies," with Kristzin and Huber, _The Annals of Applied Statistics_ **17**(2), 1543-1573, 2023. [[DOI](http://dx.doi.org/10.1214/22-AOAS1681)/[PDF](https://www.dropbox.com/s/kc5nh1pbmmi2x44/AOAS1681.pdf?dl=0)/[WP](https://arxiv.org/abs/1804.01554)]
 * "Approximate Bayesian inference and forecasting in huge-dimensional panel VARs," with Feldkircher, Huber, and Koop, _International Economic Review_ **63**(4), 1625-1658, 2022. [[DOI](https://doi.org/10.1111/iere.12577)/[WP](https://arxiv.org/abs/2103.04944)]
-* "Dynamic shrinkage in time-varying parameter stochastic volatility in mean models," with Huber, _Journal of Applied Econometrics_ **36**(2), 262–270, 2021. [[DOI](https://doi.org/10.1002/jae.2804)/[WP](https://arxiv.org/abs/2005.06851)/[Data](http://qed.econ.queensu.ca/jae/datasets/huber005/)]
-* "On the effectiveness of the European Central Bank's conventional and unconventional policies under uncertainty," with Hauzenberger and Stelzer, _Journal of Economic Behavior and Organization_ **191**, 822–845, 2021. [[DOI](https://doi.org/10.1016/j.jebo.2021.09.041)/[WP](https://arxiv.org/abs/2011.14424)]
 * "Modeling tail risks of inflation using unobserved component quantile regressions," _Journal of Economic Dynamics and Control_ **143**, 104493, 2022. [[DOI](https://www.sciencedirect.com/science/article/abs/pii/S016518892200197X)/[WP](https://arxiv.org/abs/2103.03632)/[Code](https://github.com/mpfarrho/tvp-qr)]
+* "Dynamic shrinkage in time-varying parameter stochastic volatility in mean models," with Huber, _Journal of Applied Econometrics_ **36**(2), 262–270, 2021. [[DOI](https://doi.org/10.1002/jae.2804)/[WP](https://arxiv.org/abs/2005.06851)/[Data](http://qed.econ.queensu.ca/jae/datasets/huber005/)]
 
 List of all publications
 ======
