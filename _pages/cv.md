@@ -13,7 +13,7 @@ Michael Pfarrhofer, born on June 1, 1993 [[PDF of CV](https://www.dropbox.com/s/
 
 Employment
 ======
-* _Assistant Professor_, Department of Economics at Vienna University of Economics and Business (Vienna, Austria; 09/2023–)
+* _Assistant Professor_, Department of Economics at WU Vienna (Vienna, Austria; 09/2023–)
 * _Expert_, European Commission "Macro Modelling and Nowcast Pool" (Joint Research Centre, Ispra, Italy; 12/2020–)
 
 Academic positions and professional experience
@@ -24,14 +24,14 @@ Academic positions and professional experience
 * _Consultant_, Klaus Liebscher Economic Research Scholarship, scientific consultancy for the "Economic Analysis and Research Department" of the Oesterreichische Nationalbank (OeNB, Vienna, Austria; 05/2021–10/2021)
 * _Research scholar_, scientific consultancy for the "Biodiversity and Natural Resources" program at International Institute for Applied Systems Analysis (IIASA, Laxenburg, Austria; 11/2020–10/2021)
 * _Senior scientist_, Salzburg Centre of European Union Studies (SCEUS) at University of Salzburg (Salzburg, Austria; 11/2018–09/2019)
-* _Research associate_, Institute for Macroeconomics at Vienna University of Economics and Business (Vienna, Austria; 02/2018–09/2019)
+* _Research associate_, Institute for Macroeconomics at WU Vienna (Vienna, Austria; 02/2018–09/2019)
 
 Education
 ======
 * _Venia docendi in Economics_ at University of Salzburg (01/2023), habilitation "Structural and predictive inference with parametric and nonparametric models in economics"
-* _Ph.D. in Economics_ at Vienna University of Economics and Business (09/2019), thesis "Bayesian inference in high-dimensional multivariate time series models with applications in macroeconomics and finance"
-* _MSc. in Economics_ at Vienna University of Economics and Business (06/2018)
-* _BSc. in Business, Economics and Social Sciences_ at Vienna University of Economics and Business (07/2016)
+* _Ph.D. in Economics_ at WU Vienna (09/2019), thesis "Bayesian inference in high-dimensional multivariate time series models with applications in macroeconomics and finance"
+* _MSc. in Economics_ at WU Vienna (06/2018)
+* _BSc. in Business, Economics and Social Sciences_ at WU Vienna (07/2016)
 
 Referee
 ======
@@ -56,6 +56,6 @@ Conferences and presentations
 
 Teaching and other activities
 ======
-* _Undergraduate_: Macroeconomics (University of Salzburg, 2018/19, 2019/20), Macroeconomics (University of Vienna, 2022/23), International Macroeconomics (Vienna University of Economics and Business, planned 2023/24)
-* _Graduate_: Macroeconometrics I (University of Salzburg, 2020), Advanced Macroeconometrics (Vienna University of Economics and Business, 2019), Methods in Economics (University of Salzburg, 2019/20, 2020/21), Macroeconometrics: Structural and predictive inference (University of Salzburg, 2021), Foundational Econometrics (University of Vienna, 2022/23), Introduction to Bayesian Econometrics (Univie, 2022/23), Macroeconometrics (University of Vienna, 2023), Advanced Topics in Macroeconometrics (University of Vienna, 2023)
+* _Undergraduate_: Macroeconomics (University of Salzburg, 2018/19, 2019/20), Macroeconomics (University of Vienna, 2022/23), Macroeconomics (WU Vienna, planned 2023/24)
+* _Graduate_: Macroeconometrics I (University of Salzburg, 2020), Advanced Macroeconometrics (WU Vienna, 2019), Methods in Economics (University of Salzburg, 2019/20, 2020/21), Macroeconometrics: Structural and predictive inference (University of Salzburg, 2021), Foundational Econometrics (University of Vienna, 2022/23), Introduction to Bayesian Econometrics (Univie, 2022/23), Macroeconometrics (University of Vienna, 2023), Advanced Topics in Macroeconometrics (University of Vienna, 2023)
 * _Other_: Curriculum Committee Master Economics and Business (University of Salzburg, 2019), Analysis of the performance of students (University of Salzburg, 2019), Rethinking Economics: "Predictive inference and forecast evaluation metrics" (University of Tübingen, 2022), Sommeradakademie (Talente OÖ, for high-potential students in high school, 2022, guest talk on crises, central banking and financial markets)
