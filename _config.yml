@@ -82,11 +82,11 @@ analytics:
 author:
   name             : "Michael Pfarrhofer"
   avatar           : "profile.png"
-  bio              : "Professor of Macroeconomics"
-  location         : "University of Vienna"
+  bio              : "Assistant Professor"
+  location         : "WU Vienna"
   employer         : "Department of Economics"
   pubmed           : 
-  googlescholar    : "https://scholar.google.at/citations?user=ymlNJ_UAAAAJ&hl=en"
+  googlescholar    : "https://scholar.google.at/citations?user=ymlNJ_UAAAAJ"
   email            : "mpfarrho@gmail.com"
   researchgate     : #"https://www.researchgate.net/profile/Michael-Pfarrhofer"
   uri              :
