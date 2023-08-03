@@ -14,7 +14,7 @@ Michael Pfarrhofer, born on June 1, 1993 [[PDF of CV](https://www.dropbox.com/s/
 Employment
 ======
 * _Assistant Professor_, Department of Economics at WU Vienna (09/2023–)
-* _Expert_, European Commission "Macro Modelling and Nowcast Pool" (Joint Research Centre Ispra, 12/2020–)
+* _Expert_, European Commission "Macro Modelling and Nowcast Pool" (JRC Ispra, 12/2020–)
 
 Academic positions and professional experience
 ======
