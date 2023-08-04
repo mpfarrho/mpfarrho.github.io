@@ -21,7 +21,7 @@ Academic positions and professional experience
 * _Professor of Macroeconomics_, Department of Economics at University of Vienna (09/2022–08/2023)
 * _Visiting researcher_, Department of Economics at Bocconi University (03/2022–08/2022)
 * _Post-doc researcher_, Department of Economics at University of Salzburg (10/2019–08/2022)
-* _Consultant_, KLERS, scientific consultancy, Oesterreichische Nationalbank (OeNB, 05/2021–10/2021)
+* _Scholarship_, KLERS, scientific consultancy, Oesterreichische Nationalbank (OeNB, 05/2021–10/2021)
 * _Research scholar_, scientific consultancy, International Institute for Applied Systems Analysis (IIASA, 11/2020–10/2021)
 * _Senior scientist_, Salzburg Centre of European Union Studies (SCEUS) at University of Salzburg (11/2018–09/2019)
 * _Research associate_, Institute for Macroeconomics at WU Vienna (02/2018–09/2019)
