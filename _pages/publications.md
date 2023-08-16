@@ -21,8 +21,8 @@ Five most important publications
 
 List of all publications
 ======
-* "Tail Forecasting with Multivariate Bayesian Additive Regression Trees," with Clark, Huber, Koop, and Marcellino, forthcoming in _International Economic Review_. [[DOI](https://onlinelibrary.wiley.com/doi/10.1111/iere.12619)/[WP](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3809866)]
 * "Introducing shrinkage in heavy-tailed state space models to predict equity excess returns," with Huber and Kastner, forthcoming in _Empirical Economics_. [[DOI](https://doi.org/10.1007/s00181-023-02437-3)/[WP](https://arxiv.org/abs/1805.12217)]
+* "Tail Forecasting with Multivariate Bayesian Additive Regression Trees," with Clark, Huber, Koop, and Marcellino, _International Economic Review_ **64**(3), 979-1022, 2023. [[DOI](https://onlinelibrary.wiley.com/doi/10.1111/iere.12619)/[WP](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3809866)]
 * "Measuring international uncertainty using global vector autoregressions with drifting parameters," _Macroeconomic Dynamics_ **27**(3), 770-793, 2023.
   [[DOI](https://doi.org/10.1017/S1365100521000663)/[WP](https://arxiv.org/abs/1908.06325)/[Code](https://github.com/mpfarrho/tvp-gvar-fsvm)]
 * "A Bayesian panel vector autoregression to analyze the impact of climate shocks on high-income economies," with Kristzin and Huber, _The Annals of Applied Statistics_ **17**(2), 1543-1573, 2023. [[DOI](http://dx.doi.org/10.1214/22-AOAS1681)/[PDF](https://www.dropbox.com/s/kc5nh1pbmmi2x44/AOAS1681.pdf?dl=0)/[WP](https://arxiv.org/abs/1804.01554)]
