@@ -43,7 +43,7 @@ List of all publications
 Book chapters
 ======
 * "Factor Augmented Vector Autoregressions, Panel VARs, and Global VARs," with Feldkircher and Huber, for _Macroeconomic Forecasting in the Era of Big Data_, edited by Fuleky, ch. **3**, 2020. [[Chapter](https://link.springer.com/chapter/10.1007/978-3-030-31150-6_3)]
-* "Bayesian nonparametric methods for macroeconomic forecasting" with Marcellino, draft of chapter for _Handbook of Macroeconomic Forecasting_, edited by Clements and Galvao.
+* "Bayesian nonparametric methods for macroeconomic forecasting" with Marcellino, draft of chapter for _Handbook of Macroeconomic Forecasting_, edited by Clements and Galvao. [[Draft](https://www.dropbox.com/scl/fi/9ama89pimaqvlfc4kp5uj/npvars_draft.pdf?rlkey=dqcd410sv7b0wb5hfw0ns7kia&dl=0)]
 
 Working papers
 ======
