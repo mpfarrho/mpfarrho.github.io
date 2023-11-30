@@ -11,6 +11,7 @@ author_profile: true
 
 {% include base_path %}
 
+* "Forecasts with Bayesian vector autoregressions under real time conditions," forthcoming _Journal of Forecasting_. [[DOI]](https://doi.org/10.1002/for.3055)[[WP](https://arxiv.org/abs/2004.04984)]
 * "Forecasting euro area inflation using a huge panel of survey expectations," with Huber and Onorante, forthcoming _International Journal of Forecasting_. [[DOI](https://doi.org/10.1016/j.ijforecast.2023.09.003)/[WP](https://arxiv.org/abs/2207.12225)]
 * "Introducing shrinkage in heavy-tailed state space models to predict equity excess returns," with Huber and Kastner, forthcoming in _Empirical Economics_. [[DOI](https://doi.org/10.1007/s00181-023-02437-3)/[WP](https://arxiv.org/abs/1805.12217)]
 * "Tail Forecasting with Multivariate Bayesian Additive Regression Trees," with Clark, Huber, Koop, and Marcellino, _International Economic Review_ **64**(3), 979-1022, 2023. [[DOI](https://onlinelibrary.wiley.com/doi/10.1111/iere.12619)/[WP](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3809866)]
@@ -40,7 +41,6 @@ Working papers
 ======
 * "Investigating Growth-at-Risk Using a Multicountry Nonparametric Quantile Factor Model," with Clark, Huber, Koop, and Marcellino, R&R _Journal of Business & Economic Statistics_. [[WP](https://arxiv.org/abs/2110.03411)]
 * "Financial markets and legal challenges to unconventional monetary policy," with Griller and Huber, R&R _European Economic Review_. [[WP](https://arxiv.org/abs/2202.12695)]
-* "Forecasts with Bayesian vector autoregressions under real time conditions," R&R _Journal of Forecasting_. [[WP](https://arxiv.org/abs/2004.04984)]
 * "Sparse time-varying parameter VECMs with an application to modeling electricity prices," with Hauzenberger and Rossini, R&R _International Journal of Forecasting_. [[WP](https://arxiv.org/abs/2011.04577)]
 * "Bayesian inference in high-dimensional time-varying parameter models using integrated rotated Gaussian approximations," with Huber and Koop. [[WP](https://arxiv.org/abs/2002.10274)]
 * "The international effects of central bank information shocks," with Stelzer. [[WP](https://arxiv.org/abs/1912.03158)]
