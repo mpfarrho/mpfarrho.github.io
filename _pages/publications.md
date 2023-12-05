@@ -11,7 +11,7 @@ author_profile: true
 
 {% include base_path %}
 
-* "Forecasts with Bayesian vector autoregressions under real time conditions," forthcoming _Journal of Forecasting_. [[DOI](https://doi.org/10.1002/for.3055)]/[[WP](https://arxiv.org/abs/2004.04984)]
+* "Forecasts with Bayesian vector autoregressions under real time conditions," forthcoming _Journal of Forecasting_. [[DOI](https://doi.org/10.1002/for.3055)/[WP](https://arxiv.org/abs/2004.04984)]
 * "Forecasting euro area inflation using a huge panel of survey expectations," with Huber and Onorante, forthcoming _International Journal of Forecasting_. [[DOI](https://doi.org/10.1016/j.ijforecast.2023.09.003)/[WP](https://arxiv.org/abs/2207.12225)]
 * "Introducing shrinkage in heavy-tailed state space models to predict equity excess returns," with Huber and Kastner, forthcoming in _Empirical Economics_. [[DOI](https://doi.org/10.1007/s00181-023-02437-3)/[WP](https://arxiv.org/abs/1805.12217)]
 * "Tail Forecasting with Multivariate Bayesian Additive Regression Trees," with Clark, Huber, Koop, and Marcellino, _International Economic Review_ **64**(3), 979-1022, 2023. [[DOI](https://onlinelibrary.wiley.com/doi/10.1111/iere.12619)/[WP](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3809866)]
@@ -35,7 +35,7 @@ author_profile: true
 Book chapters
 ======
 * "Factor Augmented Vector Autoregressions, Panel VARs, and Global VARs," with Feldkircher and Huber, for _Macroeconomic Forecasting in the Era of Big Data_, edited by Fuleky, ch. **3**, 2020. [[Chapter](https://link.springer.com/chapter/10.1007/978-3-030-31150-6_3)]
-* "Bayesian nonparametric methods for macroeconomic forecasting" with Marcellino, draft of chapter for _Handbook of Macroeconomic Forecasting_, edited by Clements and Galvao. [[Draft](https://www.dropbox.com/scl/fi/9ama89pimaqvlfc4kp5uj/npvars_draft.pdf?rlkey=dqcd410sv7b0wb5hfw0ns7kia&dl=0)]
+* "Bayesian nonparametric methods for macroeconomic forecasting" with Marcellino, draft of chapter for _Handbook of Macroeconomic Forecasting_, edited by Clements and Galvao. [[Draft](https://www.dropbox.com/scl/fi/4j4f1qf1oyucz7qxzx6c4/npvars_draft.pdf?rlkey=s85jbqzkeb5ax3ktu3h4ertv5&dl=0)]
 
 Working papers
 ======
