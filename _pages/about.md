@@ -12,4 +12,4 @@ I am an Assistant Professor at Vienna University of Economics and Business (WU V
 
 Contact
 -----
-Department of Economics, Vienna University of Economics and Business, Welthandelsplatz 1, 1020 Vienna
+Department of Economics, WU Vienna University of Economics and Business, Welthandelsplatz 1, D4, 1020 Vienna
