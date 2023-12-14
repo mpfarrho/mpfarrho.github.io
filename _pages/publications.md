@@ -51,6 +51,7 @@ Other papers
 
 Policy briefings and media
 ======
+* Was genau ist eigentlich eine Rezession?/What is a recession? December 2023. [[Die Presse](https://www.diepresse.com/17912518/was-genau-ist-eigentlich-eine-rezession) (german)]
 * Wie hoch sind die Inflationsrisiken wirklich?/Inflation and inflation risks, January 2022. [[Die Presse](https://www.diepresse.com/6091216/wie-hoch-sind-die-inflationsrisiken-wirklich) (german)]
 * Wie sich ein zweiter Lockdown auf Österreichs Wirtschaft auswirken würde/How a second lockdown would affect the Austrian economy, with Hauzenberger, August 2020. [[Die Presse](https://www.diepresse.com/5847063/wie-sich-ein-zweiter-lockdown-auf-oesterreichs-wirtschaft-auswirken-wuerde) (german)]
 * Makroökonomische Entwicklungen unter Unsicherheit/Macroeconomic dynamics in times of uncertainty, October 2019. [[Der Standard](https://www.derstandard.at/story/2000109264301/makrooekonomische-entwicklungen-unter-unsicherheit) (german)]
