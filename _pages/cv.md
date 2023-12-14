@@ -41,7 +41,7 @@ Professional activities
 
 Honors and awards
 ======
-* Award of Excellence ([Staatspreis](https://www.bmbwf.gv.at/Ministerium/Staatspreise-und-Auszeichnungen/Staatspreise.html)) for the dissertation "Bayesian inference in high-dimensional multivariate time series models with applications in macroeconomics and finance," awarded by the Austrian Federal Ministry of Education, Science and Research, 2020
+* Award of Excellence (Staatspreis) for the dissertation "Bayesian inference in high-dimensional multivariate time series models with applications in macroeconomics and finance," awarded by the Austrian Federal Ministry of Education, Science and Research, 2020
 * Klaus Liebscher Economic Research Scholarship 2020 ([KLERS](https://www.oenb.at/en/About-Us/Research-Promotion/scholarships_and_awards/klaus_liebscher_economic_research_scholarship.html)), awarded by the Oesterreichische Nationalbank (OeNB), 05/2021–10/2021
 
 Conferences and presentations
