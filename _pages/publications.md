@@ -11,6 +11,7 @@ author_profile: true
 
 {% include base_path %}
 
+* "Investigating Growth-at-Risk Using a Multicountry Nonparametric Quantile Factor Model," with Clark, Huber, Koop, and Marcellino, conditional accept _Journal of Business & Economic Statistics_. [[WP](https://arxiv.org/abs/2110.03411)/[Code](https://github.com/mpfarrho/qf-bart)]
 * "Forecasts with Bayesian vector autoregressions under real time conditions," forthcoming _Journal of Forecasting_. [[DOI](https://doi.org/10.1002/for.3055)/[WP](https://arxiv.org/abs/2004.04984)]
 * "Forecasting euro area inflation using a huge panel of survey expectations," with Huber and Onorante, forthcoming _International Journal of Forecasting_. [[DOI](https://doi.org/10.1016/j.ijforecast.2023.09.003)/[WP](https://arxiv.org/abs/2207.12225)]
 * "Introducing shrinkage in heavy-tailed state space models to predict equity excess returns," with Huber and Kastner, forthcoming in _Empirical Economics_. [[DOI](https://doi.org/10.1007/s00181-023-02437-3)/[WP](https://arxiv.org/abs/1805.12217)]
@@ -39,7 +40,6 @@ Book chapters
 
 Working papers
 ======
-* "Investigating Growth-at-Risk Using a Multicountry Nonparametric Quantile Factor Model," with Clark, Huber, Koop, and Marcellino, R&R _Journal of Business & Economic Statistics_. [[WP](https://arxiv.org/abs/2110.03411)]
 * "Financial markets and legal challenges to unconventional monetary policy," with Griller and Huber, R&R _European Economic Review_. [[WP](https://arxiv.org/abs/2202.12695)]
 * "Sparse time-varying parameter VECMs with an application to modeling electricity prices," with Hauzenberger and Rossini, R&R _International Journal of Forecasting_. [[WP](https://arxiv.org/abs/2011.04577)]
 * "The international effects of central bank information shocks," with Stelzer, R&R _Macroeconomic Dynamics_. [[WP](https://arxiv.org/abs/1912.03158)]
