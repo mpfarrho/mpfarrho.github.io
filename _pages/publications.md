@@ -11,11 +11,11 @@ author_profile: true
 
 {% include base_path %}
 
-* "Investigating Growth-at-Risk Using a Multicountry Nonparametric Quantile Factor Model," with Clark, Huber, Koop, and Marcellino, conditional accept _Journal of Business & Economic Statistics_. [[WP](https://arxiv.org/abs/2110.03411)/[Code](https://github.com/mpfarrho/qf-bart)]
+* "Investigating growth-at-risk using a multicountry nonparametric quantile factor model," with Clark, Huber, Koop, and Marcellino, conditional accept _Journal of Business & Economic Statistics_. [[WP](https://arxiv.org/abs/2110.03411)/[Code](https://github.com/mpfarrho/qf-bart)]
 * "Forecasts with Bayesian vector autoregressions under real time conditions," forthcoming _Journal of Forecasting_. [[DOI](https://doi.org/10.1002/for.3055)/[WP](https://arxiv.org/abs/2004.04984)]
 * "Forecasting euro area inflation using a huge panel of survey expectations," with Huber and Onorante, forthcoming _International Journal of Forecasting_. [[DOI](https://doi.org/10.1016/j.ijforecast.2023.09.003)/[WP](https://arxiv.org/abs/2207.12225)]
 * "Introducing shrinkage in heavy-tailed state space models to predict equity excess returns," with Huber and Kastner, forthcoming in _Empirical Economics_. [[DOI](https://doi.org/10.1007/s00181-023-02437-3)/[WP](https://arxiv.org/abs/1805.12217)]
-* "Tail Forecasting with Multivariate Bayesian Additive Regression Trees," with Clark, Huber, Koop, and Marcellino, _International Economic Review_ **64**(3), 979-1022, 2023. [[DOI](https://onlinelibrary.wiley.com/doi/10.1111/iere.12619)/[WP](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3809866)]
+* "Tail forecasting with multivariate Bayesian additive regression trees," with Clark, Huber, Koop, and Marcellino, _International Economic Review_ **64**(3), 979-1022, 2023. [[DOI](https://onlinelibrary.wiley.com/doi/10.1111/iere.12619)/[WP](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3809866)]
 * "Measuring international uncertainty using global vector autoregressions with drifting parameters," _Macroeconomic Dynamics_ **27**(3), 770-793, 2023.
   [[DOI](https://doi.org/10.1017/S1365100521000663)/[WP](https://arxiv.org/abs/1908.06325)/[Code](https://github.com/mpfarrho/tvp-gvar-fsvm)]
 * "A Bayesian panel vector autoregression to analyze the impact of climate shocks on high-income economies," with Kristzin and Huber, _The Annals of Applied Statistics_ **17**(2), 1543-1573, 2023. [[DOI](http://dx.doi.org/10.1214/22-AOAS1681)/[PDF](https://www.dropbox.com/s/kc5nh1pbmmi2x44/AOAS1681.pdf?dl=0)/[WP](https://arxiv.org/abs/1804.01554)]
