@@ -44,6 +44,7 @@ Working papers
 * "Sparse time-varying parameter VECMs with an application to modeling electricity prices," with Hauzenberger and Rossini, R&R _International Journal of Forecasting_. [[WP](https://arxiv.org/abs/2011.04577)]
 * "The international effects of central bank information shocks," with Stelzer, R&R _Macroeconomic Dynamics_. [[WP](https://arxiv.org/abs/1912.03158)]
 * "Bayesian inference in high-dimensional time-varying parameter models using integrated rotated Gaussian approximations," with Huber and Koop. [[WP](https://arxiv.org/abs/2002.10274)]
+* "Nowcasting economic activity in European regions using a mixed-frequency dynamic factor model," with Barbaglia, Frattarolo, Hauzenberger, Hirschbühl, Huber, Onorante and Tiozzo Pezzoli. [[WP](https://arxiv.org/abs/2401.10054)]
 
 Other papers
 ======
