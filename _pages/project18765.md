@@ -42,6 +42,6 @@ project member Niko Hauzenberger co-authored this paper with F. Huber, K. Kliebe
 * Presentation at 16th International Conference on Computational and Financial Econometrics (CFE) in London by Niko Hauzenberger
 
 # Real-time data sets
-* United States [Real-Time Data Set for Macroeconomists](https://www.philadelphiafed.org/surveys-and-data/real-time-data-research/real-time-data-set-for-macroeconomists)
-* United Kingdom [Gross Domestic Product Real-Time Database](https://www.bankofengland.co.uk/statistics/gdp-real-time-database)
-* Australia [Australian Real-Time Macroeconomic Database](https://fbe.unimelb.edu.au/economics/macrocentre/artmdatabase)
+* United States, [Real-Time Data Set for Macroeconomists](https://www.philadelphiafed.org/surveys-and-data/real-time-data-research/real-time-data-set-for-macroeconomists)
+* United Kingdom, [Gross Domestic Product Real-Time Database](https://www.bankofengland.co.uk/statistics/gdp-real-time-database)
+* Australia, [Australian Real-Time Macroeconomic Database](https://fbe.unimelb.edu.au/economics/macrocentre/artmdatabase)
