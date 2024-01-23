@@ -11,7 +11,7 @@ redirect_from:
 Inference with Bayesian nonparametric models in the presence of measurement errors and outliers
 ======
 
-This page is dedicated to a collection of materials in the context of project 18765, funded by the [Jubiläumsfonds](https://www.oenb.at/en/About-Us/Research-Promotion/The-OeNB-Anniversary-Fund.html) of the Oesterreichische Nationalbank with EUR 168,000.00 for the period from 12/2022 to 11/2024.
+This page is dedicated to a collection of materials in the context of project **18765**, funded by the [Jubiläumsfonds](https://www.oenb.at/en/About-Us/Research-Promotion/The-OeNB-Anniversary-Fund.html) of the _Oesterreichische Nationalbank_ with EUR 168,000.00 for the period from 12/2022 to 11/2024.
 
 **Abstract**: Data is often imperfect and incomplete when it is first released. A related problem are outlying observations such as those during the recent Covid-19 pandemic, which may severely affect parameter estimates in conventional linear models. On a related note, there may be changes in transmission channels of fiscal or monetary policies, which linear models are not equipped to detect. Particularly for structural and predictive inference, measurement errors and outliers may severely bias parameter estimates and thus yield misleading and suboptimal policy implications. 
 
