@@ -8,7 +8,11 @@ redirect_from:
   - /about.html
 ---
 
-I am an Assistant Professor at Vienna University of Economics and Business (WU Vienna, Department of Economics). My research interests include macroeconomics and econometric methods for dynamic models. In particular, I am interested in monetary economics, business cycles and predictive inference. The focus of my work is on econometrics, machine learning techniques and Bayesian data analysis. My work has been published in the _Journal of Econometrics_, _Journal of Business & Economic Statistics_, _Journal of Applied Econometrics_ and _International Economic Review_, among others.
+I am an Assistant Professor at **WU** Vienna University of Economics and Business ([Department of Economics](https://www.wu.ac.at/en/economics/)) working in macroeconomics and macroeconometrics. Previously I was employed at the University of Vienna and the University of Salzburg, and I contribute as an expert to the Joint Research Centre (JRC) of the European Commission in Ispra.
+
+My research interests more specifically include empirical macroeconomics and econometric methods for dynamic models. I am interested in monetary economics, business cycles and forecasting. The focus of my work is on time series analysis, Bayesian econometrics and machine learning techniques.
+
+My work has been published in the _Journal of Econometrics_, _Journal of Business & Economic Statistics_, _Journal of Applied Econometrics_ and _International Economic Review_, among others.
 
 Contact
 -----
