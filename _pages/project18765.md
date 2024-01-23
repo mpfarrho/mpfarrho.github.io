@@ -29,20 +29,19 @@ chapter for the book _Handbook of Macroeconomic Forecasting_ (edited by M. Cleme
 **Abstract** We review specification and estimation of multivariate Bayesian nonparametric models for forecasting (possibly large sets of) macroeconomic and financial variables. The focus is on Bayesian Additive Regression Trees and Gaussian Processes. We then apply various versions of these models for point, density and tail forecasting using datasets for the euro area and the US. The performance is compared with that of several variants of Bayesian VARs to assess the relevance of accounting for general forms of nonlinearities. We find that medium-scale linear VARs with stochastic volatility are tough benchmarks to beat. Some gains in predictive accuracy arise for nonparametric approaches, most notably for short-run forecasts of unemployment and longer-run predictions of inflation, and during recessionary or otherwise non-standard economic episodes.
 
 ### Bayesian Modeling of TVP-VARs Using Regression Trees
-project member Niko Hauzenberger co-authored this paper (with 
+project member Niko Hauzenberger co-authored this paper (with F. Huber, G. Koop and J. Mitchell) [[WP](https://arxiv.org/abs/2209.11970)]
 
 **Abstract** In light of widespread evidence of parameter instability in macroeconomic models, many time-varying parameter (TVP) models have been proposed. This paper proposes a nonparametric TVP-VAR model using Bayesian additive regression trees (BART) that models the TVPs as an unknown function of effect modifiers. The novelty of this model arises from the fact that the law of motion driving the parameters is treated nonparametrically. This leads to great flexibility in the nature and extent of parameter change, both in the conditional mean and in the conditional variance. Parsimony is achieved through adopting nonparametric factor structures and use of shrinkage priors. In an application to US macroeconomic data, we illustrate the use of our model in tracking both the evolving nature of the Phillips curve and how the effects of business cycle shocks on inflation measures vary nonlinearly with changes in the effect modifiers.
 
 ### Enhanced Bayesian Neural Networks for Macroeconomics and Finance
-project member Niko Hauzenberger co-authored this paper (with F. Huber, K. Klieber and M. Marcellino)
+project member Niko Hauzenberger co-authored this paper (with F. Huber, K. Klieber and M. Marcellino) [[WP](https://arxiv.org/abs/2211.04752)]
 
 **Abstract** We develop Bayesian neural networks (BNNs) that permit to model generic nonlinearities and time variation for (possibly large sets of) macroeconomic and financial variables. From a methodological point of view, we allow for a general specification of networks that can be applied to either dense or sparse datasets, and combines various activation functions, a possibly very large number of neurons, and stochastic volatility (SV) for the error term. From a computational point of view, we develop fast and efficient estimation algorithms for the general BNNs we introduce. From an empirical point of view, we show both with simulated data and with a set of common macro and financial applications that our BNNs can be of practical use, particularly so for observations in the tails of the cross-sectional or time series distributions of the target variables, which makes the method particularly informative for policy making in uncommon times.
 
 ## Presentations of project-related materials
 * Presentation at 16th International Conference on Computational and Financial Econometrics (CFE) in London by Niko Hauzenberger
 
-## Other resources
-### Real-time data sets
+## Real-time data sets
 * United States [Real-Time Data Set for Macroeconomists](https://www.philadelphiafed.org/surveys-and-data/real-time-data-research/real-time-data-set-for-macroeconomists)
 * United Kingdom [Gross Domestic Product Real-Time Database](https://www.bankofengland.co.uk/statistics/gdp-real-time-database)
 * Australia [Australian Real-Time Macroeconomic Database](https://fbe.unimelb.edu.au/economics/macrocentre/artmdatabase)
