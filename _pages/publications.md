@@ -11,7 +11,7 @@ author_profile: true
 
 {% include base_path %}
 
-* "Financial markets and legal challenges to unconventional monetary policy," with Griller and Huber, forthcoming _European Economic Review_. [DOI/[WP](https://arxiv.org/abs/2202.12695)/[Code](https://github.com/mpfarrho/idhet-mix)]
+* "Financial markets and legal challenges to unconventional monetary policy," with Griller and Huber, forthcoming _European Economic Review_. [DOI(https://doi.org/10.1016/j.euroecorev.2024.104680)/[WP](https://arxiv.org/abs/2202.12695)/[Code](https://github.com/mpfarrho/idhet-mix)]
 * "Investigating growth-at-risk using a multicountry nonparametric quantile factor model," with Clark, Huber, Koop, and Marcellino, forthcoming _Journal of Business & Economic Statistics_. [DOI/[WP](https://arxiv.org/abs/2110.03411)/[Code](https://github.com/mpfarrho/qf-bart)]
 * "Forecasts with Bayesian vector autoregressions under real time conditions," forthcoming _Journal of Forecasting_. [[DOI](https://doi.org/10.1002/for.3055)/[WP](https://arxiv.org/abs/2004.04984)]
 * "Forecasting euro area inflation using a huge panel of survey expectations," with Huber and Onorante, forthcoming _International Journal of Forecasting_. [[DOI](https://doi.org/10.1016/j.ijforecast.2023.09.003)/[WP](https://arxiv.org/abs/2207.12225)]
