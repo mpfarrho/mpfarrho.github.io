@@ -15,6 +15,5 @@ My research interests more specifically include empirical macroeconomics and eco
 
 My work has been published in the _Journal of Econometrics_, _Journal of Business & Economic Statistics_, _Journal of Applied Econometrics_ and _International Economic Review_, among others.
 
-Contact
------
+## Contact
 Department of Economics, WU Vienna University of Economics and Business, Welthandelsplatz 1, D4, 1020 Vienna
