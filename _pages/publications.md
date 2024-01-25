@@ -37,20 +37,17 @@ author_profile: true
 * "A multi-country dynamic factor model with stochastic volatility for euro area business cycle analysis," with Huber and Piribauer, _Journal of Forecasting_ **39**(6), 911–926, 2020. [[DOI](https://doi.org/10.1002/for.2667)/[WP](https://arxiv.org/abs/2001.03935)]
 * "Flexible shrinkage in high-dimensional Bayesian spatial autoregressive models," with Piribauer, _Spatial Statistics_ **29**, 109–128, 2019. [[DOI](https://doi.org/10.1016/j.spasta.2018.10.004)/[WP](https://arxiv.org/abs/1805.10822)]
 
-Book chapters
-======
+# Book chapters
 * "Factor Augmented Vector Autoregressions, Panel VARs, and Global VARs," with Feldkircher and Huber, for _Macroeconomic Forecasting in the Era of Big Data_, edited by Fuleky, ch. **3**, 2020. [[Chapter](https://link.springer.com/chapter/10.1007/978-3-030-31150-6_3)]
 * "Bayesian nonparametric methods for macroeconomic forecasting" with Marcellino, draft of chapter for _Handbook of Macroeconomic Forecasting_, edited by Clements and Galvao. [[Draft](https://www.dropbox.com/scl/fi/4j4f1qf1oyucz7qxzx6c4/npvars_draft.pdf?rlkey=s85jbqzkeb5ax3ktu3h4ertv5&dl=0)]
 
-Working papers
-======
+# Working papers
 * "Sparse time-varying parameter VECMs with an application to modeling electricity prices," with Hauzenberger and Rossini, R&R _International Journal of Forecasting_. [[WP](https://arxiv.org/abs/2011.04577)]
 * "The international effects of central bank information shocks," with Stelzer, R&R _Macroeconomic Dynamics_. [[WP](https://arxiv.org/abs/1912.03158)]
 * "Bayesian inference in high-dimensional time-varying parameter models using integrated rotated Gaussian approximations," with Huber and Koop. [[WP](https://arxiv.org/abs/2002.10274)]
 * "Nowcasting economic activity in European regions using a mixed-frequency dynamic factor model," with Barbaglia, Frattarolo, Hauzenberger, Hirschbühl, Huber, Onorante and Tiozzo Pezzoli. [[WP](https://arxiv.org/abs/2401.10054)]
 
-Other papers
-======
+# Other papers
 * "Implications of macroeconomic volatility in the Euro area," with Hauzenberger, Böck, Stelzer, and Zens, 2018. [[ESRB-WP](https://www.esrb.europa.eu/pub/pdf/wp/esrb.wp80.en.pdf?3d22daf2cf5665f0c8314cca792924a1)]
 
 Policy briefings and media
