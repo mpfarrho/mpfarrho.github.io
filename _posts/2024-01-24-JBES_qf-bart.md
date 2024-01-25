@@ -1,5 +1,5 @@
 ---
-title: 'Investigating Growth-at-Risk Using a Multicountry Non-parametric Quantile Factor Model'
+title: 'Investigating growth-at-risk using a multicountry non-parametric quantile factor model'
 date: 2024-01-24
 permalink: /posts/2024/01/JBES_qf-bart/
 tags:
