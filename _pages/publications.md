@@ -13,12 +13,12 @@ author_profile: true
 
 ## Forthcoming
 * "Investigating growth-at-risk using a multicountry nonparametric quantile factor model," with Clark, Huber, Koop, and Marcellino, forthcoming _Journal of Business & Economic Statistics_. [[DOI](https://doi.org/10.1080/07350015.2024.2310020)/[WP](https://arxiv.org/abs/2110.03411)/[Code](https://github.com/mpfarrho/qf-bart)]
-* "Financial markets and legal challenges to unconventional monetary policy," with Griller and Huber, forthcoming _European Economic Review_. [[DOI](https://doi.org/10.1016/j.euroecorev.2024.104680)/[WP](https://arxiv.org/abs/2202.12695)/[Code](https://github.com/mpfarrho/idhet-mix)]
 * "Forecasts with Bayesian vector autoregressions under real time conditions," forthcoming _Journal of Forecasting_. [[DOI](https://doi.org/10.1002/for.3055)/[WP](https://arxiv.org/abs/2004.04984)]
 * "Forecasting euro area inflation using a huge panel of survey expectations," with Huber and Onorante, forthcoming _International Journal of Forecasting_. [[DOI](https://doi.org/10.1016/j.ijforecast.2023.09.003)/[WP](https://arxiv.org/abs/2207.12225)]
 * "Introducing shrinkage in heavy-tailed state space models to predict equity excess returns," with Huber and Kastner, forthcoming in _Empirical Economics_. [[DOI](https://doi.org/10.1007/s00181-023-02437-3)/[WP](https://arxiv.org/abs/1805.12217)]
 
 ## Published
+* "Financial markets and legal challenges to unconventional monetary policy," with Griller and Huber, _European Economic Review_ **163**, 104680, 2024. [[DOI](https://doi.org/10.1016/j.euroecorev.2024.104680)/[WP](https://arxiv.org/abs/2202.12695)/[Code](https://github.com/mpfarrho/idhet-mix)]
 * "Tail forecasting with multivariate Bayesian additive regression trees," with Clark, Huber, Koop, and Marcellino, _International Economic Review_ **64**(3), 979-1022, 2023. [[DOI](https://onlinelibrary.wiley.com/doi/10.1111/iere.12619)/[WP](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3809866)]
 * "Measuring international uncertainty using global vector autoregressions with drifting parameters," _Macroeconomic Dynamics_ **27**(3), 770-793, 2023.
   [[DOI](https://doi.org/10.1017/S1365100521000663)/[WP](https://arxiv.org/abs/1908.06325)/[Code](https://github.com/mpfarrho/tvp-gvar-fsvm)]
