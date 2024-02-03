@@ -5,7 +5,7 @@ permalink: /publications/
 author_profile: true
 ---
 
-You can also find my research on <a href="https://scholar.google.at/citations?user=ymlNJ_UAAAAJ&hl=en">Google Scholar</a>; most past and present working papers are listed in my <a href="https://arxiv.org/a/pfarrhofer_m_1.html">arXiv</a> profile.
+You can also find my research on <a href="https://scholar.google.at/citations?user=ymlNJ_UAAAAJ&hl=en">Google Scholar</a> and most past/present working papers are listed in my <a href="https://arxiv.org/a/pfarrhofer_m_1.html">arXiv</a> profile.
 
 ## Forthcoming
 * "Investigating growth-at-risk using a multicountry nonparametric quantile factor model," with Clark, Huber, Koop, and Marcellino, forthcoming _Journal of Business & Economic Statistics_. [[DOI](https://doi.org/10.1080/07350015.2024.2310020)/[WP](https://arxiv.org/abs/2110.03411)/[Code](https://github.com/mpfarrho/qf-bart)]
