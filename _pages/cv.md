@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-Michael Pfarrhofer, born on June 1, 1993 in Linz (Austria) [[PDF of CV](https://www.dropbox.com/s/2xgz0ge1h4enc6i/cv.pdf?dl=0)]
+Michael Pfarrhofer, born on June 1, 1993 in Linz [[PDF of CV](https://www.dropbox.com/s/2xgz0ge1h4enc6i/cv.pdf?dl=0)]
 
 ## Employment
 * _Assistant Professor_, Department of Economics at WU Vienna, 09/2023–
