@@ -50,3 +50,4 @@ project member Niko Hauzenberger co-authored this paper with F. Huber, K. Kliebe
 * United States, [Real-Time Data Set for Macroeconomists](https://www.philadelphiafed.org/surveys-and-data/real-time-data-research/real-time-data-set-for-macroeconomists)
 * United Kingdom, [Gross Domestic Product Real-Time Database](https://www.bankofengland.co.uk/statistics/gdp-real-time-database)
 * Australia, [Australian Real-Time Macroeconomic Database](https://fbe.unimelb.edu.au/economics/macrocentre/artmdatabase)
+* Canada, [CAN-MD-QD, Homepage of D. Stevanovic](http://www.stevanovic.uqam.ca/DS_LCMD.html)
