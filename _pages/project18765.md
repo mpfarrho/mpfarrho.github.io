@@ -23,6 +23,11 @@ forthcoming in the _Journal of Forecasting_ [[DOI](https://doi.org/10.1002/for.3
 
 > This paper investigates the sensitivity of forecast performance metrics to taking a real time versus pseudo out-of-sample perspective. I use monthly vintages of two popular datasets for the United States and the euro area. Variants of vector autoregressions, varying the size of the information sets and the conditional mean and variance specification, are considered. The results suggest differences in the relative ordering of model performance for point and density forecasts depending on the forecast simulation design used to evaluate predictive accuracy. Differentials are more pronounced for the European dataset, and stochastic volatility is a particularly attractive model feature to obtain accurate forecasts in real time.
 
+## Forecasting euro area inflation using a huge panel of survey expectations
+forthcoming in the _International Journal of Forecasting_, joint work with F. Huber and L. Onorante [[DOI](https://doi.org/10.1016/j.ijforecast.2023.09.003)]
+
+> In this paper, we forecast euro area inflation and its main components using a massive number of time series on survey expectations obtained from the European Commission’s Business and Consumer Survey. To make the estimation of such a huge model tractable, we use recent advances in computational statistics to carry out posterior simulation and inference. Our findings suggest that including a wide range of firms’ and consumers’ opinions about future economic developments offers useful information to forecast prices and assess tail risks to inflation. These predictive improvements arise from surveys related to expected inflation and other questions related to the general economic environment. Finally, we find that firms’ expectations about the future seem to have more predictive content than consumer expectations.
+
 ## Bayesian nonparametric methods for macroeconomic forecasting
 chapter for the book _Handbook of Macroeconomic Forecasting_ edited by M. Clements and A.B. Galvao, joint work with M. Marcellino [[Draft](https://www.dropbox.com/scl/fi/4j4f1qf1oyucz7qxzx6c4/npvars_draft.pdf?rlkey=s85jbqzkeb5ax3ktu3h4ertv5&dl=0)]
 
