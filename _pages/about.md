@@ -13,7 +13,5 @@ I am an Assistant Professor at WU Vienna University of Economics and Business ([
 
 My research interests more specifically include empirical macroeconomics and econometric methods for dynamic models. I am especially interested in monetary economics, business cycles and forecasting. The methodological focus of my work is on time series analysis, Bayesian econometrics and machine learning techniques. My work has been published in the _Journal of Econometrics_, _Journal of Business & Economic Statistics_, _Journal of Applied Econometrics_ and _International Economic Review_, among others.
 
-Personally I am a fan of rock 'n' roll and heavy metal, barbecuing, cycling, and I usually watch F1 and/or MotoGP races on Sunday afternoon.
-
 ## Contact
 Department of Economics, WU Vienna University of Economics and Business, Welthandelsplatz 1, D4, 1020 Vienna
