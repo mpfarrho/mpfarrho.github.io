@@ -43,7 +43,7 @@ You can also find my research on <a href="https://scholar.google.at/citations?us
 * "Bayesian inference in high-dimensional time-varying parameter models using integrated rotated Gaussian approximations," with Huber and Koop. [[WP](https://arxiv.org/abs/2002.10274)]
 * "Nowcasting economic activity in European regions using a mixed-frequency dynamic factor model," with Barbaglia, Frattarolo, Hauzenberger, Hirschbühl, Huber, Onorante and Tiozzo Pezzoli. [[WP](https://arxiv.org/abs/2401.10054)]
 * "Nowcasting with mixed frequency data using Gaussian processes," with Hauzenberger, Marcellino and Stelzer. [[WP](https://arxiv.org/abs/2402.10574)]
-* "Belief Shocks and Implications of Expectations about Growth-at-Risk" with Böck, R&R _Journal of Applied Econometrics_.
+* "Belief shocks and implications of expectations about growth-at-risk" with Böck, R&R _Journal of Applied Econometrics_.
 
 ## Other papers
 * "Implications of macroeconomic volatility in the Euro area," with Hauzenberger, Böck, Stelzer, and Zens, 2018. [[ESRB-WP](https://www.esrb.europa.eu/pub/pdf/wp/esrb.wp80.en.pdf?3d22daf2cf5665f0c8314cca792924a1)]
