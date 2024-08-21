@@ -8,6 +8,7 @@ author_profile: true
 You can also find my research on <a href="https://scholar.google.at/citations?user=ymlNJ_UAAAAJ&hl=en">Google Scholar</a> and most past/present working papers are listed in my <a href="https://arxiv.org/a/pfarrhofer_m_1.html">arXiv</a> profile.
 
 ## Forthcoming
+* "Sparse time-varying parameter VECMs with an application to modeling electricity prices," with Hauzenberger and Rossini, conditionally accepted _International Journal of Forecasting_. [[WP](https://arxiv.org/abs/2011.04577)/[Code](https://github.com/nhauzenb/tvpvecm)]
 * "Investigating growth-at-risk using a multicountry nonparametric quantile factor model," with Clark, Huber, Koop, and Marcellino, forthcoming _Journal of Business & Economic Statistics_. [[DOI](https://doi.org/10.1080/07350015.2024.2310020)/[WP](https://arxiv.org/abs/2110.03411)/[Code](https://github.com/mpfarrho/qf-bart)]
 * "Introducing shrinkage in heavy-tailed state space models to predict equity excess returns," with Huber and Kastner, forthcoming in _Empirical Economics_. [[DOI](https://doi.org/10.1007/s00181-023-02437-3)/[WP](https://arxiv.org/abs/1805.12217)]
 
@@ -38,7 +39,6 @@ You can also find my research on <a href="https://scholar.google.at/citations?us
 * "Bayesian nonparametric methods for macroeconomic forecasting" with Marcellino, draft of chapter for _Handbook of Macroeconomic Forecasting_, edited by Clements and Galvao. [[Draft](https://www.dropbox.com/scl/fi/4j4f1qf1oyucz7qxzx6c4/npvars_draft.pdf?rlkey=s85jbqzkeb5ax3ktu3h4ertv5&dl=0)]
 
 ## Working papers 
-* "Sparse time-varying parameter VECMs with an application to modeling electricity prices," with Hauzenberger and Rossini, R&R _International Journal of Forecasting_. [[WP](https://arxiv.org/abs/2011.04577)]
 * "The international effects of central bank information shocks," with Stelzer, R&R _Macroeconomic Dynamics_. [[WP](https://arxiv.org/abs/1912.03158)]
 * "Bayesian inference in high-dimensional time-varying parameter models using integrated rotated Gaussian approximations," with Huber and Koop. [[WP](https://arxiv.org/abs/2002.10274)]
 * "Nowcasting economic activity in European regions using a mixed-frequency dynamic factor model," with Barbaglia, Frattarolo, Hauzenberger, Hirschbühl, Huber, Onorante and Tiozzo Pezzoli. [[WP](https://arxiv.org/abs/2401.10054)]
