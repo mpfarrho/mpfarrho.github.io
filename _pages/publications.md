@@ -44,6 +44,7 @@ You can also find my research on <a href="https://scholar.google.at/citations?us
 * "Nowcasting economic activity in European regions using a mixed-frequency dynamic factor model," with Barbaglia, Frattarolo, Hauzenberger, Hirschbühl, Huber, Onorante and Tiozzo Pezzoli. [[WP](https://arxiv.org/abs/2401.10054)]
 * "Nowcasting with mixed frequency data using Gaussian processes," with Hauzenberger, Marcellino and Stelzer. [[WP](https://arxiv.org/abs/2402.10574)]
 * "Belief shocks and implications of expectations about growth-at-risk" with Böck, R&R _Journal of Applied Econometrics_.
+* "Asymmetries in Financial Spillovers," with Huber, Klieber, Marcellino and Onorante. [[WP](https://arxiv.org/abs/2410.16214)]
 
 ## Other papers
 * "Implications of macroeconomic volatility in the Euro area," with Hauzenberger, Böck, Stelzer, and Zens, 2018. [[ESRB-WP](https://www.esrb.europa.eu/pub/pdf/wp/esrb.wp80.en.pdf?3d22daf2cf5665f0c8314cca792924a1)]
