@@ -40,14 +40,15 @@ You can also find my research on <a href="https://scholar.google.at/citations?us
 
 ## Working papers 
 * "The international effects of central bank information shocks," with Stelzer, R&R _Macroeconomic Dynamics_. [[WP](https://arxiv.org/abs/1912.03158)]
-* "Bayesian inference in high-dimensional time-varying parameter models using integrated rotated Gaussian approximations," with Huber and Koop. [[WP](https://arxiv.org/abs/2002.10274)]
 * "Nowcasting economic activity in European regions using a mixed-frequency dynamic factor model," with Barbaglia, Frattarolo, Hauzenberger, Hirschbühl, Huber, Onorante and Tiozzo Pezzoli. [[WP](https://arxiv.org/abs/2401.10054)]
 * "Nowcasting with mixed frequency data using Gaussian processes," with Hauzenberger, Marcellino and Stelzer. [[WP](https://arxiv.org/abs/2402.10574)]
 * "Belief shocks and implications of expectations about growth-at-risk" with Böck, R&R _Journal of Applied Econometrics_.
 * "Asymmetries in Financial Spillovers," with Huber, Klieber, Marcellino and Onorante. [[WP](https://arxiv.org/abs/2410.16214)]
+* "General Seemingly Unrelated Local Projections" with Huber and Matthes. [[WP](http://arxiv.org/abs/2410.17105)]
 
 ## Other papers
 * "Implications of macroeconomic volatility in the Euro area," with Hauzenberger, Böck, Stelzer, and Zens, 2018. [[ESRB-WP](https://www.esrb.europa.eu/pub/pdf/wp/esrb.wp80.en.pdf?3d22daf2cf5665f0c8314cca792924a1)]
+* "Bayesian inference in high-dimensional time-varying parameter models using integrated rotated Gaussian approximations," with Huber and Koop. [[WP](https://arxiv.org/abs/2002.10274)]
 
 # Research grants
 * Jubiläumsfonds der Oesterreichischen Nationalbank (OeNB): "Between fostering and limiting central bank independence: The impact of constitutional courts decisions," (co-PI, principal investigator: Florian Huber), total funding EUR 118,000.00, 2020-2022
