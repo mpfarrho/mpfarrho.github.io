@@ -50,10 +50,6 @@ working paper, by N. Hauzenberger, M. Marcellino, M. Pfarrhofer and A. Stelzer [
 project member N. Hauzenberger co-authored this paper with F. Huber, G. Koop and J. Mitchell [[WP](https://arxiv.org/abs/2209.11970)]
 > In light of widespread evidence of parameter instability in macroeconomic models, many time-varying parameter (TVP) models have been proposed. This paper proposes a nonparametric TVP-VAR model using Bayesian additive regression trees (BART) that models the TVPs as an unknown function of effect modifiers. The novelty of this model arises from the fact that the law of motion driving the parameters is treated nonparametrically. This leads to great flexibility in the nature and extent of parameter change, both in the conditional mean and in the conditional variance. Parsimony is achieved through adopting nonparametric factor structures and use of shrinkage priors. In an application to US macroeconomic data, we illustrate the use of our model in tracking both the evolving nature of the Phillips curve and how the effects of business cycle shocks on inflation measures vary nonlinearly with changes in the effect modifiers.
 
-# Noteworthy achievements by project members
-* N. Hauzenberger was appointed Senior Lecturer at the University of Strathclyde, Scotland, UK in September 2023.
-* M. Pfarrhofer successfully achieved a habilitation at the University of Salzburg in January 2023; further, he was appointed Assistant Professor (tenure-track) at WU Vienna in September 2023.
-
 # Presentations
 ## Conference presentations by project members
 * Presentation of _ADD_ at 16th International Conference on Computational and Financial Econometrics (CFE) in London by project member N. Hauzenberger
@@ -73,3 +69,7 @@ project member N. Hauzenberger co-authored this paper with F. Huber, G. Koop and
 * United Kingdom, [Gross Domestic Product Real-Time Database](https://www.bankofengland.co.uk/statistics/gdp-real-time-database)
 * Australia, [Australian Real-Time Macroeconomic Database](https://fbe.unimelb.edu.au/economics/macrocentre/artmdatabase)
 * Canada, [CAN-MD-QD, Homepage of D. Stevanovic](http://www.stevanovic.uqam.ca/DS_LCMD.html)
+
+## Noteworthy achievements by project members
+* N. Hauzenberger was appointed Senior Lecturer at the University of Strathclyde, Scotland, UK in September 2023.
+* M. Pfarrhofer successfully achieved a habilitation at the University of Salzburg in January 2023; further, he was appointed Assistant Professor (tenure-track) at WU Vienna in September 2023.
