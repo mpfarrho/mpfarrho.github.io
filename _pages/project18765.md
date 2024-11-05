@@ -60,8 +60,8 @@ project member N. Hauzenberger co-authored this paper with F. Huber, G. Koop and
 
 # Other materials
 ## Noteworthy achievements by project members
-* N. Hauzenberger was appointed Senior Lecturer at the University of Strathclyde, Scotland, UK in September 2023.
-* M. Pfarrhofer successfully achieved a habilitation at the University of Salzburg in January 2023; further, he was appointed Assistant Professor (tenure-track) at WU Vienna in September 2023.
+* N. Hauzenberger was appointed Senior Lecturer at the University of Strathclyde, Scotland, UK in September 2023
+* M. Pfarrhofer successfully achieved a habilitation at the University of Salzburg in January 2023; further, he was appointed Assistant Professor (tenure-track) at WU Vienna in September 2023
 
 ## Code repositories
 * Nonparametric mixed-frequency Bayesian Additive Regression Trees [[mf-bavart](https://github.com/mpfarrho/mf-bavart)]
