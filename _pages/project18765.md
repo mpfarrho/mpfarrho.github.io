@@ -52,10 +52,10 @@ project member N. Hauzenberger co-authored this paper with F. Huber, G. Koop and
 
 # Presentations
 ## Conference presentations by project members
-* Presentation of _ADD_ at 16th International Conference on Computational and Financial Econometrics (CFE) in London by project member N. Hauzenberger
-* Presentation of _Nowcasting with mixed frequency data using Gaussian processes_ at IAAE Annual Conference 2024 in Rethymno, IHS Research Seminar and OeNB Freitagsseminar  by M. Pfarrhofer
+* Presentation of _Gaussian Process VARs and Macroeconomic Uncertainty_ at 16th International Conference on Computational and Financial Econometrics (CFE) in London by project member N. Hauzenberger
 
 ## Presentations of project-related papers and materials
+* Presentation of _Nowcasting with mixed frequency data using Gaussian processes_ at IAAE Annual Conference 2024 in Rethymno, IHS Research Seminar and OeNB Freitagsseminar  by M. Pfarrhofer
 * Presentation of _Bayesian nonparametric methods for macroeconomic forecasting_ at [12th ECB Conference on Forecasting Techniques](https://www.ecb.europa.eu/press/conferences/html/20230612_12th_conference_on_forecasting_techniques.en.html) by co-author M. Marcellino
 
 # Other materials
