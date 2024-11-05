@@ -19,7 +19,7 @@ This project aims to develop new Bayesian nonparametric methods that are robust 
 
 # Publications and working papers
 ## Forecasts with Bayesian vector autoregressions under real time conditions 
-_Journal of Forecasting_ **43**(3), 771-801, 2024; by M.Pfarrhofer [[DOI](https://doi.org/10.1002/for.3055)/[WP](https://arxiv.org/abs/2004.04984)]
+_Journal of Forecasting_ **43**(3), 771-801, 2024; by M.Pfarrhofer [[DOI](https://doi.org/10.1002/for.3055)]
 > This paper investigates the sensitivity of forecast performance metrics to taking a real time versus pseudo out-of-sample perspective. I use monthly vintages of two popular datasets for the United States and the euro area. Variants of vector autoregressions, varying the size of the information sets and the conditional mean and variance specification, are considered. The results suggest differences in the relative ordering of model performance for point and density forecasts depending on the forecast simulation design used to evaluate predictive accuracy. Differentials are more pronounced for the European dataset, and stochastic volatility is a particularly attractive model feature to obtain accurate forecasts in real time.
 
 ## Forecasting euro area inflation using a huge panel of survey expectations
