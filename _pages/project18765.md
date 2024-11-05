@@ -19,7 +19,7 @@ This project aims to develop new Bayesian nonparametric methods that are robust 
 
 # Publications and working papers
 ## Forecasts with Bayesian vector autoregressions under real time conditions 
-_Journal of Forecasting_ **43**(3) 771-801, 2024; by M.Pfarrhofer [[DOI](https://doi.org/10.1002/for.3055)/[WP](https://arxiv.org/abs/2004.04984)]
+_Journal of Forecasting_ **43**(3), 771-801, 2024; by M.Pfarrhofer [[DOI](https://doi.org/10.1002/for.3055)/[WP](https://arxiv.org/abs/2004.04984)]
 > This paper investigates the sensitivity of forecast performance metrics to taking a real time versus pseudo out-of-sample perspective. I use monthly vintages of two popular datasets for the United States and the euro area. Variants of vector autoregressions, varying the size of the information sets and the conditional mean and variance specification, are considered. The results suggest differences in the relative ordering of model performance for point and density forecasts depending on the forecast simulation design used to evaluate predictive accuracy. Differentials are more pronounced for the European dataset, and stochastic volatility is a particularly attractive model feature to obtain accurate forecasts in real time.
 
 ## Forecasting euro area inflation using a huge panel of survey expectations
@@ -51,15 +51,16 @@ project member N. Hauzenberger co-authored this paper with F. Huber, G. Koop and
 > In light of widespread evidence of parameter instability in macroeconomic models, many time-varying parameter (TVP) models have been proposed. This paper proposes a nonparametric TVP-VAR model using Bayesian additive regression trees (BART) that models the TVPs as an unknown function of effect modifiers. The novelty of this model arises from the fact that the law of motion driving the parameters is treated nonparametrically. This leads to great flexibility in the nature and extent of parameter change, both in the conditional mean and in the conditional variance. Parsimony is achieved through adopting nonparametric factor structures and use of shrinkage priors. In an application to US macroeconomic data, we illustrate the use of our model in tracking both the evolving nature of the Phillips curve and how the effects of business cycle shocks on inflation measures vary nonlinearly with changes in the effect modifiers.
 
 # Noteworthy achievements by project members
-* Niko Hauzenberger was appointed Senior Lecturer at the University of Strathclyde, Scotland, UK in September 2023.
-* Michael Pfarrhofer successfully achieved a habilitation at the University of Salzburg in January 2023; further, he was appointed Assistant Professor (tenure-track) at WU Vienna in September 2023.
+* N. Hauzenberger was appointed Senior Lecturer at the University of Strathclyde, Scotland, UK in September 2023.
+* M. Pfarrhofer successfully achieved a habilitation at the University of Salzburg in January 2023; further, he was appointed Assistant Professor (tenure-track) at WU Vienna in September 2023.
 
 # Presentations
 ## Conference presentations by project members
-* Presentation at 16th International Conference on Computational and Financial Econometrics (CFE) in London by project member Niko Hauzenberger
+* Presentation of _ADD_ at 16th International Conference on Computational and Financial Econometrics (CFE) in London by project member N. Hauzenberger
+* Presentation of _Nowcasting with mixed frequency data using Gaussian processes_ at IAAE Annual Conference 2024 in Rethymno, IHS Research Seminar and OeNB Freitagsseminar  by M. Pfarrhofer
 
 ## Presentations of project-related papers and materials
-* TBA
+* Presentation of _Bayesian nonparametric methods for macroeconomic forecasting_ at [https://www.ecb.europa.eu/press/conferences/html/20230612_12th_conference_on_forecasting_techniques.en.html](12th ECB Conference on Forecasting Techniques) by co-author M. Marcellino
 
 # Other materials
 ## Code repositories
