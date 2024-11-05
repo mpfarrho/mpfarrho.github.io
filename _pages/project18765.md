@@ -59,6 +59,10 @@ project member N. Hauzenberger co-authored this paper with F. Huber, G. Koop and
 * Presentation of _Bayesian nonparametric methods for macroeconomic forecasting_ at [12th ECB Conference on Forecasting Techniques](https://www.ecb.europa.eu/press/conferences/html/20230612_12th_conference_on_forecasting_techniques.en.html) by co-author M. Marcellino
 
 # Other materials
+## Noteworthy achievements by project members
+* N. Hauzenberger was appointed Senior Lecturer at the University of Strathclyde, Scotland, UK in September 2023.
+* M. Pfarrhofer successfully achieved a habilitation at the University of Salzburg in January 2023; further, he was appointed Assistant Professor (tenure-track) at WU Vienna in September 2023.
+
 ## Code repositories
 * Nonparametric mixed-frequency Bayesian Additive Regression Trees [[mf-bavart](https://github.com/mpfarrho/mf-bavart)]
 * Nonparametric quantile regression [[qf-bart](https://github.com/mpfarrho/qf-bart)]
@@ -69,7 +73,3 @@ project member N. Hauzenberger co-authored this paper with F. Huber, G. Koop and
 * United Kingdom, [Gross Domestic Product Real-Time Database](https://www.bankofengland.co.uk/statistics/gdp-real-time-database)
 * Australia, [Australian Real-Time Macroeconomic Database](https://fbe.unimelb.edu.au/economics/macrocentre/artmdatabase)
 * Canada, [CAN-MD-QD, Homepage of D. Stevanovic](http://www.stevanovic.uqam.ca/DS_LCMD.html)
-
-## Noteworthy achievements by project members
-* N. Hauzenberger was appointed Senior Lecturer at the University of Strathclyde, Scotland, UK in September 2023.
-* M. Pfarrhofer successfully achieved a habilitation at the University of Salzburg in January 2023; further, he was appointed Assistant Professor (tenure-track) at WU Vienna in September 2023.
