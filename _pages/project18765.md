@@ -60,13 +60,13 @@ project member N. Hauzenberger co-authored this paper with F. Huber, G. Koop and
 * Presentation of _Nowcasting with mixed frequency data using Gaussian processes_ at IAAE Annual Conference 2024 in Rethymno, IHS Research Seminar and OeNB Freitagsseminar  by M. Pfarrhofer
 
 ## Presentations of project-related papers and materials
-* Presentation of _Bayesian nonparametric methods for macroeconomic forecasting_ at [https://www.ecb.europa.eu/press/conferences/html/20230612_12th_conference_on_forecasting_techniques.en.html](12th ECB Conference on Forecasting Techniques) by co-author M. Marcellino
+* Presentation of _Bayesian nonparametric methods for macroeconomic forecasting_ at [12th ECB Conference on Forecasting Techniques](https://www.ecb.europa.eu/press/conferences/html/20230612_12th_conference_on_forecasting_techniques.en.html) by co-author M. Marcellino
 
 # Other materials
 ## Code repositories
-* Nonparametric mixed-frequency Bayesian Additive Regression Trees, [mf-bavart](https://github.com/mpfarrho/mf-bavart)
-* Nonparametric quantile regression, [qf-bart](https://github.com/mpfarrho/qf-bart)
-* Gaussian Process MIDAS models, [gp-midas](https://github.com/mpfarrho/gp-midas), to be uploaded upon publication of the corresponding paper
+* Nonparametric mixed-frequency Bayesian Additive Regression Trees [[mf-bavart](https://github.com/mpfarrho/mf-bavart)]
+* Nonparametric quantile regression [[qf-bart](https://github.com/mpfarrho/qf-bart)]
+* Gaussian Process MIDAS models [[gp-midas](https://github.com/mpfarrho/gp-midas)] _to be uploaded upon publication of the corresponding paper_
 
 ## Collection of real-time data sets
 * United States, [Real-Time Data Set for Macroeconomists](https://www.philadelphiafed.org/surveys-and-data/real-time-data-research/real-time-data-set-for-macroeconomists)
