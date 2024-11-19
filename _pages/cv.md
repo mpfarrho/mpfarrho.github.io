@@ -17,9 +17,6 @@ Michael Pfarrhofer, born on June 1, 1993 in Linz [[PDF of CV](https://www.dropbo
 * _Professor of Macroeconomics_, Department of Economics at University of Vienna, 09/2022–08/2023
 * _Visiting researcher_, Department of Economics at Bocconi University, 03/2022–08/2022
 * _Post-doc researcher_, Department of Economics at University of Salzburg, 10/2019–08/2022
-* _Research scholar_, scientific consultancy, International Institute for Applied Systems Analysis (IIASA), 11/2020–10/2021
-* _Senior scientist_, Salzburg Centre of European Union Studies (SCEUS) at University of Salzburg, 11/2018–09/2019
-* _Research associate_, Institute for Macroeconomics at WU Vienna, 02/2018–09/2019
 
 ## Education
 * _Venia docendi in Economics_ at University of Salzburg (01/2023), habilitation "Structural and predictive inference with parametric and nonparametric models in economics"
