@@ -11,7 +11,7 @@ redirect_from:
 
 Michael Pfarrhofer, born on June 1, 1993 in Linz [[PDF of CV](https://www.dropbox.com/s/2xgz0ge1h4enc6i/cv.pdf?dl=0)]
 
-## Academic positions and professional experience
+## Employment and professional experience
 * _Assistant Professor_, Department of Economics at WU Vienna, 09/2023–
 * _Expert_, European Commission "Macro Modelling and Nowcast Pool," JRC Ispra, 12/2020–
 * _Professor of Macroeconomics_, Department of Economics at University of Vienna, 09/2022–08/2023
