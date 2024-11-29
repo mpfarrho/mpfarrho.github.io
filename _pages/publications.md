@@ -37,7 +37,7 @@ You can also find my research on <a href="https://scholar.google.at/citations?us
 
 ## Book chapters
 * "Factor Augmented Vector Autoregressions, Panel VARs, and Global VARs," with Feldkircher and Huber, for _Macroeconomic Forecasting in the Era of Big Data_, edited by Fuleky, ch. **3**, 2020. [[Chapter](https://link.springer.com/chapter/10.1007/978-3-030-31150-6_3)]
-* "Bayesian nonparametric methods for macroeconomic forecasting" with Marcellino, for _Handbook of Research Methods and Applications in Macroeconomic Forecasting_, edited by Clements and Galvao, ch. **5**, 2024. [[Book](https://www.e-elgar.com/shop/gbp/handbook-of-research-methods-and-applications-in-macroeconomic-forecasting-9781035310043.html)]
+* "Bayesian nonparametric methods for macroeconomic forecasting" with Marcellino, for _Handbook of Research Methods and Applications in Macroeconomic Forecasting_, edited by Clements and Galvao, ch. **5**, 2024. [[Chapter](https://doi.org/10.4337/9781035310050.00009)]
 
 ## Working papers 
 * "The international effects of central bank information shocks," with Stelzer, R&R _Macroeconomic Dynamics_. [[WP](https://arxiv.org/abs/1912.03158)]
