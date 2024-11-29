@@ -56,7 +56,8 @@ project member N. Hauzenberger co-authored this paper with F. Huber, G. Koop and
 
 ## Presentations of project-related papers and materials
 * Presentation of _Nowcasting with mixed frequency data using Gaussian processes_ at IAAE Annual Conference 2024 in Rethymno, IHS Research Seminar and OeNB Freitagsseminar  by M. Pfarrhofer
-* Presentation of _Bayesian nonparametric methods for macroeconomic forecasting_ at [12th ECB Conference on Forecasting Techniques](https://www.ecb.europa.eu/press/conferences/html/20230612_12th_conference_on_forecasting_techniques.en.html) by co-author M. Marcellino
+* Presentation of _Nowcasting with mixed frequency data using Gaussian processes_ at the [Macroeconomic Modelling Frontiers for Research and Policy in Central Banks](https://www.ecb.europa.eu/press/conferences/html/20241127_macroeconomic_modelling.en.html) conference by the European Central Bank by co-author A. Stelzer
+* Presentation of _Bayesian nonparametric methods for macroeconomic forecasting_ at the [12th ECB Conference on Forecasting Techniques](https://www.ecb.europa.eu/press/conferences/html/20230612_12th_conference_on_forecasting_techniques.en.html) by co-author M. Marcellino
 
 # Other materials
 ## Noteworthy achievements by project members
