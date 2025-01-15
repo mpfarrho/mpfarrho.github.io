@@ -40,8 +40,8 @@ You can also find my research on <a href="https://scholar.google.at/citations?us
 * "Bayesian nonparametric methods for macroeconomic forecasting" with Marcellino, for _Handbook of Research Methods and Applications in Macroeconomic Forecasting_, edited by Clements and Galvao, ch. **5**, 2024. [[Chapter](https://doi.org/10.4337/9781035310050.00009)]
 
 ## Working papers 
-* "High-frequency and heteroskedasticity identification in multicountry models: Revisiting spillovers of monetary shocks," with Stelzer, R&R _Macroeconomic Dynamics_. [[WP](https://arxiv.org/abs/1912.03158)]
-* "Nowcasting economic activity in European regions using a mixed-frequency dynamic factor model," with Barbaglia, Frattarolo, Hauzenberger, Hirschbühl, Huber, Onorante and Tiozzo Pezzoli. [[WP](https://arxiv.org/abs/2401.10054)]
+* "High-frequency and heteroskedasticity identification in multicountry models: Revisiting spillovers of monetary shocks," with Stelzer, R&R. [[WP](https://arxiv.org/abs/1912.03158)]
+* "Nowcasting economic activity in European regions using a mixed-frequency dynamic factor model," with Barbaglia, Frattarolo, Hauzenberger, Hirschbühl, Huber, Onorante and Tiozzo Pezzoli, R&R. [[WP](https://arxiv.org/abs/2401.10054)]
 * "Nowcasting with mixed frequency data using Gaussian processes," with Hauzenberger, Marcellino and Stelzer. [[WP](https://arxiv.org/abs/2402.10574)]
 * "Asymmetries in International Financial Spillovers," with Huber, Klieber, Marcellino and Onorante. [[WP](https://arxiv.org/abs/2410.16214)]
 * "General Seemingly Unrelated Local Projections" with Huber and Matthes. [[WP](http://arxiv.org/abs/2410.17105)]
