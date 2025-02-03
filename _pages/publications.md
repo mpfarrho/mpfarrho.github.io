@@ -8,7 +8,7 @@ author_profile: true
 You can also find my research on <a href="https://scholar.google.at/citations?user=ymlNJ_UAAAAJ&hl=en">Google Scholar</a> and most past/present working papers are listed in my <a href="https://arxiv.org/a/pfarrhofer_m_1.html">arXiv</a> profile.
 
 ## Forthcoming
-* "Belief shocks and implications of expectations about growth-at-risk" with Böck, forthcoming _Journal of Applied Econometrics_.
+* "Belief shocks and implications of expectations about growth-at-risk" with Böck, forthcoming _Journal of Applied Econometrics_. [[DOI](https://doi.org/10.1002/jae.3117)]
 * "Introducing shrinkage in heavy-tailed state space models to predict equity excess returns," with Huber and Kastner, forthcoming in _Empirical Economics_. [[DOI](https://doi.org/10.1007/s00181-023-02437-3)/[WP](https://arxiv.org/abs/1805.12217)]
 
 ## Published
