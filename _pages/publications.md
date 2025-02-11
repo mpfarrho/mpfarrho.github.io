@@ -45,6 +45,7 @@ You can also find my research on <a href="https://scholar.google.at/citations?us
 * "Nowcasting with mixed frequency data using Gaussian processes," with Hauzenberger, Marcellino and Stelzer. [[WP](https://arxiv.org/abs/2402.10574)]
 * "Asymmetries in International Financial Spillovers," with Huber, Klieber, Marcellino and Onorante. [[WP](https://arxiv.org/abs/2410.16214)]
 * "General Seemingly Unrelated Local Projections" with Huber and Matthes. [[WP](http://arxiv.org/abs/2410.17105)]
+* "Interpretable Bayesian machine learning for assessing the effects of climate news shocks on firm-level returns," with Barbaglia, Frattarolo, Hauzenberger, Hirschbühl, Huber, Onorante and Tiozzo Pezzoli. [[WP](http://ssrn.com/abstract=5133162)]
 
 ## Other papers
 * "Implications of macroeconomic volatility in the Euro area," with Hauzenberger, Böck, Stelzer, and Zens, 2018. [[ESRB-WP](https://www.esrb.europa.eu/pub/pdf/wp/esrb.wp80.en.pdf?3d22daf2cf5665f0c8314cca792924a1)]
