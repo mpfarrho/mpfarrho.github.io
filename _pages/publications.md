@@ -18,7 +18,7 @@ You can also find my research on <a href="https://scholar.google.at/citations?us
 * "Scenario analysis with multivariate Bayesian machine learning models," with Stelzer [[WP](https://arxiv.org/abs/2502.08440)]
 
 ## Published
-* "Belief shocks and implications of expectations about growth-at-risk" with Böck, forthcoming _Journal of Applied Econometrics_ [[DOI](https://doi.org/10.1002/jae.3117)]
+* "Belief Shocks and Implications of Expectations About Growth-at-Risk" with Böck, forthcoming _Journal of Applied Econometrics_ [[DOI](https://doi.org/10.1002/jae.3117)]
 * "Introducing shrinkage in heavy-tailed state space models to predict equity excess returns," with Huber and Kastner, _Empirical Economics_ **68**, 535-553, 2025 [[DOI](https://doi.org/10.1007/s00181-023-02437-3)/[WP](https://arxiv.org/abs/1805.12217)]
 * "Sparse time-varying parameter VECMs with an application to modeling electricity prices," with Hauzenberger and Rossini, _International Journal of Forecasting_ **41**(1), 361-376, 2025 [[DOI](https://doi.org/10.1016/j.ijforecast.2024.09.001)/[WP](https://arxiv.org/abs/2011.04577)/[Code](https://github.com/nhauzenb/tvpvecm)]
 * "Investigating growth-at-risk using a multicountry nonparametric quantile factor model," with Clark, Huber, Koop, and Marcellino, _Journal of Business & Economic Statistics_ **42**(4), 1302-1317, 2024 [[DOI](https://doi.org/10.1080/07350015.2024.2310020)/[WP](https://arxiv.org/abs/2110.03411)/[Code](https://github.com/mpfarrho/qf-bart)]
