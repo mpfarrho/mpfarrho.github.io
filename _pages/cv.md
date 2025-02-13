@@ -35,9 +35,9 @@ Michael Pfarrhofer, born on June 1, 1993 in Linz [[PDF of CV](https://www.dropbo
 * Klaus Liebscher Economic Research Scholarship 2020 ([KLERS](https://www.oenb.at/en/About-Us/Research-Promotion/scholarships_and_awards/klaus_liebscher_economic_research_scholarship.html)), awarded by the Oesterreichische Nationalbank (OeNB), 05/2021–10/2021
 
 ## Teaching and other activities
-* _Current/planned teaching_: Advanced Macroeconometrics (WU Vienna, 2024, MSc Science), Macroeconometrics (WU Vienna, twice 2024, MSc Applied), Econometrics II (WU Vienna, 2024/25, BSc)
-* _Undergraduate_: Macroeconomics (University of Salzburg, 2018/19, 2019/20), Macroeconomics (University of Vienna, 2022/23), Macroeconomics (WU Vienna, 2023/24)
-* _Graduate_: Macroeconometrics I (University of Salzburg, 2020), Advanced Macroeconometrics (WU Vienna, 2019), Methods in Economics (University of Salzburg, 2019/20, 2020/21), Macroeconometrics: Structural and predictive inference (University of Salzburg, 2021), Foundational Econometrics (University of Vienna, 2022/23), Introduction to Bayesian Econometrics (Univie, 2022/23), Macroeconometrics (University of Vienna, 2023), Advanced Topics in Macroeconometrics (University of Vienna, 2023)
-* _Other_: Analysis of the performance of students (University of Salzburg, 2019), Rethinking Economics: "Predictive inference and forecast evaluation metrics" (University of Tübingen, 2022), Sommeradakademie (Talente OÖ, for high-potential students in high school, 2022, guest talk on crises, central banking and financial markets)
+* _Current/planned teaching_: Advanced Macroeconometrics (WU), Macroeconometrics (WU)
+* _Undergraduate_: Macroeconomics (U Salzburg), Macroeconomics (U Vienna), Macroeconomics (WU), Econometrics II (WU)
+* _Graduate_: Macroeconometrics I (U Salzburg), Advanced Macroeconometrics (WU), Methods in Economics (U Salzburg), Macroeconometrics: Structural and predictive inference (U Salzburg), Foundational Econometrics (U Vienna), Introduction to Bayesian Econometrics (U Vienna), Macroeconometrics (U Vienna), Advanced Topics in Macroeconometrics (U Vienna)
+* _Other_: Analysis of the performance of students (U Salzburg), Rethinking Economics: "Predictive inference and forecast evaluation metrics" (U Tübingen, 2022), Sommeradakademie (Talente OÖ for students in high school 2022)
 
 Personally I am a fan of rock & roll and heavy metal, barbecuing, cycling/running, and I usually watch Formula 1 and/or MotoGP races on Sunday afternoon.
