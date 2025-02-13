@@ -56,10 +56,6 @@ You can also find my research on <a href="https://scholar.google.at/citations?us
 * Jubiläumsfonds der Oesterreichischen Nationalbank (OeNB): "Between fostering and limiting central bank independence: The impact of constitutional courts decisions," (co-PI, principal investigator: Florian Huber), total funding EUR 118,000.00, 2020-2022
 * Jubiläumsfonds der Oesterreichischen Nationalbank (OeNB): "Inference with Bayesian nonparametric models in the presence of measurement errors and outliers," (PI), total funding EUR 168,000.00, [project 18765 website](https://mpfarrho.github.io/project18765), 2022-24
 
-# Conferences and presentations
-* _2025_: 11th International Congress of Econometrics and Empirical Economics (ICEEE, Palermo), Economics Research Seminar (JKU Linz)
-* See [[PDF of CV](https://www.dropbox.com/s/2xgz0ge1h4enc6i/cv.pdf?dl=0)] for a full list
-
 # Policy briefings and media
 * Was genau ist eigentlich eine Rezession?/What is a recession? December 2023. [[Die Presse](https://www.diepresse.com/17912518/was-genau-ist-eigentlich-eine-rezession) (german)]
 * Wie hoch sind die Inflationsrisiken wirklich?/Inflation and inflation risks, January 2022. [[Die Presse](https://www.diepresse.com/6091216/wie-hoch-sind-die-inflationsrisiken-wirklich) (german)]
@@ -67,3 +63,7 @@ You can also find my research on <a href="https://scholar.google.at/citations?us
 * Makroökonomische Entwicklungen unter Unsicherheit/Macroeconomic dynamics in times of uncertainty, October 2019. [[Der Standard](https://www.derstandard.at/story/2000109264301/makrooekonomische-entwicklungen-unter-unsicherheit) (german)]
 * Zur Treffsicherheit von Notenbank-Prognosen nach der Finanzkrise/On the accuracy of central bank forecasts after the financial crisis, with Huber, August 2019. [[Die Presse](https://www.diepresse.com/5668295/zur-treffsicherheit-von-notenbank-prognosen-nach-der-finanzkrise) (german)]
 * Brexit – Folgen für Österreich und die EU/The impact of Brexit on the economies of selected euro area member states, with Griller, Huber and Puntscher-Riekmann, February 2019. [Blog featured in [ORF](https://orf.at/stories/3111231/), [der Standard](https://www.derstandard.at/story/2000097900545/forscher-warnen-vor-schwerwiegenden-folgen-eines-brexit), [die Presse](https://www.diepresse.com/5580178/brexit-studie-verflochtene-wirtschaft-reagiert-sensibel)]
+
+# Conferences and presentations
+* _2025_: 11th International Congress of Econometrics and Empirical Economics (ICEEE, Palermo), Economics Research Seminar (JKU Linz)
+* See [[PDF of CV](https://www.dropbox.com/s/2xgz0ge1h4enc6i/cv.pdf?dl=0)] for a full list
