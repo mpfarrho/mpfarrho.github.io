@@ -44,24 +44,24 @@ You can also find my research on <a href="https://scholar.google.at/citations?us
 * "Flexible shrinkage in high-dimensional Bayesian spatial autoregressive models," with Piribauer, _Spatial Statistics_ **29**, 109–128, 2019 [[DOI](https://doi.org/10.1016/j.spasta.2018.10.004)/[WP](https://arxiv.org/abs/1805.10822)]
 
 ## Book chapters
-* "Factor Augmented Vector Autoregressions, Panel VARs, and Global VARs," with Feldkircher and Huber, for _Macroeconomic Forecasting in the Era of Big Data_, edited by Fuleky, ch. **3**, 2020. [[Chapter](https://link.springer.com/chapter/10.1007/978-3-030-31150-6_3)]
-* "Bayesian nonparametric methods for macroeconomic forecasting" with Marcellino, for _Handbook of Research Methods and Applications in Macroeconomic Forecasting_, edited by Clements and Galvao, ch. **5**, 2024. [[Chapter](https://doi.org/10.4337/9781035310050.00009)]
+* "Factor Augmented Vector Autoregressions, Panel VARs, and Global VARs," with Feldkircher and Huber, for _Macroeconomic Forecasting in the Era of Big Data_, edited by Fuleky, ch. **3**, 2020 [[Chapter](https://link.springer.com/chapter/10.1007/978-3-030-31150-6_3)]
+* "Bayesian nonparametric methods for macroeconomic forecasting" with Marcellino, for _Handbook of Research Methods and Applications in Macroeconomic Forecasting_, edited by Clements and Galvao, ch. **5**, 2024 [[Chapter](https://doi.org/10.4337/9781035310050.00009)]
 
 ## Other papers
-* "Implications of macroeconomic volatility in the Euro area," with Hauzenberger, Böck, Stelzer, and Zens, 2018. [[ESRB-WP](https://www.esrb.europa.eu/pub/pdf/wp/esrb.wp80.en.pdf?3d22daf2cf5665f0c8314cca792924a1)]
-* "Bayesian inference in high-dimensional time-varying parameter models using integrated rotated Gaussian approximations," with Huber and Koop. [[WP](https://arxiv.org/abs/2002.10274)]
+* "Implications of macroeconomic volatility in the Euro area," with Hauzenberger, Böck, Stelzer, and Zens, 2018 [[ESRB-WP](https://www.esrb.europa.eu/pub/pdf/wp/esrb.wp80.en.pdf?3d22daf2cf5665f0c8314cca792924a1)]
+* "Bayesian inference in high-dimensional time-varying parameter models using integrated rotated Gaussian approximations," with Huber and Koop [[WP](https://arxiv.org/abs/2002.10274)]
 
 # Research grants
 * Jubiläumsfonds der Oesterreichischen Nationalbank (OeNB): "Between fostering and limiting central bank independence: The impact of constitutional courts decisions," (co-PI, principal investigator: Florian Huber), total funding EUR 118,000.00, 2020-2022
 * Jubiläumsfonds der Oesterreichischen Nationalbank (OeNB): "Inference with Bayesian nonparametric models in the presence of measurement errors and outliers," (PI), total funding EUR 168,000.00, [project 18765 website](https://mpfarrho.github.io/project18765), 2022-24
 
 # Policy briefings and media
-* Was genau ist eigentlich eine Rezession?/What is a recession? December 2023. [[Die Presse](https://www.diepresse.com/17912518/was-genau-ist-eigentlich-eine-rezession) (german)]
-* Wie hoch sind die Inflationsrisiken wirklich?/Inflation and inflation risks, January 2022. [[Die Presse](https://www.diepresse.com/6091216/wie-hoch-sind-die-inflationsrisiken-wirklich) (german)]
-* Wie sich ein zweiter Lockdown auf Österreichs Wirtschaft auswirken würde/How a second lockdown would affect the Austrian economy, with Hauzenberger, August 2020. [[Die Presse](https://www.diepresse.com/5847063/wie-sich-ein-zweiter-lockdown-auf-oesterreichs-wirtschaft-auswirken-wuerde) (german)]
-* Makroökonomische Entwicklungen unter Unsicherheit/Macroeconomic dynamics in times of uncertainty, October 2019. [[Der Standard](https://www.derstandard.at/story/2000109264301/makrooekonomische-entwicklungen-unter-unsicherheit) (german)]
-* Zur Treffsicherheit von Notenbank-Prognosen nach der Finanzkrise/On the accuracy of central bank forecasts after the financial crisis, with Huber, August 2019. [[Die Presse](https://www.diepresse.com/5668295/zur-treffsicherheit-von-notenbank-prognosen-nach-der-finanzkrise) (german)]
-* Brexit – Folgen für Österreich und die EU/The impact of Brexit on the economies of selected euro area member states, with Griller, Huber and Puntscher-Riekmann, February 2019. [Blog featured in [ORF](https://orf.at/stories/3111231/), [der Standard](https://www.derstandard.at/story/2000097900545/forscher-warnen-vor-schwerwiegenden-folgen-eines-brexit), [die Presse](https://www.diepresse.com/5580178/brexit-studie-verflochtene-wirtschaft-reagiert-sensibel)]
+* Was genau ist eigentlich eine Rezession?/What is a recession? 12/2023 [[Die Presse](https://www.diepresse.com/17912518/was-genau-ist-eigentlich-eine-rezession) (german)]
+* Wie hoch sind die Inflationsrisiken wirklich?/Inflation and inflation risks, 01/2022 [[Die Presse](https://www.diepresse.com/6091216/wie-hoch-sind-die-inflationsrisiken-wirklich) (german)]
+* Wie sich ein zweiter Lockdown auf Österreichs Wirtschaft auswirken würde/How a second lockdown would affect the Austrian economy, with Hauzenberger, 08/2020 [[Die Presse](https://www.diepresse.com/5847063/wie-sich-ein-zweiter-lockdown-auf-oesterreichs-wirtschaft-auswirken-wuerde) (german)]
+* Makroökonomische Entwicklungen unter Unsicherheit/Macroeconomic dynamics in times of uncertainty, 10/2019 [[Der Standard](https://www.derstandard.at/story/2000109264301/makrooekonomische-entwicklungen-unter-unsicherheit) (german)]
+* Zur Treffsicherheit von Notenbank-Prognosen nach der Finanzkrise/On the accuracy of central bank forecasts after the financial crisis, with Huber, 08/2019 [[Die Presse](https://www.diepresse.com/5668295/zur-treffsicherheit-von-notenbank-prognosen-nach-der-finanzkrise) (german)]
+* Brexit – Folgen für Österreich und die EU/The impact of Brexit on the economies of selected euro area member states, with Griller, Huber and Puntscher-Riekmann, 02/2019 [Blog featured in [ORF](https://orf.at/stories/3111231/), [der Standard](https://www.derstandard.at/story/2000097900545/forscher-warnen-vor-schwerwiegenden-folgen-eines-brexit), [die Presse](https://www.diepresse.com/5580178/brexit-studie-verflochtene-wirtschaft-reagiert-sensibel)]
 
 # Conferences and presentations
 * _2025_: 11th International Congress of Econometrics and Empirical Economics (ICEEE, Palermo), Economics Research Seminar (JKU Linz)
