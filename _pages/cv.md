@@ -35,7 +35,7 @@ Michael Pfarrhofer, born on June 1, 1993 in Linz [[PDF of CV](https://www.dropbo
 * Klaus Liebscher Economic Research Scholarship 2020 ([KLERS](https://www.oenb.at/en/About-Us/Research-Promotion/scholarships_and_awards/klaus_liebscher_economic_research_scholarship.html)), awarded by the Oesterreichische Nationalbank (OeNB), 05/2021–10/2021
 
 ## Teaching and other activities
-* _Current/planned teaching_: Advanced Macroeconometrics (WU), Macroeconometrics (WU)
+* _Current/planned teaching_: Advanced Macroeconometrics (WU), Macroeconometrics (WU), Economic Modeling (WU)
 * _Undergraduate_: Macroeconomics (U Salzburg), Macroeconomics (U Vienna), Macroeconomics (WU), Econometrics II (WU)
 * _Graduate_: Macroeconometrics I (U Salzburg), Advanced Macroeconometrics (WU), Methods in Economics (U Salzburg), Macroeconometrics: Structural and predictive inference (U Salzburg), Foundational Econometrics (U Vienna), Introduction to Bayesian Econometrics (U Vienna), Macroeconometrics (U Vienna), Advanced Topics in Macroeconometrics (U Vienna)
 * _Other_: Analysis of the performance of students (U Salzburg), Rethinking Economics: "Predictive inference and forecast evaluation metrics" (U Tübingen, 2022), Sommeradakademie (Talente OÖ for students in high school 2022)
