@@ -7,6 +7,15 @@ author_profile: true
 
 You can also find my research on <a href="https://scholar.google.at/citations?user=ymlNJ_UAAAAJ&hl=en">Google Scholar</a> and most past/present working papers are listed in my <a href="https://arxiv.org/a/pfarrhofer_m_1.html">arXiv</a> profile.
 
+## Working papers 
+* "High-frequency and heteroskedasticity identification in multicountry models: Revisiting spillovers of monetary shocks," with Stelzer, R&R. [[WP](https://arxiv.org/abs/1912.03158)]
+* "Nowcasting economic activity in European regions using a mixed-frequency dynamic factor model," with Barbaglia, Frattarolo, Hauzenberger, Hirschbühl, Huber, Onorante and Tiozzo Pezzoli, R&R. [[WP](https://arxiv.org/abs/2401.10054)]
+* "Nowcasting with mixed frequency data using Gaussian processes," with Hauzenberger, Marcellino and Stelzer. [[WP](https://arxiv.org/abs/2402.10574)]
+* "Asymmetries in International Financial Spillovers," with Huber, Klieber, Marcellino and Onorante. [[WP](https://arxiv.org/abs/2410.16214)]
+* "General Seemingly Unrelated Local Projections" with Huber and Matthes. [[WP](http://arxiv.org/abs/2410.17105)]
+* "Interpretable Bayesian machine learning for assessing the effects of climate news shocks on firm-level returns," with Barbaglia, Frattarolo, Hauzenberger, Hirschbühl, Huber, Onorante and Tiozzo Pezzoli. [[WP](http://ssrn.com/abstract=5133162)]
+* "Scenario analysis with multivariate Bayesian machine learning models," with Stelzer. [[WP](https://arxiv.org/abs/2502.08440)]
+
 ## Forthcoming
 * "Belief shocks and implications of expectations about growth-at-risk" with Böck, forthcoming _Journal of Applied Econometrics_. [[DOI](https://doi.org/10.1002/jae.3117)]
 
@@ -38,15 +47,6 @@ You can also find my research on <a href="https://scholar.google.at/citations?us
 ## Book chapters
 * "Factor Augmented Vector Autoregressions, Panel VARs, and Global VARs," with Feldkircher and Huber, for _Macroeconomic Forecasting in the Era of Big Data_, edited by Fuleky, ch. **3**, 2020. [[Chapter](https://link.springer.com/chapter/10.1007/978-3-030-31150-6_3)]
 * "Bayesian nonparametric methods for macroeconomic forecasting" with Marcellino, for _Handbook of Research Methods and Applications in Macroeconomic Forecasting_, edited by Clements and Galvao, ch. **5**, 2024. [[Chapter](https://doi.org/10.4337/9781035310050.00009)]
-
-## Working papers 
-* "High-frequency and heteroskedasticity identification in multicountry models: Revisiting spillovers of monetary shocks," with Stelzer, R&R. [[WP](https://arxiv.org/abs/1912.03158)]
-* "Nowcasting economic activity in European regions using a mixed-frequency dynamic factor model," with Barbaglia, Frattarolo, Hauzenberger, Hirschbühl, Huber, Onorante and Tiozzo Pezzoli, R&R. [[WP](https://arxiv.org/abs/2401.10054)]
-* "Nowcasting with mixed frequency data using Gaussian processes," with Hauzenberger, Marcellino and Stelzer. [[WP](https://arxiv.org/abs/2402.10574)]
-* "Asymmetries in International Financial Spillovers," with Huber, Klieber, Marcellino and Onorante. [[WP](https://arxiv.org/abs/2410.16214)]
-* "General Seemingly Unrelated Local Projections" with Huber and Matthes. [[WP](http://arxiv.org/abs/2410.17105)]
-* "Interpretable Bayesian machine learning for assessing the effects of climate news shocks on firm-level returns," with Barbaglia, Frattarolo, Hauzenberger, Hirschbühl, Huber, Onorante and Tiozzo Pezzoli. [[WP](http://ssrn.com/abstract=5133162)]
-* "Scenario analysis with multivariate Bayesian machine learning models," with Stelzer. [[WP](https://arxiv.org/abs/2502.08440)]
 
 ## Other papers
 * "Implications of macroeconomic volatility in the Euro area," with Hauzenberger, Böck, Stelzer, and Zens, 2018. [[ESRB-WP](https://www.esrb.europa.eu/pub/pdf/wp/esrb.wp80.en.pdf?3d22daf2cf5665f0c8314cca792924a1)]
