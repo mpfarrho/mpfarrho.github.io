@@ -10,16 +10,15 @@ You can also find my research on <a href="https://scholar.google.at/citations?us
 ## Working papers 
 * "High-frequency and heteroskedasticity identification in multicountry models: Revisiting spillovers of monetary shocks," with Stelzer, R&R. [[WP](https://arxiv.org/abs/1912.03158)]
 * "Nowcasting economic activity in European regions using a mixed-frequency dynamic factor model," with Barbaglia, Frattarolo, Hauzenberger, Hirschbühl, Huber, Onorante and Tiozzo Pezzoli, R&R. [[WP](https://arxiv.org/abs/2401.10054)]
+* "Predicting Tail-Risks for the Italian Economy," with Böck, Marcellino, Tornese, R&R
 * "Nowcasting with mixed frequency data using Gaussian processes," with Hauzenberger, Marcellino and Stelzer. [[WP](https://arxiv.org/abs/2402.10574)]
 * "Asymmetries in International Financial Spillovers," with Huber, Klieber, Marcellino and Onorante. [[WP](https://arxiv.org/abs/2410.16214)]
 * "General Seemingly Unrelated Local Projections" with Huber and Matthes. [[WP](http://arxiv.org/abs/2410.17105)]
 * "Interpretable Bayesian machine learning for assessing the effects of climate news shocks on firm-level returns," with Barbaglia, Frattarolo, Hauzenberger, Hirschbühl, Huber, Onorante and Tiozzo Pezzoli. [[WP](http://ssrn.com/abstract=5133162)]
 * "Scenario analysis with multivariate Bayesian machine learning models," with Stelzer. [[WP](https://arxiv.org/abs/2502.08440)]
 
-## Forthcoming
-* "Belief shocks and implications of expectations about growth-at-risk" with Böck, forthcoming _Journal of Applied Econometrics_. [[DOI](https://doi.org/10.1002/jae.3117)]
-
 ## Published
+* "Belief shocks and implications of expectations about growth-at-risk" with Böck, forthcoming _Journal of Applied Econometrics_. [[DOI](https://doi.org/10.1002/jae.3117)]
 * "Introducing shrinkage in heavy-tailed state space models to predict equity excess returns," with Huber and Kastner, _Empirical Economics_ **68**, 535-553, 2025. [[DOI](https://doi.org/10.1007/s00181-023-02437-3)/[WP](https://arxiv.org/abs/1805.12217)]
 * "Sparse time-varying parameter VECMs with an application to modeling electricity prices," with Hauzenberger and Rossini, _International Journal of Forecasting_ **41**(1), 361-376, 2025. [[DOI](https://doi.org/10.1016/j.ijforecast.2024.09.001)/[WP](https://arxiv.org/abs/2011.04577)/[Code](https://github.com/nhauzenb/tvpvecm)]
 * "Investigating growth-at-risk using a multicountry nonparametric quantile factor model," with Clark, Huber, Koop, and Marcellino, _Journal of Business & Economic Statistics_ **42**(4), 1302-1317, 2024. [[DOI](https://doi.org/10.1080/07350015.2024.2310020)/[WP](https://arxiv.org/abs/2110.03411)/[Code](https://github.com/mpfarrho/qf-bart)]
