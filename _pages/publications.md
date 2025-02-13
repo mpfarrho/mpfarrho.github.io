@@ -8,13 +8,13 @@ author_profile: true
 You can also find my research on <a href="https://scholar.google.at/citations?user=ymlNJ_UAAAAJ&hl=en">Google Scholar</a> and most past/present working papers are listed in my <a href="https://arxiv.org/a/pfarrhofer_m_1.html">arXiv</a> profile.
 
 ## Working papers 
+* "Scenario analysis with multivariate Bayesian machine learning models," with Stelzer [[WP](https://arxiv.org/abs/2502.08440)]
+* "Interpretable Bayesian machine learning for assessing the effects of climate news shocks on firm-level returns," with Barbaglia, Frattarolo, Hauzenberger, Hirschbühl, Huber, Onorante and Tiozzo Pezzoli [[WP](http://ssrn.com/abstract=5133162)]
+* "General Seemingly Unrelated Local Projections" with Huber and Matthes [[WP](http://arxiv.org/abs/2410.17105)]
+* "Asymmetries in International Financial Spillovers," with Huber, Klieber, Marcellino and Onorante [[WP](https://arxiv.org/abs/2410.16214)]
+* "Nowcasting with mixed frequency data using Gaussian processes," with Hauzenberger, Marcellino and Stelzer [[WP](https://arxiv.org/abs/2402.10574)]
 * "High-frequency and heteroskedasticity identification in multicountry models: Revisiting spillovers of monetary shocks," with Stelzer, R&R [[WP](https://arxiv.org/abs/1912.03158)]
 * "Nowcasting economic activity in European regions using a mixed-frequency dynamic factor model," with Barbaglia, Frattarolo, Hauzenberger, Hirschbühl, Huber, Onorante and Tiozzo Pezzoli, R&R [[WP](https://arxiv.org/abs/2401.10054)]
-* "Nowcasting with mixed frequency data using Gaussian processes," with Hauzenberger, Marcellino and Stelzer [[WP](https://arxiv.org/abs/2402.10574)]
-* "Asymmetries in International Financial Spillovers," with Huber, Klieber, Marcellino and Onorante [[WP](https://arxiv.org/abs/2410.16214)]
-* "General Seemingly Unrelated Local Projections" with Huber and Matthes [[WP](http://arxiv.org/abs/2410.17105)]
-* "Interpretable Bayesian machine learning for assessing the effects of climate news shocks on firm-level returns," with Barbaglia, Frattarolo, Hauzenberger, Hirschbühl, Huber, Onorante and Tiozzo Pezzoli [[WP](http://ssrn.com/abstract=5133162)]
-* "Scenario analysis with multivariate Bayesian machine learning models," with Stelzer [[WP](https://arxiv.org/abs/2502.08440)]
 
 ## Published
 * "Predicting Tail-Risks for the Italian Economy," with Böck, Marcellino, Tornese, forthcoming _Journal of Business Cycle Research_
