@@ -17,7 +17,7 @@ You can also find my research on <a href="https://scholar.google.at/citations?us
 * "Nowcasting economic activity in European regions using a mixed-frequency dynamic factor model," with Barbaglia, Frattarolo, Hauzenberger, Hirschbühl, Huber, Onorante and Tiozzo Pezzoli, R&R [[WP](https://arxiv.org/abs/2401.10054)]
 
 ## Published
-* "Predicting Tail-Risks for the Italian Economy," with Böck, Marcellino, Tornese, forthcoming _Journal of Business Cycle Research_
+* "Predicting Tail-Risks for the Italian Economy," with Böck, Marcellino, Tornese, forthcoming _Journal of Business Cycle Research_ [[DOI](https://doi.org/10.1007/s41549-025-00106-1)]
 * "Belief Shocks and Implications of Expectations About Growth-at-Risk" with Böck, forthcoming _Journal of Applied Econometrics_ [[DOI](https://doi.org/10.1002/jae.3117)]
 * "Introducing shrinkage in heavy-tailed state space models to predict equity excess returns," with Huber and Kastner, _Empirical Economics_ **68**, 535-553, 2025 [[DOI](https://doi.org/10.1007/s00181-023-02437-3)/[WP](https://arxiv.org/abs/1805.12217)]
 * "Sparse time-varying parameter VECMs with an application to modeling electricity prices," with Hauzenberger and Rossini, _International Journal of Forecasting_ **41**(1), 361-376, 2025 [[DOI](https://doi.org/10.1016/j.ijforecast.2024.09.001)/[WP](https://arxiv.org/abs/2011.04577)/[Code](https://github.com/nhauzenb/tvpvecm)]
