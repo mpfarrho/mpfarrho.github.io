@@ -64,5 +64,5 @@ You can also find my research on <a href="https://scholar.google.at/citations?us
 * Brexit – Folgen für Österreich und die EU/The impact of Brexit on the economies of selected euro area member states, with Griller, Huber and Puntscher-Riekmann, 02/2019 [Blog featured in [ORF](https://orf.at/stories/3111231/), [der Standard](https://www.derstandard.at/story/2000097900545/forscher-warnen-vor-schwerwiegenden-folgen-eines-brexit), [die Presse](https://www.diepresse.com/5580178/brexit-studie-verflochtene-wirtschaft-reagiert-sensibel)]
 
 # Conferences and presentations
-* _2025_: 11th International Congress of Econometrics and Empirical Economics (ICEEE, Palermo), Economics Research Seminar (JKU Linz)
+* _2025_: Economics Research Seminar (JKU Linz)
 * See [[PDF of CV](https://www.dropbox.com/s/2xgz0ge1h4enc6i/cv.pdf?dl=0)] for a full list
