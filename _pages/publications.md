@@ -8,6 +8,7 @@ author_profile: true
 You can also find my research on <a href="https://scholar.google.at/citations?user=ymlNJ_UAAAAJ&hl=en">Google Scholar</a> and most past/present working papers are listed in my <a href="https://arxiv.org/a/pfarrhofer_m_1.html">arXiv</a> profile.
 
 ## Working papers 
+* "Large Bayesian VARs for Binary and Censored Variables," with Chan
 * "Scenario analysis with multivariate Bayesian machine learning models," with Stelzer [[WP](https://arxiv.org/abs/2502.08440)]
 * "Interpretable Bayesian machine learning for assessing the effects of climate news shocks on firm-level returns," with Barbaglia, Frattarolo, Hauzenberger, Hirschbühl, Huber, Onorante and Tiozzo Pezzoli [[WP](http://ssrn.com/abstract=5133162)]
 * "General Seemingly Unrelated Local Projections" with Huber and Matthes [[WP](http://arxiv.org/abs/2410.17105)]
