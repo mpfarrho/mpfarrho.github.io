@@ -40,4 +40,4 @@ Michael Pfarrhofer, born on June 1, 1993 in Linz [[PDF of CV](https://www.dropbo
 * _Graduate_: Macroeconometrics I (U Salzburg), Advanced Macroeconometrics (WU), Methods in Economics (U Salzburg), Macroeconometrics: Structural and predictive inference (U Salzburg), Foundational Econometrics (U Vienna), Introduction to Bayesian Econometrics (U Vienna), Macroeconometrics (U Vienna), Advanced Topics in Macroeconometrics (U Vienna)
 * _Other_: Analysis of the performance of students (U Salzburg), Rethinking Economics: "Predictive inference and forecast evaluation metrics" (U Tübingen, 2022), Sommeradakademie (Talente OÖ for students in high school 2022)
 
-I like rock & roll and heavy metal, barbecuing, cycling/running, and I usually watch F1 and/or MotoGP races on Sunday afternoon.
+My favorite things include rock & roll and heavy metal, cycling, barbecuing and motor racing.
