@@ -17,7 +17,7 @@ You can also find my research on <a href="https://scholar.google.at/citations?us
 * "Nowcasting economic activity in European regions using a mixed-frequency dynamic factor model," with L. Barbaglia, L. Frattarolo, N. Hauzenberger, D. Hirschbühl, F. Huber, L. Onorante and L. Tiozzo Pezzoli, R&R [[WP](https://arxiv.org/abs/2401.10054)]
 
 ## Published
-* "High-frequency and heteroskedasticity identification in multicountry models: Revisiting spillovers of monetary shocks," with A. Stelzer, forthcoming _Macroeconomic Dynamics_ [[DOI](https://arxiv.org/abs/1912.03158)/[WP](https://arxiv.org/abs/1912.03158)]
+* "High-frequency and heteroskedasticity identification in multicountry models: Revisiting spillovers of monetary shocks," with A. Stelzer, forthcoming _Macroeconomic Dynamics_ [[DOI](https://doi.org/10.1017/S136510052510031X)/[WP](https://arxiv.org/abs/1912.03158)]
 * "Nonparametric Mixed Frequency Monitoring Macro-at-Risk," with M. Marcellino, _Economics Letters_ **255** 112498, 2025 [[DOI](https://doi.org/10.1016/j.econlet.2025.112498)]
 * "Belief Shocks and Implications of Expectations About Growth-at-Risk" with M. Böck, _Journal of Applied Econometrics_ **40**(3) 341-348, 2025 [[DOI](https://doi.org/10.1002/jae.3117)]
 * "Introducing shrinkage in heavy-tailed state space models to predict equity excess returns," with F. Huber and G. Kastner, _Empirical Economics_ **68**, 535-553, 2025 [[DOI](https://doi.org/10.1007/s00181-023-02437-3)/[WP](https://arxiv.org/abs/1805.12217)]
