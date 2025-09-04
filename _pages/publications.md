@@ -58,6 +58,7 @@ You can also find my research on <a href="https://scholar.google.at/citations?us
 * Jubiläumsfonds der Oesterreichischen Nationalbank (OeNB): "Inference with Bayesian nonparametric models in the presence of measurement errors and outliers," (PI), total funding EUR 168,000.00, [project 18765 website](https://mpfarrho.github.io/project18765), 2022-24
 
 # Policy briefings and media
+* Monetary policy under economic uncertainty: Evidence from the Euro Area, with Hauzenberger and Stelzer, 09/2025 [[SUERF Policy Brief 1248](https://www.suerf.org/publications/suerf-policy-notes-and-briefs/monetary-policy-under-economic-uncertainty-evidence-from-the-euro-area/)]
 * Was genau ist eigentlich eine Rezession?/What is a recession? 12/2023 [[Die Presse](https://www.diepresse.com/17912518/was-genau-ist-eigentlich-eine-rezession) (german)]
 * Wie hoch sind die Inflationsrisiken wirklich?/Inflation and inflation risks, 01/2022 [[Die Presse](https://www.diepresse.com/6091216/wie-hoch-sind-die-inflationsrisiken-wirklich) (german)]
 * Wie sich ein zweiter Lockdown auf Österreichs Wirtschaft auswirken würde/How a second lockdown would affect the Austrian economy, with Hauzenberger, 08/2020 [[Die Presse](https://www.diepresse.com/5847063/wie-sich-ein-zweiter-lockdown-auf-oesterreichs-wirtschaft-auswirken-wuerde) (german)]
