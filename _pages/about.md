@@ -46,6 +46,3 @@ Michael Pfarrhofer, born on June 1, 1993 in Linz [[PDF of CV](https://www.dropbo
 * _Other_: Analysis of the performance of students (U Salzburg), Rethinking Economics: "Predictive inference and forecast evaluation metrics" (U Tübingen, 2022), Sommeradakademie (Talente OÖ for students in high school 2022)
 
 My favorite things include rock & roll and heavy metal, cycling, barbecuing and motor racing.
-
-## Contact
-Department of Economics, WU Vienna University of Economics and Business, Welthandelsplatz 1, D4, 1020 Vienna
