@@ -8,6 +8,7 @@ author_profile: true
 You can also find my research on <a href="https://scholar.google.at/citations?user=ymlNJ_UAAAAJ&hl=en">Google Scholar</a> and most past/present working papers are listed in my <a href="https://arxiv.org/a/pfarrhofer_m_1.html">arXiv</a> profile.
 
 ## Working papers 
+* "A Bayesian Gaussian Process Dynamic Factor Model," with T. Chernis, N. Hauzenberger and H. Mumtaz [[WP](https://arxiv.org/abs/2509.04928)]
 * "Large Bayesian VARs for Binary and Censored Variables," with J.C.C. Chan [[WP](https://arxiv.org/abs/2506.01422)]
 * "Scenario analysis with multivariate Bayesian machine learning models," with A. Stelzer [[WP](https://arxiv.org/abs/2502.08440)]
 * "Interpretable Bayesian machine learning for assessing the effects of climate news shocks on firm-level returns," with L. Barbaglia, L. Frattarolo, N. Hauzenberger, D. Hirschbühl, F. Huber, L. Onorante and L. Tiozzo Pezzoli [[WP](http://ssrn.com/abstract=5133162)]
