@@ -36,10 +36,4 @@ My research interests include empirical macroeconomics and econometric methods f
 * Award of Excellence (Staatspreis) for the dissertation "Bayesian inference in high-dimensional multivariate time series models with applications in macroeconomics and finance," awarded by the Austrian Federal Ministry of Education, Science and Research, 2020
 * Klaus Liebscher Economic Research Scholarship 2020 ([KLERS](https://www.oenb.at/en/About-Us/Research-Promotion/scholarships_and_awards/klaus_liebscher_economic_research_scholarship.html)), awarded by the Oesterreichische Nationalbank (OeNB), 05/2021–10/2021
 
-## Teaching and other activities
-* _Current/planned teaching_: Advanced Macroeconometrics, Macroeconometrics, Economic Modeling, Econometrics II
-* _Undergraduate_: Macroeconomics (U Salzburg), Macroeconomics (U Vienna), Macroeconomics (WU), Econometrics II (WU)
-* _Graduate_: Macroeconometrics I (U Salzburg), Advanced Macroeconometrics (WU), Methods in Economics (U Salzburg), Macroeconometrics: Structural and predictive inference (U Salzburg), Foundational Econometrics (U Vienna), Introduction to Bayesian Econometrics (U Vienna), Macroeconometrics (U Vienna), Advanced Topics in Macroeconometrics (U Vienna)
-* _Other_: Analysis of the performance of students (U Salzburg), Rethinking Economics: "Predictive inference and forecast evaluation metrics" (U Tübingen, 2022), Sommeradakademie (Talente OÖ for students in high school 2022)
-
 My favorite things include rock & roll and heavy metal, cycling, barbecuing and motor racing.
