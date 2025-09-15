@@ -27,6 +27,7 @@ My research interests include empirical macroeconomics and econometric methods f
 * _BSc. in Business, Economics and Social Sciences_ at WU Vienna (07/2016)
 
 ## Professional activities
+* _Associate Editor_ [Macroeconomic Dynamics](https://www.cambridge.org/core/journals/macroeconomic-dynamics), 2025-
 * _General Secretary_ of the Austrian Economic Association ([NOeG](https://en.noeg.ac.at/home)), 2025-
 * _Membership_: American Economic Association (AEA), Austrian Economic Association (NOeG), Euro Area Business Cycle Network (EABCN), European Economic Association (EEA), Econometric Society (ES), International Society for Bayesian Analysis (ISBA)
 * _Other activities_: Local organizing and scientific committee member, [12th European Seminar on Bayesian Econometrics](https://sites.google.com/view/esobe2022salzburg) (ESOBE, Salzburg), 2022; Scientific Committee OeNB/SUERF Economic Conference 2025
