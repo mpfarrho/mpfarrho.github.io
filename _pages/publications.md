@@ -7,6 +7,15 @@ author_profile: true
 
 You can also find my research on <a href="https://scholar.google.at/citations?user=ymlNJ_UAAAAJ&hl=en">Google Scholar</a> and most past/present working papers are listed in my <a href="https://arxiv.org/a/pfarrhofer_m_1.html">arXiv</a> profile.
 
+# Working papers 
+* "A Bayesian Gaussian Process Dynamic Factor Model," with T. Chernis, N. Hauzenberger and H. Mumtaz [[WP](https://arxiv.org/abs/2509.04928)]
+* "Large Bayesian VARs for Binary and Censored Variables," with J.C.C. Chan [[WP](https://arxiv.org/abs/2506.01422)]
+* "Scenario analysis with multivariate Bayesian machine learning models," with A. Stelzer [[WP](https://arxiv.org/abs/2502.08440)]
+* "Interpretable Bayesian machine learning for assessing the effects of climate news shocks on firm-level returns," with L. Barbaglia, L. Frattarolo, N. Hauzenberger, D. Hirschbühl, F. Huber, L. Onorante and L. Tiozzo Pezzoli [[WP](http://ssrn.com/abstract=5133162)]
+* "General Seemingly Unrelated Local Projections" with F. Huber and C. Matthes [[WP](http://arxiv.org/abs/2410.17105)]
+* "Asymmetries in International Financial Spillovers," with F. Huber, K. Klieber, M. Marcellino and L. Onorante [[WP](https://arxiv.org/abs/2410.16214)]
+* "Nowcasting with mixed frequency data using Gaussian processes," with N. Hauzenberger, M. Marcellino and A. Stelzer, R&R [[WP](https://arxiv.org/abs/2402.10574)]
+
 # Published
 * "Nowcasting economic activity in European regions using a mixed-frequency dynamic factor model," with L. Barbaglia, L. Frattarolo, N. Hauzenberger, D. Hirschbühl, F. Huber, L. Onorante and L. Tiozzo Pezzoli, forthcoming _International Journal of Forecasting_ [[WP](https://arxiv.org/abs/2401.10054)/[Code](https://github.com/lucabarbaglia/RegionalNowcasting_replication_package_IJoF)]
 * "High-frequency and heteroskedasticity identification in multicountry models: Revisiting spillovers of monetary shocks," with A. Stelzer, forthcoming _Macroeconomic Dynamics_ [[DOI](https://doi.org/10.1017/S136510052510031X)/[WP](https://arxiv.org/abs/1912.03158)]
@@ -36,15 +45,6 @@ You can also find my research on <a href="https://scholar.google.at/citations?us
 * "The regional transmission of uncertainty shocks on income inequality in the United States," with M.M. Fischer and F. Huber, _Journal of Economic Behavior and Organization_ **183**, 887–900, 2021 [[DOI](https://doi.org/10.1016/j.jebo.2019.03.004)/[WP](https://arxiv.org/abs/1806.08278)]
 * "A multi-country dynamic factor model with stochastic volatility for euro area business cycle analysis," with F. Huber and P. Piribauer, _Journal of Forecasting_ **39**(6), 911–926, 2020 [[DOI](https://doi.org/10.1002/for.2667)/[WP](https://arxiv.org/abs/2001.03935)]
 * "Flexible shrinkage in high-dimensional Bayesian spatial autoregressive models," with P. Piribauer, _Spatial Statistics_ **29**, 109–128, 2019 [[DOI](https://doi.org/10.1016/j.spasta.2018.10.004)/[WP](https://arxiv.org/abs/1805.10822)]
-
-## Working papers 
-* "A Bayesian Gaussian Process Dynamic Factor Model," with T. Chernis, N. Hauzenberger and H. Mumtaz [[WP](https://arxiv.org/abs/2509.04928)]
-* "Large Bayesian VARs for Binary and Censored Variables," with J.C.C. Chan [[WP](https://arxiv.org/abs/2506.01422)]
-* "Scenario analysis with multivariate Bayesian machine learning models," with A. Stelzer [[WP](https://arxiv.org/abs/2502.08440)]
-* "Interpretable Bayesian machine learning for assessing the effects of climate news shocks on firm-level returns," with L. Barbaglia, L. Frattarolo, N. Hauzenberger, D. Hirschbühl, F. Huber, L. Onorante and L. Tiozzo Pezzoli [[WP](http://ssrn.com/abstract=5133162)]
-* "General Seemingly Unrelated Local Projections" with F. Huber and C. Matthes [[WP](http://arxiv.org/abs/2410.17105)]
-* "Asymmetries in International Financial Spillovers," with F. Huber, K. Klieber, M. Marcellino and L. Onorante [[WP](https://arxiv.org/abs/2410.16214)]
-* "Nowcasting with mixed frequency data using Gaussian processes," with N. Hauzenberger, M. Marcellino and A. Stelzer, R&R [[WP](https://arxiv.org/abs/2402.10574)]
 
 ## Book chapters
 * "Factor Augmented Vector Autoregressions, Panel VARs, and Global VARs," with M. Feldkircher and F. Huber, for _Macroeconomic Forecasting in the Era of Big Data_, edited by Fuleky, ch. **3**, 2020 [[Chapter](https://link.springer.com/chapter/10.1007/978-3-030-31150-6_3)]
