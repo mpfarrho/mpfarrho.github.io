@@ -32,3 +32,13 @@ $doc-font-size: 12;
 @import "vendor/font-awesome/brands";
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
+
+.page__content {
+  p,
+  ul,
+  ol,
+  blockquote {
+    font-size: 0.9rem;   // ~14.4px if base is 16px
+    line-height: 1.6;    // keep readability
+  }
+}
