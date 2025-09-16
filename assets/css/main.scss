@@ -33,13 +33,13 @@ $doc-font-size: 12;
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
 
-.page,
-.page__content {
-  p,
-  ul,
-  ol,
-  blockquote {
-    font-size: 0.9rem;
-    line-height: 1.5;
-  }
+.page__content p,
+.page__content li,
+.layout--archive .archive__item-excerpt,
+.layout--archive .archive__item p,
+.layout--archive .archive__item li,
+.layout--archive .grid__item p,
+.layout--archive .grid__item li {
+  font-size: 0.9rem;   /* try 0.875rem for ~14px */
+  line-height: 1.6;
 }
