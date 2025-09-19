@@ -21,6 +21,7 @@ I am an Assistant Professor at WU Vienna University of Economics and Business ([
 * _Post-doc researcher_, Department of Economics at University of Salzburg, 10/2019–08/2022
 
 # Professional activities
+* _Associate Editor_, [Macroeconomic Dynamics](https://www.cambridge.org/core/journals/macroeconomic-dynamics), 2025--
 * _General Secretary_ of the Austrian Economic Association ([NOeG](https://en.noeg.ac.at/home)), 2025-
 * _Memberships_: American Economic Association (AEA), Austrian Economic Association (NOeG), Euro Area Business Cycle Network (EABCN), European Economic Association (EEA), Econometric Society (ES), International Society for Bayesian Analysis (ISBA)
 * _Other activities_: Local organizing and scientific committee member, [12th European Seminar on Bayesian Econometrics](https://sites.google.com/view/esobe2022salzburg) (ESOBE, Salzburg), 2022; Scientific Committee OeNB/SUERF Economic Conference 2025
