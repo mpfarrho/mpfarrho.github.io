@@ -17,7 +17,7 @@ I am an Assistant Professor at WU Vienna University of Economics and Business ([
 * _Assistant Professor_, Department of Economics at WU Vienna, 09/2023–
 * _Expert_, European Commission "Macro Modelling and Nowcast Pool," JRC Ispra, 12/2020–
 
-## 
+## previous
 * _Professor of Macroeconomics_, Department of Economics at University of Vienna, 09/2022–08/2023
 * _Visiting researcher_, Department of Economics at Bocconi University, 03/2022–08/2022
 * _Research scholar_, International Institute for Applied Systems Analysis (IIASA), 11/2020-10/2021
