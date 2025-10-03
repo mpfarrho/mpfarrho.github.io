@@ -25,7 +25,7 @@ You can also find my research on <a href="https://scholar.google.at/citations?us
 * "Introducing shrinkage in heavy-tailed state space models to predict equity excess returns," with F. Huber and G. Kastner, _Empirical Economics_ **68**, 535-553, 2025 [[DOI](https://doi.org/10.1007/s00181-023-02437-3)/[WP](https://arxiv.org/abs/1805.12217)]
 * "Sparse time-varying parameter VECMs with an application to modeling electricity prices," with N. Hauzenberger and L. Rossini, _International Journal of Forecasting_ **41**(1), 361-376, 2025 [[DOI](https://doi.org/10.1016/j.ijforecast.2024.09.001)/[WP](https://arxiv.org/abs/2011.04577)/[Code](https://github.com/nhauzenb/tvpvecm)]
 
-## Prior to 2025
+## Before 2025
 * "Investigating growth-at-risk using a multicountry nonparametric quantile factor model," with T.E. Clark, F. Huber, G. Koop, and M. Marcellino, _Journal of Business & Economic Statistics_ **42**(4), 1302-1317, 2024 [[DOI](https://doi.org/10.1080/07350015.2024.2310020)/[WP](https://arxiv.org/abs/2110.03411)/[Code](https://github.com/mpfarrho/qf-bart)]
 * "Forecasting euro area inflation using a huge panel of survey expectations," with F. Huber and L. Onorante, _International Journal of Forecasting_ **40**(3), 1042-1054, 2024 [[DOI](https://doi.org/10.1016/j.ijforecast.2023.09.003)/[WP](https://arxiv.org/abs/2207.12225)]
 * "Predicting Tail-Risks for the Italian Economy," with M. Böck, M. Marcellino, T. Tornese, _Journal of Business Cycle Research_ **20**, 339–366, 2024 [[DOI](https://doi.org/10.1007/s41549-025-00106-1)]
