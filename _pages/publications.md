@@ -17,12 +17,15 @@ You can also find my research on <a href="https://scholar.google.at/citations?us
 * "Nowcasting with mixed frequency data using Gaussian processes," with N. Hauzenberger, M. Marcellino and A. Stelzer, R&R [[WP](https://arxiv.org/abs/2402.10574)]
 
 # Published
+## Forthcoming and 2025
 * "Nowcasting economic activity in European regions using a mixed-frequency dynamic factor model," with L. Barbaglia, L. Frattarolo, N. Hauzenberger, D. Hirschbühl, F. Huber, L. Onorante and L. Tiozzo Pezzoli, forthcoming _International Journal of Forecasting_ [[WP](https://arxiv.org/abs/2401.10054)/[Code](https://github.com/lucabarbaglia/RegionalNowcasting_replication_package_IJoF)]
 * "High-frequency and heteroskedasticity identification in multicountry models: Revisiting spillovers of monetary shocks," with A. Stelzer, _Macroeconomic Dynamics_ **29**, 1-22, 2025 [[DOI](https://doi.org/10.1017/S136510052510031X)/[WP](https://arxiv.org/abs/1912.03158)]
 * "Nonparametric Mixed Frequency Monitoring Macro-at-Risk," with M. Marcellino, _Economics Letters_ **255** 112498, 2025 [[DOI](https://doi.org/10.1016/j.econlet.2025.112498)]
 * "Belief Shocks and Implications of Expectations About Growth-at-Risk" with M. Böck, _Journal of Applied Econometrics_ **40**(3) 341-348, 2025 [[DOI](https://doi.org/10.1002/jae.3117)]
 * "Introducing shrinkage in heavy-tailed state space models to predict equity excess returns," with F. Huber and G. Kastner, _Empirical Economics_ **68**, 535-553, 2025 [[DOI](https://doi.org/10.1007/s00181-023-02437-3)/[WP](https://arxiv.org/abs/1805.12217)]
 * "Sparse time-varying parameter VECMs with an application to modeling electricity prices," with N. Hauzenberger and L. Rossini, _International Journal of Forecasting_ **41**(1), 361-376, 2025 [[DOI](https://doi.org/10.1016/j.ijforecast.2024.09.001)/[WP](https://arxiv.org/abs/2011.04577)/[Code](https://github.com/nhauzenb/tvpvecm)]
+
+## Prior to 2025
 * "Investigating growth-at-risk using a multicountry nonparametric quantile factor model," with T.E. Clark, F. Huber, G. Koop, and M. Marcellino, _Journal of Business & Economic Statistics_ **42**(4), 1302-1317, 2024 [[DOI](https://doi.org/10.1080/07350015.2024.2310020)/[WP](https://arxiv.org/abs/2110.03411)/[Code](https://github.com/mpfarrho/qf-bart)]
 * "Forecasting euro area inflation using a huge panel of survey expectations," with F. Huber and L. Onorante, _International Journal of Forecasting_ **40**(3), 1042-1054, 2024 [[DOI](https://doi.org/10.1016/j.ijforecast.2023.09.003)/[WP](https://arxiv.org/abs/2207.12225)]
 * "Predicting Tail-Risks for the Italian Economy," with M. Böck, M. Marcellino, T. Tornese, _Journal of Business Cycle Research_ **20**, 339–366, 2024 [[DOI](https://doi.org/10.1007/s41549-025-00106-1)]
