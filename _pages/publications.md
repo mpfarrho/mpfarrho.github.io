@@ -14,7 +14,7 @@ You can also find my research on <a href="https://scholar.google.at/citations?us
 * "Interpretable Bayesian machine learning for assessing the effects of climate news shocks on firm-level returns," with L. Barbaglia, L. Frattarolo, N. Hauzenberger, D. Hirschbühl, F. Huber, L. Onorante and L. Tiozzo Pezzoli [[WP](http://ssrn.com/abstract=5133162)]
 * "General Seemingly Unrelated Local Projections" with F. Huber and C. Matthes [[WP](http://arxiv.org/abs/2410.17105)]
 * "Asymmetries in International Financial Spillovers," with F. Huber, K. Klieber, M. Marcellino and L. Onorante [[WP](https://arxiv.org/abs/2410.16214)]
-* "Nowcasting with mixed frequency data using Gaussian processes," with N. Hauzenberger, M. Marcellino and A. Stelzer, R&R [[WP](https://arxiv.org/abs/2402.10574)]
+* "Nowcasting with mixed frequency data using Gaussian processes," with N. Hauzenberger, M. Marcellino and A. Stelzer [[WP](https://arxiv.org/abs/2402.10574)]
 
 # Published
 ## Forthcoming and 2025
