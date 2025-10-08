@@ -18,7 +18,7 @@ You can also find my research on <a href="https://scholar.google.at/citations?us
 
 # Published
 ## Forthcoming and 2025
-* "Nowcasting economic activity in European regions using a mixed-frequency dynamic factor model," with L. Barbaglia, L. Frattarolo, N. Hauzenberger, D. Hirschbühl, F. Huber, L. Onorante and L. Tiozzo Pezzoli, forthcoming _International Journal of Forecasting_ [[DOI](https://doi.org/10.1016/j.ijforecast.2025.09.006)/[WP](https://arxiv.org/abs/2401.10054)/[Code](https://github.com/lucabarbaglia/RegionalNowcasting_replication_package_IJoF)]
+* "Nowcasting economic activity in European regions using a mixed-frequency dynamic factor model," with L. Barbaglia, L. Frattarolo, N. Hauzenberger, D. Hirschbühl, F. Huber, L. Onorante and L. Tiozzo Pezzoli, forthcoming _International Journal of Forecasting_ [[DOI](https://doi.org/10.1016/j.ijforecast.2025.09.006)/[Code](https://github.com/lucabarbaglia/RegionalNowcasting_replication_package_IJoF)]
 * "High-frequency and heteroskedasticity identification in multicountry models: Revisiting spillovers of monetary shocks," with A. Stelzer, _Macroeconomic Dynamics_ **29**, 1-22, 2025 [[DOI](https://doi.org/10.1017/S136510052510031X)/[WP](https://arxiv.org/abs/1912.03158)]
 * "Nonparametric Mixed Frequency Monitoring Macro-at-Risk," with M. Marcellino, _Economics Letters_ **255** 112498, 2025 [[DOI](https://doi.org/10.1016/j.econlet.2025.112498)]
 * "Belief Shocks and Implications of Expectations About Growth-at-Risk" with M. Böck, _Journal of Applied Econometrics_ **40**(3) 341-348, 2025 [[DOI](https://doi.org/10.1002/jae.3117)]
