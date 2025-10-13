@@ -9,7 +9,9 @@ redirect_from:
 ---
 
 # About me
-I am an Assistant Professor at WU Vienna University of Economics and Business ([Department of Economics](https://www.wu.ac.at/en/economics/)) specializing in time series econometrics for macroeconomic and related applications. I am also an expert for the Joint Research Centre (JRC) Ispra of the European Commission, and an Associate Editor of [Macroeconomic Dynamics](https://www.cambridge.org/core/journals/macroeconomic-dynamics). Prior to joining WU, I was a Professor of Macroeconomics at the University of Vienna, a Post-doc at the University of Salzburg, and a Visiting Researcher at Bocconi University.
+I am an Assistant Professor at WU Vienna University of Economics and Business ([Department of Economics](https://www.wu.ac.at/en/economics/)) specializing in time series econometrics for macroeconomic and related applications. I am also an expert for the Joint Research Centre (JRC) Ispra of the European Commission, and an Associate Editor of [Macroeconomic Dynamics](https://www.cambridge.org/core/journals/macroeconomic-dynamics). 
+
+Prior to joining WU, I was a Professor of Macroeconomics at the University of Vienna, a Post-doc at the University of Salzburg, and a Visiting Researcher at Bocconi University.
 
 [[PDF]](https://www.dropbox.com/s/2xgz0ge1h4enc6i/cv.pdf?dl=0) of my CV.
 
