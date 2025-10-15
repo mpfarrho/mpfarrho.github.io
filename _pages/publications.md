@@ -71,5 +71,5 @@ You can also find my research on <a href="https://scholar.google.at/citations?us
 * Brexit – Folgen für Österreich und die EU/The impact of Brexit on the economies of selected euro area member states, with S. Griller, F. Huber and S. Puntscher-Riekmann, 02/2019 [Blog featured in [ORF](https://orf.at/stories/3111231/), [der Standard](https://www.derstandard.at/story/2000097900545/forscher-warnen-vor-schwerwiegenden-folgen-eines-brexit), [die Presse](https://www.diepresse.com/5580178/brexit-studie-verflochtene-wirtschaft-reagiert-sensibel)]
 
 # Conferences and presentations
-* _2025_: SNB Research Seminar (Schweizerische Nationalbank, Zürich), Insightful Minds in International Macro Seminar (IMIM, online), Economics Research Seminar (JKU Linz), 15th RCEA Bayesian Econometrics Workshop (Universidad del Atlántico Medio)
+* _2025_: SNB Research Seminar (Schweizerische Nationalbank, Zürich), Insightful Minds in International Macro Seminar ([IMIM](https://sites.google.com/view/imimseminars/home), online), Economics Research Seminar (JKU Linz), 15th RCEA Bayesian Econometrics Workshop (Universidad del Atlántico Medio)
 * See [[PDF of CV](https://www.dropbox.com/s/2xgz0ge1h4enc6i/cv.pdf?dl=0)] for a full list
