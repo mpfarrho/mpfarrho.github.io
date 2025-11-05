@@ -13,7 +13,7 @@ I am an Assistant Professor at WU Vienna University of Economics and Business ([
 
 > My research interests include empirical macroeconomics and econometric methods for dynamic models, with a particular focus on business cycles and forecasting. Methodologically, my work centers on time series analysis, Bayesian econometrics and machine learning. 
 
-> My work has been published in leading journals including the _Journal of Econometrics_, _Journal of Business & Economic Statistics_, _Journal of Applied Econometrics_ and _International Economic Review_, among others.
+> My work has been published in leading journals including the _Journal of Econometrics_, _Journal of Applied Econometrics_, _Journal of Business & Economic Statistics_ and _International Economic Review_, among others.
 
 # Professional experience
 * _Assistant Professor_, Department of Economics at WU Vienna, 09/2023–
