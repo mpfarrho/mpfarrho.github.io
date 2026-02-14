@@ -35,7 +35,13 @@
         <li><a href="https://www.linkedin.com/in/{{ author.linkedin }}"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i> Linkedin</a></li>
       {% endif %}
       {% if author.github %}
-        <li><a href="https://github.com/{{ author.github }}"><i class="fab fa-fw fa-github" aria-hidden="true" style="color:#000"></i> Github</a>/<a href = "https://gist.github.com/mpfarrho">Gists</a></li>
+        <li>
+  <a href="https://github.com/{{ author.github }}">
+    <i class="fab fa-fw fa-github" aria-hidden="true" style="color:#000"></i> Github
+  </a>
+  <span class="separator"> / </span>
+  <a href="https://gist.github.com/mpfarrho">Gists</a>
+</li>
       {% endif %}
       {% if author.googlescholar %}
         <li><a href="{{ author.googlescholar }}"><i class="fas fa-fw fa-graduation-cap" style="color:#000"></i> Google Scholar</a></li>
