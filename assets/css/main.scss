@@ -43,3 +43,13 @@ main blockquote {
 .author__urls.social-icons li i {
   display: inline !important;
 }
+
+.author__urls.social-icons li a {
+  display: inline !important;
+}
+
+.author__urls.social-icons li {
+  display: flex !important;
+  align-items: center !important;
+  flex-direction: row !important;
+}
