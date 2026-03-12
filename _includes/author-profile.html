@@ -23,26 +23,26 @@
     <button class="btn">Contact</button>
     <ul class="author__urls social-icons">
       {% if author.location %}
-        <li><a href="http://wu.ac.at/economics/"><i class="fa fa-fw fa-map-marker-alt" aria-hidden="true" style="color:#000"></i> {{ author.location }}</a></li>
+        <li><i class="fa fa-fw fa-map-marker-alt" aria-hidden="true" style="color:#000"></i><a href="http://wu.ac.at/economics/"> {{ author.location }}</a></li>
       {% endif %}
       {% if author.email %}
-        <li><a href="mailto:{{ author.email }}"><i class="fas fa-fw fa-paper-plane" aria-hidden="true" style="color:#000"></i> mpfarrho@gmail.com</a></li>
+        <li><i class="fas fa-fw fa-paper-plane" aria-hidden="true" style="color:#000"></i><a href="mailto:{{ author.email }}"> mpfarrho@gmail.com</a></li>
       {% endif %}
-       {% if author.researchgate %}
-        <li><a href="https://gravatar.com/observant20e864abfe"><i class="fas fa-id-card" aria-hidden="true" style="color:#000"></i> Gravatar</a></li>
+        <li><i class="fas fa-id-card" aria-hidden="true" style="color:#000"></i><a href="https://gravatar.com/observant20e864abfe"> Gravatar</a></li>
+      {% if author.researchgate %}
         <li><a href="{{ author.researchgate }}"><i class="fab fa-fw fa-researchgate" aria-hidden="true" style="color:#000"></i> Researchgate</a></li>
       {% endif %}
       {% if author.linkedin %}
-        <li><a href="https://www.linkedin.com/in/{{ author.linkedin }}"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i> Linkedin</a></li>
+        <li><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><a href="https://www.linkedin.com/in/{{ author.linkedin }}"> Linkedin</a></li>
       {% endif %}
       {% if author.github %}
-        <li><a href="https://github.com/{{ author.github }}"><i class="fab fa-fw fa-github" aria-hidden="true" style="color:#000"></i> Github</a></li>
+        <li><i class="fab fa-fw fa-github" aria-hidden="true" style="color:#000"></i><a href="https://github.com/{{ author.github }}"> Github</a></li>
       {% endif %}
       {% if author.googlescholar %}
-        <li><a href="{{ author.googlescholar }}"><i class="fas fa-fw fa-graduation-cap" style="color:#000"></i> Google Scholar</a></li>
+        <li><i class="fas fa-fw fa-graduation-cap" style="color:#000"><a href="{{ author.googlescholar }}"></i> Google</a> / <a href="{{ author.googlescholar }}"></i> Semantic</a> Scholar</li>
       {% endif %}
       {% if author.orcid %}
-        <li><a href="{{ author.orcid }}"><i class="ai ai-orcid-square ai-fw" style="color:#000"></i> ORCID</a></li>
+        <li><i class="ai ai-orcid-square ai-fw" style="color:#000"><a href="{{ author.orcid }}"></i> ORCID</a></li>
       {% endif %}
     </ul>
   </div>
