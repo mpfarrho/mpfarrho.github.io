@@ -39,3 +39,7 @@ main blockquote {
   font-size: 0.9rem;    /* try 0.875rem for ~14px */
   line-height: 1.6;
 }
+
+.author__urls.social-icons li i {
+  display: inline !important;
+}
