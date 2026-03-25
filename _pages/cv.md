@@ -9,4 +9,6 @@ cv_format: rendercv
 description: >
   Assistant Professor at WU Vienna University of Economics and Business,
   specializing in econometrics for macroeconomic applications.
+toc:
+  sidebar: left
 ---
