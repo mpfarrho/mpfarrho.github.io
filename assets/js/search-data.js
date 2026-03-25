@@ -18,7 +18,7 @@ ninja.data = [{
           },
         },{id: "nav-research",
           title: "research",
-          description: "You can also find my research on Google Scholar and most past/present working papers are listed in my arXiv profile.",
+          description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/mpfarrho-new.github.io/research/";
