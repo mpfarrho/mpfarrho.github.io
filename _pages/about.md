@@ -1,6 +1,6 @@
 ---
 layout: about
-title: home
+title: Home
 permalink: /
 subtitle: Assistant Professor, <a href="https://www.wu.ac.at/en/economics/">Department of Economics, WU Vienna</a>
 
