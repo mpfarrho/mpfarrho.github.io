@@ -1,6 +1,6 @@
 ---
 layout: about
-title: Welcome to my website
+title: Home
 permalink: /
 subtitle:
 
