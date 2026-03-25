@@ -1,8 +1,8 @@
 ---
 layout: about
-title: Home
+title: Welcome to my website
 permalink: /
-subtitle: Assistant Professor, <a href="https://www.wu.ac.at/en/economics/">Department of Economics, WU Vienna</a>
+subtitle:
 
 profile:
   align: right
