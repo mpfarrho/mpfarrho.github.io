@@ -69,9 +69,15 @@
 
       .title {
         font-weight: bolder;
+        display: inline;
+
+        &::after {
+          content: ". ";
+        }
       }
 
       .author {
+        display: inline;
         a {
           border-bottom: 1px dashed var(--global-theme-color);
 
@@ -98,7 +104,17 @@
         }
       }
 
+      .periodical {
+        display: inline;
+
+        &:not(:empty)::before {
+          content: " ";
+        }
+      }
+
       .links {
+        display: inline;
+
         a.btn {
           color: var(--global-text-color);
           border: 1px solid var(--global-text-color);
