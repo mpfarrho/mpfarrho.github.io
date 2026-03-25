@@ -9,7 +9,7 @@
   {% for entry in entries %}
     <li class="list-group-item">
       <div class="row">
-        <div class="col-xs-2 col-sm-2 col-md-2 text-center date-column">
+        <div class="col-xs-2 col-sm-2 col-md-2 text-left date-column">
           {% capture start_date %}
             {% if entry.start_date %}{{ entry.start_date }}{% elsif entry.startDate %}{{ entry.startDate }}{% endif %}
           {% endcapture %}
@@ -18,7 +18,6 @@
           {% endcapture %}
 
           {% if start_date != '' %}
-            {% comment %} Extract year only from dates like "1933-01-01" or just use "1933" as is {% endcomment %}
             {% assign startDate = start_date | split: '-' | first %}
             {% assign endDate = end_date | split: '-' | first | default: 'Present' %}
             {% assign date = startDate | append: ' - ' | append: endDate %}
@@ -55,12 +54,7 @@
           {% capture study_type %}
             {% if entry.studyType %}{{ entry.studyType }}{% elsif entry.degree %}{{ entry.degree }}{% endif %}
           {% endcapture %}
-
-          {% if entry.url %}
-            <h6 class="title font-weight-bold ml-1 ml-md-4">
-              <a href="{{ entry.url }}">{{ study_type }}</a>
-            </h6>
-          {% elsif study_type != '' %}
+          {% if study_type != '' %}
             <h6 class="title font-weight-bold ml-1 ml-md-4">{{ study_type }}</h6>
           {% endif %}
 
@@ -70,21 +64,6 @@
 
           {% if entry.area %}
             <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem; font-style: italic">{{ entry.area }}</h6>
-          {% endif %}
-
-          {% if entry.courses or entry.highlights %}
-            <ul class="items">
-              {% for item in entry.courses %}
-                <li>
-                  <span class="item">{{ item }}</span>
-                </li>
-              {% endfor %}
-              {% for item in entry.highlights %}
-                <li>
-                  <span class="item">{{ item | markdownify | remove: '<p>' | remove: '</p>' }}</span>
-                </li>
-              {% endfor %}
-            </ul>
           {% endif %}
         </div>
       </div>

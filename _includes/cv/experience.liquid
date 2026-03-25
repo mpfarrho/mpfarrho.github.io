@@ -9,7 +9,7 @@
   {% for entry in entries %}
     <li class="list-group-item">
       <div class="row">
-        <div class="col-xs-2 col-sm-2 col-md-2 text-center date-column">
+        <div class="col-xs-2 col-sm-2 col-md-2 text-left date-column">
           {% capture start_date %}
             {% if entry.start_date %}{{ entry.start_date }}{% elsif entry.startDate %}{{ entry.startDate }}{% endif %}
           {% endcapture %}
@@ -18,7 +18,6 @@
           {% endcapture %}
 
           {% if start_date != '' %}
-            {% comment %} Extract year only from dates like "1933-01-01" or just use "1933" as is {% endcomment %}
             {% assign startDate = start_date | split: '-' | first %}
             {% assign endDate = end_date | split: '-' | first | default: 'Present' %}
             {% assign date = startDate | append: ' - ' | append: endDate %}
@@ -53,12 +52,7 @@
           {% capture position_title %}
             {% if entry.position %}{{ entry.position }}{% endif %}
           {% endcapture %}
-
-          {% if entry.url %}
-            <h6 class="title font-weight-bold ml-1 ml-md-4">
-              <a href="{{ entry.url }}">{{ position_title }}</a>
-            </h6>
-          {% elsif position_title != '' %}
+          {% if position_title != '' %}
             <h6 class="title font-weight-bold ml-1 ml-md-4">{{ position_title }}</h6>
           {% endif %}
 
@@ -73,16 +67,6 @@
             <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem; font-style: italic">
               {{ entry.summary | markdownify | remove: '<p>' | remove: '</p>' }}
             </h6>
-          {% endif %}
-
-          {% if entry.highlights %}
-            <ul class="items">
-              {% for item in entry.highlights %}
-                <li>
-                  <span class="item">{{ item | markdownify | remove: '<p>' | remove: '</p>' }}</span>
-                </li>
-              {% endfor %}
-            </ul>
           {% endif %}
         </div>
       </div>

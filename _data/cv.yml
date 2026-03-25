@@ -11,30 +11,21 @@ cv:
       - company: WU Vienna University of Economics and Business
         position: Assistant Professor
         location: Vienna, Austria
-        url: https://www.wu.ac.at/en/economics/
         start_date: 2023-09
-        highlights:
-          - Department of Economics
       - company: European Commission, Joint Research Centre (JRC) Ispra
         position: Expert
         location: Ispra, Italy
         start_date: 2020-12
-        highlights:
-          - Macro Modelling and Nowcast Pool
       - company: University of Vienna
         position: Professor of Macroeconomics
         location: Vienna, Austria
         start_date: 2022-09
         end_date: 2023-08
-        highlights:
-          - Department of Economics
       - company: Bocconi University
         position: Visiting Researcher
         location: Milan, Italy
         start_date: 2022-03
         end_date: 2022-08
-        highlights:
-          - Department of Economics
       - company: International Institute for Applied Systems Analysis (IIASA)
         position: Research Scholar
         location: Laxenburg, Austria
@@ -45,8 +36,6 @@ cv:
         location: Salzburg, Austria
         start_date: 2019-10
         end_date: 2022-08
-        highlights:
-          - Department of Economics
 
     Education:
       - institution: University of Salzburg
@@ -55,17 +44,12 @@ cv:
         studyType: Venia docendi (Habilitation)
         start_date: 2023-01
         end_date: 2023-01
-        highlights:
-          - "Thesis: Structural and predictive inference with parametric and nonparametric models in economics"
       - institution: WU Vienna University of Economics and Business
         location: Vienna, Austria
-        url: https://www.wu.ac.at/
         area: Economics
         studyType: Ph.D.
         start_date: 2019-09
         end_date: 2019-09
-        highlights:
-          - "Thesis: Bayesian inference in high-dimensional multivariate time series models with applications in macroeconomics and finance"
       - institution: WU Vienna University of Economics and Business
         location: Vienna, Austria
         area: Economics
@@ -87,7 +71,6 @@ cv:
       - title: Klaus Liebscher Economic Research Scholarship (KLERS)
         awarder: Oesterreichische Nationalbank (OeNB)
         date: 2021-05
-        url: https://www.oenb.at/en/About-Us/Research-Promotion/scholarships_and_awards/klaus_liebscher_economic_research_scholarship.html
         summary: "May 2021 – October 2021"
       - title: SJPE Best Paper of the Year 2021 Prize
         awarder: Scottish Journal of Political Economy
