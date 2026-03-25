@@ -1,34 +1,26 @@
 ---
 layout: about
-title: about
+title: home
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: Assistant Professor, <a href="https://www.wu.ac.at/en/economics/">Department of Economics, WU Vienna</a>
 
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+  image_circular: false
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+selected_papers: false
+social: true
 
 announcements:
-  enabled: true # includes a list of news items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
+  enabled: false
 
 latest_posts:
-  enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+  enabled: false
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am an Assistant Professor at WU Vienna University of Economics and Business ([Department of Economics](https://www.wu.ac.at/en/economics/)) specializing in econometrics for macroeconomic and related applications. I am also an Expert for the Joint Research Centre (JRC) Ispra of the European Commission, and serve as an Associate Editor for [Macroeconomic Dynamics](https://www.cambridge.org/core/journals/macroeconomic-dynamics). Here is a more detailed [[PDF]](https://www.dropbox.com/s/2xgz0ge1h4enc6i/cv.pdf?dl=0) of my CV.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+My research interests include empirical macroeconomics and econometric methods for dynamic models, with a particular focus on business cycle analysis and forecasting. Methodologically, my work centers on time series, Bayesian econometrics and machine learning.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+My work has been published in leading journals including the _Journal of Econometrics_, _Journal of Business & Economic Statistics_, _Journal of Applied Econometrics_, _International Economic Review_, _European Economic Review_, and _International Journal of Forecasting_, among others.
