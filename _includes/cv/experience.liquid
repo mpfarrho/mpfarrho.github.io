@@ -20,7 +20,7 @@
           {% if start_date != '' %}
             {% assign startDate = start_date | split: '-' | first %}
             {% assign endDate = end_date | split: '-' | first | default: 'Present' %}
-            {% assign date = startDate | append: ' - ' | append: endDate %}
+            {% assign date = startDate | append: '–' | append: endDate %}
           {% else %}
             {% assign date = '' %}
           {% endif %}
