@@ -37,7 +37,7 @@
   list-style: none;
 }
 
-// TOC links: sans-serif font, theme color, no border
+// TOC links: sans-serif font, theme color, no border, no underline
 #toc-sidebar .nav > li > a,
 #toc-sidebar .nav > li > a:hover,
 #toc-sidebar .nav > li > a:focus {
@@ -45,6 +45,8 @@
   border-left: none !important;
   font-family: "Roboto", sans-serif;
   color: var(--global-theme-color) !important;
+  text-decoration: none !important;
+  opacity: 1 !important;
 }
 
 #toc-sidebar .nav-link.active,
