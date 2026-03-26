@@ -158,14 +158,22 @@
       <span class="links">
         {% if entry.award %}<span class="pub-sep">&middot;</span><a class="award btn btn-sm z-depth-0" role="button">{%- if entry.award_name %}{{ entry.award_name }}{% else %}Awarded{% endif -%}</a>{% endif %}
         {% if entry.abstract %}<span class="pub-sep">&middot;</span><a class="abstract btn btn-sm z-depth-0" role="button">abs</a>{% endif %}
-        {% if entry.doi %}
-          <span class="pub-sep">&middot;</span><a href="https://doi.org/{{ entry.doi }}" class="btn btn-sm z-depth-0" role="button">doi</a>
-        {% elsif entry.html %}
-          <span class="pub-sep">&middot;</span>{% if entry.html contains '://' %}<a href="{{ entry.html }}" class="btn btn-sm z-depth-0" role="button">doi</a>{% else %}<a href="{{ entry.html | prepend: '/assets/html/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">doi</a>{% endif %}
-        {% elsif entry.arxiv %}
-          <span class="pub-sep">&middot;</span><a href="http://arxiv.org/abs/{{ entry.arxiv }}" class="btn btn-sm z-depth-0" role="button">wp</a>
-        {% elsif entry.type == 'unpublished' %}
-          {% if entry.pdf %}<span class="pub-sep">&middot;</span>{% if entry.pdf contains '://' %}<a href="{{ entry.pdf }}" class="btn btn-sm z-depth-0" role="button">wp</a>{% else %}<a href="{{ entry.pdf | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">wp</a>{% endif %}{% endif %}
+        {% if entry.type == 'unpublished' %}
+          {% if entry.arxiv %}
+            <span class="pub-sep">&middot;</span><a href="http://arxiv.org/abs/{{ entry.arxiv }}" class="btn btn-sm z-depth-0" role="button">wp</a>
+          {% elsif entry.html %}
+            <span class="pub-sep">&middot;</span>{% if entry.html contains '://' %}<a href="{{ entry.html }}" class="btn btn-sm z-depth-0" role="button">wp</a>{% else %}<a href="{{ entry.html | prepend: '/assets/html/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">wp</a>{% endif %}
+          {% elsif entry.pdf %}
+            <span class="pub-sep">&middot;</span>{% if entry.pdf contains '://' %}<a href="{{ entry.pdf }}" class="btn btn-sm z-depth-0" role="button">wp</a>{% else %}<a href="{{ entry.pdf | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">wp</a>{% endif %}
+          {% else %}
+            <span class="pub-sep">&middot;</span><span class="btn btn-sm z-depth-0">wp</span>
+          {% endif %}
+        {% else %}
+          {% if entry.doi %}
+            <span class="pub-sep">&middot;</span><a href="https://doi.org/{{ entry.doi }}" class="btn btn-sm z-depth-0" role="button">doi</a>
+          {% elsif entry.html %}
+            <span class="pub-sep">&middot;</span>{% if entry.html contains '://' %}<a href="{{ entry.html }}" class="btn btn-sm z-depth-0" role="button">doi</a>{% else %}<a href="{{ entry.html | prepend: '/assets/html/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">doi</a>{% endif %}
+          {% endif %}
         {% endif %}
         {% if entry.code %}<span class="pub-sep">&middot;</span><a href="{{ entry.code }}" class="btn btn-sm z-depth-0" role="button">code</a>{% endif %}
         {% if entry.bibtex_show %}<span class="pub-sep">&middot;</span><a class="bibtex btn btn-sm z-depth-0" role="button">bib</a>{% endif %}
