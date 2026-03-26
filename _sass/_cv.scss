@@ -2,6 +2,17 @@
  * CV shared styles
  *****************************/
 
+// Date badges: sans-serif, not bold
+.cv span.badge {
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+}
+
+// Second-line entries (institution, company): not bold
+.cv h6:not(.title) {
+  font-weight: normal;
+}
+
 div.container-link-button {
   margin-right: 0.5rem;
 }
