@@ -6,20 +6,31 @@ nav: true
 nav_order: 3
 ---
 
+<ul class="timeline">
+  <li><a href="#working-papers"><span class="badge-toc">Working Papers</span></a></li>
+  <li><a href="#published-papers"><span class="badge-toc">Published Papers</span></a></li>
+  <li><a href="#book-chapters"><span class="badge-toc">Book Chapters</span></a></li>
+  <li><a href="#policy-briefings"><span class="badge-toc">Policy Briefings and Media</span></a></li>
+</ul>
+
 <div class="publications">
 
+<a class="anchor" id="working-papers"></a>
 <h2>Working Papers</h2>
 
 {% bibliography --query @unpublished %}
 
+<a class="anchor" id="published-papers"></a>
 <h2>Published Papers</h2>
 
 {% bibliography --query @article %}
 
+<a class="anchor" id="book-chapters"></a>
 <h2>Book Chapters</h2>
 
 {% bibliography --query @incollection %}
 
+<a class="anchor" id="policy-briefings"></a>
 <h2>Policy Briefings and Media</h2>
 
 <ul>
