@@ -81,18 +81,18 @@
         content: "";
         position: absolute;
         right: 0;
-        top: 0;
-        bottom: 0;
+        top: 0.2rem;
+        bottom: 0.2rem;
         width: 12%;
         background-color: var(--global-text-color);
-        opacity: 0.04;
+        opacity: 0.05;
       }
 
       .pub-title-row {
         display: flex;
         justify-content: space-between;
-        align-items: baseline;
-        gap: 1rem;
+        align-items: center;
+        gap: 0;
       }
 
       .title {
@@ -101,6 +101,7 @@
         font-family: "Roboto Serif", Georgia, "Times New Roman", Times, serif;
         display: block;
         flex: 0 1 88%;
+        padding-right: 1rem;
 
         &::after {
           content: "";
@@ -114,6 +115,8 @@
         opacity: 0.6;
         white-space: nowrap;
         flex: 0 0 auto;
+        text-align: center;
+        width: 12%;
       }
 
       .author {
