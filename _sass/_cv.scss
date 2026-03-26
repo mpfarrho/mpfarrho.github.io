@@ -9,10 +9,11 @@
   padding-right: 0 !important;
 }
 
-// Remove excess vertical padding from list items in CV
+// Remove excess vertical padding and borders from list items in CV
 .cv .list-group-item {
   padding-top: 0.5rem;
   padding-bottom: 0.25rem;
+  border: none;
 }
 
 // Remove Bootstrap's default table bottom margin inside CV entries
