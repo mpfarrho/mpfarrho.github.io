@@ -40,9 +40,10 @@
   padding-left: 0;
 }
 
-// TOC links: fixed padding so active indicator doesn't shift text
+// TOC links: sans-serif font, fixed padding so active indicator doesn't shift text
 #toc-sidebar .nav > li > a {
   padding-left: 6px !important;
+  font-family: "Roboto", sans-serif;
 }
 
 #toc-sidebar .nav-link.active,
