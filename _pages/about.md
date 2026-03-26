@@ -12,6 +12,9 @@ profile:
 selected_papers: false
 social: false
 
+toc:
+  sidebar: left
+
 announcements:
   enabled: false
 
