@@ -37,8 +37,11 @@
 }
 
 // TOC links: sans-serif font, underline active section
-#toc-sidebar .nav > li > a {
+#toc-sidebar .nav > li > a,
+#toc-sidebar .nav > li > a:hover,
+#toc-sidebar .nav > li > a:focus {
   padding-left: 0 !important;
+  border-left: none !important;
   font-family: "Roboto", sans-serif;
 }
 
