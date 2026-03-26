@@ -56,7 +56,7 @@
     <div class="author">
       {% assign author_array_size = entry.author_array | size %}
       {% assign use_etal = false %}
-      {% if author_array_size > 2 %}{% assign use_etal = true %}{% endif %}
+      {% if author_array_size > 3 %}{% assign use_etal = true %}{% endif %}
       {% assign author_loop_limit = author_array_size %}
       {% if use_etal %}{% assign author_loop_limit = 1 %}{% endif %}
 
@@ -98,7 +98,7 @@
           {%- assign etal_names = etal_names | append: author.first | append: ' ' | append: author.last -%}
         {%- endfor -%}
         {%- assign etal_names = etal_names | regex_replace: '([*∗†‡§¶‖&^]+)', '<sup>\1</sup>' -%}
-        <span class="more-authors" onclick="var e=$(this);e.text(e.text()==='et al.'?'{{ etal_names }}':'et al.');">et al.</span>
+        , <span class="more-authors" onclick="var e=$(this);e.text(e.text()==='et al.'?'{{ etal_names }}':'et al.');">et al.</span>
       {%- endif -%}
       {%- if entry.annotation %}
         <i

@@ -128,9 +128,9 @@
         }
 
         > span.more-authors {
-          color: var(--global-text-color-light);
+          color: var(--global-theme-color);
           text-decoration: underline;
-          text-decoration-style: dashed;
+          text-underline-offset: 2px;
           cursor: pointer;
 
           &:hover {
