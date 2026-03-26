@@ -36,17 +36,18 @@
   list-style: none;
 }
 
-// TOC links: sans-serif font, stable left padding
+// TOC links: sans-serif font, underline active section
 #toc-sidebar .nav > li > a {
-  padding-left: 8px !important;
+  padding-left: 0 !important;
   font-family: "Roboto", sans-serif;
 }
 
 #toc-sidebar .nav-link.active,
 #toc-sidebar .nav-link.active:focus,
 #toc-sidebar .nav-link.active:hover {
-  padding-left: 6px !important;
-  border-left: 2px solid var(--global-theme-color) !important;
+  padding-left: 0 !important;
+  border-left: none !important;
+  text-decoration: underline !important;
   color: var(--global-theme-color) !important;
   font-weight: 600 !important;
 }
