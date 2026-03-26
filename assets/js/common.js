@@ -21,7 +21,10 @@ $(document).ready(function () {
   if ($("#toc-sidebar").length) {
     var navSelector = "#toc-sidebar";
     var $myNav = $(navSelector);
-    Toc.init({ $nav: $myNav, selector: "h2" });
+    Toc.helpers.getHeadings = function (scope) {
+      return this.findOrFilter(scope, "h2");
+    };
+    Toc.init({ $nav: $myNav });
     $("body").scrollspy({
       target: navSelector,
       offset: 100,
