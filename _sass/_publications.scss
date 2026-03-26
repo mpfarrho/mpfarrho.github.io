@@ -117,21 +117,28 @@
         margin-top: 0.25rem;
 
         a.btn {
-          color: var(--global-text-color);
-          border: 1px solid var(--global-text-color);
-          padding-left: 1rem;
-          padding-right: 1rem;
-          padding-top: 0.25rem;
-          padding-bottom: 0.25rem;
-          margin-left: 0;
+          font-family: "Roboto", sans-serif;
+          font-size: 0.7rem;
+          font-weight: normal;
+          text-transform: uppercase;
+          color: var(--global-bg-color);
+          background-color: var(--global-theme-color);
+          border: none;
+          border-radius: 0.125rem;
+          padding-left: 0.6rem;
+          padding-right: 0.6rem;
+          padding-top: 0.2rem;
+          padding-bottom: 0.2rem;
+          margin-right: 0.25rem;
+          box-shadow: none !important;
 
           &:hover {
-            color: var(--global-theme-color);
-            border-color: var(--global-theme-color);
+            opacity: 0.8;
+            text-decoration: none;
           }
         }
         a.award.btn {
-          border-color: var(--global-highlight-color);
+          background-color: var(--global-highlight-color);
         }
       }
 
