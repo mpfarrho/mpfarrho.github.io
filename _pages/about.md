@@ -19,13 +19,13 @@ latest_posts:
   enabled: false
 ---
 
-I am an Assistant Professor at WU Vienna University of Economics and Business ([Department of Economics](https://www.wu.ac.at/en/economics/)) specializing in econometrics for macroeconomic and related applications. I am also an Expert for the Joint Research Centre (JRC) Ispra of the European Commission, and serve as an Associate Editor for [Macroeconomic Dynamics](https://www.cambridge.org/core/journals/macroeconomic-dynamics). Here is a more detailed [[PDF]](https://www.dropbox.com/s/2xgz0ge1h4enc6i/cv.pdf?dl=0) of my CV.
+I am an Assistant Professor at WU Vienna University of Economics and Business ([Department of Economics](https://www.wu.ac.at/en/economics/)) specializing in econometrics for macroeconomic and related applications. I am also an Expert for the Joint Research Centre (JRC) Ispra of the European Commission, and serve as an Associate Editor for [Macroeconomic Dynamics](https://www.cambridge.org/core/journals/macroeconomic-dynamics).
 
 > My research interests include empirical macroeconomics and econometric methods for dynamic models, with a particular focus on business cycle analysis and forecasting. Methodologically, my work centers on time series, Bayesian econometrics and machine learning.
 
 > My work has been published in leading journals including the _Journal of Econometrics_, _Journal of Business & Economic Statistics_, _Journal of Applied Econometrics_, _International Economic Review_, _European Economic Review_, and _International Journal of Forecasting_, among others.
 
-## Professional experience
+## CV <a href="https://www.dropbox.com/s/2xgz0ge1h4enc6i/cv.pdf?dl=0" target="_blank" title="CV (PDF)"><i class="fa-solid fa-file-pdf"></i></a>
 * _Assistant Professor_, Department of Economics at WU Vienna, 09/2023–
 * _Expert_, European Commission "Macro Modelling and Nowcast Pool," JRC Ispra, 12/2020–
 
@@ -52,5 +52,13 @@ I am an Assistant Professor at WU Vienna University of Economics and Business ([
 ## Honors and awards
 * Award of Excellence (Staatspreis) for the dissertation "Bayesian inference in high-dimensional multivariate time series models with applications in macroeconomics and finance," awarded by the Austrian Federal Ministry of Education, Science and Research, 2020
 * Klaus Liebscher Economic Research Scholarship 2020 ([KLERS](https://www.oenb.at/en/About-Us/Research-Promotion/scholarships_and_awards/klaus_liebscher_economic_research_scholarship.html)), awarded by the Oesterreichische Nationalbank (OeNB), 05/2021–10/2021
+
+## Research grants
+* Jubiläumsfonds der Oesterreichischen Nationalbank (OeNB): "Between fostering and limiting central bank independence: The impact of constitutional courts decisions," (co-PI, principal investigator: F. Huber), total funding EUR 118,000.00, 2020-2022
+* Jubiläumsfonds der Oesterreichischen Nationalbank (OeNB): "Inference with Bayesian nonparametric models in the presence of measurement errors and outliers," (PI), total funding EUR 168,000.00, [project 18765 website](/project18765), 2022-24
+
+## Conferences and presentations
+* _2025_: SNB Research Seminar (Schweizerische Nationalbank, Zürich), Insightful Minds in International Macro Seminar ([IMIM](https://sites.google.com/view/imimseminars/home), online), Economics Research Seminar (JKU Linz), 15th RCEA Bayesian Econometrics Workshop (Universidad del Atlántico Medio)
+* See [[PDF of CV]](https://www.dropbox.com/s/2xgz0ge1h4enc6i/cv.pdf?dl=0) for a full list
 
 My favorite things include rock & roll and heavy metal, cycling and running, barbecuing, and various kinds of racing.
