@@ -48,7 +48,7 @@
   <!-- Entry bib key -->
   <div id="{{ entry.key }}" class="{% if site.enable_publication_thumbnails %}col-sm-8{% else %}col-sm-12{% endif %}">
     <!-- Title -->
-    <div class="title">{{ entry.title }}{% assign title_last = entry.title | slice: -1 %}{% unless title_last == '?' or title_last == '!' %}.{% endunless %}</div>
+    <div class="title">&ldquo;{{ entry.title }}{% assign title_last = entry.title | slice: -1 %}{% unless title_last == '?' or title_last == '!' %}.{% endunless %}&rdquo;</div>
     <!-- Author -->
     <div class="author">
       {% assign author_array_size = entry.author_array | size %}
@@ -159,7 +159,7 @@
     {% endif %}
     {% assign entryvoliss = '' %}
     {% if entry.volume %}
-      {% capture entryvoliss %}{{ entry.volume }}{% endcapture %}
+      {% capture entryvoliss %}<strong>{{ entry.volume }}</strong>{% endcapture %}
       {% if entry.number %}
         {% capture entryvoliss %}{{ entryvoliss }}({{ entry.number }}){% endcapture %}
       {% endif %}
@@ -184,7 +184,7 @@
     {% endif %}
     {% assign entrytype_text = entrytype | strip_html | strip %}
     {% assign entrynote = entry.note | strip %}
-    {% capture periodical %}{{ entrytype }}{% if entryvoliss != '' %}, {{ entryvoliss }}{% endif %}{% if entrytype_text != "" and entryyear != "" %}, {% endif %}{{ entrymonth }}{{ entryyear }}{% if entryyear != '' and entrynote != '' %},{% endif %}{% endcapture %}
+    {% capture periodical %}{{ entrytype }}{% if entryvoliss != '' %} {{ entryvoliss }}{% endif %}{% if entrytype_text != "" and entryyear != "" %}, {% endif %}{{ entrymonth }}{{ entryyear }}{% if entryyear != '' and entrynote != '' %},{% endif %}{% endcapture %}
     <div class="periodical">
       {{ periodical | strip }}
     </div>
