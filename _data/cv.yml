@@ -71,10 +71,13 @@ cv:
         date: 2021-05
 
     Professional Activities:
-      - label: "Editor"
-        details: "_Associate Editor_, [Macroeconomic Dynamics](https://www.cambridge.org/core/journals/macroeconomic-dynamics), 2025–"
-      - label: "Service"
-        details: "_General Secretary_, [Austrian Economic Association (NOeG)](https://www.noeg.ac.at), 2025–2026"
+      - position: Associate Editor
+        company: "[Macroeconomic Dynamics](https://www.cambridge.org/core/journals/macroeconomic-dynamics)"
+        start_date: 2025-01
+      - position: General Secretary
+        company: "[Austrian Economic Association (NOeG)](https://www.noeg.ac.at)"
+        start_date: 2025-01
+        end_date: 2026-12
       - label: "Other"
         details: "Local organizing and scientific committee member, 12th European Seminar on Bayesian Econometrics (ESOBE, Salzburg), 2022; Scientific Committee OeNB/SUERF Economic Conference 2025, 2026; EIPA course \"Macro-at-Risk\" for the European Commission (DG ECFIN)"
 
@@ -86,7 +89,7 @@ cv:
 
     Research Grants:
       - label: "2022–2024"
-        details: "Jubiläumsfonds der Oesterreichischen Nationalbank (OeNB): _Inference with Bayesian nonparametric models in the presence of measurement errors and outliers_, (PI), total funding EUR 168,000"
+        details: "Jubiläumsfonds der Oesterreichischen Nationalbank (OeNB): [_Inference with Bayesian nonparametric models in the presence of measurement errors and outliers_](/project18765/), (PI), total funding EUR 168,000"
       - label: "2020–2022"
         details: "Jubiläumsfonds der Oesterreichischen Nationalbank (OeNB): _Between fostering and limiting central bank independence: The impact of constitutional courts decisions_, (co-PI, principal investigator: F. Huber), total funding EUR 118,000"
 
