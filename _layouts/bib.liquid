@@ -152,13 +152,13 @@
     {% assign entrytype_text = entrytype | strip_html | strip %}
     {% assign entrynote = entry.note | strip %}
     {% capture periodical %}{{ entrytype }}{% if entryvoliss != '' %} {{ entryvoliss }}{% endif %}{% endcapture %}
-    <div class="pub-venue">
-      <div class="periodical">{{ periodical | strip }}</div>
-      <div class="periodical">{{ entry.note | strip }}</div>
-    </div>
-
-    <!-- Links/Buttons -->
-    <div class="links">
+    <div class="pub-venue-row">
+      <div class="pub-venue">
+        <div class="periodical">{{ periodical | strip }}</div>
+        <div class="periodical">{{ entry.note | strip }}</div>
+      </div>
+      <!-- Links/Buttons -->
+      <div class="links">
       {% if entry.award %}
         <a class="award btn btn-sm z-depth-0" role="button">
           {%- if entry.award_name %}{{ entry.award_name }}{% else %}Awarded{% endif -%}
@@ -228,6 +228,7 @@
       {% if entry.website %}
         <a href="{{ entry.website }}" class="btn btn-sm z-depth-0" role="button">Website</a>
       {% endif %}
+      </div>
     </div>
     {% if site.enable_publication_badges %}
       {% assign entry_has_altmetric_badge = false %}

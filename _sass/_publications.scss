@@ -139,8 +139,16 @@
         }
       }
 
-      .pub-venue {
+      .pub-venue-row {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        gap: 1rem;
         margin-top: 0.15rem;
+      }
+
+      .pub-venue {
+        flex: 1 1 auto;
       }
 
       .periodical {
@@ -161,8 +169,10 @@
       }
 
       .links {
-        display: block;
-        margin-top: 0.35rem;
+        display: flex;
+        align-items: baseline;
+        flex: 0 0 auto;
+        white-space: nowrap;
 
         a.btn {
           font-family: inherit;
