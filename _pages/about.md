@@ -55,7 +55,7 @@ I am an Assistant Professor at WU Vienna University of Economics and Business ([
 
 ## Research grants
 * Jubiläumsfonds der Oesterreichischen Nationalbank (OeNB): "Between fostering and limiting central bank independence: The impact of constitutional courts decisions," (co-PI, principal investigator: F. Huber), total funding EUR 118,000.00, 2020-2022
-* Jubiläumsfonds der Oesterreichischen Nationalbank (OeNB): "Inference with Bayesian nonparametric models in the presence of measurement errors and outliers," (PI), total funding EUR 168,000.00, [project 18765 website](/project18765), 2022-24
+* Jubiläumsfonds der Oesterreichischen Nationalbank (OeNB): "Inference with Bayesian nonparametric models in the presence of measurement errors and outliers," (PI), total funding EUR 168,000.00, [project 18765 website](/project18765/), 2022-24
 
 ## Conferences and presentations
 * _2025_: SNB Research Seminar (Schweizerische Nationalbank, Zürich), Insightful Minds in International Macro Seminar ([IMIM](https://sites.google.com/view/imimseminars/home), online), Economics Research Seminar (JKU Linz), 15th RCEA Bayesian Econometrics Workshop (Universidad del Atlántico Medio)
