@@ -39,6 +39,10 @@
     li {
       margin-bottom: 1rem;
 
+      div[class^="col-"] {
+        padding-left: 0;
+      }
+
       .preview {
         display: inline-block;
       }
