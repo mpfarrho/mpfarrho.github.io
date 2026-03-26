@@ -66,26 +66,34 @@ cv:
       - title: Award of Excellence (Staatspreis)
         awarder: Austrian Federal Ministry of Education, Science and Research
         date: 2020
-        summary: "For the dissertation: Bayesian inference in high-dimensional multivariate time series models with applications in macroeconomics and finance"
       - title: Klaus Liebscher Economic Research Scholarship (KLERS)
         awarder: Oesterreichische Nationalbank (OeNB)
         date: 2021-05
-        summary: "May 2021 – October 2021"
+
     Professional Activities:
-      - bullet: "_Associate Editor_, [Macroeconomic Dynamics](https://www.cambridge.org/core/journals/macroeconomic-dynamics), 2025–"
-      - bullet: "_General Secretary_, [Austrian Economic Association (NOeG)](https://www.noeg.ac.at), 2025–2026"
+      - label: "Editor"
+        details: "_Associate Editor_, [Macroeconomic Dynamics](https://www.cambridge.org/core/journals/macroeconomic-dynamics), 2025–"
+      - label: "Service"
+        details: "_General Secretary_, [Austrian Economic Association (NOeG)](https://www.noeg.ac.at), 2025–2026"
 
     Refereeing:
-      - bullet: "_Journals:_ Energy Economics, IMF Economic Review, International Journal of Forecasting, Journal of Applied Econometrics, Journal of Business & Economic Statistics, Journal of Econometrics, Journal of Economic Dynamics & Control, Journal of Money, Credit and Banking, Journal of the American Statistical Association, Journal of the Royal Statistical Society, Macroeconomic Dynamics, Review of Economics and Statistics, Statistica Sinica, Quantitative Economics, among others"
-      - bullet: "_Other:_ ECB Working Paper Series, OeNB Jubiläumsfonds, Swiss National Science Foundation"
+      - label: "Journals"
+        details: "Energy Economics, IMF Economic Review, International Journal of Forecasting, Journal of Applied Econometrics, Journal of Business & Economic Statistics, Journal of Econometrics, Journal of Economic Dynamics & Control, Journal of Money, Credit and Banking, Journal of the American Statistical Association, Journal of the Royal Statistical Society, Macroeconomic Dynamics, Review of Economics and Statistics, Statistica Sinica, Quantitative Economics, among others"
+      - label: "Other"
+        details: "ECB Working Paper Series, OeNB Jubiläumsfonds, Swiss National Science Foundation"
 
     Research Grants:
-      - bullet: "Jubiläumsfonds der Oesterreichischen Nationalbank (OeNB): _Inference with Bayesian nonparametric models in the presence of measurement errors and outliers_, (PI), total funding EUR 168,000, 2022–2024"
-      - bullet: "Jubiläumsfonds der Oesterreichischen Nationalbank (OeNB): _Between fostering and limiting central bank independence: The impact of constitutional courts decisions_, (co-PI, principal investigator: F. Huber), total funding EUR 118,000, 2020–2022"
+      - label: "2022–2024"
+        details: "Jubiläumsfonds der Oesterreichischen Nationalbank (OeNB): _Inference with Bayesian nonparametric models in the presence of measurement errors and outliers_, (PI), total funding EUR 168,000"
+      - label: "2020–2022"
+        details: "Jubiläumsfonds der Oesterreichischen Nationalbank (OeNB): _Between fostering and limiting central bank independence: The impact of constitutional courts decisions_, (co-PI, principal investigator: F. Huber), total funding EUR 118,000"
 
     Conferences and Presentations:
-      - bullet: "_2025_: SNB Research Seminar (Schweizerische Nationalbank, Zürich), Insightful Minds in International Macro Seminar ([IMIM](https://sites.google.com/view/imimseminars/home), online), Economics Research Seminar (JKU Linz), 15th RCEA Bayesian Econometrics Workshop (Universidad del Atlántico Medio)"
-      - bullet: "See [[PDF of CV](https://www.dropbox.com/s/2xgz0ge1h4enc6i/cv.pdf?dl=0)] for a full list"
+      - label: "2025"
+        details: "SNB Research Seminar (Schweizerische Nationalbank, Zürich), Insightful Minds in International Macro Seminar ([IMIM](https://sites.google.com/view/imimseminars/home), online), Economics Research Seminar (JKU Linz), 15th RCEA Bayesian Econometrics Workshop (Universidad del Atlántico Medio)"
+      - label: "Full list"
+        details: "[[PDF of CV](https://www.dropbox.com/s/2xgz0ge1h4enc6i/cv.pdf?dl=0)]"
 
     Memberships:
-      - bullet: "American Economic Association (AEA), Austrian Economic Association (NOeG), Euro Area Business Cycle Network (EABCN), European Economic Association (EEA), Econometric Society (ES), International Society for Bayesian Analysis (ISBA)"
+      - label: "Members"
+        details: "American Economic Association (AEA), Austrian Economic Association (NOeG), Euro Area Business Cycle Network (EABCN), European Economic Association (EEA), Econometric Society (ES), International Society for Bayesian Analysis (ISBA)"
