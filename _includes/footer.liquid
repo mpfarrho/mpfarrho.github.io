@@ -1,15 +1,13 @@
 {% capture footer_contents %}
-  {% if site.data.socials.email or site.data.socials.scholar_userid %}
-    <div class="footer-links">
-      {% if site.data.socials.email %}
-        <a href="mailto:{{ site.data.socials.email }}">Email</a>
-      {% endif %}
-      {% if site.data.socials.email and site.data.socials.scholar_userid %} &middot; {% endif %}
-      {% if site.data.socials.scholar_userid %}
-        <a href="https://scholar.google.com/citations?user={{ site.data.socials.scholar_userid }}" target="_blank">Google Scholar</a>
-      {% endif %}
-    </div>
-  {% endif %}
+  <div class="footer-links">
+    <a href="mailto:{{ site.data.socials.email }}">Email</a> &middot;
+    <a href="https://github.com/mpfarrho" target="_blank">GitHub</a> &middot;
+    <a href="https://scholar.google.at/citations?user=ymlNJ_UAAAAJ" target="_blank">Google Scholar</a> &middot;
+    <a href="https://www.semanticscholar.org/author/Michael-Pfarrhofer/88739014" target="_blank">Semantic Scholar</a> &middot;
+    <a href="https://ideas.repec.org/e/ppf31.html" target="_blank">RePEc</a> &middot;
+    <a href="https://orcid.org/0000-0002-0168-688X" target="_blank">ORCID</a> &middot;
+    <a href="https://gravatar.com/observant20e864abfe" target="_blank">Gravatar</a>
+  </div>
   {{ site.footer_text }}
   {% if site.impressum_path %}
     <a href="{{ site.url }}{{ site.baseurl }}{{ site.impressum_path }}">Impressum</a>.
