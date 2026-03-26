@@ -131,7 +131,7 @@ layout: default
                 <ul class="card-text font-weight-light list-group list-group-flush">
                 {% for entry in section_entries %}
                   {% if entry.position %}
-                    <li class="list-group-item" style="padding-left: 0; padding-right: 0;">
+                    <li class="list-group-item">
                       <div class="row">
                         <div class="col-xs-2 col-sm-2 col-md-2 text-left date-column">
                           {% capture start_date %}{% if entry.start_date %}{{ entry.start_date }}{% endif %}{% endcapture %}
