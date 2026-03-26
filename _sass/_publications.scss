@@ -40,8 +40,20 @@
       padding-bottom: 0.6rem;
 
       .row {
+        position: relative;
         margin-left: 0;
         margin-right: 0;
+
+        &::before {
+          content: "";
+          position: absolute;
+          left: 0;
+          top: 0;
+          bottom: 0;
+          width: 1px;
+          background-color: var(--global-text-color);
+          opacity: 0.25;
+        }
       }
 
       div[class^="col-"] {
@@ -75,17 +87,6 @@
           color: var(--global-theme-color) !important;
           border: 1px solid var(--global-theme-color);
         }
-      }
-
-      &::before {
-        content: "";
-        position: absolute;
-        left: 0;
-        top: 0.6rem;
-        bottom: 0.6rem;
-        width: 1px;
-        background-color: var(--global-text-color);
-        opacity: 0.25;
       }
 
       .pub-title-row {
