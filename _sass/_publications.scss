@@ -95,7 +95,7 @@
         font-weight: normal;
         font-family: "Roboto Serif", Georgia, "Times New Roman", Times, serif;
         display: block;
-        flex: 1 1 auto;
+        flex: 0 1 80%;
 
         &::after {
           content: "";
@@ -103,7 +103,7 @@
       }
 
       .pub-year {
-        font-family: "Roboto Serif", Georgia, "Times New Roman", Times, serif;
+        font-family: monospace;
         color: var(--global-text-color);
         white-space: nowrap;
         flex: 0 0 auto;
@@ -176,23 +176,22 @@
           color: var(--global-text-color);
           background-color: transparent;
           border: none;
-          border-bottom: 1px solid var(--global-divider-color);
           border-radius: 0;
           padding: 0;
           margin-right: 0.75rem;
           box-shadow: none !important;
-          transition: border-color 0.15s ease, color 0.15s ease;
+          text-decoration: underline;
+          text-underline-offset: 2px;
+          transition: color 0.15s ease;
 
           &:hover {
             color: var(--global-theme-color);
-            border-bottom-color: var(--global-theme-color);
-            text-decoration: none;
+            text-decoration: underline;
           }
         }
 
         a.award.btn {
           color: var(--global-highlight-color);
-          border-bottom-color: var(--global-highlight-color);
         }
       }
 
