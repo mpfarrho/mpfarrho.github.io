@@ -22,7 +22,7 @@ toc:
 
 {% bibliography --query @incollection %}
 
-<h2>Policy Briefings and Media</h2>
+<h2>Policy and Media</h2>
 
 <ul>
   <li>Monetary policy under economic uncertainty: Evidence from the Euro Area, with Hauzenberger and Stelzer, 09/2025 [<a href="https://www.suerf.org/publications/suerf-policy-notes-and-briefs/monetary-policy-under-economic-uncertainty-evidence-from-the-euro-area/" target="_blank">SUERF Policy Brief 1248</a>]</li>
