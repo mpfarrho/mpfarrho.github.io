@@ -49,6 +49,13 @@
   opacity: 0.5;
   text-decoration: none !important;
   position: relative !important;
+  transition: opacity 0.15s ease !important;
+
+  &:hover {
+    opacity: 1 !important;
+    color: var(--global-text-color) !important;
+    text-decoration: none !important;
+  }
 
   &::after {
     content: "";
@@ -60,10 +67,6 @@
     height: 1.1em;
     background-color: transparent;
   }
-}
-
-#toc-sidebar .nav > li > a:hover {
-  opacity: 1 !important;
 }
 
 #toc-sidebar .nav-link.active,
