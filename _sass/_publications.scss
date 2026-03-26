@@ -109,14 +109,13 @@
         display: block;
         margin-top: 0.15rem;
         font-size: 0.8rem;
-        color: var(--global-text-color-light);
+        color: var(--global-text-color);
 
         a {
-          color: var(--global-text-color-light);
-          border-bottom: 1px dashed var(--global-text-color-light);
+          color: var(--global-text-color);
+          border-bottom: 1px dashed var(--global-text-color);
 
           &:hover {
-            color: var(--global-text-color);
             border-bottom-style: solid;
             text-decoration: none;
           }
@@ -124,7 +123,7 @@
 
         > em {
           font-style: normal;
-          color: var(--global-text-color-light);
+          color: var(--global-text-color);
         }
 
         > span.more-authors {
@@ -139,16 +138,14 @@
         }
       }
 
-      .pub-venue-row {
-        display: flex;
-        justify-content: space-between;
-        align-items: baseline;
-        gap: 1rem;
+      .pub-venue {
         margin-top: 0.15rem;
       }
 
-      .pub-venue {
-        flex: 1 1 auto;
+      .pub-sep {
+        margin: 0 0.35em;
+        color: var(--global-text-color-light);
+        vertical-align: middle;
       }
 
       .periodical {
@@ -169,10 +166,7 @@
       }
 
       .links {
-        display: flex;
-        align-items: baseline;
-        flex: 0 0 auto;
-        white-space: nowrap;
+        display: inline;
 
         a.btn {
           font-family: inherit;
