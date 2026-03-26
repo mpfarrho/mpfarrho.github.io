@@ -9,11 +9,17 @@
   padding-right: 0 !important;
 }
 
-// Date badges: sans-serif, not bold, left-aligned
+// Date badges: sans-serif, not bold, left-aligned, no shadow
 .cv span.badge {
   font-family: "Roboto", sans-serif;
   font-weight: normal;
   text-align: left;
+  box-shadow: none !important;
+}
+
+// Sidebar TOC: flush with container left edge
+#toc-sidebar {
+  padding-left: 0;
 }
 
 // Second-line entries (institution, company): not bold
