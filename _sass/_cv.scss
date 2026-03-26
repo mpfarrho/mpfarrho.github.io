@@ -11,8 +11,13 @@
 
 // Remove excess vertical padding from list items in CV
 .cv .list-group-item {
-  padding-top: 0.25rem;
+  padding-top: 0.5rem;
   padding-bottom: 0.25rem;
+}
+
+// Remove Bootstrap's default table bottom margin inside CV entries
+.cv table.table-cv {
+  margin-bottom: 0;
 }
 
 // Date badges: sans-serif, not bold, left-aligned, no shadow
