@@ -9,54 +9,54 @@ cv:
     Experience:
       - company: WU Vienna University of Economics and Business
         position: Assistant Professor
-        location: Vienna, Austria
+        location: Vienna
         start_date: 2023-09
       - company: European Commission, Joint Research Centre (JRC) Ispra
         position: Expert
-        location: Ispra, Italy
+        location: Ispra
         start_date: 2020-12
       - company: University of Vienna
         position: Professor of Macroeconomics
-        location: Vienna, Austria
+        location: Vienna
         start_date: 2022-09
         end_date: 2023-08
       - company: Bocconi University
         position: Visiting Researcher
-        location: Milan, Italy
+        location: Milan
         start_date: 2022-03
         end_date: 2022-08
       - company: International Institute for Applied Systems Analysis (IIASA)
         position: Research Scholar
-        location: Laxenburg, Austria
+        location: Laxenburg
         start_date: 2020-11
         end_date: 2021-10
       - company: University of Salzburg
         position: Postdoc
-        location: Salzburg, Austria
+        location: Salzburg
         start_date: 2019-10
         end_date: 2022-08
 
     Education:
       - institution: University of Salzburg
-        location: Salzburg, Austria
+        location: Salzburg
         area: Economics
         studyType: Venia docendi (Habilitation)
         start_date: 2023-01
         end_date: 2023-01
       - institution: WU Vienna University of Economics and Business
-        location: Vienna, Austria
+        location: Vienna
         area: Economics
         studyType: Ph.D.
         start_date: 2019-09
         end_date: 2019-09
       - institution: WU Vienna University of Economics and Business
-        location: Vienna, Austria
+        location: Vienna
         area: Economics
         studyType: MSc.
         start_date: 2018-06
         end_date: 2018-06
       - institution: WU Vienna University of Economics and Business
-        location: Vienna, Austria
+        location: Vienna
         area: Business, Economics and Social Sciences
         studyType: BSc.
         start_date: 2016-07
