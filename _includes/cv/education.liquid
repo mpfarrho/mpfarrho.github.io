@@ -54,16 +54,15 @@
           {% capture study_type %}
             {% if entry.studyType %}{{ entry.studyType }}{% elsif entry.degree %}{{ entry.degree }}{% endif %}
           {% endcapture %}
-          {% if study_type != '' %}
-            <h6 class="title font-weight-bold ml-1 ml-md-4">{{ study_type }}</h6>
+          {% capture study_type_trimmed %}{{ study_type | strip }}{% endcapture %}
+          {% if study_type_trimmed != '' %}
+            <h6 class="title font-weight-bold ml-1 ml-md-4">{{ study_type_trimmed }}{% if entry.area %} in {{ entry.area }}{% endif %}</h6>
+          {% elsif entry.area %}
+            <h6 class="title font-weight-bold ml-1 ml-md-4">{{ entry.area }}</h6>
           {% endif %}
 
           {% if entry.institution %}
             <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem">{{ entry.institution }}</h6>
-          {% endif %}
-
-          {% if entry.area %}
-            <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem; font-style: italic">{{ entry.area }}</h6>
           {% endif %}
         </div>
       </div>
