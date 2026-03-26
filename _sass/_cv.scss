@@ -78,8 +78,9 @@
       font-size: 0.7rem;
       font-weight: normal;
       text-transform: uppercase;
-      color: var(--global-bg-color);
-      background-color: var(--global-theme-color);
+      color: var(--global-theme-color);
+      background-color: transparent;
+      border: 1px solid var(--global-theme-color);
       border-radius: 0.125rem;
       padding: 0.2rem 0.6rem;
       cursor: pointer;
