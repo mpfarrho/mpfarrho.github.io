@@ -95,8 +95,7 @@ cv:
         details: "SNB Research Seminar (Schweizerische Nationalbank, Zürich), Insightful Minds in International Macro Seminar ([IMIM](https://sites.google.com/view/imimseminars/home), online), Economics Research Seminar (JKU Linz), 15th RCEA Bayesian Econometrics Workshop (Universidad del Atlántico Medio), ECB conference \"Macroeconomic Modelling Frontiers for Research and Policy in Central Banks\" (Frankfurt)\\*, Economics Research Seminar (University of Strathclyde), IAAE Annual Conference (Thessaloniki), IIASA Workshop (Laxenburg), IHS Seminar (Vienna), OeNB Freitagsseminar (Vienna)"
       - label: "Earlier"
         details: "27th International Conference on Macroeconomic Analysis and International Finance (Rethymno), 12th ECB Conference on Forecasting Techniques (_Keynote_, Frankfurt)\\*, Macro Breakfast Seminar (University of Vienna), Annual Meeting of the Austrian Economic Association (NOeG), Internal Research Seminar (WU Vienna), Internal Research Seminar (European Commission, JRC Ispra), Macro Brownbag Seminar (Bocconi University), Research Seminar (Decision Sciences, Bocconi University), 12th European Seminar on Bayesian Econometrics (_scientific committee member_, Salzburg), 15th International Conference on Computational and Financial Econometrics (CFE 2022, _session organizer_, _invited session_, London), American Economic Association (AEA/ASSA 2021, online)\\*, UC Louvain ISBA/CORE seminar (online)\\*, Department of Economics Research Seminar (University of Salzburg), OeNB Economic Analysis Seminar, 11th ECB Conference on Forecasting Techniques (online)\\*, 2021 IAAE Annual Conference (online), 11th European Seminar on Bayesian Econometrics (ESOBE, Madrid, online), 4th Annual Workshop on Financial Econometrics (Örebro, online), Montreal Econometrics Seminar 2020 (online)\\*, Annual Meeting of the Austrian Economic Association (NOeG 2020, _session chair_, Vienna), 2nd International Conference on Data Science in Finance with R (DSF-R 2019, _invited talk_, Vienna), 10th European Seminar on Bayesian Econometrics (ESOBE 2019, St. Andrews), Annual Meeting of the Austrian Economic Association (NOeG 2019, Graz), Department of Economics Research Seminar (University of Salzburg, 2019), Annual Meeting of the Austrian Economic Association (NOeG 2018, Vienna), XII World Conference of the Spatial Econometrics Association (SEA 2018, Vienna)"
-      - label: "Note"
-        details: "\\* Presented by co-author"
+      - note: "\\* Presented by co-author"
 
     Memberships:
       - label: "Members"
@@ -109,5 +108,4 @@ cv:
         details: "Econometrics II (WU, 2024/25, 2025/26), Economic Modeling (WU, macro-part, 2025, 2026), Macroeconomics (PLUS, 2018/19, 2019/20; univie, 2022/23; WU, 2023/24)"
       - label: "Supervision"
         details: "Agati (WU, PhD committee, 2025–), Scheckel (PLUS, 2nd PhD advisor, 2024–), 4 MSc theses (WU, 2024), 1 MSc thesis (univie, 2023), multiple BSc theses (WU)"
-      - label: "Note"
-        details: "University of Vienna (univie), University of Salzburg (PLUS), Vienna University of Economics and Business (WU)"
+      - note: "University of Vienna (univie), University of Salzburg (PLUS), Vienna University of Economics and Business (WU)"
