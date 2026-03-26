@@ -36,21 +36,18 @@
   list-style: none;
 }
 
-.col-sm-3:has(#toc-sidebar) {
-  padding-left: 0;
-}
-
 // TOC links: sans-serif font, fixed padding so active indicator doesn't shift text
 #toc-sidebar .nav > li > a {
-  padding-left: 6px !important;
+  padding-left: 0 !important;
   font-family: "Roboto", sans-serif;
 }
 
 #toc-sidebar .nav-link.active,
 #toc-sidebar .nav-link.active:focus,
 #toc-sidebar .nav-link.active:hover {
-  padding-left: 4px !important;
+  padding-left: 0 !important;
   border-left: 2px solid var(--global-theme-color) !important;
+  margin-left: -2px;
   color: var(--global-theme-color) !important;
   font-weight: 600 !important;
 }
