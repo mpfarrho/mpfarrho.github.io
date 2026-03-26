@@ -36,18 +36,17 @@
   list-style: none;
 }
 
-// TOC links: sans-serif font, fixed padding so active indicator doesn't shift text
+// TOC links: sans-serif font, stable left padding
 #toc-sidebar .nav > li > a {
-  padding-left: 0 !important;
+  padding-left: 8px !important;
   font-family: "Roboto", sans-serif;
 }
 
 #toc-sidebar .nav-link.active,
 #toc-sidebar .nav-link.active:focus,
 #toc-sidebar .nav-link.active:hover {
-  padding-left: 0 !important;
+  padding-left: 6px !important;
   border-left: 2px solid var(--global-theme-color) !important;
-  margin-left: -2px;
   color: var(--global-theme-color) !important;
   font-weight: 600 !important;
 }
