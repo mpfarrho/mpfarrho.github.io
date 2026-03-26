@@ -66,10 +66,7 @@ table.table a {
 
   &:hover {
     color: var(--global-text-color);
-    text-decoration: underline;
-    text-decoration-style: solid;
-    text-decoration-thickness: 1px;
-    text-underline-offset: 3px;
+    text-decoration: none;
     opacity: 0.7;
   }
 
