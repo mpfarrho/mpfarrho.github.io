@@ -143,9 +143,8 @@
       }
 
       .pub-sep {
-        margin: 0 0.35em;
+        margin: 0 0.4em;
         color: var(--global-text-color-light);
-        vertical-align: middle;
       }
 
       .periodical {
@@ -178,7 +177,7 @@
           border: none;
           border-radius: 0;
           padding: 0;
-          margin-right: 0.75rem;
+          margin: 0;
           box-shadow: none !important;
           &:hover {
             opacity: 0.7;
