@@ -25,7 +25,7 @@ I am an Assistant Professor at WU Vienna University of Economics and Business ([
 
 > My work has been published in leading journals including the _Journal of Econometrics_, _Journal of Business & Economic Statistics_, _Journal of Applied Econometrics_, _International Economic Review_, _European Economic Review_, and _International Journal of Forecasting_, among others.
 
-## CV <a href="https://www.dropbox.com/s/2xgz0ge1h4enc6i/cv.pdf?dl=0" target="_blank" title="CV (PDF)"><i class="fa-solid fa-file-pdf"></i></a>
+## CV <a href="https://www.dropbox.com/s/2xgz0ge1h4enc6i/cv.pdf?dl=0" target="_blank" title="CV (PDF)"><i class="fa-solid fa-file-pdf fa-sm"></i></a>
 * _Assistant Professor_, Department of Economics at WU Vienna, 09/2023–
 * _Expert_, European Commission "Macro Modelling and Nowcast Pool," JRC Ispra, 12/2020–
 
