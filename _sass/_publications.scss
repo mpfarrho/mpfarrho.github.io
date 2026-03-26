@@ -113,7 +113,8 @@
       }
 
       .links {
-        display: inline;
+        display: block;
+        margin-top: 0.25rem;
 
         a.btn {
           color: var(--global-text-color);
