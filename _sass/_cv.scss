@@ -18,7 +18,14 @@
 }
 
 // Sidebar TOC: flush with container left edge
-#toc-sidebar {
+#toc-sidebar,
+#toc-sidebar ul,
+#toc-sidebar li {
+  padding-left: 0;
+  list-style: none;
+}
+
+.col-sm-3:has(#toc-sidebar) {
   padding-left: 0;
 }
 
