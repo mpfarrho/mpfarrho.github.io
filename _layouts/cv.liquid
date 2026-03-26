@@ -130,7 +130,29 @@ layout: default
                 <!-- Generic section -->
                 <ul class="card-text font-weight-light list-group list-group-flush">
                 {% for entry in section_entries %}
-                  {% if entry.note %}
+                  {% if entry.position %}
+                    <li class="list-group-item" style="padding-left: 0; padding-right: 0;">
+                      <div class="row">
+                        <div class="col-xs-2 col-sm-2 col-md-2 text-left date-column">
+                          {% capture start_date %}{% if entry.start_date %}{{ entry.start_date }}{% endif %}{% endcapture %}
+                          {% capture end_date %}{% if entry.end_date %}{{ entry.end_date }}{% endif %}{% endcapture %}
+                          {% if start_date != '' %}
+                            {% assign startYear = start_date | split: '-' | first %}
+                            {% assign endYear = end_date | split: '-' | first %}
+                            {% if endYear == '' %}{% assign endYear = 'Present' %}{% endif %}
+                            {% assign date = startYear | append: '–' | append: endYear %}
+                          {% else %}
+                            {% assign date = '' %}
+                          {% endif %}
+                          <span class="badge font-weight-bold danger-color-dark text-uppercase align-middle" style="min-width: 75px">{{ date }}</span>
+                        </div>
+                        <div class="col-xs-10 col-sm-10 col-md-10 mt-2 mt-md-0">
+                          {% if entry.position %}<h6 class="title font-weight-bold ml-1 ml-md-4">{{ entry.position }}</h6>{% endif %}
+                          {% if entry.company %}<h6 class="ml-1 ml-md-4" style="font-size: 0.95rem">{{ entry.company | markdownify | remove: '<p>' | remove: '</p>' }}</h6>{% endif %}
+                        </div>
+                      </div>
+                    </li>
+                  {% elsif entry.note %}
                     <li class="list-group-item" style="border: none; padding-top: 0.1rem;">
                       <p style="margin-bottom: 0; font-size: 0.85rem;">{{ entry.note | markdownify | remove: '<p>' | remove: '</p>' }}</p>
                     </li>
