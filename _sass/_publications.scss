@@ -80,10 +80,10 @@
       &::before {
         content: "";
         position: absolute;
-        right: 0;
+        left: 0;
+        right: 2.5rem;
         top: 0.35rem;
         bottom: 0.375rem;
-        width: 2.5rem;
         background-color: var(--global-text-color);
         opacity: 0.05;
       }
