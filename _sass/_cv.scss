@@ -9,6 +9,12 @@
   padding-right: 0 !important;
 }
 
+// Remove excess vertical padding from list items in CV
+.cv .list-group-item {
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
+
 // Date badges: sans-serif, not bold, left-aligned, no shadow
 .cv span.badge {
   font-family: "Roboto", sans-serif;
