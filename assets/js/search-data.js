@@ -11,7 +11,7 @@ ninja.data = [{
     },
   },{id: "nav-cv",
           title: "CV",
-          description: "Assistant Professor at WU Vienna University of Economics and Business, specializing in econometrics for macroeconomic applications.",
+          description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/mpfarrho-new.github.io/cv/";
