@@ -37,25 +37,30 @@
   list-style: none;
 }
 
-// TOC links: sans-serif font, theme color, no border, no underline
+// TOC links: sans-serif font, text color, no underline
 #toc-sidebar .nav > li > a,
 #toc-sidebar .nav > li > a:hover,
 #toc-sidebar .nav > li > a:focus {
   padding-left: 0 !important;
+  padding-right: 0.5rem !important;
   border-left: none !important;
+  border-right: 2px solid transparent !important;
   font-family: "Roboto", sans-serif;
-  color: var(--global-theme-color) !important;
+  color: var(--global-text-color) !important;
+  opacity: 0.5;
   text-decoration: none !important;
-  opacity: 1 !important;
 }
 
 #toc-sidebar .nav-link.active,
 #toc-sidebar .nav-link.active:focus,
 #toc-sidebar .nav-link.active:hover {
   padding-left: 0 !important;
+  padding-right: 0.5rem !important;
   border-left: none !important;
+  border-right: 2px solid var(--global-text-color) !important;
   text-decoration: none !important;
-  color: var(--global-theme-color) !important;
+  color: var(--global-text-color) !important;
+  opacity: 1 !important;
   font-weight: 600 !important;
 }
 
