@@ -181,12 +181,16 @@
           margin-right: 0.75rem;
           box-shadow: none !important;
           text-decoration: underline;
-          text-underline-offset: 2px;
-          transition: color 0.15s ease;
+          text-decoration-style: dashed;
+          text-decoration-thickness: 1px;
+          text-underline-offset: 3px;
 
           &:hover {
-            color: var(--global-theme-color);
+            color: var(--global-text-color);
             text-decoration: underline;
+            text-decoration-style: solid;
+            text-decoration-thickness: 1px;
+            text-underline-offset: 3px;
           }
         }
 
