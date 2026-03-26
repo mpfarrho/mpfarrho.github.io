@@ -90,7 +90,7 @@
         font-weight: normal;
         font-family: "Roboto Serif", Georgia, "Times New Roman", Times, serif;
         display: block;
-        flex: 0 1 80%;
+        flex: 0 1 88%;
 
         &::after {
           content: "";
@@ -99,6 +99,7 @@
 
       .pub-year {
         font-family: monospace;
+        font-size: 0.8rem;
         color: var(--global-text-color);
         white-space: nowrap;
         flex: 0 0 auto;
