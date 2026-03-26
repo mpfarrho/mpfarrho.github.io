@@ -123,16 +123,16 @@
 
       .links {
         display: block;
-        margin-top: 0.25rem;
+        margin-top: 0.1rem;
 
         a.btn {
           font-family: "Roboto", sans-serif;
           font-size: 0.7rem;
           font-weight: normal;
           text-transform: uppercase;
-          color: var(--global-bg-color);
-          background-color: var(--global-theme-color);
-          border: none;
+          color: var(--global-theme-color);
+          background-color: transparent;
+          border: 1px solid var(--global-theme-color);
           border-radius: 0.125rem;
           padding-left: 0.6rem;
           padding-right: 0.6rem;
@@ -147,7 +147,8 @@
           }
         }
         a.award.btn {
-          background-color: var(--global-highlight-color);
+          color: var(--global-highlight-color);
+          border-color: var(--global-highlight-color);
         }
       }
 
