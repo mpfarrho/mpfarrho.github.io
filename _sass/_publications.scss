@@ -179,6 +179,7 @@
           padding: 0;
           margin: 0;
           box-shadow: none !important;
+          text-decoration-color: var(--global-text-color);
           &:hover {
             opacity: 0.7;
           }
