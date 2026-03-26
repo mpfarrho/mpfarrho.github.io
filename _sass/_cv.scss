@@ -39,7 +39,6 @@
 
 // TOC links: sans-serif font, text color, no underline
 #toc-sidebar .nav > li > a,
-#toc-sidebar .nav > li > a:hover,
 #toc-sidebar .nav > li > a:focus {
   padding-left: 0 !important;
   padding-right: 0.5rem !important;
@@ -61,6 +60,10 @@
     height: 1.1em;
     background-color: transparent;
   }
+}
+
+#toc-sidebar .nav > li > a:hover {
+  opacity: 1 !important;
 }
 
 #toc-sidebar .nav-link.active,
