@@ -21,7 +21,7 @@ $(document).ready(function () {
   if ($("#toc-sidebar").length) {
     var navSelector = "#toc-sidebar";
     var $myNav = $(navSelector);
-    Toc.init($myNav);
+    Toc.init({ $nav: $myNav, selector: "h2" });
     $("body").scrollspy({
       target: navSelector,
       offset: 100,
