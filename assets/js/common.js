@@ -26,6 +26,9 @@ $(document).ready(function () {
       target: navSelector,
       offset: 100,
     });
+    // Activate the first TOC link immediately on page load
+    $("body").scrollspy("refresh");
+    $(window).trigger("scroll");
   }
 
   // add css to jupyter notebooks
