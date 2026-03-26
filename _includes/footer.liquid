@@ -1,4 +1,15 @@
 {% capture footer_contents %}
+  {% if site.data.socials.email or site.data.socials.scholar_userid %}
+    <div class="footer-links">
+      {% if site.data.socials.email %}
+        <a href="mailto:{{ site.data.socials.email }}">Email</a>
+      {% endif %}
+      {% if site.data.socials.email and site.data.socials.scholar_userid %} &middot; {% endif %}
+      {% if site.data.socials.scholar_userid %}
+        <a href="https://scholar.google.com/citations?user={{ site.data.socials.scholar_userid }}" target="_blank">Google Scholar</a>
+      {% endif %}
+    </div>
+  {% endif %}
   {{ site.footer_text }}
   {% if site.impressum_path %}
     <a href="{{ site.url }}{{ site.baseurl }}{{ site.impressum_path }}">Impressum</a>.
