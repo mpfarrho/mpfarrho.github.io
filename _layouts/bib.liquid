@@ -49,7 +49,7 @@
   <div id="{{ entry.key }}" class="{% if site.enable_publication_thumbnails %}col-sm-8{% else %}col-sm-12{% endif %}">
     <!-- Title + Year row -->
     <div class="pub-title-row">
-      <div class="title">&ldquo;{{ entry.title }}{% assign title_last = entry.title | slice: -1 %}{% unless title_last == '?' or title_last == '!' or title_last == ',' %},{% endunless %}&rdquo;</div>
+      <div class="title">&ldquo;{{ entry.title }}&rdquo;</div>
       {% if entry.year %}<div class="pub-year">{{ entry.year }}</div>{% endif %}
     </div>
     <!-- Author -->
@@ -145,7 +145,7 @@
           data-content="{{ entry.annotation | escape }}"
         >
         </i>
-      {%- endif -%},
+      {%- endif -%}
     </div>
 
     <!-- Journal/Book title and date -->
@@ -154,7 +154,7 @@
     {% if entry.type == 'article' %}
       {% capture entrytype %}<em>{{ entry.journal }}</em>{% endcapture %}
     {% elsif proceedings contains entry.type %}
-      {% capture entrytype %}<em>In {{ entry.booktitle }}</em>{% endcapture %}
+      {% capture entrytype %}<em>{{ entry.booktitle }}</em>{% endcapture %}
     {% elsif thesis contains entry.type %}
       {% capture entrytype %}<em>{{ entry.school }}</em>{% endcapture %}
     {% else %}
@@ -176,7 +176,7 @@
       {% capture entryyear %}{{ entry.year }}{% endcapture %}
     {% endif %}
     {% if entry.location %}
-      {% capture entrytype %}{{ entrytype }}{{ ", " }}{{ entry.location }}{% endcapture %}
+      {% capture entrytype %}{{ entrytype }}{{ " " }}{{ entry.location }}{% endcapture %}
     {% endif -%}
     {% if entry.additional_info %}
       {% capture entrytype %}{{ entrytype }}{{ entry.additional_info | markdownify | remove: '<p>' | remove: '</p>' }}{% endcapture %}
@@ -187,7 +187,7 @@
     {% endif %}
     {% assign entrytype_text = entrytype | strip_html | strip %}
     {% assign entrynote = entry.note | strip %}
-    {% capture periodical %}{{ entrytype }}{% if entryvoliss != '' %} {{ entryvoliss }}{% endif %}{% if entrynote != '' %},{% endif %}{% endcapture %}
+    {% capture periodical %}{{ entrytype }}{% if entryvoliss != '' %} {{ entryvoliss }}{% endif %}{% endcapture %}
     <div class="pub-venue">
       <div class="periodical">{{ periodical | strip }}</div>
       <div class="periodical">{{ entry.note | strip }}</div>
