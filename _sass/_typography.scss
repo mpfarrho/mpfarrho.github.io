@@ -80,11 +80,11 @@ table.table a {
 
 blockquote {
   background: transparent;
-  border-left: 5px solid var(--global-theme-color);
+  border-left: 0.25em solid var(--global-text-color);
   margin: 0.75em 0;
   padding: 0.5em 1em;
   font-size: 1rem;
-  color: var(--global-theme-color);
+  color: var(--global-text-color);
 
   p {
     margin-bottom: 0;
