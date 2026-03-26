@@ -133,7 +133,7 @@
           {{- more_authors_hide -}}
         </span>
       {% endif %}
-      {% if entry.annotation %}
+      {%- if entry.annotation %}
         <i
           class="fa-solid fa-circle-info ml-1"
           data-toggle="popover"
@@ -142,8 +142,7 @@
           data-content="{{ entry.annotation | escape }}"
         >
         </i>
-      {% endif %}
-      ,
+      {%- endif -%},
     </div>
 
     <!-- Journal/Book title and date -->
@@ -184,7 +183,8 @@
       {% include hook/bib.liquid %}
     {% endif %}
     {% assign entrytype_text = entrytype | strip_html | strip %}
-    {% capture periodical %}{{ entrytype }}{% if entryvoliss != '' %}, {{ entryvoliss }}{% endif %}{% if entrytype_text != "" and entryyear != "" %}, {% endif %}{{ entrymonth }}{{ entryyear }}{% if entryyear != '' %},{% endif %}{% endcapture %}
+    {% assign entrynote = entry.note | strip %}
+    {% capture periodical %}{{ entrytype }}{% if entryvoliss != '' %}, {{ entryvoliss }}{% endif %}{% if entrytype_text != "" and entryyear != "" %}, {% endif %}{{ entrymonth }}{{ entryyear }}{% if entryyear != '' and entrynote != '' %},{% endif %}{% endcapture %}
     <div class="periodical">
       {{ periodical | strip }}
     </div>
