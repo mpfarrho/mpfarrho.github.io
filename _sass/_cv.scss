@@ -37,7 +37,7 @@
   list-style: none;
 }
 
-// TOC links: sans-serif font, text color, no underline
+// TOC links: serif font, text color, no underline
 #toc-sidebar .nav > li > a,
 #toc-sidebar .nav > li > a:focus {
   padding-left: 0 !important;
@@ -45,6 +45,8 @@
   border-left: none !important;
   border-right: none !important;
   font-family: "Roboto Serif", Georgia, "Times New Roman", Times, serif;
+  font-size: 0.82rem !important;
+  font-weight: normal !important;
   color: var(--global-text-color) !important;
   opacity: 0.5;
   text-decoration: none !important;
@@ -52,7 +54,7 @@
   transition: opacity 0.15s ease !important;
 
   &:hover {
-    opacity: 1 !important;
+    opacity: 0.4 !important;
     color: var(--global-text-color) !important;
     text-decoration: none !important;
   }
@@ -79,7 +81,7 @@
   text-decoration: none !important;
   color: var(--global-text-color) !important;
   opacity: 1 !important;
-  font-weight: 600 !important;
+  font-weight: normal !important;
 
   &::after {
     background-color: var(--global-text-color);
