@@ -172,7 +172,8 @@
           {% if entry.doi %}
             <span class="pub-sep">&middot;</span><a href="https://doi.org/{{ entry.doi }}" class="btn btn-sm z-depth-0" role="button">doi</a>
           {% elsif entry.html %}
-            <span class="pub-sep">&middot;</span>{% if entry.html contains '://' %}<a href="{{ entry.html }}" class="btn btn-sm z-depth-0" role="button">doi</a>{% else %}<a href="{{ entry.html | prepend: '/assets/html/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">doi</a>{% endif %}
+            {% assign html_label = 'doi' %}{% if entry.type == 'misc' %}{% assign html_label = 'link' %}{% endif %}
+            <span class="pub-sep">&middot;</span>{% if entry.html contains '://' %}<a href="{{ entry.html }}" class="btn btn-sm z-depth-0" role="button">{{ html_label }}</a>{% else %}<a href="{{ entry.html | prepend: '/assets/html/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">{{ html_label }}</a>{% endif %}
           {% endif %}
           {% if entry.arxiv %}
             <span class="pub-sep">&middot;</span><a href="http://arxiv.org/abs/{{ entry.arxiv }}" class="btn btn-sm z-depth-0" role="button">wp</a>
