@@ -280,12 +280,8 @@
         transition: all 0.15s ease;
       }
 
-      div.abstract.hidden {
-        border: none;
-      }
-
-      div.abstract.hidden.open {
-        border: none;
+      div.abstract {
+        border: none !important;
       }
     }
     div.award.hidden {
