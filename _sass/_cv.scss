@@ -2,6 +2,78 @@
  * CV shared styles
  *****************************/
 
+// About/Home page: style bullet lists to match publication entry design language.
+// Targets <ul><li> inside .post article (the about layout content area).
+// Each <li> starts with _Role_ (rendered as <em>) followed by institution/date text.
+
+.post article {
+  ul {
+    list-style: none;
+    padding-left: 0;
+    margin-left: 0;
+
+    li {
+      position: relative;
+      padding: 0.375em 0 0.375em 1em;
+      margin-bottom: 0;
+      border-bottom: 1px dashed var(--global-divider-color);
+
+      // Left border accent — matches .publications ol.bibliography li .row::before
+      &::before {
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        width: 0.25em;
+        background-color: var(--global-text-color);
+      }
+
+      // Institution/date text: monospace, muted (applied to the li itself;
+      // the leading <em> below overrides back to serif for the role/title)
+      font-family: "IBM Plex Mono", monospace;
+      font-size: 0.65rem;
+      color: var(--global-text-color);
+      opacity: 0.85;
+
+      // Role/title in italic serif — matches .title on Research page
+      > em:first-child {
+        display: block;
+        font-style: italic;
+        font-weight: normal;
+        font-size: 1.1rem;
+        font-family: "EB Garamond", Georgia, "Times New Roman", Times, serif;
+        line-height: 1.2;
+        color: var(--global-text-color);
+        opacity: 1;
+        margin-bottom: 0.1em;
+      }
+
+      // Links inside list items: dashed underline, inherit monospace size
+      a {
+        font-family: inherit;
+        font-size: inherit;
+        color: var(--global-text-color);
+        text-decoration: underline;
+        text-decoration-style: dashed;
+        text-decoration-thickness: 1px;
+        text-underline-offset: 3px;
+        opacity: 1;
+
+        &:hover {
+          text-decoration: none;
+          opacity: 0.4;
+        }
+      }
+    }
+
+    // Last item: no bottom divider
+    li:last-child {
+      border-bottom: none;
+    }
+  }
+}
+
 // Remove horizontal card padding so content aligns with page headings
 .cv .card,
 .publications .card {
