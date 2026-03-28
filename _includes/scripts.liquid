@@ -377,19 +377,3 @@
   <script defer src="{{ '/assets/js/newsletter.js' | relative_url | bust_file_cache }}"></script>
 {% endif %}
 
-<!-- Deduplicate publication years: only show year for first entry per year -->
-<script>
-  document.addEventListener("DOMContentLoaded", function () {
-    document.querySelectorAll(".publications ol.bibliography").forEach(function (ol) {
-      var lastYear = null;
-      ol.querySelectorAll("li .pub-year").forEach(function (el) {
-        var year = el.textContent.trim();
-        if (year === lastYear) {
-          el.style.visibility = "hidden";
-        } else {
-          lastYear = year;
-        }
-      });
-    });
-  });
-</script>

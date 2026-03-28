@@ -160,9 +160,17 @@
       .pub-venue {
         margin-top: 0.2rem;
         font-size: 0.8rem;
-        line-height: 1;
         white-space: normal;
         word-break: break-word;
+      }
+
+      .pub-meta-line {
+        line-height: 1.4;
+      }
+
+      .pub-links-line {
+        margin-top: 0.15rem;
+        line-height: 1.4;
       }
 
       .pub-sep {
@@ -172,8 +180,8 @@
 
       .periodical {
         display: inline;
-        font-family: "EB Garamond", Georgia, "Times New Roman", Times, serif;
-        font-size: 1rem;
+        font-family: "IBM Plex Mono", monospace;
+        font-size: 0.8rem;
         text-transform: uppercase;
         letter-spacing: 0.03em;
         color: var(--global-text-color);
