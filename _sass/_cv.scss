@@ -65,7 +65,7 @@
     right: 0;
     top: 50%;
     transform: translateY(-50%);
-    width: 2px;
+    width: 0.25em;
     height: 1.1em;
     background-color: transparent;
   }
@@ -314,7 +314,7 @@ span.badge-toc {
 ul.timeline li::before {
   content: "";
   min-height: 2.5rem;
-  width: 1px;
+  width: 0.25em;
   background: var(--global-text-color);
   margin: 0;
   padding: 0;
