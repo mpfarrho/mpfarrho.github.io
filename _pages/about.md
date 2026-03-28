@@ -41,12 +41,12 @@ I am an Assistant Professor at WU Vienna University of Economics and Business ([
 ## Activities
 * _Associate Editor_, [Macroeconomic Dynamics](https://www.cambridge.org/core/journals/macroeconomic-dynamics)<span class="cv-date">2025–</span>
 * _General Secretary_ of the Austrian Economic Association ([NOeG](https://www.noeg.ac.at))<span class="cv-date">2025–2026</span>
-* _Memberships:_ American Economic Association (AEA), Austrian Economic Association (NOeG), Euro Area Business Cycle Network (EABCN), European Economic Association (EEA), Econometric Society (ES), International Society for Bayesian Analysis (ISBA)
-* _Other:_ Local organizing committee member, Annual Meeting NOeG 2026 (CEU, Vienna); Local organizing and scientific committee member, [12th European Seminar on Bayesian Econometrics](https://sites.google.com/view/esobe2022salzburg) (ESOBE, Salzburg), 2022; Scientific Committee OeNB/SUERF Economic Conference 2025, 2026; EIPA course "Macroeconomy-at-Risk: Advanced Methods for Density and Tail Risk Predictions" for the European Commission (DG ECFIN)
+* _Memberships_ — American Economic Association (AEA), Austrian Economic Association (NOeG), Euro Area Business Cycle Network (EABCN), European Economic Association (EEA), Econometric Society (ES), International Society for Bayesian Analysis (ISBA)
+* _Other_ — Local organizing committee member, Annual Meeting NOeG 2026 (CEU, Vienna); Local organizing and scientific committee member, [12th European Seminar on Bayesian Econometrics](https://sites.google.com/view/esobe2022salzburg) (ESOBE, Salzburg), 2022; Scientific Committee OeNB/SUERF Economic Conference 2025, 2026; EIPA course "Macroeconomy-at-Risk: Advanced Methods for Density and Tail Risk Predictions" for the European Commission (DG ECFIN)
 
 ### Referee
-* _Journals_: Energy Economics, IMF Economic Review, International Journal of Forecasting, Journal of Applied Econometrics, Journal of Business & Economic Statistics, Journal of Econometrics, Journal of Economic Dynamics & Control, Journal of Money, Credit and Banking, Journal of the American Statistical Association, Journal of the Royal Statistical Society, Macroeconomic Dynamics, Review of Economics and Statistics, Statistica Sinica, Quantitative Economics, among others
-* _Other_: ECB Working Paper Series, OeNB Jubiläumsfonds, Swiss National Science Foundation
+* _Journals_ — Energy Economics, IMF Economic Review, International Journal of Forecasting, Journal of Applied Econometrics, Journal of Business & Economic Statistics, Journal of Econometrics, Journal of Economic Dynamics & Control, Journal of Money, Credit and Banking, Journal of the American Statistical Association, Journal of the Royal Statistical Society, Macroeconomic Dynamics, Review of Economics and Statistics, Statistica Sinica, Quantitative Economics, among others
+* _Other_ — ECB Working Paper Series, OeNB Jubiläumsfonds, Swiss National Science Foundation
 
 ## Education
 * _Venia docendi in Economics_ at University of Salzburg — habilitation "Structural and predictive inference with parametric and nonparametric models in economics"<span class="cv-date">01/2023</span>
