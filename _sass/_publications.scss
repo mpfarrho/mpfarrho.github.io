@@ -281,11 +281,11 @@
       }
 
       div.abstract.hidden {
-        border: dashed 1px var(--global-bg-color);
+        border: none;
       }
 
       div.abstract.hidden.open {
-        border-color: var(--global-text-color);
+        border: none;
       }
     }
     div.award.hidden {
