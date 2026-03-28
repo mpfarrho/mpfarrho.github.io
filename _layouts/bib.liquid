@@ -156,36 +156,33 @@
         <span class="periodical">{{ periodical | strip }}</span>
         <span class="periodical">{{ entry.note | strip }}</span>
         {% if entry.year %}<span class="pub-sep">&middot;</span><span class="pub-year">{{ entry.year }}</span>{% endif %}
-      </div>
-      <div class="pub-links-line">
         <span class="links">
-          {% if entry.award %}<a class="award btn btn-sm z-depth-0" role="button">{%- if entry.award_name %}{{ entry.award_name }}{% else %}Awarded{% endif -%}</a>{% endif %}
-          {% if entry.abstract %}{% if entry.award %}<span class="pub-sep">&middot;</span>{% endif %}<a class="abstract btn btn-sm z-depth-0" role="button">abs</a>{% endif %}
-          {% assign has_link = false %}
-          {% if entry.award or entry.abstract %}{% assign has_link = true %}{% endif %}
+          {% assign has_link = true %}
+          {% if entry.award %}<span class="pub-sep">&middot;</span><a class="award btn btn-sm z-depth-0" role="button">{%- if entry.award_name %}{{ entry.award_name }}{% else %}Awarded{% endif -%}</a>{% endif %}
+          {% if entry.abstract %}<span class="pub-sep">&middot;</span><a class="abstract btn btn-sm z-depth-0" role="button">abs</a>{% endif %}
           {% if entry.type == 'unpublished' %}
             {% if entry.arxiv %}
-              {% if has_link %}<span class="pub-sep">&middot;</span>{% endif %}<a href="http://arxiv.org/abs/{{ entry.arxiv }}" class="btn btn-sm z-depth-0" role="button">wp</a>{% assign has_link = true %}
+              <span class="pub-sep">&middot;</span><a href="http://arxiv.org/abs/{{ entry.arxiv }}" class="btn btn-sm z-depth-0" role="button">wp</a>
             {% elsif entry.html %}
-              {% if has_link %}<span class="pub-sep">&middot;</span>{% endif %}{% if entry.html contains '://' %}<a href="{{ entry.html }}" class="btn btn-sm z-depth-0" role="button">wp</a>{% else %}<a href="{{ entry.html | prepend: '/assets/html/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">wp</a>{% endif %}{% assign has_link = true %}
+              <span class="pub-sep">&middot;</span>{% if entry.html contains '://' %}<a href="{{ entry.html }}" class="btn btn-sm z-depth-0" role="button">wp</a>{% else %}<a href="{{ entry.html | prepend: '/assets/html/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">wp</a>{% endif %}
             {% elsif entry.pdf %}
-              {% if has_link %}<span class="pub-sep">&middot;</span>{% endif %}{% if entry.pdf contains '://' %}<a href="{{ entry.pdf }}" class="btn btn-sm z-depth-0" role="button">wp</a>{% else %}<a href="{{ entry.pdf | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">wp</a>{% endif %}{% assign has_link = true %}
+              <span class="pub-sep">&middot;</span>{% if entry.pdf contains '://' %}<a href="{{ entry.pdf }}" class="btn btn-sm z-depth-0" role="button">wp</a>{% else %}<a href="{{ entry.pdf | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">wp</a>{% endif %}
             {% else %}
-              {% if has_link %}<span class="pub-sep">&middot;</span>{% endif %}<span class="btn btn-sm z-depth-0">wp</span>{% assign has_link = true %}
+              <span class="pub-sep">&middot;</span><span class="btn btn-sm z-depth-0">wp</span>
             {% endif %}
           {% else %}
             {% if entry.doi %}
-              {% if has_link %}<span class="pub-sep">&middot;</span>{% endif %}<a href="https://doi.org/{{ entry.doi }}" class="btn btn-sm z-depth-0" role="button">doi</a>{% assign has_link = true %}
+              <span class="pub-sep">&middot;</span><a href="https://doi.org/{{ entry.doi }}" class="btn btn-sm z-depth-0" role="button">doi</a>
             {% elsif entry.html %}
               {% assign html_label = 'doi' %}{% if entry.type == 'misc' %}{% assign html_label = 'link' %}{% endif %}
-              {% if has_link %}<span class="pub-sep">&middot;</span>{% endif %}{% if entry.html contains '://' %}<a href="{{ entry.html }}" class="btn btn-sm z-depth-0" role="button">{{ html_label }}</a>{% else %}<a href="{{ entry.html | prepend: '/assets/html/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">{{ html_label }}</a>{% endif %}{% assign has_link = true %}
+              <span class="pub-sep">&middot;</span>{% if entry.html contains '://' %}<a href="{{ entry.html }}" class="btn btn-sm z-depth-0" role="button">{{ html_label }}</a>{% else %}<a href="{{ entry.html | prepend: '/assets/html/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">{{ html_label }}</a>{% endif %}
             {% endif %}
             {% if entry.arxiv %}
-              {% if has_link %}<span class="pub-sep">&middot;</span>{% endif %}<a href="http://arxiv.org/abs/{{ entry.arxiv }}" class="btn btn-sm z-depth-0" role="button">wp</a>{% assign has_link = true %}
+              <span class="pub-sep">&middot;</span><a href="http://arxiv.org/abs/{{ entry.arxiv }}" class="btn btn-sm z-depth-0" role="button">wp</a>
             {% endif %}
           {% endif %}
-          {% if entry.code %}{% if has_link %}<span class="pub-sep">&middot;</span>{% endif %}<a href="{{ entry.code }}" class="btn btn-sm z-depth-0" role="button">code</a>{% assign has_link = true %}{% endif %}
-          {% if entry.bibtex_show %}{% if has_link %}<span class="pub-sep">&middot;</span>{% endif %}<a class="bibtex btn btn-sm z-depth-0" role="button">bib</a>{% endif %}
+          {% if entry.code %}<span class="pub-sep">&middot;</span><a href="{{ entry.code }}" class="btn btn-sm z-depth-0" role="button">code</a>{% endif %}
+          {% if entry.bibtex_show %}<span class="pub-sep">&middot;</span><a class="bibtex btn btn-sm z-depth-0" role="button">bib</a>{% endif %}
         </span>
       </div>
     </div>
