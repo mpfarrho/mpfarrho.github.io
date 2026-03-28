@@ -29,10 +29,9 @@
         background-color: var(--global-text-color);
       }
 
-      // Institution/date text: monospace, muted (applied to the li itself;
-      // the leading <em> below overrides back to serif for the role/title)
-      font-family: "IBM Plex Mono", monospace;
-      font-size: 0.65rem;
+      // Entry body: regular serif, matches author line on Research page
+      font-family: "EB Garamond", Georgia, "Times New Roman", Times, serif;
+      font-size: 0.85rem;
       color: var(--global-text-color);
       opacity: 0.85;
 
@@ -49,7 +48,17 @@
         margin-bottom: 0.1em;
       }
 
-      // Links inside list items: dashed underline, inherit monospace size
+      // Date/year on its own line in monospace — matches .pub-year on Research page
+      span.cv-date {
+        display: block;
+        font-family: "IBM Plex Mono", monospace;
+        font-size: 0.65rem;
+        color: var(--global-text-color);
+        opacity: 0.6;
+        margin-top: 0.1em;
+      }
+
+      // Links: dashed underline, inherit serif size
       a {
         font-family: inherit;
         font-size: inherit;
