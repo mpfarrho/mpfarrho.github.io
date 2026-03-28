@@ -49,8 +49,8 @@ I am an Assistant Professor at WU Vienna University of Economics and Business ([
 * _Other_: ECB Working Paper Series, OeNB Jubiläumsfonds, Swiss National Science Foundation
 
 ## Education
-* _Venia docendi in Economics_ at University of Salzburg, habilitation "Structural and predictive inference with parametric and nonparametric models in economics"<span class="cv-date">01/2023</span>
-* _Ph.D. in Economics_ at WU Vienna, thesis "Bayesian inference in high-dimensional multivariate time series models with applications in macroeconomics and finance"<span class="cv-date">09/2019</span>
+* _Venia docendi in Economics_ at University of Salzburg — habilitation "Structural and predictive inference with parametric and nonparametric models in economics"<span class="cv-date">01/2023</span>
+* _Ph.D. in Economics_ at WU Vienna — thesis "Bayesian inference in high-dimensional multivariate time series models with applications in macroeconomics and finance"<span class="cv-date">09/2019</span>
 * _MSc. in Economics_ at WU Vienna<span class="cv-date">06/2018</span>
 * _BSc. in Business, Economics and Social Sciences_ at WU Vienna<span class="cv-date">07/2016</span>
 
@@ -59,8 +59,8 @@ I am an Assistant Professor at WU Vienna University of Economics and Business ([
 * Klaus Liebscher Economic Research Scholarship 2020 ([KLERS](https://www.oenb.at/en/About-Us/Research-Promotion/scholarships_and_awards/klaus_liebscher_economic_research_scholarship.html)), awarded by the Oesterreichische Nationalbank (OeNB)<span class="cv-date">05/2021–10/2021</span>
 
 ## Grants
-* Jubiläumsfonds der Oesterreichischen Nationalbank (OeNB): "Between fostering and limiting central bank independence: The impact of constitutional courts decisions," (co-PI, principal investigator: F. Huber), total funding EUR 118,000.00<span class="cv-date">2020–2022</span>
-* Jubiläumsfonds der Oesterreichischen Nationalbank (OeNB): "Inference with Bayesian nonparametric models in the presence of measurement errors and outliers," (PI), total funding EUR 168,000.00, [project 18765 website](/project18765/)<span class="cv-date">2022–24</span>
+* Jubiläumsfonds der Oesterreichischen Nationalbank (OeNB): "Between fostering and limiting central bank independence: The impact of constitutional courts decisions" (co-PI, principal investigator: F. Huber), total funding EUR 118,000<span class="cv-date">2020–2022</span>
+* Jubiläumsfonds der Oesterreichischen Nationalbank (OeNB): "Inference with Bayesian nonparametric models in the presence of measurement errors and outliers" (PI), total funding EUR 168,000, [project 18765 website](/project18765/)<span class="cv-date">2022–24</span>
 
 ## Presentations
 * _Recent (2025–)_: 13th ECB Conference on Forecasting Techniques, SNB Research Seminar (Zürich), Insightful Minds in International Macro Seminar ([IMIM](https://sites.google.com/view/imimseminars/home), online), Economics Research Seminar (JKU Linz), 15th RCEA Bayesian Econometrics Workshop (Universidad del Atlántico Medio)
