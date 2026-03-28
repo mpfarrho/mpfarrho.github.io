@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://mpfarrho.github.io/mpfarrho-new.github.io/sitemap.xml
+Sitemap: https://mpfarrho.github.io/sitemap.xml
