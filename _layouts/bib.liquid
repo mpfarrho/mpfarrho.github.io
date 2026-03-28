@@ -55,7 +55,7 @@
     <div class="author">
       {% assign author_array_size = entry.author_array | size %}
       {% assign use_etal = false %}
-      {% if author_array_size > 3 %}{% assign use_etal = true %}{% endif %}
+      {% if author_array_size > 5 %}{% assign use_etal = true %}{% endif %}
       {% assign author_loop_limit = author_array_size %}
       {% if use_etal %}{% assign author_loop_limit = 1 %}{% endif %}
 
