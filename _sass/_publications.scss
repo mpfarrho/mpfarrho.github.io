@@ -121,8 +121,8 @@
 
       .author {
         display: block;
-        margin-top: 0.1rem;
-        font-size: 0.95rem;
+        margin-top: 0.05rem;
+        font-size: 0.85rem;
         font-family: "EB Garamond", Georgia, "Times New Roman", Times, serif;
         color: var(--global-text-color);
         opacity: 0.6;
@@ -158,19 +158,19 @@
       }
 
       .pub-venue {
-        margin-top: 0.1rem;
-        font-size: 0.8rem;
+        margin-top: 0.05rem;
+        font-size: 0.75rem;
         white-space: normal;
         word-break: break-word;
       }
 
       .pub-meta-line {
-        line-height: 1.4;
+        line-height: 1.2;
       }
 
       .pub-links-line {
-        margin-top: 0.15rem;
-        line-height: 1.4;
+        margin-top: 0.05rem;
+        line-height: 1.2;
       }
 
       .pub-sep {
@@ -181,7 +181,7 @@
       .periodical {
         display: inline;
         font-family: "IBM Plex Mono", monospace;
-        font-size: 0.8rem;
+        font-size: 0.75rem;
         text-transform: none;
         letter-spacing: 0;
         color: var(--global-text-color);
@@ -201,7 +201,7 @@
 
         a.btn {
           font-family: "IBM Plex Sans", sans-serif;
-          font-size: 0.8rem;
+          font-size: 0.75rem;
           font-weight: normal;
           text-transform: none;
           color: var(--global-text-color);
