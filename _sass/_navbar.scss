@@ -9,7 +9,7 @@
   border-bottom: none;
   background-color: var(--global-bg-color);
   opacity: 0.95;
-  font-family: "EB Garamond", Georgia, "Times New Roman", Times, serif;
+  font-family: "IBM Plex Sans", sans-serif;
 }
 
 .navbar .dropdown-menu,
@@ -61,6 +61,7 @@
 
   .navbar-brand {
     color: var(--global-text-color);
+    font-family: "EB Garamond", Georgia, "Times New Roman", Times, serif;
     font-weight: bold;
     font-style: italic;
   }

@@ -37,14 +37,14 @@
   list-style: none;
 }
 
-// TOC links: serif font, text color, no underline
+// TOC links: sans-serif font, text color, no underline
 #toc-sidebar .nav > li > a,
 #toc-sidebar .nav > li > a:focus {
   padding-left: 0 !important;
   padding-right: 0.5rem !important;
   border-left: none !important;
   border-right: none !important;
-  font-family: "EB Garamond", Georgia, "Times New Roman", Times, serif;
+  font-family: "IBM Plex Sans", sans-serif;
   font-size: 0.82rem !important;
   font-weight: normal !important;
   color: var(--global-text-color) !important;
