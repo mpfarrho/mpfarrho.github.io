@@ -99,6 +99,7 @@
       .title {
         font-style: italic;
         font-weight: normal;
+        font-size: 1.1rem;
         font-family: "EB Garamond", Georgia, "Times New Roman", Times, serif;
         display: block;
         flex: 1 1 auto;
@@ -110,21 +111,19 @@
       }
 
       .pub-year {
+        display: inline;
         font-family: "IBM Plex Mono", monospace;
         font-size: 0.8rem;
         color: var(--global-text-color);
         opacity: 0.6;
         white-space: nowrap;
-        flex: 0 0 2.5rem;
-        text-align: center;
-        width: 2.5rem;
       }
 
       .author {
         display: block;
         margin-top: 0.2rem;
-        font-size: 1rem;
-        font-family: "IBM Plex Sans", sans-serif;
+        font-size: 0.95rem;
+        font-family: "EB Garamond", Georgia, "Times New Roman", Times, serif;
         color: var(--global-text-color);
         opacity: 0.6;
 
@@ -160,6 +159,7 @@
 
       .pub-venue {
         margin-top: 0.2rem;
+        font-size: 0.8rem;
         line-height: 1;
         white-space: normal;
         word-break: break-word;

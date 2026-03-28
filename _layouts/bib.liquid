@@ -47,10 +47,9 @@
 
   <!-- Entry bib key -->
   <div id="{{ entry.key }}" class="{% if site.enable_publication_thumbnails %}col-sm-8{% else %}col-sm-12{% endif %}">
-    <!-- Title + Year row -->
+    <!-- Title row -->
     <div class="pub-title-row">
       <div class="title">&ldquo;{{ entry.title }}&rdquo;</div>
-      {% if entry.year %}<div class="pub-year">{{ entry.year }}</div>{% endif %}
     </div>
     <!-- Author -->
     <div class="author">
@@ -153,6 +152,7 @@
     {% assign entrynote = entry.note | strip %}
     {% capture periodical %}{{ entrytype }}{% if entryvoliss != '' %} {{ entryvoliss }}{% endif %}{% endcapture %}
     <div class="pub-venue">
+      {% if entry.year %}<span class="pub-year">{{ entry.year }}</span>{% if periodical != blank or entry.note != blank %}<span class="pub-sep">&middot;</span>{% endif %}{% endif %}
       <span class="periodical">{{ periodical | strip }}</span>
       <span class="periodical">{{ entry.note | strip }}</span>
       <span class="links">
