@@ -29,14 +29,14 @@ I am an Assistant Professor at WU Vienna University of Economics and Business ([
 > My work has been published in leading journals including the _Journal of Econometrics_, _Journal of Business & Economic Statistics_, _Journal of Applied Econometrics_, _International Economic Review_, _European Economic Review_, and _International Journal of Forecasting_, among others.
 
 ## CV <a href="https://www.dropbox.com/s/2xgz0ge1h4enc6i/cv.pdf?dl=0" target="_blank" title="CV (PDF)"><i class="fa-solid fa-file-pdf fa-sm"></i></a>
-* _Assistant Professor_ Department of Economics at WU Vienna<span class="cv-date">09/2023–</span>
+* _Assistant Professor_ Department of Economics, WU Vienna<span class="cv-date">09/2023–</span>
 * _Expert_ European Commission "Macro Modelling and Nowcast Pool," JRC Ispra<span class="cv-date">12/2020–</span>
 
 ### Past Positions
-* _Professor of Macroeconomics_ Department of Economics at University of Vienna<span class="cv-date">09/2022–08/2023</span>
-* _Visiting Researcher_ Department of Economics at Bocconi University<span class="cv-date">03/2022–08/2022</span>
+* _Professor of Macroeconomics_ Department of Economics, University of Vienna<span class="cv-date">09/2022–08/2023</span>
+* _Visiting Researcher_ Department of Economics, Bocconi University<span class="cv-date">03/2022–08/2022</span>
 * _Research Scholar_ International Institute for Applied Systems Analysis (IIASA)<span class="cv-date">11/2020–10/2021</span>
-* _Postdoc_ Department of Economics at University of Salzburg<span class="cv-date">10/2019–08/2022</span>
+* _Postdoc_ Department of Economics, University of Salzburg<span class="cv-date">10/2019–08/2022</span>
 
 ## Activities
 * _Associate Editor_ [Macroeconomic Dynamics](https://www.cambridge.org/core/journals/macroeconomic-dynamics)<span class="cv-date">2025–</span>
@@ -49,10 +49,10 @@ I am an Assistant Professor at WU Vienna University of Economics and Business ([
 * _Other_ ECB Working Paper Series, OeNB Jubiläumsfonds, Swiss National Science Foundation
 
 ## Education
-* _Venia docendi in Economics_ at University of Salzburg, habilitation "Structural and predictive inference with parametric and nonparametric models in economics"<span class="cv-date">01/2023</span>
-* _Ph.D. in Economics_ at WU Vienna, thesis "Bayesian inference in high-dimensional multivariate time series models with applications in macroeconomics and finance"<span class="cv-date">09/2019</span>
-* _MSc. in Economics_ at WU Vienna<span class="cv-date">06/2018</span>
-* _BSc. in Business, Economics and Social Sciences_ at WU Vienna<span class="cv-date">07/2016</span>
+* _Venia docendi in Economics_ University of Salzburg, habilitation "Structural and predictive inference with parametric and nonparametric models in economics"<span class="cv-date">01/2023</span>
+* _Ph.D. in Economics_ WU Vienna, thesis "Bayesian inference in high-dimensional multivariate time series models with applications in macroeconomics and finance"<span class="cv-date">09/2019</span>
+* _MSc. in Economics_ WU Vienna<span class="cv-date">06/2018</span>
+* _BSc. in Business, Economics and Social Sciences_ WU Vienna<span class="cv-date">07/2016</span>
 
 ## Honors
 * Award of Excellence (Staatspreis) for the dissertation "Bayesian inference in high-dimensional multivariate time series models with applications in macroeconomics and finance," awarded by the Austrian Federal Ministry of Education, Science and Research<span class="cv-date">2020</span>
