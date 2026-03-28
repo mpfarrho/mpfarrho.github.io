@@ -49,21 +49,21 @@ I am an Assistant Professor at WU Vienna University of Economics and Business ([
 * _Other_ ECB Working Paper Series, OeNB Jubiläumsfonds, Swiss National Science Foundation
 
 ## Education
-* _Venia docendi in Economics_ University of Salzburg, habilitation "Structural and predictive inference with parametric and nonparametric models in economics"<span class="cv-date">01/2023</span>
-* _Ph.D. in Economics_ WU Vienna, thesis "Bayesian inference in high-dimensional multivariate time series models with applications in macroeconomics and finance"<span class="cv-date">09/2019</span>
-* _MSc. in Economics_ WU Vienna<span class="cv-date">06/2018</span>
-* _BSc. in Business, Economics and Social Sciences_ WU Vienna<span class="cv-date">07/2016</span>
+* _Venia Docendi (Habilitation)_ Economics, University of Salzburg, "Structural and predictive inference with parametric and nonparametric models in economics"<span class="cv-date">01/2023</span>
+* _Ph.D._ Economics, WU Vienna, "Bayesian inference in high-dimensional multivariate time series models with applications in macroeconomics and finance"<span class="cv-date">09/2019</span>
+* _MSc._ Economics, WU Vienna<span class="cv-date">06/2018</span>
+* _BSc._ Business, Economics and Social Sciences, WU Vienna<span class="cv-date">07/2016</span>
 
 ## Honors
-* Award of Excellence (Staatspreis) for the dissertation "Bayesian inference in high-dimensional multivariate time series models with applications in macroeconomics and finance," awarded by the Austrian Federal Ministry of Education, Science and Research<span class="cv-date">2020</span>
-* Klaus Liebscher Economic Research Scholarship 2020 ([KLERS](https://www.oenb.at/en/About-Us/Research-Promotion/scholarships_and_awards/klaus_liebscher_economic_research_scholarship.html)), awarded by the Oesterreichische Nationalbank (OeNB)<span class="cv-date">05/2021–10/2021</span>
+* _Award of Excellence (Staatspreis)_ "Bayesian inference in high-dimensional multivariate time series models with applications in macroeconomics and finance," awarded by the Austrian Federal Ministry of Education, Science and Research<span class="cv-date">2020</span>
+* _Klaus Liebscher Economic Research Scholarship 2020_ awarded by the Oesterreichische Nationalbank (OeNB, [KLERS](https://www.oenb.at/en/About-Us/Research-Promotion/scholarships_and_awards/klaus_liebscher_economic_research_scholarship.html))<span class="cv-date">05/2021–10/2021</span>
 
 ## Grants
-* Jubiläumsfonds der Oesterreichischen Nationalbank (OeNB): "Between fostering and limiting central bank independence: The impact of constitutional courts decisions" (co-PI, principal investigator: F. Huber), total funding EUR 118,000<span class="cv-date">2020–2022</span>
-* Jubiläumsfonds der Oesterreichischen Nationalbank (OeNB): "Inference with Bayesian nonparametric models in the presence of measurement errors and outliers" (PI), total funding EUR 168,000, [project 18765 website](/project18765/)<span class="cv-date">2022–24</span>
+* _Between fostering and limiting central bank independence: The impact of constitutional courts decisions_ Jubiläumsfonds der Oesterreichischen Nationalbank (co-PI, principal investigator: F. Huber), total funding EUR 118,000<span class="cv-date">2020–2022</span>
+* _Inference with Bayesian nonparametric models in the presence of measurement errors and outliers_ Jubiläumsfonds der Oesterreichischen Nationalbank (PI), total funding EUR 168,000, [project 18765 website](/project18765/)<span class="cv-date">2022–24</span>
 
 ## Presentations
-* _Recent (2025–)_: 13th ECB Conference on Forecasting Techniques, SNB Research Seminar (Zürich), Insightful Minds in International Macro Seminar ([IMIM](https://sites.google.com/view/imimseminars/home), online), Economics Research Seminar (JKU Linz), 15th RCEA Bayesian Econometrics Workshop (Universidad del Atlántico Medio)
+* _Recent_ 13th ECB Conference on Forecasting Techniques, SNB Research Seminar (Zürich), Insightful Minds in International Macro Seminar ([IMIM](https://sites.google.com/view/imimseminars/home), online), Economics Research Seminar (JKU Linz), 15th RCEA Bayesian Econometrics Workshop (Universidad del Atlántico Medio)
 <!-- * _Earlier_: ECB conference "Macroeconomic Modelling Frontiers for Research and Policy in Central Banks" (Frankfurt, 2024)*, Economics Research Seminar (University of Strathclyde, 2024), IAAE Annual Conference (Thessaloniki, 2024), IIASA Workshop (Laxenburg, 2024), IHS Seminar (Vienna, 2024), OeNB Freitagsseminar (Vienna, 2024), ICMAIF (Rethymno, 2023), 12th ECB Conference on Forecasting Techniques (_keynote_, Frankfurt, 2023)*, Macro Breakfast Seminar (University of Vienna, 2023), NOeG Annual Meeting (2023), Internal Research Seminar (WU Vienna, 2023), Internal Research Seminar (European Commission JRC Ispra), Macro Brownbag & Decision Sciences Seminars (Bocconi University), NOeG Annual Meeting (2022), 12th ESOBE (_scientific committee_, Salzburg, 2022), CFE 2022 (_session organizer_, London), AEA/ASSA (2021)*, UC Louvain ISBA/CORE Seminar (online)*, University of Salzburg Research Seminar, OeNB Research Seminar, 11th ECB Conference on Forecasting Techniques (online)*, IAAE Annual Conference (2021), NOeG Annual Meeting (2021), 11th ESOBE (Madrid, online), Financial Econometrics Workshop (Örebro, online), Montreal Econometrics Seminar (2020)*, NOeG Annual Meeting (2020, _session chair_), DSF-R (Vienna, 2019, _invited_), 10th ESOBE (St Andrews, 2019), NOeG Annual Meeting (2019), University of Salzburg Research Seminar (2019), NOeG Annual Meeting (2018), SEA World Conference (Vienna, 2018). *Presented by co-author. -->
 
 My favorite things include rock & roll and heavy metal, cycling and running, barbecuing, and various kinds of racing.
