@@ -29,28 +29,28 @@ I am an Assistant Professor at WU Vienna University of Economics and Business ([
 > My work has been published in leading journals including the _Journal of Econometrics_, _Journal of Business & Economic Statistics_, _Journal of Applied Econometrics_, _International Economic Review_, _European Economic Review_, and _International Journal of Forecasting_, among others.
 
 ## CV <a href="https://www.dropbox.com/s/2xgz0ge1h4enc6i/cv.pdf?dl=0" target="_blank" title="CV (PDF)"><i class="fa-solid fa-file-pdf fa-sm"></i></a>
-* _Assistant Professor_, Department of Economics at WU Vienna<span class="cv-date">09/2023–</span>
-* _Expert_, European Commission "Macro Modelling and Nowcast Pool," JRC Ispra<span class="cv-date">12/2020–</span>
+* _Assistant Professor_ Department of Economics at WU Vienna<span class="cv-date">09/2023–</span>
+* _Expert_ European Commission "Macro Modelling and Nowcast Pool," JRC Ispra<span class="cv-date">12/2020–</span>
 
 ### Past Positions
-* _Professor of Macroeconomics_, Department of Economics at University of Vienna<span class="cv-date">09/2022–08/2023</span>
-* _Visiting Researcher_, Department of Economics at Bocconi University<span class="cv-date">03/2022–08/2022</span>
-* _Research Scholar_, International Institute for Applied Systems Analysis (IIASA)<span class="cv-date">11/2020–10/2021</span>
-* _Postdoc_, Department of Economics at University of Salzburg<span class="cv-date">10/2019–08/2022</span>
+* _Professor of Macroeconomics_ Department of Economics at University of Vienna<span class="cv-date">09/2022–08/2023</span>
+* _Visiting Researcher_ Department of Economics at Bocconi University<span class="cv-date">03/2022–08/2022</span>
+* _Research Scholar_ International Institute for Applied Systems Analysis (IIASA)<span class="cv-date">11/2020–10/2021</span>
+* _Postdoc_ Department of Economics at University of Salzburg<span class="cv-date">10/2019–08/2022</span>
 
 ## Activities
-* _Associate Editor_, [Macroeconomic Dynamics](https://www.cambridge.org/core/journals/macroeconomic-dynamics)<span class="cv-date">2025–</span>
+* _Associate Editor_ [Macroeconomic Dynamics](https://www.cambridge.org/core/journals/macroeconomic-dynamics)<span class="cv-date">2025–</span>
 * _General Secretary_ of the Austrian Economic Association ([NOeG](https://www.noeg.ac.at))<span class="cv-date">2025–2026</span>
-* _Memberships_ — American Economic Association (AEA), Austrian Economic Association (NOeG), Euro Area Business Cycle Network (EABCN), European Economic Association (EEA), Econometric Society (ES), International Society for Bayesian Analysis (ISBA)
-* _Other_ — Local organizing committee member, Annual Meeting NOeG 2026 (CEU, Vienna); Local organizing and scientific committee member, [12th European Seminar on Bayesian Econometrics](https://sites.google.com/view/esobe2022salzburg) (ESOBE, Salzburg), 2022; Scientific Committee OeNB/SUERF Economic Conference 2025, 2026; EIPA course "Macroeconomy-at-Risk: Advanced Methods for Density and Tail Risk Predictions" for the European Commission (DG ECFIN)
+* _Memberships_ American Economic Association (AEA), Austrian Economic Association (NOeG), Euro Area Business Cycle Network (EABCN), European Economic Association (EEA), Econometric Society (ES), International Society for Bayesian Analysis (ISBA)
+* _Other_ Local organizing committee member, Annual Meeting NOeG 2026 (CEU, Vienna); Local organizing and scientific committee member, [12th European Seminar on Bayesian Econometrics](https://sites.google.com/view/esobe2022salzburg) (ESOBE, Salzburg), 2022; Scientific Committee OeNB/SUERF Economic Conference 2025, 2026; EIPA course "Macroeconomy-at-Risk: Advanced Methods for Density and Tail Risk Predictions" for the European Commission (DG ECFIN)
 
 ### Referee
-* _Journals_ — Energy Economics, IMF Economic Review, International Journal of Forecasting, Journal of Applied Econometrics, Journal of Business & Economic Statistics, Journal of Econometrics, Journal of Economic Dynamics & Control, Journal of Money, Credit and Banking, Journal of the American Statistical Association, Journal of the Royal Statistical Society, Macroeconomic Dynamics, Review of Economics and Statistics, Statistica Sinica, Quantitative Economics, among others
-* _Other_ — ECB Working Paper Series, OeNB Jubiläumsfonds, Swiss National Science Foundation
+* _Journals_ Energy Economics, IMF Economic Review, International Journal of Forecasting, Journal of Applied Econometrics, Journal of Business & Economic Statistics, Journal of Econometrics, Journal of Economic Dynamics & Control, Journal of Money, Credit and Banking, Journal of the American Statistical Association, Journal of the Royal Statistical Society, Macroeconomic Dynamics, Review of Economics and Statistics, Statistica Sinica, Quantitative Economics, among others
+* _Other_ ECB Working Paper Series, OeNB Jubiläumsfonds, Swiss National Science Foundation
 
 ## Education
-* _Venia docendi in Economics_ at University of Salzburg — habilitation "Structural and predictive inference with parametric and nonparametric models in economics"<span class="cv-date">01/2023</span>
-* _Ph.D. in Economics_ at WU Vienna — thesis "Bayesian inference in high-dimensional multivariate time series models with applications in macroeconomics and finance"<span class="cv-date">09/2019</span>
+* _Venia docendi in Economics_ at University of Salzburg, habilitation "Structural and predictive inference with parametric and nonparametric models in economics"<span class="cv-date">01/2023</span>
+* _Ph.D. in Economics_ at WU Vienna, thesis "Bayesian inference in high-dimensional multivariate time series models with applications in macroeconomics and finance"<span class="cv-date">09/2019</span>
 * _MSc. in Economics_ at WU Vienna<span class="cv-date">06/2018</span>
 * _BSc. in Business, Economics and Social Sciences_ at WU Vienna<span class="cv-date">07/2016</span>
 
