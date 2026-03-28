@@ -10,7 +10,7 @@ contact_note:
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Assistant Professor at WU Vienna, specializing in econometrics for macroeconomic applications.
 footer_text: >
-  <a href="https://github.com/mpfarrho/mpfarrho-new.github.io" target="_blank">Page source</a>.
+  <a href="https://github.com/mpfarrho/mpfarrho.github.io" target="_blank">Page source</a>.
   Profile picture by WU Vienna (<a href="https://www.wu.ac.at/en/media/wutv" target="_blank">WUtv</a>).
   Contact: Department of Economics, WU Vienna University of Economics and Business.
 keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
@@ -18,7 +18,7 @@ lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://mpfarrho.github.io
-baseurl: "/mpfarrho-new.github.io"
+baseurl: ""
 last_updated: false # set to true if you want to display last updated in the footer
 impressum_path: # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
 back_to_top: true # set to false to disable the back to top button

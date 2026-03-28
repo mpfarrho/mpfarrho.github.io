@@ -40,7 +40,7 @@ I am an Assistant Professor at WU Vienna University of Economics and Business ([
 
 ## Activities
 * _Associate Editor_ [Macroeconomic Dynamics](https://www.cambridge.org/core/journals/macroeconomic-dynamics)<span class="cv-date">2025–</span>
-* _General Secretary_ of the Austrian Economic Association ([NOeG](https://www.noeg.ac.at))<span class="cv-date">2025–2026</span>
+* _General Secretary_ Austrian Economic Association ([NOeG](https://www.noeg.ac.at))<span class="cv-date">2025–2026</span>
 * _Memberships_ American Economic Association (AEA), Austrian Economic Association (NOeG), Euro Area Business Cycle Network (EABCN), European Economic Association (EEA), Econometric Society (ES), International Society for Bayesian Analysis (ISBA)
 * _Other_ Local organizing committee member, Annual Meeting NOeG 2026 (CEU, Vienna); Local organizing and scientific committee member, [12th European Seminar on Bayesian Econometrics](https://sites.google.com/view/esobe2022salzburg) (ESOBE, Salzburg), 2022; Scientific Committee OeNB/SUERF Economic Conference 2025, 2026; EIPA course "Macroeconomy-at-Risk: Advanced Methods for Density and Tail Risk Predictions" for the European Commission (DG ECFIN)
 
@@ -49,10 +49,10 @@ I am an Assistant Professor at WU Vienna University of Economics and Business ([
 * _Other_ ECB Working Paper Series, OeNB Jubiläumsfonds, Swiss National Science Foundation
 
 ## Education
-* _Venia Docendi (Habilitation)_ Economics, University of Salzburg, "Structural and predictive inference with parametric and nonparametric models in economics"<span class="cv-date">01/2023</span>
-* _Ph.D._ Economics, WU Vienna, "Bayesian inference in high-dimensional multivariate time series models with applications in macroeconomics and finance"<span class="cv-date">09/2019</span>
-* _MSc._ Economics, WU Vienna<span class="cv-date">06/2018</span>
-* _BSc._ Business, Economics and Social Sciences, WU Vienna<span class="cv-date">07/2016</span>
+* _Venia Docendi_ University of Salzburg, Economics, habilitation "Structural and predictive inference with parametric and nonparametric models in economics"<span class="cv-date">01/2023</span>
+* _Ph.D._ WU Vienna, Economics, "Bayesian inference in high-dimensional multivariate time series models with applications in macroeconomics and finance"<span class="cv-date">09/2019</span>
+* _MSc._ WU Vienna, Economics<span class="cv-date">06/2018</span>
+* _BSc._ WU Vienna, Business, Economics and Social Sciences<span class="cv-date">07/2016</span>
 
 ## Honors
 * _Award of Excellence (Staatspreis)_ "Bayesian inference in high-dimensional multivariate time series models with applications in macroeconomics and finance," awarded by the Austrian Federal Ministry of Education, Science and Research<span class="cv-date">2020</span>
@@ -60,7 +60,7 @@ I am an Assistant Professor at WU Vienna University of Economics and Business ([
 
 ## Grants
 * _Between fostering and limiting central bank independence: The impact of constitutional courts decisions_ Jubiläumsfonds der Oesterreichischen Nationalbank (co-PI, principal investigator: F. Huber), total funding EUR 118,000<span class="cv-date">2020–2022</span>
-* _Inference with Bayesian nonparametric models in the presence of measurement errors and outliers_ Jubiläumsfonds der Oesterreichischen Nationalbank (PI), total funding EUR 168,000, [project 18765 website](/project18765/)<span class="cv-date">2022–24</span>
+* _Inference with Bayesian nonparametric models in the presence of measurement errors and outliers_ Jubiläumsfonds der Oesterreichischen Nationalbank (PI), total funding EUR 168,000, [project 18765 website](/project18765/)<span class="cv-date">2022–2024</span>
 
 ## Presentations
 * _Recent_ 13th ECB Conference on Forecasting Techniques, SNB Research Seminar (Zürich), Insightful Minds in International Macro Seminar ([IMIM](https://sites.google.com/view/imimseminars/home), online), Economics Research Seminar (JKU Linz), 15th RCEA Bayesian Econometrics Workshop (Universidad del Atlántico Medio)
