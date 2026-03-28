@@ -124,6 +124,7 @@
         display: block;
         margin-top: 0.2rem;
         font-size: 1rem;
+        font-family: "IBM Plex Sans", sans-serif;
         color: var(--global-text-color);
         opacity: 0.6;
 
@@ -171,8 +172,8 @@
 
       .periodical {
         display: inline;
-        font-family: "IBM Plex Mono", monospace;
-        font-size: 0.8rem;
+        font-family: "EB Garamond", Georgia, "Times New Roman", Times, serif;
+        font-size: 1rem;
         text-transform: uppercase;
         letter-spacing: 0.03em;
         color: var(--global-text-color);

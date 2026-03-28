@@ -24,14 +24,24 @@ h6 {
   color: var(--global-text-color);
 }
 
-h1 { font-size: 1.6rem; }
+h1 {
+  font-size: 1.6rem;
+  font-style: italic;
+  font-weight: 400;
+}
 h2 {
   font-size: 1.4rem;
+  font-style: italic;
+  font-weight: 400;
   margin-top: 3rem;
   padding-top: 1.5rem;
   border-top: 1px solid var(--global-heading-border-color);
 }
-h3 { font-size: 1.2rem; }
+h3 {
+  font-size: 1.2rem;
+  font-style: italic;
+  font-weight: 400;
+}
 h4 { font-size: 1.1rem; }
 h5 { font-size: 1.0rem; }
 h6 { font-size: 0.95rem; }
