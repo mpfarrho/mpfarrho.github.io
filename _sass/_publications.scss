@@ -99,7 +99,7 @@
       .title {
         font-style: italic;
         font-weight: normal;
-        font-family: "Roboto Serif", Georgia, "Times New Roman", Times, serif;
+        font-family: "EB Garamond", Georgia, "Times New Roman", Times, serif;
         display: block;
         flex: 1 1 auto;
         padding-right: 1rem;
@@ -110,7 +110,7 @@
       }
 
       .pub-year {
-        font-family: monospace;
+        font-family: "IBM Plex Mono", monospace;
         font-size: 0.8rem;
         color: var(--global-text-color);
         opacity: 0.6;
@@ -171,7 +171,7 @@
 
       .periodical {
         display: inline;
-        font-family: monospace;
+        font-family: "IBM Plex Mono", monospace;
         font-size: 0.8rem;
         text-transform: uppercase;
         letter-spacing: 0.03em;
