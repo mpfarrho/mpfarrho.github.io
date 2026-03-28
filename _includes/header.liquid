@@ -119,19 +119,19 @@
             </li>
           {% endif %}
           <!-- External icon links -->
-          <li class="nav-item">
+          <li class="nav-item nav-icon nav-icon-first">
             <a class="nav-link" href="mailto:{{ site.data.socials.email }}" title="Email">
               <i class="fa-solid fa-envelope"></i>
             </a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item nav-icon">
             <a class="nav-link" href="https://github.com/mpfarrho" target="_blank" rel="noopener noreferrer" title="GitHub">
               <i class="fa-brands fa-github"></i>
             </a>
           </li>
           {% if site.enable_darkmode %}
             <!-- Toogle theme mode -->
-            <li class="toggle-container">
+            <li class="toggle-container nav-icon">
               <button id="light-toggle" title="Change theme">
                 <i class="fa-half-sun-moon" id="light-toggle-system"></i>
                 <i class="fa-solid fa-moon" id="light-toggle-dark"></i>

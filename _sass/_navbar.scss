@@ -82,6 +82,15 @@
     }
   }
 
+  .navbar-nav .nav-item.nav-icon .nav-link {
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+  }
+
+  .navbar-nav .nav-item.nav-icon-first {
+    margin-left: 0.75rem;
+  }
+
   .navbar-nav .nav-item.active > .nav-link {
     background-color: inherit;
     font-weight: bolder;
