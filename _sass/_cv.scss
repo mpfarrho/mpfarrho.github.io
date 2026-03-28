@@ -56,6 +56,7 @@
         color: var(--global-text-color);
         opacity: 0.6;
         margin-top: 0.1em;
+        pointer-events: none; // prevent browsers from linkifying date ranges
       }
 
       // Links: dashed underline, inherit serif size
