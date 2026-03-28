@@ -114,7 +114,8 @@
       .pub-year {
         display: inline;
         font-family: "IBM Plex Mono", monospace;
-        font-size: 0.8rem;
+        font-size: 0.75rem;
+        vertical-align: baseline;
         color: var(--global-text-color);
         opacity: 0.6;
         white-space: nowrap;
@@ -123,7 +124,7 @@
       .author {
         display: block;
         line-height: 1.2;
-        margin-top: 0.05rem;
+        margin-top: 0;
         font-size: 0.85rem;
         font-family: "EB Garamond", Georgia, "Times New Roman", Times, serif;
         color: var(--global-text-color);
@@ -160,7 +161,7 @@
       }
 
       .pub-venue {
-        margin-top: 0.05rem;
+        margin-top: 0;
         font-size: 0.75rem;
         white-space: normal;
         word-break: break-word;
@@ -168,15 +169,19 @@
 
       .pub-meta-line {
         line-height: 1.1;
+        vertical-align: baseline;
       }
 
       .pub-links-line {
-        margin-top: 0.02rem;
+        margin-top: 0;
         line-height: 1.1;
       }
 
       .pub-sep {
-        margin: 0 0.4em;
+        display: inline;
+        font-size: 0.75rem;
+        vertical-align: baseline;
+        margin: 0 0.3em;
         color: var(--global-text-color-light);
       }
 
@@ -184,6 +189,7 @@
         display: inline;
         font-family: "IBM Plex Mono", monospace;
         font-size: 0.75rem;
+        vertical-align: baseline;
         text-transform: none;
         letter-spacing: 0;
         color: var(--global-text-color);
