@@ -16,7 +16,6 @@
       position: relative;
       padding: 0.375rem 0 0.375rem 1rem;
       margin-bottom: 0;
-      border-bottom: 1px dashed var(--global-divider-color);
 
       // Left border accent — fixed 4px width matches visual weight of .publications .row::before
       &::before {
@@ -67,10 +66,7 @@
       }
     }
 
-    // Last item: no bottom divider
-    li:last-child {
-      border-bottom: none;
-    }
+
   }
 }
 
