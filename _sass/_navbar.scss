@@ -202,6 +202,15 @@
   }
 }
 
+// On mobile (collapsed navbar), keep nav items horizontal instead of stacking
+@media (max-width: 575.98px) {
+  .navbar-collapse .navbar-nav {
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+}
+
 #search-toggle {
   padding: 0;
   border: 0;
