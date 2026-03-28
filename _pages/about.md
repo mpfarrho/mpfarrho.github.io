@@ -53,11 +53,11 @@ I am an Assistant Professor at WU Vienna University of Economics and Business ([
 * _MSc. in Economics_ at WU Vienna (06/2018)
 * _BSc. in Business, Economics and Social Sciences_ at WU Vienna (07/2016)
 
-## Honors and awards
+## Honors
 * Award of Excellence (Staatspreis) for the dissertation "Bayesian inference in high-dimensional multivariate time series models with applications in macroeconomics and finance," awarded by the Austrian Federal Ministry of Education, Science and Research, 2020
 * Klaus Liebscher Economic Research Scholarship 2020 ([KLERS](https://www.oenb.at/en/About-Us/Research-Promotion/scholarships_and_awards/klaus_liebscher_economic_research_scholarship.html)), awarded by the Oesterreichische Nationalbank (OeNB), 05/2021–10/2021
 
-## Research grants
+## Grants
 * Jubiläumsfonds der Oesterreichischen Nationalbank (OeNB): "Between fostering and limiting central bank independence: The impact of constitutional courts decisions," (co-PI, principal investigator: F. Huber), total funding EUR 118,000.00, 2020-2022
 * Jubiläumsfonds der Oesterreichischen Nationalbank (OeNB): "Inference with Bayesian nonparametric models in the presence of measurement errors and outliers," (PI), total funding EUR 168,000.00, [project 18765 website](/project18765/), 2022-24
 
