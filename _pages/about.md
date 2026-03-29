@@ -71,16 +71,16 @@ See PDF of CV for a full list.
 
 ## Teaching
 
-_Undergraduate_ Econometrics II (WU), Economic Modeling (WU, macro-part), Macroeconomics (PLUS; univie; WU)
+* _Undergraduate_ Econometrics II (WU), Economic Modeling (WU, macro-part), Macroeconomics (PLUS; univie; WU)
 
-_Graduate_ Advanced Macroeconometrics (WU, science track [syllabus](https://github.com/mpfarrho/WU-macroeconometrics/blob/main/syllabus-ST-adv.md); univie), Macroeconometrics (WU, applied track [syllabus](https://github.com/mpfarrho/WU-macroeconometrics/blob/main/syllabus-AT.md); PLUS), Macroeconometrics: Structural and predictive inference (PLUS; univie), Methods in Economics (PLUS), Foundational Econometrics (univie), Introduction to Bayesian Econometrics (univie)
+* _Graduate_ Advanced Macroeconometrics (WU, science track [syllabus](https://github.com/mpfarrho/WU-macroeconometrics/blob/main/syllabus-ST-adv.md); univie), Macroeconometrics (WU, applied track [syllabus](https://github.com/mpfarrho/WU-macroeconometrics/blob/main/syllabus-AT.md); PLUS), Macroeconometrics: Structural and predictive inference (PLUS; univie), Methods in Economics (PLUS), Foundational Econometrics (univie), Introduction to Bayesian Econometrics (univie)
 
-_Other_ EIPA course "Macroeconomy-at-Risk: Advanced Methods for Density and Tail Risk Predictions" for the European Commission (DG ECFIN); Rethinking Economics: "Predictive inference and forecast evaluation metrics" (University of Tübingen); Sommerakademie (Talente OÖ, high school students)
+* _Other_ EIPA course "Macroeconomy-at-Risk: Advanced Methods for Density and Tail Risk Predictions" for the European Commission (DG ECFIN); Rethinking Economics: "Predictive inference and forecast evaluation metrics" (University of Tübingen); Sommerakademie (Talente OÖ, high school students)
 
-_Committee Member_
+* _Committee Member_
 Habilitation commission (Heimberger, 2025); PhD committee member (Scheckel, Agati)
 
-_Thesis Supervision_ ([guidelines](https://gist.github.com/mpfarrho/abef507abc1f0a8de756efdb5918145f))
+* _Thesis Supervision_ ([guidelines](https://gist.github.com/mpfarrho/abef507abc1f0a8de756efdb5918145f))
 Multiple BSc theses (WU), 5 MSc theses (WU), 1 MSc thesis (univie)
 
 My favorite things include rock & roll and heavy metal, cycling and running, barbecuing, and various kinds of racing.
