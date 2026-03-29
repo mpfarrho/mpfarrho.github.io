@@ -70,17 +70,10 @@ See PDF of CV for a full list.
 <!-- * _Earlier_: ECB conference "Macroeconomic Modelling Frontiers for Research and Policy in Central Banks" (Frankfurt, 2024)*, Economics Research Seminar (University of Strathclyde, 2024), IAAE Annual Conference (Thessaloniki, 2024), IIASA Workshop (Laxenburg, 2024), IHS Seminar (Vienna, 2024), OeNB Freitagsseminar (Vienna, 2024), ICMAIF (Rethymno, 2023), 12th ECB Conference on Forecasting Techniques (_keynote_, Frankfurt, 2023)*, Macro Breakfast Seminar (University of Vienna, 2023), NOeG Annual Meeting (2023), Internal Research Seminar (WU Vienna, 2023), Internal Research Seminar (European Commission JRC Ispra), Macro Brownbag & Decision Sciences Seminars (Bocconi University), NOeG Annual Meeting (2022), 12th ESOBE (_scientific committee_, Salzburg, 2022), CFE 2022 (_session organizer_, London), AEA/ASSA (2021)*, UC Louvain ISBA/CORE Seminar (online)*, University of Salzburg Research Seminar, OeNB Research Seminar, 11th ECB Conference on Forecasting Techniques (online)*, IAAE Annual Conference (2021), NOeG Annual Meeting (2021), 11th ESOBE (Madrid, online), Financial Econometrics Workshop (Örebro, online), Montreal Econometrics Seminar (2020)*, NOeG Annual Meeting (2020, _session chair_), DSF-R (Vienna, 2019, _invited_), 10th ESOBE (St Andrews, 2019), NOeG Annual Meeting (2019), University of Salzburg Research Seminar (2019), NOeG Annual Meeting (2018), SEA World Conference (Vienna, 2018). *Presented by co-author. -->
 
 ## Teaching
-
 * _Undergraduate_ Econometrics II (WU), Economic Modeling (WU, macro-part), Macroeconomics (PLUS; univie; WU)
-
 * _Graduate_ Advanced Macroeconometrics (WU, science track [syllabus](https://github.com/mpfarrho/WU-macroeconometrics/blob/main/syllabus-ST-adv.md); univie), Macroeconometrics (WU, applied track [syllabus](https://github.com/mpfarrho/WU-macroeconometrics/blob/main/syllabus-AT.md); PLUS), Macroeconometrics: Structural and predictive inference (PLUS; univie), Methods in Economics (PLUS), Foundational Econometrics (univie), Introduction to Bayesian Econometrics (univie)
-
 * _Other_ EIPA course "Macroeconomy-at-Risk: Advanced Methods for Density and Tail Risk Predictions" for the European Commission (DG ECFIN); Rethinking Economics: "Predictive inference and forecast evaluation metrics" (University of Tübingen); Sommerakademie (Talente OÖ, high school students)
-
-* _Committee Member_
-Habilitation commission (Heimberger, 2025); PhD committee member (Scheckel, Agati)
-
-* _Thesis Supervision_ ([guidelines](https://gist.github.com/mpfarrho/abef507abc1f0a8de756efdb5918145f))
-Multiple BSc theses (WU), 5 MSc theses (WU), 1 MSc thesis (univie)
+* _Committee Member_ Habilitation commission (Heimberger, 2025); PhD committee member (Scheckel, Agati)
+* _Thesis Supervision_ ([guidelines](https://gist.github.com/mpfarrho/abef507abc1f0a8de756efdb5918145f)) Multiple BSc theses (WU), 5 MSc theses (WU), 1 MSc thesis (univie)
 
 My favorite things include rock & roll and heavy metal, cycling and running, barbecuing, and various kinds of racing.
