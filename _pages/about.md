@@ -28,7 +28,7 @@ I am an Assistant Professor at WU Vienna University of Economics and Business ([
 
 > My work has been published in leading journals including the _Journal of Econometrics_, _Journal of Business & Economic Statistics_, _Journal of Applied Econometrics_, _International Economic Review_, _European Economic Review_, and _International Journal of Forecasting_, among others.
 
-## CV <a href="https://www.dropbox.com/s/2xgz0ge1h4enc6i/cv.pdf?dl=0" target="_blank" title="CV (PDF)"><i class="fa-solid fa-file-pdf fa-sm"></i></a>
+## CV
 * _Assistant Professor_ Department of Economics, WU Vienna<span class="cv-date">09/2023–</span>
 * _Expert_ European Commission "Macro Modelling and Nowcast Pool," JRC Ispra<span class="cv-date">12/2020–</span>
 
@@ -64,9 +64,8 @@ I am an Assistant Professor at WU Vienna University of Economics and Business ([
 * _Inference with Bayesian nonparametric models in the presence of measurement errors and outliers_ Jubiläumsfonds der Oesterreichischen Nationalbank (PI), total funding EUR 168,000, [project 18765 website](/project18765/)<span class="cv-date">2022–2024</span>
 
 ## Presentations
-* _Recent_ 13th ECB Conference on Forecasting Techniques, SNB Research Seminar (Zürich), Insightful Minds in International Macro Seminar ([IMIM](https://sites.google.com/view/imimseminars/home), online), Economics Research Seminar (JKU Linz), 15th RCEA Bayesian Econometrics Workshop (Universidad del Atlántico Medio)
+* _Recent_ 7th Vienna Workshop on High-Dimensional Times Series in Macroeconomics and Finance (IHS), 13th ECB Conference on Forecasting Techniques, SNB Research Seminar (Zürich), Insightful Minds in International Macro Seminar ([IMIM](https://sites.google.com/view/imimseminars/home), online), Economics Research Seminar (JKU Linz), 15th RCEA Bayesian Econometrics Workshop (Universidad del Atlántico Medio)
 
-See PDF of CV for a full list.
 <!-- * _Earlier_: ECB conference "Macroeconomic Modelling Frontiers for Research and Policy in Central Banks" (Frankfurt, 2024)*, Economics Research Seminar (University of Strathclyde, 2024), IAAE Annual Conference (Thessaloniki, 2024), IIASA Workshop (Laxenburg, 2024), IHS Seminar (Vienna, 2024), OeNB Freitagsseminar (Vienna, 2024), ICMAIF (Rethymno, 2023), 12th ECB Conference on Forecasting Techniques (_keynote_, Frankfurt, 2023)*, Macro Breakfast Seminar (University of Vienna, 2023), NOeG Annual Meeting (2023), Internal Research Seminar (WU Vienna, 2023), Internal Research Seminar (European Commission JRC Ispra), Macro Brownbag & Decision Sciences Seminars (Bocconi University), NOeG Annual Meeting (2022), 12th ESOBE (_scientific committee_, Salzburg, 2022), CFE 2022 (_session organizer_, London), AEA/ASSA (2021)*, UC Louvain ISBA/CORE Seminar (online)*, University of Salzburg Research Seminar, OeNB Research Seminar, 11th ECB Conference on Forecasting Techniques (online)*, IAAE Annual Conference (2021), NOeG Annual Meeting (2021), 11th ESOBE (Madrid, online), Financial Econometrics Workshop (Örebro, online), Montreal Econometrics Seminar (2020)*, NOeG Annual Meeting (2020, _session chair_), DSF-R (Vienna, 2019, _invited_), 10th ESOBE (St Andrews, 2019), NOeG Annual Meeting (2019), University of Salzburg Research Seminar (2019), NOeG Annual Meeting (2018), SEA World Conference (Vienna, 2018). *Presented by co-author. -->
 
 ## Teaching
