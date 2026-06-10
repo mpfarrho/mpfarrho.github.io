@@ -6,7 +6,9 @@
 
 .navbar {
   border-bottom: none;
-  background-color: color-mix(in srgb, var(--global-bg-color) 85%, transparent);
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
+  background-color: color-mix(in srgb, var(--global-bg-color) 70%, transparent);
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
   box-shadow: 0 1px 8px rgba(0, 0, 0, 0.08);
