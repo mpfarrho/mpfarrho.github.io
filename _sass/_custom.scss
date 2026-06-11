@@ -107,6 +107,10 @@ body.research a {
   font-size: 26px;
   letter-spacing: 0.2px;
 }
+/* the monogram replaces the full name in the header only on narrow phones */
+.wm-mono {
+  display: none;
+}
 .nav {
   display: flex;
   align-items: center;
@@ -695,8 +699,22 @@ body.research .layout {
   .wrap {
     padding: 0 20px;
   }
-  .nav-links {
+  /* keep Home/Research reachable on phones: swap the wordmark to its monogram
+     and tighten the header so everything fits on one line */
+  .wm-full {
     display: none;
+  }
+  .wm-mono {
+    display: inline;
+  }
+  .nav {
+    gap: 14px;
+  }
+  .nav-links {
+    gap: 16px;
+  }
+  .nav-icons {
+    gap: 12px;
   }
   .entry {
     grid-template-columns: 1fr;
