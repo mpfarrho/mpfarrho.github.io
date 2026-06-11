@@ -105,9 +105,11 @@ ul.task-list input[type="checkbox"] {
       background-color: inherit;
       border-color: var(--global-divider-color);
 
+      // Ledger style: muted mono date, no filled block
+      // (!important counters the .danger-color-dark utility class on the badge)
       .badge {
-        color: var(--global-card-bg-color) !important;
-        background-color: var(--global-theme-color) !important;
+        color: var(--global-text-color-light) !important;
+        background-color: transparent !important;
       }
     }
   }
@@ -121,7 +123,7 @@ ul.task-list input[type="checkbox"] {
 
 .date-column {
   width: 75px;
-  transform: translateX(-15px) translateY(-5px);
+  // Transform hack removed: the redesign moves the date to the right edge (see _redesign.scss)
 }
 
 // Projects

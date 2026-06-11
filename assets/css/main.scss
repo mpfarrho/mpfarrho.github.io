@@ -33,6 +33,11 @@
 @use "tabs";
 @use "teachings";
 @use "typograms";
+
+// Redesign overrides — must stay last among project partials so its
+// rules win on source order
+@use "redesign";
+
 @use "font-awesome/fontawesome";
 @use "font-awesome/brands";
 @use "font-awesome/solid";

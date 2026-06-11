@@ -11,7 +11,7 @@
   background-color: color-mix(in srgb, var(--global-bg-color) 70%, transparent);
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
-  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.08);
+  box-shadow: var(--rd-shadow);
   font-family: "IBM Plex Sans", sans-serif;
 }
 
@@ -65,7 +65,8 @@
   .navbar-brand {
     color: var(--global-text-color);
     font-family: "EB Garamond", Georgia, "Times New Roman", Times, serif;
-    font-weight: bold;
+    // Medium, never bold: heavy Garamond reads too wide
+    font-weight: 500;
     font-style: italic;
   }
 
@@ -96,7 +97,8 @@
 
   .navbar-nav .nav-item.active > .nav-link {
     background-color: inherit;
-    font-weight: bolder;
+    // 600 instead of bolder: 700 is no longer loaded from Google Fonts
+    font-weight: 600;
     color: var(--global-text-color);
 
     &:hover {

@@ -6,20 +6,23 @@
 
 :root {
   color-scheme: light;
+  // Redesign palette (light): neutral grays + slate-blue accent
   --global-bg-color: #ffffff;
-  --global-code-bg-color: #eeeae4;
-  --global-text-color: #0e1520;
-  --global-text-color-light: #6b6560;
-  --global-theme-color: #0e1520;
-  --global-hover-color: #6b6560;
+  --global-code-bg-color: #f3f3f1;
+  --global-text-color: #1a1a1a;
+  --global-text-color-light: #5f6368;
+  --global-theme-color: #3b5c7e;
+  --global-hover-color: #3b5c7e;
   --global-hover-text-color: #{v.$white-color};
   --global-footer-bg-color: #ffffff;
-  --global-footer-text-color: #6b6560;
-  --global-footer-link-color: #6b6560;
-  --global-distill-app-color: #6b6560;
-  --global-divider-color: #e0dbd3;
-  --global-heading-border-color: #e0dbd3;
+  --global-footer-text-color: #5f6368;
+  --global-footer-link-color: #5f6368;
+  --global-distill-app-color: #5f6368;
+  --global-divider-color: #e8e8e6;
+  --global-heading-border-color: #e8e8e6;
   --global-card-bg-color: #ffffff;
+  // Shared soft shadow (navbar, profile image); theme-aware counterpart in dark block
+  --rd-shadow: 0 2px 12px -4px rgba(20, 30, 45, 0.14);
   --global-highlight-color: #{v.$red-color-dark};
   --global-back-to-top-bg-color: rgba(
     #{color.channel(v.$black-color, "red", v.$space: rgb)},
@@ -77,20 +80,22 @@
 
 html[data-theme="dark"] {
   color-scheme: dark;
-  --global-bg-color: #0e1520;
-  --global-code-bg-color: #0d1520;
-  --global-text-color: #ffffff;
-  --global-text-color-light: #cec9c0;
-  --global-theme-color: #ffffff;
-  --global-hover-color: #cec9c0;
-  --global-hover-text-color: #0e1520;
-  --global-footer-bg-color: #0e1520;
-  --global-footer-text-color: #cec9c0;
-  --global-footer-link-color: #cec9c0;
-  --global-distill-app-color: #cec9c0;
-  --global-divider-color: #1e2d45;
-  --global-heading-border-color: #1e2d45;
-  --global-card-bg-color: #151e2e;
+  // Redesign palette (dark): neutral charcoal (no warm/cream tint), same accent hue as light
+  --global-bg-color: #181a1b;
+  --global-code-bg-color: #1f2123;
+  --global-text-color: #ecedee;
+  --global-text-color-light: #9ba1a6;
+  --global-theme-color: #86add0;
+  --global-hover-color: #86add0;
+  --global-hover-text-color: #181a1b;
+  --global-footer-bg-color: #181a1b;
+  --global-footer-text-color: #9ba1a6;
+  --global-footer-link-color: #9ba1a6;
+  --global-distill-app-color: #9ba1a6;
+  --global-divider-color: #2a2d30;
+  --global-heading-border-color: #2a2d30;
+  --global-card-bg-color: #1f2123;
+  --rd-shadow: 0 2px 12px -4px rgba(0, 0, 0, 0.55);
   --global-back-to-top-bg-color: rgba(
     #{color.channel(v.$white-color, "red", v.$space: rgb)},
     #{color.channel(v.$white-color, "green", v.$space: rgb)},

@@ -5,14 +5,16 @@
 @use "variables" as v;
 
 html {
-  font-size: 18px;
+  // 17px base: sized for IBM Plex Sans body (18px was tuned for Garamond's small x-height)
+  font-size: 17px;
 }
 
 body {
-  font-family: "EB Garamond", Georgia, "Times New Roman", Times, serif;
+  font-family: "IBM Plex Sans", sans-serif;
   font-size: 1rem;
 }
 
+// Headings: EB Garamond at medium (500), never bold — emphasis via italic + size
 h1,
 h2,
 h3,
@@ -20,19 +22,19 @@ h4,
 h5,
 h6 {
   font-family: "EB Garamond", Georgia, "Times New Roman", Times, serif;
-  font-weight: bold;
+  font-weight: 500;
   color: var(--global-text-color);
 }
 
 h1 {
   font-size: 1.6rem;
   font-style: italic;
-  font-weight: 400;
+  font-weight: 500;
 }
 h2 {
   font-size: 1.4rem;
   font-style: italic;
-  font-weight: 400;
+  font-weight: 500;
   margin-top: 3rem;
   padding-top: 1.5rem;
   border-top: 1px solid var(--global-heading-border-color);
@@ -40,7 +42,7 @@ h2 {
 h3 {
   font-size: 1.2rem;
   font-style: italic;
-  font-weight: 400;
+  font-weight: 500;
 }
 h4 { font-size: 1.1rem; }
 h5 { font-size: 1.0rem; }
@@ -71,7 +73,8 @@ table {
   }
 
   th {
-    font-weight: bold;
+    // 600 instead of bold: 700 is no longer loaded from Google Fonts
+    font-weight: 600;
   }
 }
 

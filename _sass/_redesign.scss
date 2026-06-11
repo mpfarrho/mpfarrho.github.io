@@ -1,0 +1,156 @@
+/*******************************************************************************
+ * Redesign overrides (loaded last in assets/css/main.scss)
+ *
+ * Additive styles only — palette/font/weight changes live in the partials
+ * they belong to (_themes, _typography, _navbar, _publications, _cv,
+ * _components). Everything here references the --global-* theme variables
+ * so the light/dark toggle keeps working.
+ ******************************************************************************/
+
+/* ---------------------------------------------------------------------------
+ * Images: no borders anywhere; soft shadow on the profile photo only
+ * (radius comes from the existing Bootstrap .rounded class on the img)
+ * ------------------------------------------------------------------------- */
+
+img.img-fluid {
+  border: 0;
+}
+
+.profile img {
+  border: 0;
+  box-shadow: var(--rd-shadow);
+}
+
+/* ---------------------------------------------------------------------------
+ * About page: mono eyebrow label + profile-link pill strip (see about.liquid)
+ * ------------------------------------------------------------------------- */
+
+.rd-eyebrow {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 0.7rem;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--global-theme-color);
+  margin-bottom: 0.6rem;
+}
+
+.rd-profile-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-bottom: 1.5rem;
+
+  a {
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 0.65rem;
+    line-height: 1.5;
+    color: var(--global-text-color-light);
+    border: 1px solid var(--global-divider-color);
+    border-radius: 999px;
+    padding: 0.15rem 0.6rem;
+    text-decoration: none;
+
+    &:hover {
+      color: var(--global-theme-color);
+      border-color: var(--global-theme-color);
+      text-decoration: none;
+      opacity: 1; // counters the global a:hover fade
+    }
+  }
+}
+
+/* ---------------------------------------------------------------------------
+ * CV: ledger rows — role Garamond italic medium, org sans muted,
+ * date mono right-aligned, thin rule between rows
+ * ------------------------------------------------------------------------- */
+
+.cv {
+  .card .list-group-item {
+    border-bottom: 1px solid var(--global-divider-color);
+
+    &:last-child {
+      border-bottom: 0;
+    }
+  }
+
+  .list-group-item .row {
+    align-items: baseline;
+  }
+
+  // Date column moves to the right edge on md+ (below md the row stacks,
+  // so the date stays in source order above the role)
+  @media (min-width: 768px) {
+    .date-column {
+      order: 2;
+      text-align: right !important; // counters the .text-left utility
+    }
+  }
+
+  // Org/secondary line: sans, muted; flush with the role (ml-* utilities reset)
+  .list-group-item h6 {
+    margin-left: 0 !important; // counters .ml-1 / .ml-md-4 utilities
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 400;
+    color: var(--global-text-color-light);
+  }
+
+  // Role line: Garamond italic medium
+  .list-group-item h6.title {
+    font-family: "EB Garamond", Georgia, "Times New Roman", Times, serif;
+    font-style: italic;
+    font-weight: 500 !important; // counters the .font-weight-bold utility
+    font-size: 1.05rem;
+    color: var(--global-text-color);
+  }
+}
+
+/* ---------------------------------------------------------------------------
+ * Publications: section headers ("Working Papers", …) as mono accent labels
+ * with a hairline underneath (replaces the global italic-Garamond h2 style)
+ * ------------------------------------------------------------------------- */
+
+.publications h2 {
+  font-family: "IBM Plex Mono", monospace;
+  font-style: normal;
+  font-size: 0.8rem;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--global-theme-color);
+  border-top: 0; // global h2 draws a top rule; the label gets a bottom hairline instead
+  border-bottom: 1px solid var(--global-divider-color);
+  margin-top: 2.5rem;
+  padding-top: 0;
+  padding-bottom: 0.4rem;
+}
+
+/* ---------------------------------------------------------------------------
+ * Quality: weights, focus visibility, reduced motion
+ * ------------------------------------------------------------------------- */
+
+// 700 is no longer loaded from Google Fonts; keep semibold real, not faux
+strong,
+b {
+  font-weight: 600;
+}
+
+// Visible, accent-colored focus rings for keyboard navigation
+a:focus-visible,
+button:focus-visible,
+.btn:focus-visible,
+summary:focus-visible {
+  outline: 2px solid var(--global-theme-color);
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

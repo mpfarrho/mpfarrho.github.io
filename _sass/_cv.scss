@@ -100,11 +100,12 @@
   margin-bottom: 0;
 }
 
-// Date badges: sans-serif, not bold, left-aligned, no shadow
+// Date badges: mono, not bold, right-aligned (ledger style), no fill, no shadow
 .cv span.badge {
-  font-family: "EB Garamond", Georgia, "Times New Roman", Times, serif;
+  font-family: "IBM Plex Mono", monospace;
   font-weight: normal;
-  text-align: left;
+  font-size: 0.65rem;
+  text-align: right;
   box-shadow: none !important;
 }
 
@@ -385,7 +386,8 @@ span.badge-toc {
   background-color: var(--global-theme-color);
   border-radius: 0.125rem;
   padding: 0.125rem 0.5rem 0.125rem 0.5rem;
-  font-weight: 700 !important;
+  // 600 instead of 700: 700 is no longer loaded from Google Fonts
+  font-weight: 600 !important;
   display: inline-block;
   inline-size: fit-content;
 }
