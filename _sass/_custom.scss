@@ -33,7 +33,7 @@
 html[data-theme="dark"] {
   --bg: #0f141a;
   --bg-tint: #161d26;
-  --ink: #e9e5db;
+  --ink: #ffffff;
   --muted: #9da3ac;
   --faint: #6b7079;
   --rule: #232b35;
@@ -90,7 +90,7 @@ body.research a {
   position: sticky;
   top: 0;
   z-index: 50;
-  background: color-mix(in srgb, var(--bg) 88%, transparent);
+  background: color-mix(in srgb, var(--bg) 55%, transparent);
   backdrop-filter: saturate(140%) blur(10px);
   box-shadow: 0 2px 12px -4px rgba(20, 30, 45, 0.14);
 }
@@ -387,11 +387,20 @@ section.block:last-child {
   display: grid;
   grid-template-columns: 1fr auto;
   gap: 8px 24px;
-  padding: 13px 0;
+  margin-left: -18px;
+  padding: 13px 0 13px 18px;
   border-bottom: 1px solid var(--rule-soft);
+  border-left: 2px solid transparent;
+  transition:
+    border-color 0.18s,
+    background 0.18s;
 }
 .entry:last-child {
   border-bottom: 0;
+}
+.entry:hover {
+  border-left-color: var(--accent);
+  background: color-mix(in srgb, var(--accent) 5%, transparent);
 }
 .entry-main .role {
   font-family: var(--serif);
@@ -429,12 +438,26 @@ section.block:last-child {
   margin: 0;
   padding: 0;
 }
+/* display:block + margin reset override Bootstrap's global .row (flex + negative
+   margins), which would otherwise put .label and .val side by side and misalign
+   the rows. Hover bar matches the research .pub rows. */
 .deflist .row {
-  padding: 13px 0;
+  display: block;
+  margin-left: -18px;
+  margin-right: 0;
+  padding: 13px 0 13px 18px;
   border-bottom: 1px solid var(--rule-soft);
+  border-left: 2px solid transparent;
+  transition:
+    border-color 0.18s,
+    background 0.18s;
 }
 .deflist .row:last-child {
   border-bottom: 0;
+}
+.deflist .row:hover {
+  border-left-color: var(--accent);
+  background: color-mix(in srgb, var(--accent) 5%, transparent);
 }
 .deflist .label {
   font-family: var(--serif);
@@ -497,7 +520,19 @@ section.block:last-child {
     border-color 0.18s,
     background 0.18s;
 }
-.pub:last-child {
+/* jekyll-scholar wraps each entry in <ol class="bibliography"><li>…</li></ol>;
+   neutralise the list so the .pub rows render exactly like the mockup. Each .pub
+   is the only child of its <li>, so the last hairline is dropped on the last li. */
+.bibliography {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.bibliography li {
+  margin: 0;
+  padding: 0;
+}
+.bibliography li:last-child .pub {
   border-bottom: 0;
 }
 .pub:hover {
@@ -523,8 +558,8 @@ section.block:last-child {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
-  gap: 8px 12px;
-  margin-top: 9px;
+  gap: 6px 10px;
+  margin-top: 5px;
 }
 .pub .kind {
   font-family: var(--mono);
@@ -557,6 +592,26 @@ a.pill:hover {
   color: var(--accent);
   border-color: var(--accent);
   background: color-mix(in srgb, var(--accent) 8%, transparent);
+}
+/* the "bib" pill is an action (no href); make it feel clickable */
+.bib-toggle {
+  cursor: pointer;
+}
+.pub-bibtex {
+  margin-top: 10px;
+}
+.pub-bibtex pre {
+  margin: 0;
+  padding: 14px 16px;
+  background: var(--bg-tint);
+  border: 1px solid var(--rule-soft);
+  border-radius: 6px;
+  font-family: var(--mono);
+  font-size: 12px;
+  line-height: 1.5;
+  color: var(--ink);
+  white-space: pre;
+  overflow-x: auto;
 }
 
 /* ---------- footer ---------- */

@@ -127,6 +127,21 @@
           paintIcon();
         });
       }
+      // research page: the "bib" pill toggles its BibTeX block
+      document.querySelectorAll('.bib-toggle').forEach(function (t) {
+        t.addEventListener('click', function () {
+          var pub = t.closest('.pub');
+          var box = pub && pub.querySelector('.pub-bibtex');
+          if (!box) return;
+          var willOpen = box.hasAttribute('hidden');
+          if (willOpen) {
+            box.removeAttribute('hidden');
+          } else {
+            box.setAttribute('hidden', '');
+          }
+          t.setAttribute('aria-expanded', willOpen ? 'true' : 'false');
+        });
+      });
       var links = Array.prototype.slice.call(document.querySelectorAll('.toc a'));
       if (!links.length) return;
       var map = {};

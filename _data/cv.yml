@@ -140,6 +140,3 @@ sections:
             val: "Habilitation commission (Heimberger, 2025); PhD committee (Scheckel, Agati)"
           - label: "Thesis supervision"
             val: '15 BSc/MSc theses (WU), 1 MSc thesis (univie) &mdash; <a href="https://gist.github.com/mpfarrho/abef507abc1f0a8de756efdb5918145f">supervision guidelines</a>'
-      - type: personal
-        k: "Off the clock"
-        text: "A few favorite things: rock &amp; roll and heavy metal, cycling and running, barbecuing, and various kinds of racing."
