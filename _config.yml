@@ -53,7 +53,9 @@ external_services:
 # -----------------------------------------------------------------------------
 
 navbar_fixed: true
-footer_fixed: true
+# Footer removed: false applies the sticky-bottom-footer body class, which zeroes
+# the bottom padding that was reserving space for the (now absent) fixed footer
+footer_fixed: false
 search_enabled: false
 socials_in_search: true
 posts_in_search: true
