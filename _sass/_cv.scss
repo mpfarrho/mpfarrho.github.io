@@ -76,8 +76,6 @@
         }
       }
     }
-
-
   }
 }
 
@@ -198,10 +196,13 @@
       cursor: pointer;
       list-style: none;
 
-      &::-webkit-details-marker { display: none; }
+      &::-webkit-details-marker {
+        display: none;
+      }
     }
 
-    p, & > *:not(summary) {
+    p,
+    & > *:not(summary) {
       font-size: 0.875rem;
       margin-top: 0.5rem;
       margin-bottom: 0;
