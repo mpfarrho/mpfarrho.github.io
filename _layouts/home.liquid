@@ -1,0 +1,109 @@
+{% comment %}
+  Home layout — standalone document reproducing /mockups/index.html.
+  Hero + profile strip are fixed page content (verbatim from the mockup). The
+  CV / Activities / Education / Honors / Grants / Presentations / Teaching
+  sections and the sticky TOC are rendered from _data/cv.yml. Section ids must
+  match the mockup verbatim for the scroll-spy in head.liquid.
+{% endcomment %}
+<!doctype html>
+<html lang="{{ site.lang | default: 'en' }}" data-theme="light">
+  <head>
+    {% include head.liquid %}
+  </head>
+  <body class="home">
+    {% include header.liquid %}
+
+    <main>
+      <section class="hero wrap">
+        <div class="hero-grid">
+          <div class="hero-text">
+            <p class="eyebrow">Assistant Professor &middot; WU Vienna</p>
+            <p class="lead">
+              I am an Assistant Professor at WU Vienna University of Economics and Business (<a href="https://www.wu.ac.at/en/economics/"
+                >Department of Economics</a
+              >), specializing in econometrics for macroeconomic and related applications. I am also an Expert for the Joint Research Centre (JRC)
+              Ispra of the European Commission, and serve as an Associate Editor for
+              <a href="https://www.cambridge.org/core/journals/macroeconomic-dynamics">Macroeconomic Dynamics</a>.
+            </p>
+            <p class="note">
+              My research interests include empirical macroeconomics and econometric methods for dynamic models, with a particular focus on business
+              cycle analysis and forecasting. Methodologically, my work centers on time series, Bayesian econometrics and machine learning.
+            </p>
+            <p class="note">
+              My work has been published in leading journals including the <i>Journal of Econometrics</i>,
+              <i>Journal of Business &amp; Economic Statistics</i>, <i>Journal of Applied Econometrics</i>, <i>International Economic Review</i>,
+              <i>European Economic Review</i>, and <i>International Journal of Forecasting</i>, among others.
+            </p>
+          </div>
+          <div class="hero-photo">
+            <div class="frame">
+              <img src="{{ '/assets/img/prof_pic.jpg' | relative_url }}" alt="Michael Pfarrhofer">
+            </div>
+            <div class="photo-cap">Vienna, Austria</div>
+          </div>
+        </div>
+
+        <nav class="profiles" aria-label="Academic profiles">
+          <a href="https://scholar.google.at/citations?user=ymlNJ_UAAAAJ">Google Scholar</a>
+          <a href="https://www.semanticscholar.org/author/Michael-Pfarrhofer/88739014">Semantic Scholar</a>
+          <a href="https://ideas.repec.org/e/ppf31.html">RePEc / IDEAS</a>
+          <a href="https://orcid.org/0000-0002-0168-688X">ORCID</a>
+          <a href="https://github.com/mpfarrho">GitHub</a>
+        </nav>
+      </section>
+
+      <div class="wrap layout">
+        <aside class="toc">
+          <nav aria-label="Sections">
+            <ul>
+              {% for s in site.data.cv.sections %}
+                <li>
+                  <a href="#{{ s.id }}">{{ s.nav }}</a>
+                </li>
+              {% endfor %}
+            </ul>
+          </nav>
+        </aside>
+
+        <div class="content">
+          {% for s in site.data.cv.sections %}
+            <section class="block" id="{{ s.id }}">
+              <h2>{{ s.title }}</h2>
+              <div class="block-rule"></div>
+              {% for b in s.blocks %}
+                {% case b.type %}
+                  {% when 'entry' %}
+                    <div class="entry">
+                      <div class="entry-main">
+                        <span class="role">{{ b.role }}</span><span class="org">{{ b.org }}</span>
+                      </div>
+                      <div class="entry-date">{{ b.date }}</div>
+                    </div>
+                  {% when 'sub' %}
+                    <div class="sub">{{ b.text }}</div>
+                  {% when 'deflist' %}
+                    <dl class="deflist">
+                      {% for r in b.rows %}
+                        <div class="row">
+                          <div class="label">{{ r.label }}</div>
+                          <div class="val">{{ r.val }}</div>
+                        </div>
+                      {% endfor %}
+                    </dl>
+                  {% when 'personal' %}
+                    <div class="personal">
+                      <p>
+                        <span class="k">{{ b.k }}</span>{{ b.text }}
+                      </p>
+                    </div>
+                {% endcase %}
+              {% endfor %}
+            </section>
+          {% endfor %}
+        </div>
+      </div>
+    </main>
+
+    {% include footer.liquid %}
+  </body>
+</html>

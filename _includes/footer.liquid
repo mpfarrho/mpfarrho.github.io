@@ -1,26 +1,33 @@
-{% capture footer_contents %}
-  <div class="footer-links">
-    <a href="https://scholar.google.at/citations?user=ymlNJ_UAAAAJ" target="_blank">Google Scholar</a> &middot;
-    <a href="https://www.semanticscholar.org/author/Michael-Pfarrhofer/88739014" target="_blank">Semantic Scholar</a> &middot;
-    <a href="https://ideas.repec.org/e/ppf31.html" target="_blank">RePEc</a> &middot;
-    <a href="https://orcid.org/0000-0002-0168-688X" target="_blank">ORCID</a>
+{% comment %}
+  Site footer — pixel reproduction of the footer in /mockups. Included only by
+  the custom home/research layouts (al-folio's default.liquid no longer renders a
+  footer), so the Google Analytics snippet below loads only on the redesigned
+  pages and never double-fires with scripts.liquid on other pages.
+{% endcomment %}
+<footer>
+  <div class="wrap foot-inner">
+    <nav class="foot-links" aria-label="Profiles">
+      <a href="https://scholar.google.at/citations?user=ymlNJ_UAAAAJ">Google Scholar</a>
+      <a href="https://www.semanticscholar.org/author/Michael-Pfarrhofer/88739014">Semantic Scholar</a>
+      <a href="https://ideas.repec.org/e/ppf31.html">RePEc</a>
+      <a href="https://orcid.org/0000-0002-0168-688X">ORCID</a>
+    </nav>
+    <div class="colophon">Michael Pfarrhofer &middot; WU Vienna</div>
   </div>
-{% endcapture %}
+</footer>
 
-{% if site.footer_fixed %}
-  <footer class="fixed-bottom" role="contentinfo">
-    <div class="container mt-0">
-      {{ footer_contents }}
-    </div>
-  </footer>
-{% else %}
-  <footer class="sticky-bottom mt-5" role="contentinfo">
-    {% if site.newsletter.enabled %}
-      {% include newsletter.liquid %}
-    {% endif %}
-
-    <div class="container">
-      {{ footer_contents }}
-    </div>
-  </footer>
+{% if site.enable_google_analytics %}
+  <!--
+    Google Analytics (gtag). al-folio's google-analytics-setup.js is absent from
+    the repo, so the config is inlined here to keep tracking working.
+  -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+    gtag('config', '{{ site.google_analytics }}');
+  </script>
 {% endif %}

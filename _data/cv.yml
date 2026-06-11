@@ -1,114 +1,145 @@
-cv:
-  name: Michael Pfarrhofer
-  label: Assistant Professor
-  email: mpfarrho@gmail.com
-  location: Vienna, Austria
-  image: ""
+# Drives the home page CV sections (see _layouts/home.liquid).
+# Each section: id (must match the mockup + scroll-spy verbatim), nav (TOC
+# label), title (h2), and an ordered list of typed blocks:
+#   - type: entry    -> role / org / date ledger row (.entry)
+#   - type: sub      -> serif-italic subheading (.sub)
+#   - type: deflist  -> label/value rows (.deflist), one <dl> per block
+#   - type: personal -> the "Off the clock" box (.personal)
+# Values may contain inline HTML (links, entities); they are emitted raw.
 
-  sections:
-    Experience:
-      - company: WU Vienna University of Economics and Business
-        position: Assistant Professor
-        location: Vienna
-        start_date: 2023-09
-      - company: European Commission, Joint Research Centre (JRC) Ispra
-        position: Expert
-        location: Ispra
-        start_date: 2020-12
-      - company: University of Vienna
-        position: Professor of Macroeconomics
-        location: Vienna
-        start_date: 2022-09
-        end_date: 2023-08
-      - company: Bocconi University
-        position: Visiting Researcher
-        location: Milan
-        start_date: 2022-03
-        end_date: 2022-08
-      - company: International Institute for Applied Systems Analysis (IIASA)
-        position: Research Scholar
-        location: Laxenburg
-        start_date: 2020-11
-        end_date: 2021-10
-      - company: University of Salzburg
-        position: Postdoc
-        location: Salzburg
-        start_date: 2019-10
-        end_date: 2022-08
+sections:
+  - id: cv
+    nav: CV
+    title: Curriculum vitae
+    blocks:
+      - type: entry
+        role: "Assistant Professor"
+        org: "Department of Economics, WU Vienna"
+        date: "09/2023&ndash;"
+      - type: entry
+        role: "Expert"
+        org: "European Commission &ldquo;Macro Modelling and Nowcast Pool,&rdquo; JRC Ispra"
+        date: "12/2020&ndash;"
+      - type: sub
+        text: "Past positions"
+      - type: entry
+        role: "Professor of Macroeconomics"
+        org: "Department of Economics, University of Vienna"
+        date: "09/2022&ndash;08/2023"
+      - type: entry
+        role: "Visiting Researcher"
+        org: "Department of Economics, Bocconi University"
+        date: "03/2022&ndash;08/2022"
+      - type: entry
+        role: "Research Scholar"
+        org: "International Institute for Applied Systems Analysis (IIASA)"
+        date: "11/2020&ndash;10/2021"
+      - type: entry
+        role: "Postdoc"
+        org: "Department of Economics, University of Salzburg"
+        date: "10/2019&ndash;08/2022"
 
-    Education:
-      - institution: University of Salzburg
-        location: Salzburg
-        area: Economics
-        studyType: Venia docendi (Habilitation)
-        start_date: 2023-01
-        end_date: 2023-01
-      - institution: WU Vienna University of Economics and Business
-        location: Vienna
-        area: Economics
-        studyType: Ph.D.
-        start_date: 2019-09
-        end_date: 2019-09
-      - institution: WU Vienna University of Economics and Business
-        location: Vienna
-        area: Economics
-        studyType: MSc.
-        start_date: 2018-06
-        end_date: 2018-06
-      - institution: WU Vienna University of Economics and Business
-        location: Vienna
-        area: Business, Economics and Social Sciences
-        studyType: BSc.
-        start_date: 2016-07
-        end_date: 2016-07
+  - id: activities
+    nav: Activities
+    title: Activities
+    blocks:
+      - type: entry
+        role: "Associate Editor"
+        org: '<a href="https://www.cambridge.org/core/journals/macroeconomic-dynamics">Macroeconomic Dynamics</a>'
+        date: "2025&ndash;"
+      - type: entry
+        role: "General Secretary"
+        org: 'Austrian Economic Association (<a href="https://www.noeg.ac.at">NOeG</a>)'
+        date: "2025&ndash;2026"
+      - type: deflist
+        rows:
+          - label: "Memberships"
+            val: "American Economic Association (AEA), Austrian Economic Association (NOeG), Euro Area Business Cycle Network (EABCN), European Economic Association (EEA), Econometric Society (ES), International Society for Bayesian Analysis (ISBA)"
+          - label: "Other"
+            val: 'Local organizing committee, Annual Meeting NOeG 2026 (CEU, Vienna); local organizing and scientific committee, <a href="https://sites.google.com/view/esobe2022salzburg">12th European Seminar on Bayesian Econometrics</a> (ESOBE, Salzburg), 2022; scientific committee, OeNB/SUERF Economic Conference 2025, 2026'
+          - label: "Departmental"
+            val: "Analysis of student performance (PLUS); Job Market hiring committee (WU, 2023&ndash;2025); PhD program hiring committee (WU, 2024); QA teaching peer-evaluation; Key Fields of Expertise selection committee"
+      - type: sub
+        text: "Referee"
+      - type: deflist
+        rows:
+          - label: "Journals"
+            val: "Energy Economics, IMF Economic Review, International Journal of Forecasting, Journal of Applied Econometrics, Journal of Business &amp; Economic Statistics, Journal of Econometrics, Journal of Economic Dynamics &amp; Control, Journal of Money, Credit and Banking, Journal of the American Statistical Association, Journal of the Royal Statistical Society, Macroeconomic Dynamics, Review of Economics and Statistics, Statistica Sinica, Quantitative Economics, among others"
+          - label: "Other"
+            val: "ECB Working Paper Series, OeNB Jubil&auml;umsfonds, Swiss National Science Foundation"
 
-    Awards:
-      - title: Award of Excellence (Staatspreis)
-        awarder: Austrian Federal Ministry of Education, Science and Research
-        date: 2020
-      - title: Klaus Liebscher Economic Research Scholarship (KLERS)
-        awarder: Oesterreichische Nationalbank (OeNB)
-        date: 2021-05
+  - id: education
+    nav: Education
+    title: Education
+    blocks:
+      - type: entry
+        role: "Venia Docendi"
+        org: "University of Salzburg, Economics &mdash; habilitation, &ldquo;Structural and predictive inference with parametric and nonparametric models in economics&rdquo;"
+        date: "01/2023"
+      - type: entry
+        role: "Ph.D., Economics"
+        org: "WU Vienna &mdash; &ldquo;Bayesian inference in high-dimensional multivariate time series models with applications in macroeconomics and finance&rdquo;"
+        date: "09/2019"
+      - type: entry
+        role: "M.Sc., Economics"
+        org: "WU Vienna"
+        date: "06/2018"
+      - type: entry
+        role: "B.Sc."
+        org: "WU Vienna, Business, Economics and Social Sciences"
+        date: "07/2016"
 
-    Activities:
-      - position: Associate Editor
-        company: "[Macroeconomic Dynamics](https://www.cambridge.org/core/journals/macroeconomic-dynamics)"
-        start_date: 2025-01
-      - position: General Secretary
-        company: "[Austrian Economic Association (NOeG)](https://www.noeg.ac.at)"
-        start_date: 2025-01
-        end_date: 2026-12
-      - label: "Other"
-        details: "Local organizing and scientific committee member, 12th European Seminar on Bayesian Econometrics (ESOBE, Salzburg), 2022; Scientific Committee OeNB/SUERF Economic Conference 2025, 2026; EIPA course \"Macro-at-Risk\" for the European Commission (DG ECFIN)"
+  - id: honors
+    nav: Honors
+    title: Honors
+    blocks:
+      - type: entry
+        role: "Award of Excellence (Staatspreis)"
+        org: "For the dissertation, awarded by the Austrian Federal Ministry of Education, Science and Research"
+        date: "2020"
+      - type: entry
+        role: "Klaus Liebscher Economic Research Scholarship"
+        org: 'Awarded by the Oesterreichische Nationalbank (OeNB, <a href="https://www.oenb.at/en/About-Us/Research-Promotion/scholarships_and_awards/klaus_liebscher_economic_research_scholarship.html">KLERS</a>)'
+        date: "2021"
 
-    Refereeing:
-      - label: "Journals"
-        details: "Energy Economics, IMF Economic Review, International Journal of Forecasting, Journal of Applied Econometrics, Journal of Business & Economic Statistics, Journal of Econometrics, Journal of Economic Dynamics & Control, Journal of Money, Credit and Banking, Journal of the American Statistical Association, Journal of the Royal Statistical Society, Macroeconomic Dynamics, Review of Economics and Statistics, Statistica Sinica, Quantitative Economics, among others"
-      - label: "Other"
-        details: "ECB Working Paper Series, OeNB Jubiläumsfonds, Swiss National Science Foundation"
+  - id: grants
+    nav: Grants
+    title: Grants
+    blocks:
+      - type: entry
+        role: "Inference with Bayesian nonparametric models in the presence of measurement errors and outliers"
+        org: 'Jubil&auml;umsfonds der OeNB (PI) &mdash; EUR 168,000 &middot; <a href="https://mpfarrho.github.io/project18765/">project&nbsp;18765</a>'
+        date: "2022&ndash;2024"
+      - type: entry
+        role: "Between fostering and limiting central bank independence: the impact of constitutional court decisions"
+        org: "Jubil&auml;umsfonds der OeNB (co-PI, PI: F. Huber) &mdash; EUR 118,000"
+        date: "2020&ndash;2022"
 
-    Research Grants:
-      - label: "2022–2024"
-        details: "Jubiläumsfonds der Oesterreichischen Nationalbank (OeNB): [_Inference with Bayesian nonparametric models in the presence of measurement errors and outliers_](/project18765/), (PI), total funding EUR 168,000"
-      - label: "2020–2022"
-        details: "Jubiläumsfonds der Oesterreichischen Nationalbank (OeNB): _Between fostering and limiting central bank independence: The impact of constitutional courts decisions_, (co-PI, principal investigator: F. Huber), total funding EUR 118,000"
+  - id: presentations
+    nav: Presentations
+    title: Presentations
+    blocks:
+      - type: deflist
+        rows:
+          - label: "Recent"
+            val: '7th Vienna Workshop on High-Dimensional Time Series in Macroeconomics and Finance (IHS); 13th ECB Conference on Forecasting Techniques; SNB Research Seminar (Z&uuml;rich); Insightful Minds in International Macro Seminar (<a href="https://sites.google.com/view/imimseminars/home">IMIM</a>); Economics Research Seminar (JKU Linz); 15th RCEA Bayesian Econometrics Workshop (Universidad del Atl&aacute;ntico Medio)'
 
-    Conferences and Presentations:
-      - label: "Recent"
-        details: "SNB Research Seminar (Schweizerische Nationalbank, Zürich), Insightful Minds in International Macro Seminar ([IMIM](https://sites.google.com/view/imimseminars/home), online), Economics Research Seminar (JKU Linz), 15th RCEA Bayesian Econometrics Workshop (Universidad del Atlántico Medio), ECB conference \"Macroeconomic Modelling Frontiers for Research and Policy in Central Banks\" (Frankfurt)\\*, Economics Research Seminar (University of Strathclyde), IAAE Annual Conference (Thessaloniki), IIASA Workshop (Laxenburg), IHS Seminar (Vienna), OeNB Freitagsseminar (Vienna)"
-      - label: "Earlier"
-        details: "27th International Conference on Macroeconomic Analysis and International Finance (Rethymno), 12th ECB Conference on Forecasting Techniques (_Keynote_, Frankfurt)\\*, Macro Breakfast Seminar (University of Vienna), Annual Meeting of the Austrian Economic Association (NOeG), Internal Research Seminar (WU Vienna), Internal Research Seminar (European Commission, JRC Ispra), Macro Brownbag Seminar (Bocconi University), Research Seminar (Decision Sciences, Bocconi University), 12th European Seminar on Bayesian Econometrics (_scientific committee member_, Salzburg), 15th International Conference on Computational and Financial Econometrics (CFE 2022, _session organizer_, _invited session_, London), American Economic Association (AEA/ASSA 2021, online)\\*, UC Louvain ISBA/CORE seminar (online)\\*, Department of Economics Research Seminar (University of Salzburg), OeNB Economic Analysis Seminar, 11th ECB Conference on Forecasting Techniques (online)\\*, 2021 IAAE Annual Conference (online), 11th European Seminar on Bayesian Econometrics (ESOBE, Madrid, online), 4th Annual Workshop on Financial Econometrics (Örebro, online), Montreal Econometrics Seminar 2020 (online)\\*, Annual Meeting of the Austrian Economic Association (NOeG 2020, _session chair_, Vienna), 2nd International Conference on Data Science in Finance with R (DSF-R 2019, _invited talk_, Vienna), 10th European Seminar on Bayesian Econometrics (ESOBE 2019, St. Andrews), Annual Meeting of the Austrian Economic Association (NOeG 2019, Graz), Department of Economics Research Seminar (University of Salzburg, 2019), Annual Meeting of the Austrian Economic Association (NOeG 2018, Vienna), XII World Conference of the Spatial Econometrics Association (SEA 2018, Vienna)"
-      - note: "\\* Presented by co-author"
-
-    Memberships:
-      - label: "Members"
-        details: "American Economic Association (AEA), Austrian Economic Association (NOeG), Euro Area Business Cycle Network (EABCN), European Economic Association (EEA), Econometric Society (ES), International Society for Bayesian Analysis (ISBA)"
-
-    Teaching:
-      - label: "Graduate"
-        details: "Advanced Macroeconometrics (WU, 2019, 2024, 2025), Macroeconometrics (WU, twice 2024, 2025), Macroeconometrics I (PLUS, 2020), Macroeconometrics: Structural and predictive inference (PLUS, 2021), Methods in Economics (PLUS, 2019/20–2021/22), Foundational Econometrics (univie, 2022/23), Introduction to Bayesian Econometrics (univie, 2022/23), Macroeconometrics (univie, 2023), Advanced Topics in Macroeconometrics (univie, 2023)"
-      - label: "Undergrad"
-        details: "Econometrics II (WU, 2024/25, 2025/26), Economic Modeling (WU, macro-part, 2025, 2026), Macroeconomics (PLUS, 2018/19, 2019/20; univie, 2022/23; WU, 2023/24)"
-      - label: "Supervision"
-        details: "Agati (WU, PhD committee, 2025–), Scheckel (PLUS, 2nd PhD advisor, 2024–), 4 MSc theses (WU, 2024), 1 MSc thesis (univie, 2023), multiple BSc theses (WU)"
-      - note: "University of Vienna (univie), University of Salzburg (PLUS), Vienna University of Economics and Business (WU)"
+  - id: teaching
+    nav: Teaching
+    title: Teaching
+    blocks:
+      - type: deflist
+        rows:
+          - label: "Undergraduate"
+            val: "Econometrics II (WU); Economic Modeling (WU, macro part); Macroeconomics (PLUS; univie; WU)"
+          - label: "Graduate"
+            val: 'Advanced Macroeconometrics (WU, <a href="https://github.com/mpfarrho/WU-macroeconometrics/blob/main/syllabus-ST-adv.md">science-track syllabus</a>; univie); Macroeconometrics (WU, <a href="https://github.com/mpfarrho/WU-macroeconometrics/blob/main/syllabus-AT.md">applied-track syllabus</a>; PLUS); Macroeconometrics: structural and predictive inference (PLUS; univie); Methods in Economics (PLUS); Foundational Econometrics (univie); Introduction to Bayesian Econometrics (univie)'
+          - label: "Other"
+            val: "EIPA course &ldquo;Macroeconomy-at-Risk: Advanced Methods for Density and Tail Risk Predictions&rdquo; for the European Commission (DG ECFIN); Rethinking Economics, &ldquo;Predictive inference and forecast evaluation metrics&rdquo; (University of T&uuml;bingen); Sommerakademie (Talente O&Ouml;, high-school students)"
+          - label: "Committee member"
+            val: "Habilitation commission (Heimberger, 2025); PhD committee (Scheckel, Agati)"
+          - label: "Thesis supervision"
+            val: '15 BSc/MSc theses (WU), 1 MSc thesis (univie) &mdash; <a href="https://gist.github.com/mpfarrho/abef507abc1f0a8de756efdb5918145f">supervision guidelines</a>'
+      - type: personal
+        k: "Off the clock"
+        text: "A few favorite things: rock &amp; roll and heavy metal, cycling and running, barbecuing, and various kinds of racing."

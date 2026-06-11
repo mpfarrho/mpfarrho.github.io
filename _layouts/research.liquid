@@ -1,0 +1,405 @@
+{% comment %}
+  Research layout — standalone document reproducing /mockups/research.html.
+  Publication entries are hardcoded exactly as in the mockup (driving them from
+  _bibliography/papers.bib via jekyll-scholar is a follow-up, see
+  IMPLEMENTATION_NOTES.md). Only the three working-paper "wp" pills that carry
+  real arXiv URLs in the mockup are live; every other pill is href="#".
+  Section ids must match the mockup verbatim for the scroll-spy in head.liquid.
+{% endcomment %}
+<!doctype html>
+<html lang="{{ site.lang | default: 'en' }}" data-theme="light">
+  <head>
+    {% include head.liquid %}
+  </head>
+  <body class="research">
+    {% include header.liquid %}
+
+    <main>
+      <section class="page-head wrap">
+        <p class="eyebrow">Research</p>
+        <h1>Papers &amp; publications</h1>
+        <p class="lead">
+          You can also find my research on
+          <a href="https://scholar.google.at/citations?user=ymlNJ_UAAAAJ">Google Scholar</a> and
+          <a href="https://www.semanticscholar.org/author/Michael-Pfarrhofer/88739014">Semantic Scholar</a>; most past and present working papers are
+          listed in my <a href="https://arxiv.org/a/pfarrhofer_m_1">arXiv profile</a>, and a full publication list is available on
+          <a href="https://ideas.repec.org/e/ppf31.html">RePEc</a>.
+        </p>
+      </section>
+
+      <div class="wrap layout">
+        <aside class="toc">
+          <nav aria-label="Sections">
+            <ul>
+              <li><a href="#working">Working papers</a></li>
+              <li><a href="#published">Published papers</a></li>
+              <li><a href="#chapters">Book chapters</a></li>
+              <li><a href="#media">Policy &amp; media</a></li>
+            </ul>
+          </nav>
+        </aside>
+
+        <div class="content">
+          <section class="block" id="working">
+            <h2>Working papers</h2>
+            <div class="block-rule"></div>
+
+            <div class="pub">
+              <span class="title">Are there asymmetries in euro area monetary policy?</span>
+              <div class="authors">Michael Pfarrhofer, Anna Stelzer</div>
+              <div class="meta">
+                <span class="kind">Working paper &middot; 2025</span><a class="pill" href="#">wp</a><a class="pill" href="#">bib</a>
+              </div>
+            </div>
+
+            <div class="pub">
+              <span class="title">A Bayesian Gaussian Process Dynamic Factor Model</span>
+              <div class="authors">Tony Chernis, Niko Hauzenberger, Haroon Mumtaz, Michael Pfarrhofer</div>
+              <div class="meta">
+                <span class="kind">Working paper &middot; 2025</span><a class="pill" href="https://arxiv.org/abs/2509.04928">wp</a
+                ><a class="pill" href="#">bib</a>
+              </div>
+            </div>
+
+            <div class="pub">
+              <span class="title">Large Bayesian VARs for Binary and Censored Variables</span>
+              <div class="authors">Joshua C.C. Chan, Michael Pfarrhofer</div>
+              <div class="meta">
+                <span class="kind">Working paper &middot; 2025</span><a class="pill" href="https://arxiv.org/abs/2506.01422">wp</a
+                ><a class="pill" href="#">bib</a>
+              </div>
+            </div>
+
+            <div class="pub">
+              <span class="title">Scenario analysis with multivariate Bayesian machine learning models</span>
+              <div class="authors">Michael Pfarrhofer, Anna Stelzer</div>
+              <div class="meta">
+                <span class="kind">Working paper &middot; 2025</span><a class="pill" href="https://arxiv.org/abs/2502.08440">wp</a
+                ><a class="pill" href="#">bib</a>
+              </div>
+            </div>
+
+            <div class="pub">
+              <span class="title"
+                >Interpretable Bayesian machine learning for assessing the effects of climate news shocks on firm-level returns</span
+              >
+              <div class="authors">Luca Barbaglia, et al.</div>
+              <div class="meta">
+                <span class="kind">Working paper &middot; 2025</span><a class="pill" href="#">wp</a><a class="pill" href="#">bib</a>
+              </div>
+            </div>
+
+            <div class="pub">
+              <span class="title">General Seemingly Unrelated Local Projections</span>
+              <div class="authors">Florian Huber, Christian Matthes, Michael Pfarrhofer</div>
+              <div class="meta">
+                <span class="kind">Working paper &middot; 2024</span><a class="pill" href="#">wp</a><a class="pill" href="#">bib</a>
+              </div>
+            </div>
+
+            <div class="pub">
+              <span class="title">Asymmetries in International Financial Spillovers</span>
+              <div class="authors">Florian Huber, Karin Klieber, Massimiliano Marcellino, Luca Onorante, Michael Pfarrhofer</div>
+              <div class="meta">
+                <span class="kind">Working paper &middot; 2024</span><a class="pill" href="#">wp</a><a class="pill" href="#">bib</a>
+              </div>
+            </div>
+
+            <div class="pub">
+              <span class="title">Direct Gaussian Process Predictive Regressions with Mixed Frequency Data</span>
+              <div class="authors">Niko Hauzenberger, Massimiliano Marcellino, Michael Pfarrhofer, Anna Stelzer</div>
+              <div class="meta">
+                <span class="kind">Working paper &middot; 2024</span><a class="pill" href="#">wp</a><a class="pill" href="#">bib</a>
+              </div>
+            </div>
+          </section>
+
+          <section class="block" id="published">
+            <h2>Published papers</h2>
+            <div class="block-rule"></div>
+
+            <div class="pub">
+              <span class="title">Belief shocks and implications of expectations about growth-at-risk</span>
+              <div class="authors">with B&ouml;ck</div>
+              <div class="meta"><span class="kind">Journal of Applied Econometrics, forthcoming</span></div>
+            </div>
+
+            <div class="pub">
+              <span class="title">Introducing shrinkage in heavy-tailed state space models to predict equity excess returns</span>
+              <div class="authors">with Huber and Kastner</div>
+              <div class="meta">
+                <span class="kind">Empirical Economics, forthcoming</span><a class="pill" href="#">doi</a><a class="pill" href="#">wp</a>
+              </div>
+            </div>
+
+            <div class="pub">
+              <span class="title">Sparse time-varying parameter VECMs with an application to modeling electricity prices</span>
+              <div class="authors">with Hauzenberger and Rossini</div>
+              <div class="meta">
+                <span class="kind">International Journal of Forecasting 41(1), 361&ndash;376, 2025</span><a class="pill" href="#">doi</a
+                ><a class="pill" href="#">wp</a><a class="pill" href="#">code</a>
+              </div>
+            </div>
+
+            <div class="pub">
+              <span class="title">Investigating growth-at-risk using a multicountry nonparametric quantile factor model</span>
+              <div class="authors">with Clark, Huber, Koop and Marcellino</div>
+              <div class="meta">
+                <span class="kind">Journal of Business &amp; Economic Statistics 42(4), 1302&ndash;1317, 2024</span><a class="pill" href="#">doi</a
+                ><a class="pill" href="#">wp</a><a class="pill" href="#">code</a>
+              </div>
+            </div>
+
+            <div class="pub">
+              <span class="title">Forecasting euro area inflation using a huge panel of survey expectations</span>
+              <div class="authors">with Huber and Onorante</div>
+              <div class="meta">
+                <span class="kind">International Journal of Forecasting 40(3), 1042&ndash;1054, 2024</span><a class="pill" href="#">doi</a
+                ><a class="pill" href="#">wp</a>
+              </div>
+            </div>
+
+            <div class="pub">
+              <span class="title">Forecasts with Bayesian vector autoregressions under real time conditions</span>
+              <div class="authors">Michael Pfarrhofer</div>
+              <div class="meta">
+                <span class="kind">Journal of Forecasting 43(3), 771&ndash;801, 2024</span><a class="pill" href="#">doi</a
+                ><a class="pill" href="#">wp</a>
+              </div>
+            </div>
+
+            <div class="pub">
+              <span class="title">Financial markets and legal challenges to unconventional monetary policy</span>
+              <div class="authors">with Griller and Huber</div>
+              <div class="meta">
+                <span class="kind">European Economic Review 163, 104680, 2024</span><a class="pill" href="#">doi</a><a class="pill" href="#">wp</a
+                ><a class="pill" href="#">code</a>
+              </div>
+            </div>
+
+            <div class="pub">
+              <span class="title">Tail forecasting with multivariate Bayesian additive regression trees</span>
+              <div class="authors">with Clark, Huber, Koop and Marcellino</div>
+              <div class="meta">
+                <span class="kind">International Economic Review 64(3), 979&ndash;1022, 2023</span><a class="pill" href="#">doi</a
+                ><a class="pill" href="#">wp</a>
+              </div>
+            </div>
+
+            <div class="pub">
+              <span class="title">Measuring international uncertainty using global vector autoregressions with drifting parameters</span>
+              <div class="authors">Michael Pfarrhofer</div>
+              <div class="meta">
+                <span class="kind">Macroeconomic Dynamics 27(3), 770&ndash;793, 2023</span><a class="pill" href="#">doi</a
+                ><a class="pill" href="#">wp</a><a class="pill" href="#">code</a>
+              </div>
+            </div>
+
+            <div class="pub">
+              <span class="title">A Bayesian panel vector autoregression to analyze the impact of climate shocks on high-income economies</span>
+              <div class="authors">with Kristzin and Huber</div>
+              <div class="meta">
+                <span class="kind">The Annals of Applied Statistics 17(2), 1543&ndash;1573, 2023</span><a class="pill" href="#">doi</a
+                ><a class="pill" href="#">wp</a>
+              </div>
+            </div>
+
+            <div class="pub">
+              <span class="title">General Bayesian time-varying parameter VARs for predicting government bond yields</span>
+              <div class="authors">with Fischer, Hauzenberger and Huber</div>
+              <div class="meta">
+                <span class="kind">Journal of Applied Econometrics 38(1), 69&ndash;87, 2023</span><a class="pill" href="#">doi</a
+                ><a class="pill" href="#">wp</a>
+              </div>
+            </div>
+
+            <div class="pub">
+              <span class="title">Nowcasting in a pandemic using non-parametric mixed frequency VARs</span>
+              <div class="authors">with Huber, Koop, Onorante and Schreiner</div>
+              <div class="meta">
+                <span class="kind">Journal of Econometrics 232(1), 52&ndash;69, 2023</span><a class="pill" href="#">doi</a
+                ><a class="pill" href="#">wp</a><a class="pill" href="#">code</a>
+              </div>
+            </div>
+
+            <div class="pub">
+              <span class="title">Approximate Bayesian inference and forecasting in huge-dimensional panel VARs</span>
+              <div class="authors">with Feldkircher, Huber and Koop</div>
+              <div class="meta">
+                <span class="kind">International Economic Review 63(4), 1625&ndash;1658, 2022</span><a class="pill" href="#">doi</a
+                ><a class="pill" href="#">wp</a>
+              </div>
+            </div>
+
+            <div class="pub">
+              <span class="title">Modeling tail risks of inflation using unobserved component quantile regressions</span>
+              <div class="authors">Michael Pfarrhofer</div>
+              <div class="meta">
+                <span class="kind">Journal of Economic Dynamics and Control 143, 104493, 2022</span><a class="pill" href="#">doi</a
+                ><a class="pill" href="#">wp</a><a class="pill" href="#">code</a>
+              </div>
+            </div>
+
+            <div class="pub">
+              <span class="title">Bayesian state-space modeling for analyzing heterogeneous network effects of US monetary policy</span>
+              <div class="authors">with Hauzenberger</div>
+              <div class="meta">
+                <span class="kind">The Scandinavian Journal of Economics 123(4), 1261&ndash;1291, 2021</span><a class="pill" href="#">doi</a
+                ><a class="pill" href="#">wp</a><a class="pill" href="#">code</a>
+              </div>
+            </div>
+
+            <div class="pub">
+              <span class="title">The dynamic impact of monetary policy on regional housing prices in the United States</span>
+              <div class="authors">with Fischer, Huber and Staufer-Steinnocher</div>
+              <div class="meta">
+                <span class="kind">Real Estate Economics 49(4), 1039&ndash;1068, 2021</span><a class="pill" href="#">doi</a
+                ><a class="pill" href="#">wp</a>
+              </div>
+            </div>
+
+            <div class="pub">
+              <span class="title"
+                >On the effectiveness of the European Central Bank&rsquo;s conventional and unconventional policies under uncertainty</span
+              >
+              <div class="authors">with Hauzenberger and Stelzer</div>
+              <div class="meta">
+                <span class="kind">Journal of Economic Behavior and Organisation 191, 822&ndash;845, 2021</span><a class="pill" href="#">doi</a
+                ><a class="pill" href="#">wp</a>
+              </div>
+            </div>
+
+            <div class="pub">
+              <span class="title">Measuring the effectiveness of US monetary policy during the COVID-19 recession</span>
+              <div class="authors">with Feldkircher and Huber</div>
+              <div class="meta">
+                <span class="kind">Scottish Journal of Political Economy 68(3), 287&ndash;297, 2021</span
+                ><span class="prize">SJPE Best Paper of the Year 2021</span><a class="pill" href="#">doi</a><a class="pill" href="#">wp</a>
+              </div>
+            </div>
+
+            <div class="pub">
+              <span class="title">Stochastic model specification in Markov switching vector error correction models</span>
+              <div class="authors">with Hauzenberger, Huber and Z&ouml;rner</div>
+              <div class="meta">
+                <span class="kind">Studies in Nonlinear Dynamics and Econometrics 25(2), 2021</span><a class="pill" href="#">doi</a
+                ><a class="pill" href="#">wp</a><a class="pill" href="#">code</a>
+              </div>
+            </div>
+
+            <div class="pub">
+              <span class="title">Dynamic shrinkage in time-varying parameter stochastic volatility in mean models</span>
+              <div class="authors">with Huber</div>
+              <div class="meta">
+                <span class="kind">Journal of Applied Econometrics 36(2), 262&ndash;270, 2021</span><a class="pill" href="#">doi</a
+                ><a class="pill" href="#">wp</a><a class="pill" href="#">data</a>
+              </div>
+            </div>
+
+            <div class="pub">
+              <span class="title">The regional transmission of uncertainty shocks on income inequality in the United States</span>
+              <div class="authors">with Fischer and Huber</div>
+              <div class="meta">
+                <span class="kind">Journal of Economic Behavior and Organization 183, 887&ndash;900, 2021</span><a class="pill" href="#">doi</a
+                ><a class="pill" href="#">wp</a>
+              </div>
+            </div>
+
+            <div class="pub">
+              <span class="title">A multi-country dynamic factor model with stochastic volatility for euro area business cycle analysis</span>
+              <div class="authors">with Huber and Piribauer</div>
+              <div class="meta">
+                <span class="kind">Journal of Forecasting 39(6), 911&ndash;926, 2020</span><a class="pill" href="#">doi</a
+                ><a class="pill" href="#">wp</a>
+              </div>
+            </div>
+
+            <div class="pub">
+              <span class="title">Flexible shrinkage in high-dimensional Bayesian spatial autoregressive models</span>
+              <div class="authors">with Piribauer</div>
+              <div class="meta">
+                <span class="kind">Spatial Statistics 29, 109&ndash;128, 2019</span><a class="pill" href="#">doi</a><a class="pill" href="#">wp</a>
+              </div>
+            </div>
+          </section>
+
+          <section class="block" id="chapters">
+            <h2>Book chapters</h2>
+            <div class="block-rule"></div>
+
+            <div class="pub">
+              <span class="title">Bayesian nonparametric methods for macroeconomic forecasting</span>
+              <div class="authors">with Marcellino</div>
+              <div class="meta">
+                <span class="kind"
+                  >Handbook of Research Methods and Applications in Macroeconomic Forecasting (eds. Clements and Galvao), ch. 5, 2024</span
+                ><a class="pill" href="#">chapter</a>
+              </div>
+            </div>
+
+            <div class="pub">
+              <span class="title">Factor Augmented Vector Autoregressions, Panel VARs, and Global VARs</span>
+              <div class="authors">with Feldkircher and Huber</div>
+              <div class="meta">
+                <span class="kind">Macroeconomic Forecasting in the Era of Big Data (ed. Fuleky), ch. 3, 2020</span
+                ><a class="pill" href="#">chapter</a>
+              </div>
+            </div>
+          </section>
+
+          <section class="block" id="media">
+            <h2>Policy &amp; media</h2>
+            <div class="block-rule"></div>
+
+            <div class="pub">
+              <span class="title">Was genau ist eigentlich eine Rezession? &mdash; What is a recession?</span>
+              <div class="authors">December 2023</div>
+              <div class="meta"><span class="kind">Die Presse (German)</span><a class="pill" href="#">link</a></div>
+            </div>
+
+            <div class="pub">
+              <span class="title">Wie hoch sind die Inflationsrisiken wirklich? &mdash; Inflation and inflation risks</span>
+              <div class="authors">January 2022</div>
+              <div class="meta"><span class="kind">Die Presse (German)</span><a class="pill" href="#">link</a></div>
+            </div>
+
+            <div class="pub">
+              <span class="title"
+                >Wie sich ein zweiter Lockdown auf &Ouml;sterreichs Wirtschaft auswirken w&uuml;rde &mdash; How a second lockdown would affect the
+                Austrian economy</span
+              >
+              <div class="authors">with Hauzenberger &middot; August 2020</div>
+              <div class="meta"><span class="kind">Die Presse (German)</span><a class="pill" href="#">link</a></div>
+            </div>
+
+            <div class="pub">
+              <span class="title">Makro&ouml;konomische Entwicklungen unter Unsicherheit &mdash; Macroeconomic dynamics in times of uncertainty</span>
+              <div class="authors">October 2019</div>
+              <div class="meta"><span class="kind">Der Standard (German)</span><a class="pill" href="#">link</a></div>
+            </div>
+
+            <div class="pub">
+              <span class="title"
+                >Zur Treffsicherheit von Notenbank-Prognosen nach der Finanzkrise &mdash; On the accuracy of central bank forecasts after the
+                financial crisis</span
+              >
+              <div class="authors">with Huber &middot; August 2019</div>
+              <div class="meta"><span class="kind">Die Presse (German)</span><a class="pill" href="#">link</a></div>
+            </div>
+
+            <div class="pub">
+              <span class="title"
+                >Brexit &ndash; Folgen f&uuml;r &Ouml;sterreich und die EU &mdash; The impact of Brexit on the economies of selected euro area member
+                states</span
+              >
+              <div class="authors">with Griller, Huber and Puntscher-Riekmann &middot; February 2019</div>
+              <div class="meta"><span class="kind">Featured in ORF, Der Standard, Die Presse</span><a class="pill" href="#">link</a></div>
+            </div>
+          </section>
+        </div>
+      </div>
+    </main>
+
+    {% include footer.liquid %}
+  </body>
+</html>
