@@ -32,12 +32,14 @@
 <!-- Fonts & Icons -->
 <link defer rel="stylesheet" href="{{ '/assets/css/academicons.min.css' | relative_url | bust_file_cache }}">
 <link defer rel="stylesheet" href="{{ '/assets/css/scholar-icons.css' | relative_url | bust_file_cache }}">
-<link
-  defer
-  rel="stylesheet"
-  type="text/css"
-  href="{{ site.third_party_libraries.google_fonts.url.fonts }}"
->
+<!--
+  Fonts: EB Garamond + IBM Plex Sans + IBM Plex Mono. Loaded once here via the
+  mockup's preconnect + stylesheet; al-folio's own deferred Google Fonts link
+  was removed so the families are not requested twice.
+-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="{{ site.third_party_libraries.google_fonts.url.fonts }}" rel="stylesheet">
 
 <!-- Code Syntax Highlighting -->
 <link
@@ -77,20 +79,85 @@
 <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url | bust_css_cache }}">
 <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
 
-{% if site.enable_darkmode %}
-  <!-- Dark Mode -->
-  <script src="{{ '/assets/js/theme.js' | relative_url | bust_file_cache }}"></script>
-  <link
-    defer
-    rel="stylesheet"
-    href="{{ '/assets/css/jekyll-pygments-themes-native.css' | relative_url | bust_file_cache }}"
-    media="none"
-    id="highlight_theme_dark"
-  >
-  <script>
-    initTheme();
-  </script>
-{% endif %}
+<!--
+  Theme: single toggle mechanism (the mockup's script). Resolves the saved /
+  system theme and sets data-theme before first paint (no FOUC), wires the
+  header toggle button, and drives the TOC scroll-spy. This replaces
+  al-folio's theme.js + toggle entirely. The localStorage key stays "theme"
+  so any previously stored visitor preference keeps working.
+-->
+<script>
+  (function () {
+    var root = document.documentElement;
+    function resolve(t) {
+      if (t !== 'light' && t !== 'dark') {
+        t = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+      }
+      return t;
+    }
+    var saved = null;
+    try {
+      saved = localStorage.getItem('theme');
+    } catch (e) {}
+    root.setAttribute('data-theme', resolve(saved));
+    // Shim: al-folio's common.js still calls determineComputedTheme(); keep it defined.
+    window.determineComputedTheme =
+      window.determineComputedTheme ||
+      function () {
+        return root.getAttribute('data-theme') || 'light';
+      };
+
+    var sun =
+      '<circle cx="12" cy="12" r="4.2"/><path d="M12 2.5v2.5M12 19v2.5M4.6 4.6l1.8 1.8M17.6 17.6l1.8 1.8M2.5 12H5M19 12h2.5M4.6 19.4l1.8-1.8M17.6 6.4l1.8-1.8"/>';
+    var moon = '<path d="M20 14.5A8 8 0 0 1 9.5 4 7 7 0 1 0 20 14.5Z"/>';
+    function paintIcon() {
+      var icon = document.getElementById('themeIcon');
+      if (icon) icon.innerHTML = root.getAttribute('data-theme') === 'dark' ? sun : moon;
+    }
+    function init() {
+      paintIcon();
+      var btn = document.getElementById('themeToggle');
+      if (btn) {
+        btn.addEventListener('click', function () {
+          var t = root.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+          root.setAttribute('data-theme', t);
+          try {
+            localStorage.setItem('theme', t);
+          } catch (e) {}
+          paintIcon();
+        });
+      }
+      var links = Array.prototype.slice.call(document.querySelectorAll('.toc a'));
+      if (!links.length) return;
+      var map = {};
+      links.forEach(function (a) {
+        map[a.getAttribute('href').slice(1)] = a;
+      });
+      var obs = new IntersectionObserver(
+        function (entries) {
+          entries.forEach(function (en) {
+            if (en.isIntersecting) {
+              links.forEach(function (a) {
+                a.classList.remove('active');
+              });
+              var a = map[en.target.id];
+              if (a) a.classList.add('active');
+            }
+          });
+        },
+        { rootMargin: '-30% 0px -60% 0px', threshold: 0 }
+      );
+      document.querySelectorAll('section.block').forEach(function (s) {
+        obs.observe(s);
+      });
+    }
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', init);
+    } else {
+      init();
+    }
+  })();
+</script>
 
 {% if page.map %}
   <!-- GeoJSON support via Leaflet -->

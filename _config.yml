@@ -97,9 +97,9 @@ blog_description: a simple whitespace theme for academics
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 
-# Pagination
+# Pagination disabled: the blog index no longer ships.
 pagination:
-  enabled: true
+  enabled: false
 
 related_blog_posts:
   enabled: true
@@ -154,17 +154,19 @@ newsletter:
 # Collections
 # -----------------------------------------------------------------------------
 
+# Sample al-folio collections are disabled: only Home and Research ship. Output
+# is off so no off-design item pages are generated or reachable.
 collections:
   books:
-    output: true
+    output: false
   news:
     defaults:
       layout: post
-    output: true
+    output: false
   projects:
-    output: true
+    output: false
   teachings:
-    output: true
+    output: false
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
@@ -204,6 +206,8 @@ exclude:
   - README.md
   - readme_preview/
   - vendor
+  - mockups/ # read-only design reference for the redesign; never built
+  - _posts # sample al-folio blog posts: keep out of the build (no blog ships)
 keep_files:
   - CNAME
   - .nojekyll
@@ -261,15 +265,16 @@ terser:
 # Jekyll Archives
 # -----------------------------------------------------------------------------
 
+# Archives disabled: no blog/posts ship, so no year/tag/category archive pages.
 jekyll-archives:
   posts:
-    enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them).
+    enabled: []
     permalinks:
       year: "/blog/:year/"
       tags: "/blog/:type/:name/"
       categories: "/blog/:type/:name/"
   books:
-    enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them).
+    enabled: []
 
 display_tags: ["formatting", "images", "links", "math", "code", "blockquotes"] # these tags will be displayed on the front page of your blog
 display_categories: ["external-services"] # these categories will be displayed on the front page of your blog
