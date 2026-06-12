@@ -791,7 +791,11 @@ section.block > .pub:last-child {
     font-size: 16px;
   }
   .wrap {
-    padding: 0 20px;
+    /* horizontal only: the shorthand would also zero the vertical padding that
+       .hero / .page-head / .layout set on the same element (declared earlier,
+       same specificity, so this later rule would win) */
+    padding-left: 20px;
+    padding-right: 20px;
   }
   /* keep Home/Research reachable on phones: swap the wordmark to its monogram
      and tighten the header so everything fits on one line */
