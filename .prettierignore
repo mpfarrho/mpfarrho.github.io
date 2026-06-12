@@ -13,3 +13,16 @@ _scripts/*
 _data/citations.yml
 # Read-only design reference (verbatim mockups; excluded from the build)
 mockups/
+# Root docs whose TOCs are rewritten by the Update TOCs workflow (gh-md-toc);
+# Prettier re-escapes underscores in the generated TOC lines, so checking them
+# makes the two bots fight forever
+ANALYTICS.md
+CUSTOMIZE.md
+FAQ.md
+INSTALL.md
+QUICKSTART.md
+README.md
+SEO.md
+TROUBLESHOOTING.md
+# Local Claude Code settings (untracked; keeps `npx prettier . --check` clean)
+.claude/
