@@ -391,6 +391,11 @@ li {
   padding-bottom: 80px;
   align-items: start;
 }
+/* grid items default to min-width:auto, so a wide BibTeX <pre> would blow the
+   1fr column past the viewport instead of scrolling inside its box */
+.layout > * {
+  min-width: 0;
+}
 .toc {
   position: sticky;
   top: 96px;
