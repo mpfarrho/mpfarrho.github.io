@@ -5,7 +5,7 @@ title: Home
 description: Assistant Professor at WU Vienna, specializing in econometrics for macroeconomic applications.
 nav: true
 nav_order: 1
-subtitle: Assistant Professor of Economics &middot; WU Vienna
+subtitle: Department of Economics &middot; WU Vienna
 headline: Welcome
 profile:
   image: prof_pic.jpg

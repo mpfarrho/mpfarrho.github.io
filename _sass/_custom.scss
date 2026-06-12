@@ -227,7 +227,7 @@ body.project .block li a:hover {
 
 /* ---------- hero (home) ---------- */
 .hero {
-  padding-top: 74px;
+  padding-top: 56px;
 }
 .hero-grid {
   display: grid;
@@ -338,7 +338,7 @@ body.project .block li a:hover {
 
 /* ---------- page head (research) ---------- */
 .page-head {
-  padding-top: 74px;
+  padding-top: 56px;
   padding-bottom: 6px;
 }
 .page-head h1 {
@@ -802,7 +802,7 @@ section.block > .pub:last-child {
     padding-left: 20px;
     padding-right: 20px;
   }
-  /* the 74px desktop gap below the header is too generous on phones */
+  /* the 56px desktop gap below the header is still too generous on phones */
   .hero,
   .page-head {
     padding-top: 48px;
