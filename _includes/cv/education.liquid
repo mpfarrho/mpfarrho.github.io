@@ -56,7 +56,10 @@
           {% endcapture %}
           {% capture study_type_trimmed %}{{ study_type | strip }}{% endcapture %}
           {% if study_type_trimmed != '' %}
-            <h6 class="title font-weight-bold ml-1 ml-md-4">{{ study_type_trimmed }}{% if entry.area %} in {{ entry.area }}{% endif %}</h6>
+            <h6 class="title font-weight-bold ml-1 ml-md-4">
+              {{ study_type_trimmed -}}
+              {%- if entry.area %} in {{ entry.area }}{% endif %}
+            </h6>
           {% elsif entry.area %}
             <h6 class="title font-weight-bold ml-1 ml-md-4">{{ entry.area }}</h6>
           {% endif %}

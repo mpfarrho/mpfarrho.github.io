@@ -61,12 +61,12 @@ checked after pushing. For a local Jekyll build, install Ruby ≥ 3.0
 
 ## Flagged for human check (rendered verbatim from the mockup — not "fixed")
 
-| Item                                               | In mockup                            | Action needed                                                                                                                                       |
-| -------------------------------------------------- | ------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Job title in hero eyebrow + lead                   | "Assistant Professor"                | **Resolved** — confirmed **Assistant** Professor (kept as-is).                                                                                       |
-| Coauthor spelling, AAS climate paper               | "with Kristzin and Huber"            | Likely **Krisztin** — verify and correct in the mockup + layout.                                                                                    |
-| "Direct Gaussian Process Predictive Regressions…"  | "Working paper · 2024"               | Verify the **year**.                                                                                                                                |
-| arXiv profile link (research lead)                 | `https://arxiv.org/a/pfarrhofer_m_1` | Best-guess author URL — **verify before shipping**.                                                                                                 |
+| Item                                               | In mockup                            | Action needed                                                                                                                                           |
+| -------------------------------------------------- | ------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Job title in hero eyebrow + lead                   | "Assistant Professor"                | **Resolved** — confirmed **Assistant** Professor (kept as-is).                                                                                          |
+| Coauthor spelling, AAS climate paper               | "with Kristzin and Huber"            | Likely **Krisztin** — verify and correct in the mockup + layout.                                                                                        |
+| "Direct Gaussian Process Predictive Regressions…"  | "Working paper · 2024"               | Verify the **year**.                                                                                                                                    |
+| arXiv profile link (research lead)                 | `https://arxiv.org/a/pfarrhofer_m_1` | Best-guess author URL — **verify before shipping**.                                                                                                     |
 | Gravatar links (home profile strip + both footers) | present                              | **Resolved** — removed from the built site per Michael (the read-only mockups still show them, so the site deliberately deviates from the mockup here). |
 
 ## TODO — placeholder pills (`href="#"`)

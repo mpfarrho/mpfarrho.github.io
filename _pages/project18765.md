@@ -186,9 +186,11 @@ This project aims to develop new Bayesian nonparametric methods that are robust 
 ## Presentations
 
 ### Conference presentations by project members
+
 - Presentation of _Gaussian Process VARs and Macroeconomic Uncertainty_ at 16th International Conference on Computational and Financial Econometrics (CFE) in London by project member N. Hauzenberger
 
 ### Presentations of project-related papers and materials
+
 - Presentation of _Nowcasting with mixed frequency data using Gaussian processes_ at IAAE Annual Conference 2024 in Rethymno, IHS Research Seminar and OeNB Freitagsseminar by M. Pfarrhofer
 - Presentation of _Nowcasting with mixed frequency data using Gaussian processes_ at the [Macroeconomic Modelling Frontiers for Research and Policy in Central Banks](https://www.ecb.europa.eu/press/conferences/html/20241127_macroeconomic_modelling.en.html) conference by the European Central Bank by co-author A. Stelzer
 - Presentation (keynote) of _Bayesian nonparametric methods for macroeconomic forecasting_ at the [12th ECB Conference on Forecasting Techniques](https://www.ecb.europa.eu/press/conferences/html/20230612_12th_conference_on_forecasting_techniques.en.html) by co-author M. Marcellino
@@ -196,15 +198,18 @@ This project aims to develop new Bayesian nonparametric methods that are robust 
 ## Other materials
 
 ### Noteworthy achievements by project members
+
 - N. Hauzenberger was appointed Senior Lecturer at the University of Strathclyde, Scotland, UK in September 2023
 - M. Pfarrhofer successfully achieved a habilitation at the University of Salzburg in January 2023; further, he was appointed Assistant Professor (tenure-track) at WU Vienna in September 2023
 
-### Code repositories 
+### Code repositories
+
 - Nonparametric mixed-frequency Bayesian Additive Regression Trees \[[mf-bavart](https://github.com/mpfarrho/mf-bavart)\]
 - Nonparametric quantile regression \[[qf-bart](https://github.com/mpfarrho/qf-bart)\]
 - Gaussian Process MIDAS models \[[gp-midas](https://github.com/mpfarrho/gp-midas)\] _(to be uploaded upon publication of the corresponding paper)_
 
 ### Collection of real-time data sets
+
 - United States: [Real-Time Data Set for Macroeconomists](https://www.philadelphiafed.org/surveys-and-data/real-time-data-research/real-time-data-set-for-macroeconomists)
 - United Kingdom: [Gross Domestic Product Real-Time Database](https://www.bankofengland.co.uk/statistics/gdp-real-time-database)
 - Australia: [Australian Real-Time Macroeconomic Database](https://fbe.unimelb.edu.au/economics/macrocentre/artmdatabase)
