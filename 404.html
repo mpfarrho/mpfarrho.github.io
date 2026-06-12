@@ -63,11 +63,12 @@
           paintIcon();
         });
       }
-      // research page: the "bib" pill toggles its BibTeX block
-      document.querySelectorAll('.bib-toggle').forEach(function (t) {
+      // research/project pages: the "bib" pill toggles its BibTeX block, the
+      // "abstract" pill (project page) its abstract box
+      document.querySelectorAll('.bib-toggle, .abs-toggle').forEach(function (t) {
         t.addEventListener('click', function () {
           var pub = t.closest('.pub');
-          var box = pub && pub.querySelector('.pub-bibtex');
+          var box = pub && pub.querySelector(t.classList.contains('abs-toggle') ? '.pub-abstract' : '.pub-bibtex');
           if (!box) return;
           var willOpen = box.hasAttribute('hidden');
           if (willOpen) {
