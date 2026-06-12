@@ -88,6 +88,11 @@
   toggle entirely; the localStorage key stays "theme" so any previously stored
   light/dark preference keeps working.
 -->
+<!--
+  Browser-chrome tint (mobile address bar, Safari); kept in sync with the
+  effective theme by setTheme() in the script below
+-->
+<meta name="theme-color" content="#ffffff">
 <script>
   (function () {
     var root = document.documentElement;
@@ -101,13 +106,20 @@
     function effective(s) {
       return s === 'light' || s === 'dark' ? s : systemTheme();
     }
+    // paints the theme and keeps the browser-chrome tint in step
+    // (colors mirror --bg in _sass/_custom.scss)
+    function setTheme(t) {
+      root.setAttribute('data-theme', t);
+      var tc = document.querySelector('meta[name="theme-color"]');
+      if (tc) tc.setAttribute('content', t === 'dark' ? '#0f141a' : '#ffffff');
+    }
 
     var state = 'system';
     try {
       var saved = localStorage.getItem('theme');
       if (saved === 'light' || saved === 'dark' || saved === 'system') state = saved;
     } catch (e) {}
-    root.setAttribute('data-theme', effective(state));
+    setTheme(effective(state));
 
     // Shim: al-folio's common.js still calls determineComputedTheme(); keep it defined.
     window.determineComputedTheme =
@@ -134,7 +146,7 @@
     // In 'system' mode, follow live OS color-scheme changes.
     if (mql) {
       var onChange = function () {
-        if (state === 'system') root.setAttribute('data-theme', systemTheme());
+        if (state === 'system') setTheme(systemTheme());
       };
       if (mql.addEventListener) mql.addEventListener('change', onChange);
       else if (mql.addListener) mql.addListener(onChange);
@@ -146,7 +158,7 @@
       if (btn) {
         btn.addEventListener('click', function () {
           state = state === 'system' ? 'light' : state === 'light' ? 'dark' : 'system';
-          root.setAttribute('data-theme', effective(state));
+          setTheme(effective(state));
           try {
             localStorage.setItem('theme', state);
           } catch (e) {}
@@ -167,6 +179,19 @@
             box.setAttribute('hidden', '');
           }
           t.setAttribute('aria-expanded', willOpen ? 'true' : 'false');
+        });
+      });
+      // one-click copy inside the BibTeX block
+      document.querySelectorAll('.bib-copy').forEach(function (b) {
+        b.addEventListener('click', function () {
+          var pre = b.closest('.pub-bibtex').querySelector('pre');
+          if (!pre || !navigator.clipboard) return;
+          navigator.clipboard.writeText(pre.textContent).then(function () {
+            b.textContent = 'copied';
+            setTimeout(function () {
+              b.textContent = 'copy';
+            }, 1500);
+          });
         });
       });
       var links = Array.prototype.slice.call(document.querySelectorAll('.toc a'));

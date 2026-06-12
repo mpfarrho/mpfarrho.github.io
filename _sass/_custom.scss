@@ -668,6 +668,29 @@ a.pill:hover {
 }
 .pub-bibtex {
   margin-top: 10px;
+  position: relative;
+}
+/* one-click copy button in the top-right corner of the BibTeX box */
+.bib-copy {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  font-family: var(--mono);
+  font-size: 11px;
+  letter-spacing: 0.04em;
+  color: var(--muted);
+  background: var(--bg);
+  border: 1px solid var(--rule);
+  border-radius: 999px;
+  padding: 2px 10px;
+  cursor: pointer;
+  transition:
+    color 0.15s,
+    border-color 0.15s;
+}
+.bib-copy:hover {
+  color: var(--accent);
+  border-color: var(--accent);
 }
 /* abstract box (project page): same visual container as the BibTeX box, but
    prose instead of <pre>; toggled by the "abstract" pill (.abs-toggle) */
@@ -860,5 +883,46 @@ section.block > .pub:last-child {
   .pub {
     margin-left: 0;
     padding-left: 14px;
+  }
+}
+
+/* ---------- print ---------- */
+/* the home page doubles as the canonical CV: printing drops the chrome
+   (header, footer, photo, TOC, action pills) and always uses the light
+   palette, so ctrl/cmd+P yields a clean single-column document */
+@media print {
+  html[data-theme="dark"] {
+    --bg: #ffffff;
+    --bg-tint: #f6f6f5;
+    --ink: #1a1a1a;
+    --muted: #5f6368;
+    --faint: #9aa0a6;
+    --rule: #e8e8e6;
+    --rule-soft: #f0f0ee;
+    --accent: #3b5c7e;
+    --accent-2: #6e94b8;
+  }
+  .site-header,
+  footer,
+  .toc,
+  .hero-photo,
+  .pill,
+  .bib-copy {
+    display: none;
+  }
+  body {
+    padding-bottom: 0;
+  }
+  .hero,
+  .page-head {
+    padding-top: 0;
+  }
+  .hero-grid,
+  .layout {
+    grid-template-columns: 1fr;
+  }
+  .entry,
+  .pub {
+    break-inside: avoid;
   }
 }

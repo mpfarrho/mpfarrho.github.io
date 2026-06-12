@@ -65,6 +65,7 @@
   </div>
   {%- if entry.bibtex_show -%}
     <div class="pub-bibtex" hidden>
+      <button class="bib-copy" type="button" aria-label="Copy BibTeX to clipboard">copy</button>
       <pre>{{ entry.bibtex | hideCustomBibtex | escape }}</pre>
     </div>
   {%- endif -%}
