@@ -1,0 +1,35 @@
+<!--
+  NOTE FOR FUTURE EDITORS (human or LLM): this file mirrors the site content
+  (bio in _pages/about.md, pages, profile links in _data/socials.yml). If any
+  of that changes — role, affiliation, editorships, pages, profiles — update
+  this file in the same commit.
+-->
+
+# Michael Pfarrhofer
+
+> Assistant Professor at the Department of Economics, WU Vienna University of
+> Economics and Business. Research in econometrics for macroeconomic and related
+> applications: Bayesian methods, time series, machine learning, business cycle
+> analysis and forecasting.
+
+Michael Pfarrhofer is also an Expert for the Joint Research Centre (JRC) Ispra
+of the European Commission and an Associate Editor of Macroeconomic Dynamics.
+His work has appeared in the Journal of Econometrics, Journal of Business &
+Economic Statistics, Journal of Applied Econometrics, International Economic
+Review, European Economic Review, and the International Journal of Forecasting,
+among others.
+
+## Pages
+
+- [Home](https://mpfarrho.github.io/): bio and curriculum vitae
+- [Research](https://mpfarrho.github.io/research/): working papers and full publication list
+- [Project 18765](https://mpfarrho.github.io/project18765/): OeNB Jubiläumsfonds project on Bayesian nonparametric inference under measurement errors and outliers
+
+## Profiles
+
+- [Google Scholar](https://scholar.google.at/citations?user=ymlNJ_UAAAAJ)
+- [RePEc / IDEAS](https://ideas.repec.org/e/ppf31.html)
+- [arXiv](https://arxiv.org/a/pfarrhofer_m_1)
+- [ORCID](https://orcid.org/0000-0002-0168-688X)
+- [GitHub](https://github.com/mpfarrho)
+- [LinkedIn](https://www.linkedin.com/in/michael-pfarrhofer/)

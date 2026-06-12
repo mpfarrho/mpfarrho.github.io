@@ -159,6 +159,13 @@ ninja.data = [{
           window.open("https://github.com/mpfarrho", "_blank");
         },
       },{
+        id: 'social-linkedin',
+        title: 'LinkedIn',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://www.linkedin.com/in/michael-pfarrhofer", "_blank");
+        },
+      },{
         id: 'social-arxiv',
         title: 'arXiv',
         section: 'Socials',
