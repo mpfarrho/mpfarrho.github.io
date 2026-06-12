@@ -315,3 +315,13 @@
     crossorigin="anonymous"
   >
 {% endif %}
+
+<!--
+  Prerender same-origin pages when a link is hovered, so the (few) internal
+  navigations feel instant. Ignored by browsers without Speculation Rules.
+-->
+<script type="speculationrules">
+  {
+    "prerender": [{ "where": { "href_matches": "/*" }, "eagerness": "moderate" }]
+  }
+</script>

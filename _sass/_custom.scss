@@ -118,12 +118,39 @@ body.project .block li a:hover {
   text-decoration-color: var(--accent);
   background: color-mix(in srgb, var(--accent) 9%, transparent);
 }
+/* typography niceties: even out multi-line headings, avoid orphan words in
+   prose (no-ops in browsers without text-wrap support) */
+h1,
+h2,
+h3,
+.page-head .lead {
+  text-wrap: balance;
+}
+p,
+li {
+  text-wrap: pretty;
+}
+
+/* quick cross-document fade between pages (same-origin only; browsers
+   without @view-transition keep the normal hard navigation) */
+@view-transition {
+  navigation: auto;
+}
+::view-transition-old(root),
+::view-transition-new(root) {
+  animation-duration: 90ms;
+}
+
 @media (prefers-reduced-motion: reduce) {
   html {
     scroll-behavior: auto;
   }
   * {
     transition: none !important;
+  }
+  ::view-transition-old(root),
+  ::view-transition-new(root) {
+    animation: none !important;
   }
 }
 .wrap {
