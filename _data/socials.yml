@@ -4,3 +4,13 @@
 cv_pdf: https://www.dropbox.com/s/2xgz0ge1h4enc6i/cv.pdf?dl=0
 email: mpfarrho@gmail.com
 scholar_userid: ymlNJ_UAAAAJ
+semanticscholar_id: Michael-Pfarrhofer/88739014
+orcid_id: 0000-0002-0168-688X
+github_username: mpfarrho
+arxiv_id: pfarrhofer_m_1
+# RePEc/IDEAS is not a built-in jekyll-socials key; custom socials must be a
+# hash with logo/url/title (unknown keys without a logo crash the plugin).
+repec:
+  logo: ai ai-ideas
+  url: https://ideas.repec.org/e/ppf31.html
+  title: RePEc / IDEAS

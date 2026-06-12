@@ -1,10 +1,13 @@
 {% comment %}
   Home layout — standalone document reproducing /mockups/index.html.
-  Hero + profile strip are fixed page content (verbatim from the mockup). The
-  CV / Activities / Education / Honors / Grants / Presentations / Teaching
-  sections and the sticky TOC are rendered from _data/cv.yml. Section ids must
-  match the mockup verbatim for the scroll-spy in head.liquid.
+  The hero eyebrow comes from page.subtitle, the bio from the page content
+  (_pages/about.md), the photo from page.profile.image, and the profile-link
+  strip from _data/socials.yml. The CV / Activities / Education / Honors /
+  Grants / Presentations / Teaching sections and the sticky TOC are rendered
+  from _data/cv.yml. Section ids must match the mockup verbatim for the
+  scroll-spy in head.liquid.
 {% endcomment %}
+{% capture author_name %}{{ site.first_name }}{% if site.middle_name %} {{ site.middle_name }}{% endif %} {{ site.last_name }}{% endcapture %}
 <!doctype html>
 <html lang="{{ site.lang | default: 'en' }}" data-theme="light">
   <head>
@@ -17,34 +20,29 @@
       <section class="hero wrap">
         <div class="hero-grid">
           <div class="hero-text">
-            <p class="eyebrow">Welcome to my website</p>
-            <p class="lead">
-              I am an Assistant Professor at WU Vienna University of Economics and Business (<a href="https://www.wu.ac.at/en/economics/"
-                >Department of Economics</a
-              >), specializing in econometrics for macroeconomic and related applications. I am also an Expert for the Joint Research Centre (JRC)
-              Ispra of the European Commission, and serve as an Associate Editor for
-              <a href="https://www.cambridge.org/core/journals/macroeconomic-dynamics">Macroeconomic Dynamics</a>.
-            </p>
-            <p class="note">
-              My research interests include empirical macroeconomics and econometric methods for dynamic models, with a particular focus on business
-              cycle analysis and forecasting. Methodologically, my work centers on time series, Bayesian econometrics and machine learning.
-            </p>
-            <p class="note">
-              My work has been published in leading journals including the <i>Journal of Econometrics</i>,
-              <i>Journal of Business &amp; Economic Statistics</i>, <i>Journal of Applied Econometrics</i>, <i>International Economic Review</i>,
-              <i>European Economic Review</i>, and <i>International Journal of Forecasting</i>, among others.
-            </p>
+            <p class="eyebrow">{{ page.subtitle }}</p>
+            {{ content }}
           </div>
           <div class="hero-photo">
             <div class="frame">
-              <img src="{{ '/assets/img/prof_pic.jpg' | relative_url }}" alt="Michael Pfarrhofer">
+              <img src="{{ page.profile.image | default: 'prof_pic.jpg' | prepend: '/assets/img/' | relative_url }}" alt="{{ author_name }}">
             </div>
             <nav class="profiles" aria-label="Academic profiles">
-              <a href="https://scholar.google.at/citations?user=ymlNJ_UAAAAJ">Google Scholar</a>
-              <a href="https://www.semanticscholar.org/author/Michael-Pfarrhofer/88739014">Semantic Scholar</a>
-              <a href="https://ideas.repec.org/e/ppf31.html">RePEc / IDEAS</a>
-              <a href="https://orcid.org/0000-0002-0168-688X">ORCID</a>
-              <a href="https://github.com/mpfarrho">GitHub</a>
+              {% if site.data.socials.scholar_userid %}
+                <a href="https://scholar.google.at/citations?user={{ site.data.socials.scholar_userid }}">Google Scholar</a>
+              {% endif %}
+              {% if site.data.socials.semanticscholar_id %}
+                <a href="https://www.semanticscholar.org/author/{{ site.data.socials.semanticscholar_id }}">Semantic Scholar</a>
+              {% endif %}
+              {% if site.data.socials.repec %}
+                <a href="{{ site.data.socials.repec.url }}">{{ site.data.socials.repec.title }}</a>
+              {% endif %}
+              {% if site.data.socials.orcid_id %}
+                <a href="https://orcid.org/{{ site.data.socials.orcid_id }}">ORCID</a>
+              {% endif %}
+              {% if site.data.socials.github_username %}
+                <a href="https://github.com/{{ site.data.socials.github_username }}">GitHub</a>
+              {% endif %}
             </nav>
           </div>
         </div>

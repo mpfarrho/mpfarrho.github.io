@@ -1,18 +1,28 @@
 {% comment %}
-  Site footer — pixel reproduction of the footer in /mockups. Included only by
+  Site footer — pixel reproduction of the footer in /mockups. Profile links come
+  from _data/socials.yml and the colophon name from _config.yml. Included only by
   the custom home/research layouts (al-folio's default.liquid no longer renders a
   footer), so the Google Analytics snippet below loads only on the redesigned
   pages and never double-fires with scripts.liquid on other pages.
 {% endcomment %}
+{% capture author_name %}{{ site.first_name }}{% if site.middle_name %} {{ site.middle_name }}{% endif %} {{ site.last_name }}{% endcapture %}
 <footer>
   <div class="wrap foot-inner">
     <nav class="foot-links" aria-label="Profiles">
-      <a href="https://scholar.google.at/citations?user=ymlNJ_UAAAAJ">Google Scholar</a>
-      <a href="https://www.semanticscholar.org/author/Michael-Pfarrhofer/88739014">Semantic Scholar</a>
-      <a href="https://ideas.repec.org/e/ppf31.html">RePEc</a>
-      <a href="https://orcid.org/0000-0002-0168-688X">ORCID</a>
+      {% if site.data.socials.scholar_userid %}
+        <a href="https://scholar.google.at/citations?user={{ site.data.socials.scholar_userid }}">Google Scholar</a>
+      {% endif %}
+      {% if site.data.socials.semanticscholar_id %}
+        <a href="https://www.semanticscholar.org/author/{{ site.data.socials.semanticscholar_id }}">Semantic Scholar</a>
+      {% endif %}
+      {% if site.data.socials.repec %}
+        <a href="{{ site.data.socials.repec.url }}">RePEc</a>
+      {% endif %}
+      {% if site.data.socials.orcid_id %}
+        <a href="https://orcid.org/{{ site.data.socials.orcid_id }}">ORCID</a>
+      {% endif %}
     </nav>
-    <div class="colophon">Michael Pfarrhofer &middot; WU Vienna</div>
+    <div class="colophon">{{ author_name }} &middot; WU Vienna</div>
   </div>
 </footer>
 

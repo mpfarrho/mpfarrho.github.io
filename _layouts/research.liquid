@@ -1,8 +1,11 @@
 {% comment %}
   Research layout — standalone document reproducing /mockups/research.html.
-  Publications are rendered from _bibliography/papers.bib via jekyll-scholar; each
-  entry is templated by _layouts/bib.liquid into the .pub markup. Section ids must
-  match the mockup verbatim for the scroll-spy in head.liquid.
+  The eyebrow comes from page.title and the intro from the page content
+  (_pages/publications.md). The TOC and publication sections are driven by the
+  page's `sections` front matter (id / title / query); each section renders
+  _bibliography/papers.bib via jekyll-scholar (the --query argument is Liquid-
+  interpolated), and each entry is templated by _layouts/bib.liquid into the
+  .pub markup. Section ids feed the scroll-spy in head.liquid.
 {% endcomment %}
 <!doctype html>
 <html lang="{{ site.lang | default: 'en' }}" data-theme="light">
@@ -14,52 +17,31 @@
 
     <main>
       <section class="page-head wrap">
-        <p class="eyebrow">Research</p>
-        <p class="lead">
-          You can also find my research on
-          <a href="https://scholar.google.at/citations?user=ymlNJ_UAAAAJ">Google Scholar</a> and
-          <a href="https://www.semanticscholar.org/author/Michael-Pfarrhofer/88739014">Semantic Scholar</a>; most past and present working papers are
-          listed in my <a href="https://arxiv.org/a/pfarrhofer_m_1">arXiv profile</a>, and a full publication list is available on
-          <a href="https://ideas.repec.org/e/ppf31.html">RePEc</a>.
-        </p>
+        <p class="eyebrow">{{ page.title }}</p>
+        {{ content }}
       </section>
 
       <div class="wrap layout">
         <aside class="toc">
           <nav aria-label="Sections">
             <ul>
-              <li><a href="#working">Working papers</a></li>
-              <li><a href="#published">Published papers</a></li>
-              <li><a href="#chapters">Book chapters</a></li>
-              <li><a href="#media">Policy &amp; media</a></li>
+              {% for s in page.sections %}
+                <li>
+                  <a href="#{{ s.id }}">{{ s.title }}</a>
+                </li>
+              {% endfor %}
             </ul>
           </nav>
         </aside>
 
         <div class="content">
-          <section class="block" id="working">
-            <h2>Working papers</h2>
-            <div class="block-rule"></div>
-            {% bibliography --query @unpublished %}
-          </section>
-
-          <section class="block" id="published">
-            <h2>Published papers</h2>
-            <div class="block-rule"></div>
-            {% bibliography --query @article %}
-          </section>
-
-          <section class="block" id="chapters">
-            <h2>Book chapters</h2>
-            <div class="block-rule"></div>
-            {% bibliography --query @incollection %}
-          </section>
-
-          <section class="block" id="media">
-            <h2>Policy &amp; media</h2>
-            <div class="block-rule"></div>
-            {% bibliography --query @misc %}
-          </section>
+          {% for s in page.sections %}
+            <section class="block" id="{{ s.id }}">
+              <h2>{{ s.title }}</h2>
+              <div class="block-rule"></div>
+              {% bibliography --query {{ s.query }} %}
+            </section>
+          {% endfor %}
         </div>
       </div>
     </main>

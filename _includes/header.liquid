@@ -1,43 +1,56 @@
 {% comment %}
   Site header — pixel reproduction of the sticky translucent header in
-  /mockups (index.html / research.html). The active-page underline is driven by
-  the current page URL. Email + GitHub icons and the theme toggle button are
-  inline SVG (no Font Awesome). The toggle is wired by the script in head.liquid.
+  /mockups (index.html / research.html). The wordmark is built from the site
+  name in _config.yml, the nav links from pages with `nav: true` (ordered by
+  nav_order), and the email/GitHub icons from _data/socials.yml. The
+  active-page underline is driven by the current page URL. Icons are inline
+  SVG (no Font Awesome); the theme toggle is wired by the script in head.liquid.
 {% endcomment %}
-{% assign u = page.url %}
+{% if site.title == 'blank' %}
+  {% capture site_name %}{{ site.first_name }}{% if site.middle_name %} {{ site.middle_name }}{% endif %} {{ site.last_name }}{% endcapture %}
+{% else %}
+  {% assign site_name = site.title %}
+{% endif %}
 <header class="site-header">
   <div class="wrap header-inner">
-    <a class="wordmark" href="{{ '/' | relative_url }}" aria-label="Michael Pfarrhofer"
-      ><span class="wm-full">Michael Pfarrhofer</span><span class="wm-mono">MP</span></a
+    <a class="wordmark" href="{{ '/' | relative_url }}" aria-label="{{ site_name }}"
+      ><span class="wm-full">{{ site_name }}</span
+      ><span class="wm-mono">
+        {{- site.first_name | slice: 0 -}}
+        {{- site.last_name | slice: 0 -}}
+      </span></a
     >
     <nav class="nav" aria-label="Primary">
       <span class="nav-links">
-        <a
-          href="{{ '/' | relative_url }}"
-          {% if u == '/' %}
-            aria-current="page"
+        {% assign sorted_pages = site.pages | sort: 'nav_order' %}
+        {% for p in sorted_pages %}
+          {% if p.nav %}
+            <a
+              href="{{ p.url | relative_url }}"
+              {% if page.url == p.url %}
+                aria-current="page"
+              {% endif %}
+            >
+              {{- p.title -}}
+            </a>
           {% endif %}
-          >Home</a
-        >
-        <a
-          href="{{ '/research/' | relative_url }}"
-          {% if u contains '/research' %}
-            aria-current="page"
-          {% endif %}
-          >Research</a
-        >
+        {% endfor %}
       </span>
       <span class="nav-icons">
-        <a href="mailto:mpfarrho@gmail.com" aria-label="Email" title="Email">
-          <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7">
-            <rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/>
-          </svg>
-        </a>
-        <a href="https://github.com/mpfarrho" aria-label="GitHub" title="GitHub">
-          <svg class="icon" viewBox="0 0 24 24" fill="currentColor">
-            <path d="M12 .5C5.7.5.5 5.7.5 12c0 5.1 3.3 9.4 7.9 10.9.6.1.8-.2.8-.6v-2c-3.2.7-3.9-1.5-3.9-1.5-.5-1.3-1.3-1.7-1.3-1.7-1.1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1 1.8 2.7 1.3 3.4 1 .1-.8.4-1.3.7-1.6-2.6-.3-5.3-1.3-5.3-5.8 0-1.3.5-2.3 1.2-3.1-.1-.3-.5-1.5.1-3.1 0 0 1-.3 3.3 1.2a11.5 11.5 0 0 1 6 0c2.3-1.5 3.3-1.2 3.3-1.2.6 1.6.2 2.8.1 3.1.8.8 1.2 1.8 1.2 3.1 0 4.5-2.7 5.5-5.3 5.8.4.4.8 1.1.8 2.2v3.3c0 .3.2.7.8.6 4.6-1.5 7.9-5.8 7.9-10.9C23.5 5.7 18.3.5 12 .5Z"/>
-          </svg>
-        </a>
+        {% if site.data.socials.email %}
+          <a href="mailto:{{ site.data.socials.email | encode_email }}" aria-label="Email" title="Email">
+            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7">
+              <rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/>
+            </svg>
+          </a>
+        {% endif %}
+        {% if site.data.socials.github_username %}
+          <a href="https://github.com/{{ site.data.socials.github_username }}" aria-label="GitHub" title="GitHub">
+            <svg class="icon" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M12 .5C5.7.5.5 5.7.5 12c0 5.1 3.3 9.4 7.9 10.9.6.1.8-.2.8-.6v-2c-3.2.7-3.9-1.5-3.9-1.5-.5-1.3-1.3-1.7-1.3-1.7-1.1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1 1.8 2.7 1.3 3.4 1 .1-.8.4-1.3.7-1.6-2.6-.3-5.3-1.3-5.3-5.8 0-1.3.5-2.3 1.2-3.1-.1-.3-.5-1.5.1-3.1 0 0 1-.3 3.3 1.2a11.5 11.5 0 0 1 6 0c2.3-1.5 3.3-1.2 3.3-1.2.6 1.6.2 2.8.1 3.1.8.8 1.2 1.8 1.2 3.1 0 4.5-2.7 5.5-5.3 5.8.4.4.8 1.1.8 2.2v3.3c0 .3.2.7.8.6 4.6-1.5 7.9-5.8 7.9-10.9C23.5 5.7 18.3.5 12 .5Z"/>
+            </svg>
+          </a>
+        {% endif %}
         <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode" title="Toggle theme">
           <svg class="icon" id="themeIcon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"></svg>
         </button>
