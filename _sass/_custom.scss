@@ -7,8 +7,8 @@
  * they are emitted globally — that way the replaced header/footer includes are
  * styled on every page that renders them. Only the bare-element resets (body,
  * a) and the four rules that differ between the two mockups (.layout, .eyebrow,
- * .lead, .block-rule) are scoped to body.home / body.research so they cannot
- * leak onto al-folio's remaining content pages (e.g. /project18765/, 404).
+ * .lead, .block-rule) are scoped to body.home / body.research / body.project
+ * so they cannot leak onto al-folio's remaining content pages (e.g. 404).
  *
  * Tokens, type roles and values are copied verbatim from the mockups; do not
  * "improve" them.
@@ -52,7 +52,8 @@ html {
 /* body + link resets scoped to the two custom pages so they do not restyle
    al-folio's remaining pages, which share this compiled stylesheet */
 body.home,
-body.research {
+body.research,
+body.project {
   margin: 0;
   background: var(--bg);
   color: var(--ink);
@@ -66,7 +67,7 @@ body.research {
    per-context link rules below (.lead a, .nav-links a, .toc a, .profiles a,
    .foot-links a, …) still win. A plain `body.home a` selector would outrank
    them and flatten every link to look like normal text. */
-:where(body.home, body.research) a {
+:where(body.home, body.research, body.project) a {
   color: inherit;
   text-decoration: none;
   opacity: 1;
@@ -77,8 +78,45 @@ body.research {
 body.home a:hover,
 body.home a:focus,
 body.research a:hover,
-body.research a:focus {
+body.research a:focus,
+body.project a:hover,
+body.project a:focus {
   opacity: 1;
+}
+/* ---------- content links (shared scheme) ---------- */
+/* One affordance for every inline text link: accent colour plus a visible
+   accent underline. Hover fills the underline and tints the background,
+   matching the hover language of the entry rows and pills. Nav, TOC, pills,
+   profile chips and footer links keep their own control styles. */
+.lead a,
+.note a,
+.entry-main .org a,
+.deflist .val a,
+.personal a,
+.colophon a,
+body.project .block > p a,
+body.project .block li a {
+  color: var(--accent);
+  text-decoration: underline;
+  text-decoration-style: dashed;
+  text-decoration-color: color-mix(in srgb, var(--accent) 50%, transparent);
+  text-underline-offset: 3px;
+  text-decoration-thickness: 1px;
+  border-radius: 2px;
+  transition:
+    background 0.15s,
+    text-decoration-color 0.15s;
+}
+.lead a:hover,
+.note a:hover,
+.entry-main .org a:hover,
+.deflist .val a:hover,
+.personal a:hover,
+.colophon a:hover,
+body.project .block > p a:hover,
+body.project .block li a:hover {
+  text-decoration-color: var(--accent);
+  background: color-mix(in srgb, var(--accent) 9%, transparent);
 }
 @media (prefers-reduced-motion: reduce) {
   html {
@@ -103,7 +141,7 @@ body.research a:focus {
   position: sticky;
   top: 0;
   z-index: 50;
-  background: color-mix(in srgb, var(--bg) 55%, transparent);
+  background: color-mix(in srgb, var(--bg) 35%, transparent);
   backdrop-filter: saturate(140%) blur(10px);
   box-shadow: 0 2px 12px -4px rgba(20, 30, 45, 0.14);
 }
@@ -116,7 +154,7 @@ body.research a:focus {
 .wordmark {
   font-family: var(--serif);
   font-style: italic;
-  font-weight: 500;
+  font-weight: 400;
   font-size: 26px;
   letter-spacing: 0.2px;
 }
@@ -226,22 +264,19 @@ body.research a:focus {
   margin: 0 0 20px;
   max-width: 60ch;
 }
-.lead a {
-  color: var(--accent);
-  text-decoration: underline;
-  text-decoration-color: color-mix(in srgb, var(--accent) 40%, transparent);
-  text-underline-offset: 3px;
-  text-decoration-thickness: 1px;
-}
-.lead a:hover {
-  text-decoration-color: var(--accent);
-}
 .note {
-  color: var(--muted);
-  font-size: 16px;
+  color: var(--ink);
+  font-size: 18px;
   line-height: 1.7;
-  max-width: 62ch;
+  max-width: 60ch;
   margin: 0 0 18px;
+  /* MDB ships its own .note component (6px grey border-left + padding via
+     mdb.min.css, loaded before this sheet); neutralise it so these paragraphs
+     render as plain text. */
+  border: 0;
+  border-radius: 0;
+  padding: 0;
+  background: none;
 }
 .note em,
 .note i {
@@ -283,7 +318,7 @@ body.research a:focus {
   flex-wrap: wrap;
   gap: 8px;
   align-items: center;
-  margin: 16px 0 0;
+  margin: 24px 0 0;
 }
 .profiles a {
   font-family: var(--mono);
@@ -363,7 +398,7 @@ section.block:last-child {
 }
 .block h2 {
   font-family: var(--serif);
-  font-weight: 600;
+  font-weight: 500;
   font-size: 31px;
   letter-spacing: -0.005em;
   margin: 0 0 4px;
@@ -396,7 +431,7 @@ section.block:last-child {
 .sub {
   font-family: var(--serif);
   font-style: italic;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 21px;
   color: var(--ink);
   margin: 30px 0 14px;
@@ -425,7 +460,7 @@ section.block:last-child {
 .entry-main .role {
   font-family: var(--serif);
   font-style: italic;
-  font-weight: 600;
+  font-weight: 400;
   font-size: 19.5px;
   color: var(--ink);
 }
@@ -436,21 +471,13 @@ section.block:last-child {
   margin-top: 2px;
   line-height: 1.55;
 }
-.entry-main .org a {
-  color: var(--accent);
-  text-decoration: underline;
-  text-decoration-color: color-mix(in srgb, var(--accent) 35%, transparent);
-  text-underline-offset: 2px;
-}
-.entry-main .org a:hover {
-  text-decoration-color: var(--accent);
-}
 .entry-date {
   font-family: var(--mono);
   font-size: 12.5px;
   color: var(--faint);
   white-space: nowrap;
   padding-top: 5px;
+  padding-right: 8px;
   letter-spacing: -0.01em;
 }
 
@@ -482,8 +509,8 @@ section.block:last-child {
 .deflist .label {
   font-family: var(--serif);
   font-style: italic;
-  font-weight: 600;
-  font-size: 18.5px;
+  font-weight: 400;
+  font-size: 19.5px;
   color: var(--ink);
   margin-bottom: 3px;
 }
@@ -492,16 +519,6 @@ section.block:last-child {
   font-size: 15.5px;
   line-height: 1.62;
 }
-.deflist .val a {
-  color: var(--accent);
-  text-decoration: underline;
-  text-decoration-color: color-mix(in srgb, var(--accent) 35%, transparent);
-  text-underline-offset: 2px;
-}
-.deflist .val a:hover {
-  text-decoration-color: var(--accent);
-}
-
 .personal {
   margin-top: 10px;
   padding: 22px 26px;
@@ -562,7 +579,7 @@ section.block:last-child {
 .pub .title {
   font-family: var(--serif);
   font-style: italic;
-  font-weight: 600;
+  font-weight: 400;
   font-size: 20px;
   line-height: 1.25;
   color: var(--ink);
@@ -579,7 +596,7 @@ section.block:last-child {
   align-items: center;
   flex-wrap: wrap;
   gap: 6px 10px;
-  margin-top: 5px;
+  margin-top: 2px;
 }
 .pub .kind {
   font-family: var(--mono);
@@ -602,7 +619,7 @@ section.block:last-child {
   background: var(--bg-tint);
   border: 1px solid var(--rule);
   border-radius: 6px;
-  padding: 2px 9px;
+  padding: 1px 9px;
   transition:
     color 0.15s,
     border-color 0.15s,
@@ -619,6 +636,21 @@ a.pill:hover {
 }
 .pub-bibtex {
   margin-top: 10px;
+}
+/* abstract box (project page): same visual container as the BibTeX box, but
+   prose instead of <pre>; toggled by the "abstract" pill (.abs-toggle) */
+.pub-abstract {
+  margin-top: 10px;
+}
+.pub-abstract p {
+  margin: 0;
+  padding: 14px 16px;
+  background: var(--bg-tint);
+  border: 1px solid var(--rule-soft);
+  border-radius: 6px;
+  font-size: 14.5px;
+  line-height: 1.65;
+  color: var(--ink);
 }
 .pub-bibtex pre {
   margin: 0;
@@ -673,20 +705,65 @@ footer {
 }
 
 /* ---------- per-page differences (mockups diverge on these four rules) ---------- */
-/* Research: page head eyebrow margin, lead colour/width, tighter rules + layout */
-body.research .eyebrow {
+/* Research + project: page head eyebrow margin, lead colour/width, tighter
+   rules + layout (the project page reuses the research variant). */
+body.research .eyebrow,
+body.project .eyebrow {
   margin: 0 0 18px;
 }
-body.research .lead {
+body.research .lead,
+body.project .lead {
   color: var(--muted);
   margin: 0;
   max-width: 64ch;
 }
-body.research .block-rule {
+body.research .block-rule,
+body.project .block-rule {
   margin: 14px 0 18px;
 }
-body.research .layout {
+body.research .layout,
+body.project .layout {
   padding-top: 48px;
+}
+
+/* ---------- project page prose (markdown content inside .block sections) ---------- */
+body.project .block > p {
+  font-size: 16px;
+  line-height: 1.7;
+  color: var(--ink);
+  max-width: 78ch;
+  margin: 0 0 16px;
+}
+body.project .block ul {
+  margin: 0 0 16px;
+  padding-left: 1.2em;
+  max-width: 78ch;
+}
+body.project .block li {
+  font-size: 16px;
+  line-height: 1.65;
+  color: var(--ink);
+  margin: 6px 0;
+}
+body.project .block li::marker {
+  color: var(--faint);
+}
+/* h3 subsection headings mirror the home page .sub headings; neutralise
+   al-folio's global heading hairline/padding like .block h2 does */
+body.project .block h3 {
+  font-family: var(--serif);
+  font-style: italic;
+  font-weight: 600;
+  font-size: 21px;
+  color: var(--ink);
+  margin: 30px 0 14px;
+  padding-top: 0;
+  border-top: 0;
+}
+/* hand-written .pub entries sit directly in the section (no .bibliography
+   list), so drop the hairline on the last one here too */
+section.block > .pub:last-child {
+  border-bottom: 0;
 }
 
 /* ---------- responsive ---------- */
@@ -709,7 +786,8 @@ body.research .layout {
 }
 @media (max-width: 560px) {
   body.home,
-  body.research {
+  body.research,
+  body.project {
     font-size: 16px;
   }
   .wrap {

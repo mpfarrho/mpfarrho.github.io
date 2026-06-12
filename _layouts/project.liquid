@@ -1,0 +1,44 @@
+{% comment %}
+  Project layout — standalone document in the research-page design. The eyebrow
+  comes from page.title, the lead from page.subtitle, and the body from the page
+  content, which supplies its own <section class="block"> wrappers (prose
+  sections use markdown="1"). The TOC is driven by the page's `sections` front
+  matter (id / nav); section ids feed the scroll-spy in head.liquid, and the
+  "abstract" pills are wired by the toggle script there.
+{% endcomment %}
+<!doctype html>
+<html lang="{{ site.lang | default: 'en' }}" data-theme="light">
+  <head>
+    {% include head.liquid %}
+  </head>
+  <body class="project">
+    {% include header.liquid %}
+
+    <main>
+      <section class="page-head wrap">
+        <p class="eyebrow">{{ page.title }}</p>
+        {% if page.subtitle %}
+          <p class="lead">{{ page.subtitle }}</p>
+        {% endif %}
+      </section>
+
+      <div class="wrap layout">
+        <aside class="toc">
+          <nav aria-label="Sections">
+            <ul>
+              {% for s in page.sections %}
+                <li>
+                  <a href="#{{ s.id }}">{{ s.nav }}</a>
+                </li>
+              {% endfor %}
+            </ul>
+          </nav>
+        </aside>
+
+        <div class="content">{{ content }}</div>
+      </div>
+    </main>
+
+    {% include footer.liquid %}
+  </body>
+</html>
