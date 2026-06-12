@@ -797,6 +797,11 @@ section.block > .pub:last-child {
     padding-left: 20px;
     padding-right: 20px;
   }
+  /* the 74px desktop gap below the header is too generous on phones */
+  .hero,
+  .page-head {
+    padding-top: 48px;
+  }
   /* keep Home/Research reachable on phones: swap the wordmark to its monogram
      and tighten the header so everything fits on one line */
   .wm-full {
