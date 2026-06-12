@@ -1,9 +1,10 @@
 {% comment %}
   Project layout — standalone document in the research-page design. The eyebrow
-  comes from page.title, the lead from page.subtitle, and the body from the page
-  content, which supplies its own <section class="block"> wrappers (prose
-  sections use markdown="1"). The TOC is driven by the page's `sections` front
-  matter (id / nav); section ids feed the scroll-spy in head.liquid, and the
+  comes from page.subtitle (falling back to page.title), the h1 from
+  page.headline, the lead from page.lead, and the body from the page content,
+  which supplies its own <section class="block"> wrappers (prose sections use
+  markdown="1"). The TOC is driven by the page's `sections` front matter
+  (id / nav); section ids feed the scroll-spy in head.liquid, and the
   "abstract" pills are wired by the toggle script there.
 {% endcomment %}
 <!doctype html>
@@ -16,9 +17,12 @@
 
     <main>
       <section class="page-head wrap">
-        <p class="eyebrow">{{ page.title }}</p>
-        {% if page.subtitle %}
-          <p class="lead">{{ page.subtitle }}</p>
+        <p class="eyebrow">{{ page.subtitle | default: page.title }}</p>
+        {% if page.headline %}
+          <h1>{{ page.headline }}</h1>
+        {% endif %}
+        {% if page.lead %}
+          <p class="lead">{{ page.lead }}</p>
         {% endif %}
       </section>
 

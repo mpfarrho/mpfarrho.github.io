@@ -3,7 +3,9 @@ layout: project
 permalink: /project18765/
 title: "OeNB Jubiläumsfonds, Project 18765"
 description: "Inference with Bayesian nonparametric models in the presence of measurement errors and outliers"
-subtitle: "Inference with Bayesian nonparametric models in the presence of measurement errors and outliers"
+subtitle: "OeNB Jubiläumsfonds"
+headline: "Project 18765"
+lead: "Inference with Bayesian nonparametric models in the presence of measurement errors and outliers"
 nav: false
 redirect_from:
   - /oenb18765/
