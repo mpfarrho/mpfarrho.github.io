@@ -9,7 +9,21 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "post-google-gemini-updates-flash-1-5-gemma-2-and-project-astra",
+  },{id: "nav-home",
+          title: "Home",
+          description: "Assistant Professor at WU Vienna, specializing in econometrics for macroeconomic applications.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/";
+          },
+        },{id: "nav-research",
+          title: "Research",
+          description: "Research, working papers and publications of Michael Pfarrhofer, Assistant Professor at WU Vienna.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/research/";
+          },
+        },{id: "post-google-gemini-updates-flash-1-5-gemma-2-and-project-astra",
         
           title: 'Google Gemini updates: Flash 1.5, Gemma 2 and Project Astra <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
         
@@ -122,6 +136,41 @@ ninja.data = [{
         section: 'Socials',
         handler: () => {
           window.open("https://scholar.google.com/citations?user=ymlNJ_UAAAAJ", "_blank");
+        },
+      },{
+        id: 'social-semanticscholar',
+        title: 'Semantic Scholar',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://www.semanticscholar.org/author/Michael-Pfarrhofer/88739014", "_blank");
+        },
+      },{
+        id: 'social-orcid',
+        title: 'ORCID',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://orcid.org/0000-0002-0168-688X", "_blank");
+        },
+      },{
+        id: 'social-github',
+        title: 'GitHub',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://github.com/mpfarrho", "_blank");
+        },
+      },{
+        id: 'social-arxiv',
+        title: 'arXiv',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://arxiv.org/a/pfarrhofer_m_1.html", "_blank");
+        },
+      },{
+        id: 'social-repec',
+        title: 'Repec',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://ideas.repec.org/e/ppf31.html", "_blank");
         },
       },{
       id: 'light-theme',
