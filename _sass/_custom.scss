@@ -62,8 +62,11 @@ body.research {
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
 }
-body.home a,
-body.research a {
+/* :where() keeps this reset at zero specificity beyond the bare `a`, so the
+   per-context link rules below (.lead a, .nav-links a, .toc a, .profiles a,
+   .foot-links a, …) still win. A plain `body.home a` selector would outrank
+   them and flatten every link to look like normal text. */
+:where(body.home, body.research) a {
   color: inherit;
   text-decoration: none;
   opacity: 1;
@@ -273,15 +276,14 @@ body.research a:focus {
 }
 
 /* ---------- profile strip (home) ---------- */
+/* Sits directly under the profile photo (inside .hero-photo) — no enclosing
+   rules, kept tight to save vertical space. */
 .profiles {
   display: flex;
   flex-wrap: wrap;
-  gap: 10px 8px;
+  gap: 8px;
   align-items: center;
-  padding: 26px 0;
-  border-top: 1px solid var(--rule);
-  border-bottom: 1px solid var(--rule);
-  margin: 54px 0 8px;
+  margin: 16px 0 0;
 }
 .profiles a {
   font-family: var(--mono);
@@ -365,6 +367,10 @@ section.block:last-child {
   font-size: 31px;
   letter-spacing: -0.005em;
   margin: 0 0 4px;
+  /* al-folio's global h2 (_typography.scss) draws a top hairline + top padding;
+     neutralise it so the only rule per heading is .block-rule (below). */
+  padding-top: 0;
+  border-top: 0;
 }
 .block-rule {
   height: 1px;
