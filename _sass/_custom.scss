@@ -349,6 +349,11 @@ body.project .block li a:hover {
   letter-spacing: -0.012em;
   margin: 0 0 22px;
 }
+/* profile chips reused in the page head sit flush under the h1, not 24px
+   below like the photo strip they were designed for */
+.page-head .profiles {
+  margin: 0;
+}
 
 /* ---------- body split ---------- */
 .layout {
