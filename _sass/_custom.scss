@@ -891,6 +891,22 @@ section.block > .pub:last-child {
   }
 }
 
+/* Landscape phones fall under the 880px stacking breakpoint but are short and
+   wide: stacking the photo on top buries the bio below the fold. Restore the
+   side-by-side hero (text left, photo right) when the viewport is short. The
+   max-height keeps portrait tablets — tall enough for stacking to read well —
+   out of this rule. Placed after the width breakpoints so source order wins. */
+@media (max-width: 880px) and (orientation: landscape) and (max-height: 600px) {
+  .hero-grid {
+    grid-template-columns: 1fr 200px;
+    gap: 36px;
+  }
+  .hero-photo {
+    order: 0;
+    max-width: 200px;
+  }
+}
+
 /* ---------- print ---------- */
 /* the home page doubles as the canonical CV: printing drops the chrome
    (header, footer, photo, TOC, action pills) and always uses the light
