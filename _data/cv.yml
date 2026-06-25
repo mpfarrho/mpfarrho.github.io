@@ -17,12 +17,6 @@ sections:
         org: "Department of Economics, WU Vienna"
         date: "09/2023&ndash;"
       - type: entry
-        role: "Expert"
-        org: "European Commission &ldquo;Macro Modelling and Nowcast Pool,&rdquo; JRC Ispra"
-        date: "12/2020&ndash;"
-      - type: sub
-        text: "Past positions"
-      - type: entry
         role: "Professor of Macroeconomics"
         org: "Department of Economics, University of Vienna"
         date: "09/2022&ndash;08/2023"
@@ -51,6 +45,10 @@ sections:
         role: "General Secretary"
         org: 'Austrian Economic Association (<a href="https://www.noeg.ac.at">NOeG</a>)'
         date: "2025&ndash;2026"
+      - type: entry
+        role: "Expert"
+        org: "European Commission &ldquo;Macro Modelling and Nowcast Pool,&rdquo; JRC Ispra"
+        date: "12/2020&ndash;"
       - type: deflist
         rows:
           - label: "Memberships"
