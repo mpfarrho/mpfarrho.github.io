@@ -4,8 +4,8 @@
   Per-entry template for jekyll-scholar's {% bibliography %} (set via
   scholar.bibliography_template: bib). Emits the research mockup's .pub markup.
   Pills link to real bib fields (arxiv / html / code); the "bib" pill toggles the
-  BibTeX block (toggle JS lives in _includes/head.liquid). Authors collapse to
-  "First Last, et al." when there are more than five.
+  BibTeX block (toggle JS lives in _includes/head.liquid). All authors are
+  listed by surname only, with no truncation.
 {% endcomment %}
 {%- capture venue -%}
 {%- if entry.type == 'article' -%}
@@ -19,18 +19,10 @@
 <div class="pub" id="{{ entry.key }}">
   <span class="title">{{ entry.title }}</span>
   <div class="authors">
-    {%- assign n = entry.author_array | size -%}
-    {%- if n > 5 -%}
-      {%- assign a = entry.author_array | first -%}
-      {{ a.first }}
-      {{ a.last }}, et al.
-    {%- else -%}
-      {%- for author in entry.author_array -%}
-        {% unless forloop.first %}, {% endunless -%}
-        {{- author.first }}
-        {{ author.last }}
-      {%- endfor -%}
-    {%- endif -%}
+    {%- for author in entry.author_array -%}
+      {% unless forloop.first %}, {% endunless -%}
+      {{- author.last }}
+    {%- endfor -%}
   </div>
   <div class="meta">
     <span class="kind">{{ venue | strip }}</span>
