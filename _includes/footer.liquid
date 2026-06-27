@@ -7,7 +7,7 @@
 {% capture author_name %}{{ site.first_name }}{% if site.middle_name %} {{ site.middle_name }}{% endif %} {{ site.last_name }}{% endcapture %}
 <footer>
   <div class="wrap foot-inner">
-    <nav class="foot-links" aria-label="Profiles">
+    <nav class="foot-links" aria-label="Footer">
       {% if site.data.socials.scholar_userid %}
         <a href="https://scholar.google.at/citations?user={{ site.data.socials.scholar_userid }}">Google Scholar</a>
       {% endif %}
@@ -20,10 +20,9 @@
       {% if site.data.socials.orcid_id %}
         <a href="https://orcid.org/{{ site.data.socials.orcid_id }}">ORCID</a>
       {% endif %}
+      <span class="foot-sep" aria-hidden="true">&middot;</span>
+      <a href="{{ '/legal/' | relative_url }}">Legal notice</a>
     </nav>
-    <div class="foot-meta">
-      <div class="colophon">{{ author_name }}</div>
-      <a class="foot-legal" href="{{ '/legal/' | relative_url }}">Legal notice</a>
-    </div>
+    <div class="colophon">{{ author_name }}</div>
   </div>
 </footer>

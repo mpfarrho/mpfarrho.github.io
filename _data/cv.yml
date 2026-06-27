@@ -99,6 +99,10 @@ sections:
         role: "Klaus Liebscher Economic Research Scholarship"
         org: 'Awarded by the Oesterreichische Nationalbank (OeNB, <a href="https://www.oenb.at/en/About-Us/Research-Promotion/scholarships_and_awards/klaus_liebscher_economic_research_scholarship.html">KLERS</a>)'
         date: "2021"
+      - type: entry
+        role: "Scottish Journal of Political Economy (SJPE) Best Paper"
+        org: 'For <a href="https://onlinelibrary.wiley.com/doi/10.1111/sjpe.12275">&ldquo;Measuring the effectiveness of US monetary policy during the COVID-19 recession&rdquo;</a>'
+        date: "2021"
 
   - id: grants
     nav: Grants

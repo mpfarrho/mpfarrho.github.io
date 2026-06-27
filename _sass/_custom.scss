@@ -728,8 +728,7 @@ a.pill:hover {
 
 /* ---------- footer ---------- */
 footer {
-  border-top: 1px solid var(--rule);
-  padding: 34px 0 56px;
+  padding: 20px 0 28px;
 }
 .foot-inner {
   display: flex;
@@ -743,33 +742,27 @@ footer {
   flex-wrap: wrap;
   gap: 6px 16px;
 }
+/* footer links use the site accent colour (no dashed underline) and the body
+   link's hover background tint; the middot sets the legal-notice link apart
+   from the external profile links */
 .foot-links a {
   font-size: 13.5px;
-  color: var(--muted);
-  transition: color 0.18s;
+  color: var(--accent);
+  border-radius: 2px;
+  transition: background 0.15s;
 }
 .foot-links a:hover {
-  color: var(--accent);
+  background: color-mix(in srgb, var(--accent) 9%, transparent);
+}
+.foot-sep {
+  font-size: 13.5px;
+  color: var(--faint);
 }
 .colophon {
   font-family: var(--mono);
   font-size: 11.5px;
   color: var(--faint);
   letter-spacing: 0.02em;
-}
-.foot-meta {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  gap: 5px;
-}
-.foot-legal {
-  font-size: 13.5px;
-  color: var(--muted);
-  transition: color 0.18s;
-}
-.foot-legal:hover {
-  color: var(--accent);
 }
 
 /* single-column prose page (page-plain layout, e.g. the legal notice): mirrors
