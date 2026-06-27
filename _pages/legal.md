@@ -8,7 +8,6 @@ nav: false
 ---
 
 <section class="block" markdown="1">
-
 _Information pursuant to §5 ECG and §25 MedienG (Austria)_
 
 **Media owner and responsible for content**: Michael Pfarrhofer<br>
