@@ -24,6 +24,7 @@ among others.
 - [Home](https://mpfarrho.github.io/): bio and curriculum vitae
 - [Research](https://mpfarrho.github.io/research/): working papers and full publication list
 - [Project 18765](https://mpfarrho.github.io/project18765/): OeNB Jubiläumsfonds project on Bayesian nonparametric inference under measurement errors and outliers
+- [Legal notice](https://mpfarrho.github.io/legal/): imprint (§5 ECG / §25 MedienG) and privacy policy
 
 ## Profiles
 
