@@ -765,10 +765,11 @@ footer {
   letter-spacing: 0.02em;
 }
 
-/* single-column prose page (page-plain layout, e.g. the legal notice): mirrors
-   the vertical rhythm of .layout but without the TOC grid column */
+/* single-column prose page (page-plain layout, e.g. the legal notice): the
+   content follows the page head as closely as a lead/intro does on the other
+   content pages, so it carries no extra top padding (matches their
+   title-to-content spacing) */
 .content-single {
-  padding-top: 48px;
   padding-bottom: 80px;
 }
 
