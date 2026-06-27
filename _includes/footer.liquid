@@ -2,8 +2,7 @@
   Site footer — pixel reproduction of the footer in /mockups. Profile links come
   from _data/socials.yml and the colophon name from _config.yml. Included only by
   the custom home/research layouts (al-folio's default.liquid no longer renders a
-  footer), so the Google Analytics snippet below loads only on the redesigned
-  pages and never double-fires with scripts.liquid on other pages.
+  footer).
 {% endcomment %}
 {% capture author_name %}{{ site.first_name }}{% if site.middle_name %} {{ site.middle_name }}{% endif %} {{ site.last_name }}{% endcapture %}
 <footer>
@@ -22,22 +21,9 @@
         <a href="https://orcid.org/{{ site.data.socials.orcid_id }}">ORCID</a>
       {% endif %}
     </nav>
-    <div class="colophon">{{ author_name }} &middot; WU Vienna</div>
+    <div class="foot-meta">
+      <div class="colophon">{{ author_name }}</div>
+      <a class="foot-legal" href="{{ '/legal/' | relative_url }}">Legal notice</a>
+    </div>
   </div>
 </footer>
-
-{% if site.enable_google_analytics %}
-  <!--
-    Google Analytics (gtag). al-folio's google-analytics-setup.js is absent from
-    the repo, so the config is inlined here to keep tracking working.
-  -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() {
-      dataLayer.push(arguments);
-    }
-    gtag('js', new Date());
-    gtag('config', '{{ site.google_analytics }}');
-  </script>
-{% endif %}

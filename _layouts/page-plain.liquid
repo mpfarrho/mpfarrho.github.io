@@ -1,0 +1,33 @@
+{% comment %}
+  Plain single-column prose page in the research/project design, without the TOC
+  sidebar. Reuses body.project styling so markdown prose, headings and links
+  match the project pages; the custom header and footer (incl. the legal-notice
+  link) come from the shared includes. Page content supplies its own
+  <section class="block" markdown="1"> wrappers. Used for standalone pages such
+  as the legal notice.
+{% endcomment %}
+<!doctype html>
+<html lang="{{ site.lang | default: 'en' }}" data-theme="light">
+  <head>
+    {% include head.liquid %}
+  </head>
+  <body class="project">
+    {% include header.liquid %}
+
+    <main>
+      <section class="page-head wrap">
+        <p class="eyebrow">{{ page.subtitle | default: page.title }}</p>
+        <h1>{{ page.headline | default: page.title }}</h1>
+        {% if page.lead %}
+          <p class="lead">{{ page.lead }}</p>
+        {% endif %}
+      </section>
+
+      <div class="wrap content-single">
+        <div class="content">{{ content }}</div>
+      </div>
+    </main>
+
+    {% include footer.liquid %}
+  </body>
+</html>

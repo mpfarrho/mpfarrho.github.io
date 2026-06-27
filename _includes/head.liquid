@@ -33,13 +33,11 @@
 <link defer rel="stylesheet" href="{{ '/assets/css/academicons.min.css' | relative_url | bust_file_cache }}">
 <link defer rel="stylesheet" href="{{ '/assets/css/scholar-icons.css' | relative_url | bust_file_cache }}">
 <!--
-  Fonts: EB Garamond + IBM Plex Sans + IBM Plex Mono. Loaded once here via the
-  mockup's preconnect + stylesheet; al-folio's own deferred Google Fonts link
-  was removed so the families are not requested twice.
+  Fonts: EB Garamond + IBM Plex Sans + IBM Plex Mono, self-hosted (woff2 files in
+  assets/fonts, declared in assets/css/fonts.css). Served locally so no request is
+  made to Google's font servers and visitor IP addresses are never sent to Google.
 -->
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="{{ site.third_party_libraries.google_fonts.url.fonts }}" rel="stylesheet">
+<link rel="stylesheet" href="{{ '/assets/css/fonts.css' | relative_url | bust_file_cache }}">
 
 <!-- Code Syntax Highlighting -->
 <link

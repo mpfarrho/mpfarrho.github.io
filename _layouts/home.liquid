@@ -28,7 +28,11 @@
           </div>
           <div class="hero-photo">
             <div class="frame">
-              <img src="{{ page.profile.image | default: 'prof_pic.jpg' | prepend: '/assets/img/' | relative_url }}" alt="{{ author_name }}">
+              <img
+                src="{{ page.profile.image | default: 'prof_pic.jpg' | prepend: '/assets/img/' | relative_url }}"
+                alt="{{ author_name }}"
+                title="&copy; WU TV"
+              >
             </div>
             <nav class="profiles" aria-label="Academic profiles">
               {% if site.data.socials.scholar_userid %}

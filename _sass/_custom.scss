@@ -757,6 +757,27 @@ footer {
   color: var(--faint);
   letter-spacing: 0.02em;
 }
+.foot-meta {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 5px;
+}
+.foot-legal {
+  font-size: 13.5px;
+  color: var(--muted);
+  transition: color 0.18s;
+}
+.foot-legal:hover {
+  color: var(--accent);
+}
+
+/* single-column prose page (page-plain layout, e.g. the legal notice): mirrors
+   the vertical rhythm of .layout but without the TOC grid column */
+.content-single {
+  padding-top: 48px;
+  padding-bottom: 80px;
+}
 
 :focus-visible {
   outline: 2px solid var(--accent);
