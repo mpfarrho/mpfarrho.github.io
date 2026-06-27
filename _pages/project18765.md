@@ -184,15 +184,15 @@ This project aims to develop new Bayesian nonparametric methods that are robust 
 
 <h3>Code repositories</h3>
 
-- Nonparametric mixed-frequency Bayesian Additive Regression Trees \[[mf-bavart](https://github.com/mpfarrho/mf-bavart)\]
+- Nonparametric mixed-frequency Bayesian Additive Regression Trees \[[mf-bavart](https://github.com/mpfarrho/mf-bavart) and [mf-ss](https://github.com/mpfarrho/mf-ss)\]
 - Nonparametric quantile regression \[[qf-bart](https://github.com/mpfarrho/qf-bart)\]
-- Gaussian Process MIDAS models \[[gp-midas](https://github.com/mpfarrho/gp-midas)\] _(to be uploaded upon publication of the corresponding paper)_
+- Direct Gaussian Process mixed frequency models \[[gp-mf](https://github.com/mpfarrho/gp-mf)\] _(to be uploaded upon publication of the corresponding paper)_
 
 <h3>Collection of real-time data sets</h3>
 
 - United States: [Real-Time Data Set for Macroeconomists](https://www.philadelphiafed.org/surveys-and-data/real-time-data-research/real-time-data-set-for-macroeconomists)
-- United Kingdom: [Gross Domestic Product Real-Time Database](https://www.bankofengland.co.uk/statistics/gdp-real-time-database)
 - Australia: [Australian Real-Time Macroeconomic Database](https://fbe.unimelb.edu.au/economics/macrocentre/artmdatabase)
 - Canada: [CAN-MD-QD, Homepage of D. Stevanovic](http://www.stevanovic.uqam.ca/DS_LCMD.html)
+- Euro area: [EA-MD-QD, Homepage of M. Barigozzi](https://www.barigozzi.eu/EA.html)
 
 </section>
