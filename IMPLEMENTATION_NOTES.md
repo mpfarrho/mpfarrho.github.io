@@ -35,7 +35,8 @@ checked after pushing. For a local Jekyll build, install Ruby ≥ 3.0
   the two mockups were written verbatim from the provided sources to serve as the
   on-disk source of truth, then excluded from the build (`exclude:` in
   `_config.yml`).
-- **Google Analytics.** `assets/js/google-analytics-setup.js` is referenced by
+- **Google Analytics.** _(Superseded — GA was later removed entirely; see
+  "Privacy & third-party hardening" below.)_ `assets/js/google-analytics-setup.js` is referenced by
   `_includes/scripts.liquid` but is **missing from the repo**, so GA is already
   effectively broken site-wide. The custom home/research layouts do not load
   `scripts.liquid` (to stay JS-minimal and avoid the hero-photo zoom / al-folio
@@ -58,6 +59,58 @@ checked after pushing. For a local Jekyll build, install Ruby ≥ 3.0
 - **`/project18765/` and `404` remain on al-folio's `default.liquid`.** They now
   render the replaced (mockup) header but no footer. This is outside the
   redesign's pixel scope and was left as-is.
+
+## Privacy & third-party hardening (later pass)
+
+The site was made GDPR-conscious and self-contained: **no third-party resource
+request fires on any page** (verified by scanning the built `_site/` for external
+`script` / `link` / `img` hosts — only same-origin URLs and the
+`<link rel="canonical">` remain).
+
+- **Google Analytics removed entirely.** `enable_google_analytics: false` and an
+  empty `google_analytics:`; the `gtag` `<script>` blocks were deleted from
+  `_includes/scripts.liquid` and `_includes/distill_scripts.liquid`; the inline
+  snippet was removed from `_includes/footer.liquid`; and the generating source
+  `_scripts/google-analytics-setup.js` (which shipped to `/assets/js/`) was
+  deleted. `ANALYTICS.md` and this file are in `exclude:` so they are not
+  published.
+- **Fonts self-hosted.** EB Garamond + IBM Plex Sans + IBM Plex Mono `woff2`
+  (latin + latin-ext) in `assets/fonts/`, declared in `assets/css/fonts.css` and
+  linked from `_includes/head.liquid`; the remote Google Fonts stylesheet +
+  preconnects and the `google_fonts` library entry were removed. No
+  `fonts.googleapis.com` / `fonts.gstatic.com` request.
+- **MDB + jQuery self-hosted.** `head.liquid` links the local
+  `assets/css/mdb.min.css`; `scripts.liquid` loads local `assets/js/jquery.min.js`
+  and `assets/js/mdb.min.js`. No `cdn.jsdelivr.net` request (Bootstrap CSS/JS were
+  already local).
+- **Unused CDN features disabled** (they only ever loaded on `default.liquid`
+  pages such as `404`): `enable_masonry`, `enable_math`, `enable_medium_zoom`, and
+  `enable_publication_badges.altmetric` / `dimensions` are all `false` — removing
+  MathJax (cdnjs), the medium-zoom CDN, and the Altmetric/Dimensions badge scripts.
+- **Analytics scaffolding removed.** The cookie-consent, Cronitor, Pirsch and
+  Openpanel `<script>` blocks were deleted from both script partials, and
+  `_scripts/{cookie-consent,cronitor-analytics,open-panel-analytics}-setup.js`
+  were deleted.
+- **Sample/demo blog disabled.** `external_sources` is empty, so the
+  external-posts plugin fetches nothing (no `medium.com` requests) and no demo
+  blog pages are generated.
+
+### Other changes in this pass
+
+- **Legal Notice & Privacy page** at `/legal/` on a new single-column
+  `page-plain` layout, linked from the footer (§5 ECG / §25 MedienG imprint +
+  GDPR privacy policy).
+- **Footer:** the colophon is the name only ("· WU Vienna" dropped, so WU is not
+  implied as responsible for the content); profile links use the site accent
+  colour with the body link's hover tint, and the **Legal notice** link sits
+  inline after them, set off by a middot.
+- **GitHub icon removed from the navbar** (the email icon is kept — the legal
+  page points visitors to it).
+- **Content:** added the _Scottish Journal of Political Economy (SJPE) Best Paper
+  2021_ honor (for the COVID-19 US monetary-policy paper) to `_data/cv.yml`.
+
+> Outbound `<a>` links (profiles, DOIs, GitHub repos) are user-initiated
+> navigations, not automatic requests, and are unaffected.
 
 ## Flagged for human check (rendered verbatim from the mockup — not "fixed")
 
@@ -147,4 +200,5 @@ All pills below need real targets wired in (in `_layouts/research.liquid`):
   hardcoded per the task; jekyll-scholar remains installed and configured.
 - Wire the real DOI / arXiv / code / data / chapter / media URLs into the pills
   (table above), then drop the `href="#"` placeholders.
-- Optionally restore a real `assets/js/google-analytics-setup.js` (or remove GA).
+- ~~Optionally restore a real `assets/js/google-analytics-setup.js` (or remove GA).~~
+  **Done — GA removed entirely (see "Privacy & third-party hardening").**
