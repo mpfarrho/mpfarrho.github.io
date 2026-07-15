@@ -20,7 +20,7 @@ sections:
     title: Book chapters
     query: "@incollection"
   - id: media
-    title: Policy &amp; media
+    title: Policy, media &amp; other
     query: "@misc"
 ---
 
