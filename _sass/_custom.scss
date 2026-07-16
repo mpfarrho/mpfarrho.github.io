@@ -647,6 +647,31 @@ section.block:last-child {
   font-size: 13.5px;
   color: var(--accent-2);
 }
+/* running publication index (Published papers only): "(#n) YEAR" flush-right in
+   the mono face. The "(#n)" sits at --faint (a step lighter/lower-contrast than
+   the year's --muted, in both themes). The optional "+" occupies a fixed 1ch
+   slot after the year so every year aligns on its last digit. */
+.pub .pubindex {
+  margin-left: auto;
+  display: inline-flex;
+  align-items: baseline;
+  gap: 0.6ch;
+  font-family: var(--mono);
+  font-size: 12.5px;
+  letter-spacing: -0.01em;
+  white-space: nowrap;
+}
+.pub .pubindex .idx {
+  color: var(--faint);
+}
+.pub .pubindex .yr {
+  color: var(--muted);
+}
+.pub .pubindex .plus {
+  display: inline-block;
+  width: 1ch;
+  text-align: left;
+}
 
 .pill {
   font-family: var(--mono);

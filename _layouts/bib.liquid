@@ -9,7 +9,7 @@
 {% endcomment %}
 {%- capture venue -%}
 {%- if entry.type == 'article' -%}
-{{ entry.journal }}{% if entry.volume %} {{ entry.volume }}{% if entry.number %}({{ entry.number }}){% endif %}{% endif %}{% if entry.pages %}, {{ entry.pages | replace: '--', '–' }}{% endif %}, {{ entry.year }}
+{{ entry.journal }}{% if entry.volume %} {{ entry.volume }}{% if entry.number %}({{ entry.number }}){% endif %}{% endif %}{% if entry.pages %}, {{ entry.pages | replace: '--', '–' }}{% endif %}
 {%- elsif entry.type == 'incollection' -%}
 {{ entry.booktitle }}{% if entry.chapter %}, ch. {{ entry.chapter }}{% endif %}, {{ entry.year }}
 {%- else -%}
@@ -53,6 +53,28 @@
     {%- endif -%}
     {%- if entry.bibtex_show -%}
       <a class="pill bib-toggle" role="button" tabindex="0" aria-expanded="false">bib</a>
+    {%- endif -%}
+    {%- comment -%}
+      Running publication index, flush-right, articles only. `index` is jekyll-
+      scholar's 1-based render position (year descending, so 1 = newest); the
+      total N is counted live from the same query, so num = N - index + 1 makes
+      the newest entry N and the oldest 1, renumbering automatically on rebuild.
+      The year is split from an optional "+" (forthcoming) so the "+" hangs in a
+      reserved slot and every year aligns on its last digit.
+    {%- endcomment -%}
+    {%- if entry.type == 'article' -%}
+      {%- capture pub_total -%}{% bibliography_count --query @article %}{%- endcapture -%}
+      {%- assign pub_num = pub_total | minus: index | plus: 1 -%}
+      {%- assign pub_year = entry.year | strip -%}
+      {%- assign pub_yearnum = pub_year | remove: '+' -%}
+      {%- if pub_year contains '+' -%}{%- assign pub_plus = '+' -%}{%- else -%}{%- assign pub_plus = '' -%}{%- endif -%}
+      <span class="pubindex">
+        <span class="idx">(#{{ pub_num }})</span>
+        <span class="yr">
+          {{- pub_yearnum -}}
+          <span class="plus">{{ pub_plus }}</span></span
+        >
+      </span>
     {%- endif -%}
   </div>
   {%- if entry.bibtex_show -%}
