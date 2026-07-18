@@ -1002,13 +1002,20 @@ section.block > .pub:last-child {
     display: block;
   }
   /* with the secnav row added, compress the header row so the joint block
-     stays modest: 54 + 44 = 98px (the secnav keeps its 44px touch row) */
+     stays modest: 48 + 40 = 88px */
   .sticky-stack .header-inner {
-    height: 54px;
+    height: 48px;
+  }
+  .secnav-inner {
+    height: 40px;
+  }
+  .secnav-trigger,
+  .secnav-top {
+    min-height: 40px;
   }
   section.block {
-    /* anchors must clear the joint sticky block (54px header + 44px secnav) */
-    scroll-margin-top: 110px;
+    /* anchors must clear the joint sticky block (48px header + 40px secnav) */
+    scroll-margin-top: 100px;
     margin-bottom: 46px;
   }
 }
