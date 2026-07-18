@@ -1,0 +1,54 @@
+{% comment %}
+  Sticky mobile section dropdown — shown at <=880px where the sidebar .toc is
+  hidden (styles in _sass/_custom.scss, behavior in head.liquid). Params:
+    include.sections   array of section objects with an `id`
+    include.label_key  field holding the display label ("nav" on home,
+                       "title" on research)
+  The scroll-spy keeps the trigger label and the menu checkmark in sync while
+  scrolling; .is-stuck draws the divider once the page has scrolled.
+{% endcomment %}
+{% assign first_section = include.sections | first %}
+<nav class="secnav" id="secnav" aria-label="Sections">
+  <div class="wrap secnav-inner">
+    <button class="secnav-trigger" id="secnavTrigger" aria-expanded="false" aria-controls="secnavMenu">
+      <span class="secnav-dot" aria-hidden="true"></span>
+      <span class="secnav-label" id="secnavLabel">{{ first_section[include.label_key] }}</span>
+      <svg
+        class="secnav-chevron"
+        width="12"
+        height="12"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2.2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        aria-hidden="true"
+      >
+        <path d="m6 9 6 6 6-6"/>
+      </svg>
+    </button>
+    <button class="secnav-top" id="secnavTop" aria-label="Back to top">
+      <svg
+        width="14"
+        height="14"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2.2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        aria-hidden="true"
+      >
+        <path d="M12 19V5M5 12l7-7 7 7"/>
+      </svg>
+    </button>
+  </div>
+  <ul class="secnav-menu" id="secnavMenu" hidden>
+    {% for s in include.sections %}
+      <li>
+        <a href="#{{ s.id }}" data-label="{{ s[include.label_key] }}">{{ s[include.label_key] }}</a>
+      </li>
+    {% endfor %}
+  </ul>
+</nav>

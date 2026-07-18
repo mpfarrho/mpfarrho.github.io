@@ -187,8 +187,52 @@
           });
         });
       });
+      // sticky mobile section dropdown (section-nav.liquid)
+      var secnav = document.getElementById('secnav');
+      var secLinks = [];
+      var secMap = {};
+      var secLabel = document.getElementById('secnavLabel');
+      if (secnav) {
+        var secTrigger = document.getElementById('secnavTrigger');
+        var secMenu = document.getElementById('secnavMenu');
+        secLinks = Array.prototype.slice.call(secMenu.querySelectorAll('a'));
+        secLinks.forEach(function (a) {
+          secMap[a.getAttribute('href').slice(1)] = a;
+        });
+        var closeSecMenu = function () {
+          secMenu.setAttribute('hidden', '');
+          secTrigger.setAttribute('aria-expanded', 'false');
+        };
+        secTrigger.addEventListener('click', function () {
+          if (secMenu.hasAttribute('hidden')) {
+            secMenu.removeAttribute('hidden');
+            secTrigger.setAttribute('aria-expanded', 'true');
+          } else {
+            closeSecMenu();
+          }
+        });
+        secLinks.forEach(function (a) {
+          a.addEventListener('click', closeSecMenu);
+        });
+        document.addEventListener('click', function (e) {
+          if (!secnav.contains(e.target)) closeSecMenu();
+        });
+        document.addEventListener('keydown', function (e) {
+          if (e.key === 'Escape') closeSecMenu();
+        });
+        document.getElementById('secnavTop').addEventListener('click', function () {
+          window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+        // the row sits directly under the header, so "stuck" simply means the
+        // page has scrolled; the class draws the divider
+        var onSecScroll = function () {
+          secnav.classList.toggle('is-stuck', window.scrollY > 2);
+        };
+        window.addEventListener('scroll', onSecScroll, { passive: true });
+        onSecScroll();
+      }
       var links = Array.prototype.slice.call(document.querySelectorAll('.toc a'));
-      if (!links.length) return;
+      if (!links.length && !secLinks.length) return;
       var map = {};
       links.forEach(function (a) {
         map[a.getAttribute('href').slice(1)] = a;
@@ -202,6 +246,14 @@
               });
               var a = map[en.target.id];
               if (a) a.classList.add('active');
+              var sa = secMap[en.target.id];
+              if (sa) {
+                secLinks.forEach(function (x) {
+                  x.classList.remove('active');
+                });
+                sa.classList.add('active');
+                if (secLabel) secLabel.textContent = sa.getAttribute('data-label');
+              }
             }
           });
         },

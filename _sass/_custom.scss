@@ -12,6 +12,12 @@
  *
  * Tokens, type roles and values are copied verbatim from the mockups; do not
  * "improve" them.
+ *
+ * July 2026 refinement pass (deliberate deviations from the mockups): item
+ * titles/labels use upright Source Serif 4 (--serif-text) while EB Garamond
+ * italic is reserved for major headings; --faint darkened for contrast;
+ * mobile type/spacing tightened; sticky .secnav dropdown added for <=880px.
+ * Do not revert these to the mockup values.
  ******************************************************************************/
 
 /* ---------- design tokens ---------- */
@@ -20,12 +26,13 @@
   --bg-tint: #f6f6f5;
   --ink: #1a1a1a;
   --muted: #5f6368;
-  --faint: #9aa0a6;
+  --faint: #7d838a;
   --rule: #e8e8e6;
   --rule-soft: #f0f0ee;
   --accent: #3b5c7e;
   --accent-2: #6e94b8;
   --serif: "EB Garamond", Garamond, Georgia, "Times New Roman", serif;
+  --serif-text: "Source Serif 4", Georgia, "Times New Roman", serif;
   --sans: "IBM Plex Sans", system-ui, -apple-system, Segoe UI, sans-serif;
   --mono: "IBM Plex Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
   --maxw: 1180px;
@@ -35,7 +42,7 @@ html[data-theme="dark"] {
   --bg-tint: #161d26;
   --ink: #ffffff;
   --muted: #9da3ac;
-  --faint: #6b7079;
+  --faint: #7c828c;
   --rule: #232b35;
   --rule-soft: #1b222b;
   --accent: #8fb4d6;
@@ -274,7 +281,7 @@ li {
 .hero h1 {
   font-family: var(--serif);
   font-weight: 500;
-  font-size: clamp(34px, 5vw, 52px);
+  font-size: clamp(30px, 6.4vw, 52px);
   line-height: 1.08;
   letter-spacing: -0.012em;
   margin: 0 0 26px;
@@ -360,7 +367,22 @@ li {
 .profiles a:hover {
   color: var(--accent);
   border-color: var(--accent);
-  background: color-mix(in srgb, var(--accent) 7%, transparent);
+  background: color-mix(in srgb, var(--accent) 8%, transparent);
+}
+/* under the photo the five chips stack as a compact two-column grid; the
+   page-head reuse (research) keeps the inline flex row above */
+.hero-photo .profiles {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 8px;
+}
+.hero-photo .profiles a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  min-height: 44px;
+  padding: 6px 10px;
 }
 
 /* ---------- page head (research) ---------- */
@@ -371,7 +393,7 @@ li {
 .page-head h1 {
   font-family: var(--serif);
   font-weight: 500;
-  font-size: clamp(34px, 5vw, 50px);
+  font-size: clamp(30px, 6.4vw, 50px);
   line-height: 1.08;
   letter-spacing: -0.012em;
   margin: 0 0 22px;
@@ -409,7 +431,7 @@ li {
 .toc a {
   display: block;
   font-size: 14px;
-  color: var(--faint);
+  color: var(--muted);
   padding: 7px 0 7px 18px;
   margin-left: -1px;
   border-left: 1.5px solid transparent;
@@ -424,6 +446,106 @@ li {
   color: var(--accent);
   border-left-color: var(--accent);
   font-weight: 500;
+}
+
+/* ---------- sticky section dropdown (mobile replacement for .toc) ---------- */
+/* Hidden on desktop; shown at <=880px where the sidebar .toc disappears. Sits
+   directly under the sticky 66px header, so the combined sticky stack is
+   66 + 44 = 110px. The divider only appears once the row is actually stuck
+   (.is-stuck, toggled by a sentinel IntersectionObserver in head.liquid). */
+.secnav {
+  display: none;
+  position: sticky;
+  top: 66px;
+  z-index: 40;
+  background: color-mix(in srgb, var(--bg) 35%, transparent);
+  backdrop-filter: saturate(140%) blur(10px);
+}
+.secnav.is-stuck {
+  border-bottom: 1px solid var(--rule);
+  background: color-mix(in srgb, var(--bg) 75%, transparent);
+}
+.secnav-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 44px;
+}
+.secnav-trigger {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  min-height: 44px;
+  padding: 0;
+  border: 0;
+  background: none;
+  cursor: pointer;
+  font-family: var(--mono);
+  font-size: 12.5px;
+  letter-spacing: 0.02em;
+  color: var(--muted);
+}
+.secnav-dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 999px;
+  background: var(--accent);
+  flex: none;
+}
+.secnav-chevron {
+  flex: none;
+  transition: transform 0.15s;
+}
+.secnav-trigger[aria-expanded="true"] .secnav-chevron {
+  transform: rotate(180deg);
+}
+.secnav-top {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 44px;
+  min-height: 44px;
+  margin-right: -12px;
+  padding: 0;
+  border: 0;
+  background: none;
+  cursor: pointer;
+  color: var(--muted);
+}
+.secnav-top:hover {
+  color: var(--accent);
+}
+/* dropdown menu: opaque panel below the row, ~44px tap targets */
+.secnav-menu {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 100%;
+  margin: 0;
+  padding: 6px 20px 10px;
+  list-style: none;
+  background: var(--bg);
+  border-bottom: 1px solid var(--rule);
+  box-shadow: 0 12px 24px -12px rgba(20, 30, 45, 0.25);
+}
+.secnav-menu a {
+  display: flex;
+  align-items: center;
+  min-height: 44px;
+  padding: 0 12px;
+  border-radius: 6px;
+  font-size: 15px;
+  color: var(--ink);
+}
+.secnav-menu a.active {
+  background: color-mix(in srgb, var(--accent) 5%, transparent);
+  color: var(--accent);
+  font-weight: 500;
+}
+.secnav-menu a.active::after {
+  content: "\2713";
+  margin-left: auto;
+  color: var(--accent);
 }
 
 section.block {
@@ -469,7 +591,7 @@ section.block:last-child {
   font-family: var(--serif);
   font-style: italic;
   font-weight: 600;
-  font-size: 21px;
+  font-size: 22px;
   color: var(--ink);
   margin: 30px 0 14px;
 }
@@ -495,10 +617,9 @@ section.block:last-child {
   background: color-mix(in srgb, var(--accent) 5%, transparent);
 }
 .entry-main .role {
-  font-family: var(--serif);
-  font-style: italic;
+  font-family: var(--serif-text);
   font-weight: 400;
-  font-size: 19.5px;
+  font-size: 18px;
   color: var(--ink);
 }
 .entry-main .org {
@@ -544,10 +665,9 @@ section.block:last-child {
   background: color-mix(in srgb, var(--accent) 5%, transparent);
 }
 .deflist .label {
-  font-family: var(--serif);
-  font-style: italic;
+  font-family: var(--serif-text);
   font-weight: 400;
-  font-size: 19.5px;
+  font-size: 18px;
   color: var(--ink);
   margin-bottom: 3px;
 }
@@ -565,9 +685,8 @@ section.block:last-child {
 }
 .personal p {
   margin: 0;
-  font-family: var(--serif);
-  font-style: italic;
-  font-size: 19px;
+  font-family: var(--serif-text);
+  font-size: 17.5px;
   color: var(--muted);
   line-height: 1.55;
 }
@@ -614,11 +733,10 @@ section.block:last-child {
   background: color-mix(in srgb, var(--accent) 5%, transparent);
 }
 .pub .title {
-  font-family: var(--serif);
-  font-style: italic;
+  font-family: var(--serif-text);
   font-weight: 400;
-  font-size: 20px;
-  line-height: 1.25;
+  font-size: 18px;
+  line-height: 1.35;
   color: var(--ink);
   display: block;
 }
@@ -633,7 +751,7 @@ section.block:last-child {
   align-items: center;
   flex-wrap: wrap;
   gap: 6px 10px;
-  margin-top: 2px;
+  margin-top: 4px;
 }
 .pub .kind {
   font-family: var(--mono);
@@ -647,35 +765,20 @@ section.block:last-child {
   font-size: 13.5px;
   color: var(--accent-2);
 }
-/* running publication index (Published papers only): "(#n) YEAR" flush-right in
-   the mono face. The "(#n)" sits at --faint (a step lighter/lower-contrast than
-   the year's --muted, in both themes). The optional "+" occupies a fixed 1ch
-   slot after the year so every year aligns on its last digit. */
+/* running publication index (Published papers only): "(#n)" flush-right in the
+   mono face at --faint (the year moved inline into the .kind venue row). */
 .pub .pubindex {
   margin-left: auto;
-  display: inline-flex;
-  align-items: baseline;
-  gap: 0.6ch;
   font-family: var(--mono);
   font-size: 12.5px;
   letter-spacing: -0.01em;
   white-space: nowrap;
-}
-.pub .pubindex .idx {
   color: var(--faint);
-}
-.pub .pubindex .yr {
-  color: var(--muted);
-}
-.pub .pubindex .plus {
-  display: inline-block;
-  width: 1ch;
-  text-align: left;
 }
 
 .pill {
   font-family: var(--mono);
-  font-size: 11.5px;
+  font-size: 12px;
   letter-spacing: 0.02em;
   color: var(--muted);
   background: var(--bg-tint);
@@ -706,8 +809,8 @@ a.pill:hover {
   top: 8px;
   right: 8px;
   font-family: var(--mono);
-  font-size: 11px;
-  letter-spacing: 0.04em;
+  font-size: 12px;
+  letter-spacing: 0.02em;
   color: var(--muted);
   background: var(--bg);
   border: 1px solid var(--rule);
@@ -716,11 +819,13 @@ a.pill:hover {
   cursor: pointer;
   transition:
     color 0.15s,
-    border-color 0.15s;
+    border-color 0.15s,
+    background 0.15s;
 }
 .bib-copy:hover {
   color: var(--accent);
   border-color: var(--accent);
+  background: color-mix(in srgb, var(--accent) 8%, transparent);
 }
 /* abstract box (project page): same visual container as the BibTeX box, but
    prose instead of <pre>; toggled by the "abstract" pill (.abs-toggle) */
@@ -854,7 +959,7 @@ body.project .block h3 {
   font-family: var(--serif);
   font-style: italic;
   font-weight: 600;
-  font-size: 21px;
+  font-size: 22px;
   color: var(--ink);
   margin: 30px 0 14px;
   padding-top: 0;
@@ -870,11 +975,14 @@ section.block > .pub:last-child {
 @media (max-width: 880px) {
   .hero-grid {
     grid-template-columns: 1fr;
-    gap: 36px;
+    gap: 24px;
   }
   .hero-photo {
     max-width: 240px;
     order: -1;
+  }
+  .hero-photo .profiles {
+    margin-top: 14px;
   }
   .layout {
     grid-template-columns: 1fr;
@@ -882,6 +990,14 @@ section.block > .pub:last-child {
   }
   .toc {
     display: none;
+  }
+  .secnav {
+    display: block;
+  }
+  section.block {
+    /* anchors must clear the doubled sticky stack (66px header + 44px secnav) */
+    scroll-margin-top: 124px;
+    margin-bottom: 46px;
   }
 }
 @media (max-width: 560px) {
@@ -900,7 +1016,48 @@ section.block > .pub:last-child {
   /* the 56px desktop gap below the header is still too generous on phones */
   .hero,
   .page-head {
-    padding-top: 48px;
+    padding-top: 36px;
+  }
+  .hero h1 {
+    margin-bottom: 20px;
+  }
+  .eyebrow {
+    margin-bottom: 16px;
+  }
+  .lead,
+  .note {
+    font-size: 16.5px;
+    line-height: 1.6;
+  }
+  /* body-class prefix required: body.research/.project .layout set their own
+     padding-top at higher specificity than a bare .layout override */
+  body.home .layout,
+  body.research .layout,
+  body.project .layout {
+    padding-top: 36px;
+    padding-bottom: 56px;
+  }
+  section.block {
+    margin-bottom: 38px;
+  }
+  .block h2 {
+    font-size: 26px;
+  }
+  .block-rule {
+    margin: 10px 0 18px;
+  }
+  .sub,
+  body.project .block h3 {
+    font-size: 19.5px;
+    margin: 24px 0 12px;
+  }
+  .entry-main .role,
+  .deflist .label,
+  .pub .title {
+    font-size: 17px;
+  }
+  .personal p {
+    font-size: 16.5px;
   }
   /* keep Home/Research reachable on phones: swap the wordmark to its monogram
      and tighten the header so everything fits on one line */
@@ -921,6 +1078,12 @@ section.block > .pub:last-child {
   }
   .entry {
     grid-template-columns: 1fr;
+    padding-top: 11px;
+    padding-bottom: 11px;
+  }
+  .deflist .row {
+    padding-top: 11px;
+    padding-bottom: 11px;
   }
   .entry-date {
     padding-top: 2px;
@@ -928,6 +1091,8 @@ section.block > .pub:last-child {
   .pub {
     margin-left: 0;
     padding-left: 14px;
+    padding-top: 12px;
+    padding-bottom: 12px;
   }
 }
 
@@ -957,7 +1122,7 @@ section.block > .pub:last-child {
     --bg-tint: #f6f6f5;
     --ink: #1a1a1a;
     --muted: #5f6368;
-    --faint: #9aa0a6;
+    --faint: #7d838a;
     --rule: #e8e8e6;
     --rule-soft: #f0f0ee;
     --accent: #3b5c7e;
@@ -966,6 +1131,7 @@ section.block > .pub:last-child {
   .site-header,
   footer,
   .toc,
+  .secnav,
   .hero-photo,
   .pill,
   .bib-copy {
