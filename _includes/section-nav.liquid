@@ -1,18 +1,19 @@
 {% comment %}
   Sticky mobile section dropdown — shown at <=880px where the sidebar .toc is
   hidden (styles in _sass/_custom.scss, behavior in head.liquid). Params:
-    include.sections   array of section objects with an `id`
-    include.label_key  field holding the display label ("nav" on home,
-                       "title" on research)
+    include.sections      array of section objects with an `id`
+    include.label_key     field holding the display label ("nav" on home,
+                          "title" on research)
+    include.default_label label shown while no section is in view (the page
+                          name, matching the header nav)
   The scroll-spy keeps the trigger label and the menu checkmark in sync while
-  scrolling; .is-stuck draws the divider once the page has scrolled.
+  scrolling; .is-stuck moves the header shadow down once the page has scrolled.
 {% endcomment %}
-{% assign first_section = include.sections | first %}
 <nav class="secnav" id="secnav" aria-label="Sections">
   <div class="wrap secnav-inner">
     <button class="secnav-trigger" id="secnavTrigger" aria-expanded="false" aria-controls="secnavMenu">
       <span class="secnav-dot" aria-hidden="true"></span>
-      <span class="secnav-label" id="secnavLabel">{{ first_section[include.label_key] }}</span>
+      <span class="secnav-label" id="secnavLabel" data-default="{{ include.default_label }}">{{ include.default_label }}</span>
       <svg
         class="secnav-chevron"
         width="12"

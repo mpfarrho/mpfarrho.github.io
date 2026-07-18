@@ -237,29 +237,45 @@
       links.forEach(function (a) {
         map[a.getAttribute('href').slice(1)] = a;
       });
+      // track every section's in-band state so that above the first section
+      // (hero/page-head) nothing is highlighted and the secnav label falls
+      // back to the page name (data-default)
+      var blocks = Array.prototype.slice.call(document.querySelectorAll('section.block'));
+      var secDefault = secLabel ? secLabel.getAttribute('data-default') : '';
+      var inView = {};
       var obs = new IntersectionObserver(
         function (entries) {
           entries.forEach(function (en) {
-            if (en.isIntersecting) {
-              links.forEach(function (a) {
-                a.classList.remove('active');
-              });
-              var a = map[en.target.id];
-              if (a) a.classList.add('active');
-              var sa = secMap[en.target.id];
-              if (sa) {
-                secLinks.forEach(function (x) {
-                  x.classList.remove('active');
-                });
-                sa.classList.add('active');
-                if (secLabel) secLabel.textContent = sa.getAttribute('data-label');
-              }
-            }
+            inView[en.target.id] = en.isIntersecting;
           });
+          var activeId = null;
+          for (var i = 0; i < blocks.length; i++) {
+            if (inView[blocks[i].id]) {
+              activeId = blocks[i].id;
+              break;
+            }
+          }
+          links.forEach(function (a) {
+            a.classList.remove('active');
+          });
+          secLinks.forEach(function (x) {
+            x.classList.remove('active');
+          });
+          if (activeId) {
+            var a = map[activeId];
+            if (a) a.classList.add('active');
+            var sa = secMap[activeId];
+            if (sa) {
+              sa.classList.add('active');
+              if (secLabel) secLabel.textContent = sa.getAttribute('data-label');
+            }
+          } else if (secLabel) {
+            secLabel.textContent = secDefault;
+          }
         },
         { rootMargin: '-30% 0px -60% 0px', threshold: 0 }
       );
-      document.querySelectorAll('section.block').forEach(function (s) {
+      blocks.forEach(function (s) {
         obs.observe(s);
       });
     }

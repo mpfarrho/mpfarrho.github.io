@@ -488,10 +488,10 @@ li {
   font-size: 14.5px;
   color: var(--muted);
 }
+/* thin vertical accent bar, echoing the desktop TOC's active left border */
 .secnav-dot {
-  width: 7px;
-  height: 7px;
-  border-radius: 999px;
+  width: 1.5px;
+  height: 15px;
   background: var(--accent);
   flex: none;
 }
