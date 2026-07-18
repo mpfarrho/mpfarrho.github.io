@@ -13,8 +13,10 @@
     {% include head.liquid %}
   </head>
   <body class="research">
-    {% include header.liquid %}
-    {% include section-nav.liquid sections=page.sections label_key='title' default_label=page.title %}
+    <div class="sticky-stack">
+      {% include header.liquid %}
+      {% include section-nav.liquid sections=page.sections label_key='title' default_label=page.title %}
+    </div>
 
     <main>
       <section class="page-head wrap">

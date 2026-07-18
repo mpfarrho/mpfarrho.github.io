@@ -223,13 +223,6 @@
         document.getElementById('secnavTop').addEventListener('click', function () {
           window.scrollTo({ top: 0, behavior: 'smooth' });
         });
-        // the row sits directly under the header, so "stuck" simply means the
-        // page has scrolled; the class draws the divider
-        var onSecScroll = function () {
-          secnav.classList.toggle('is-stuck', window.scrollY > 2);
-        };
-        window.addEventListener('scroll', onSecScroll, { passive: true });
-        onSecScroll();
       }
       var links = Array.prototype.slice.call(document.querySelectorAll('.toc a'));
       if (!links.length && !secLinks.length) return;

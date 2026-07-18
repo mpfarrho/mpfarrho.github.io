@@ -449,24 +449,28 @@ li {
 }
 
 /* ---------- sticky section dropdown (mobile replacement for .toc) ---------- */
-/* Hidden on desktop; shown at <=880px where the sidebar .toc disappears. Sits
-   directly under the sticky 66px header, so the combined sticky stack is
-   66 + 44 = 110px. Once the page scrolls (.is-stuck, toggled in head.liquid)
-   the row is treated as part of the header unit: the header's drop shadow
-   moves down to the secnav's bottom edge (see the <=880px block below), so
-   the two rows read as one sticky piece. Backgrounds stay identical to the
-   header's frosted treatment for the same reason. */
-.secnav {
-  display: none;
+/* Hidden on desktop; shown at <=880px where the sidebar .toc disappears.
+   Header + secnav live inside one .sticky-stack wrapper (home/research
+   layouts) that owns the sticky positioning, frosted background, blur and
+   drop shadow — a single backdrop pane, so the two rows render as one block
+   (66 + 44 = 110px) with no blur seam between them. On legacy pages the
+   header appears without the wrapper and keeps its own chrome. */
+.sticky-stack {
   position: sticky;
-  top: 66px;
-  z-index: 40;
+  top: 0;
+  z-index: 50;
   background: color-mix(in srgb, var(--bg) 35%, transparent);
   backdrop-filter: saturate(140%) blur(10px);
-  transition: box-shadow 0.15s;
-}
-.secnav.is-stuck {
   box-shadow: 0 2px 12px -4px rgba(20, 30, 45, 0.14);
+}
+.sticky-stack .site-header {
+  position: static;
+  background: none;
+  backdrop-filter: none;
+  box-shadow: none;
+}
+.secnav {
+  display: none;
 }
 .secnav-inner {
   display: flex;
@@ -997,12 +1001,6 @@ section.block > .pub:last-child {
   .secnav {
     display: block;
   }
-  /* stuck secnav joins the header unit: the shadow moves from the header's
-     bottom edge to the secnav's (scoped to <=880px — on desktop the secnav is
-     hidden even though the JS still toggles .is-stuck) */
-  body:has(.secnav.is-stuck) .site-header {
-    box-shadow: none;
-  }
   section.block {
     /* anchors must clear the doubled sticky stack (66px header + 44px secnav) */
     scroll-margin-top: 124px;
@@ -1138,6 +1136,7 @@ section.block > .pub:last-child {
     --accent-2: #6e94b8;
   }
   .site-header,
+  .sticky-stack,
   footer,
   .toc,
   .secnav,

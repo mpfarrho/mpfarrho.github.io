@@ -14,8 +14,10 @@
     {% include head.liquid %}
   </head>
   <body class="home">
-    {% include header.liquid %}
-    {% include section-nav.liquid sections=site.data.cv.sections label_key='nav' default_label='Home' %}
+    <div class="sticky-stack">
+      {% include header.liquid %}
+      {% include section-nav.liquid sections=site.data.cv.sections label_key='nav' default_label='Home' %}
+    </div>
 
     <main>
       <section class="hero wrap">
