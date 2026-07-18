@@ -451,8 +451,11 @@ li {
 /* ---------- sticky section dropdown (mobile replacement for .toc) ---------- */
 /* Hidden on desktop; shown at <=880px where the sidebar .toc disappears. Sits
    directly under the sticky 66px header, so the combined sticky stack is
-   66 + 44 = 110px. The divider only appears once the row is actually stuck
-   (.is-stuck, toggled by a sentinel IntersectionObserver in head.liquid). */
+   66 + 44 = 110px. Once the page scrolls (.is-stuck, toggled in head.liquid)
+   the row is treated as part of the header unit: the header's drop shadow
+   moves down to the secnav's bottom edge (see the <=880px block below), so
+   the two rows read as one sticky piece. Backgrounds stay identical to the
+   header's frosted treatment for the same reason. */
 .secnav {
   display: none;
   position: sticky;
@@ -460,10 +463,10 @@ li {
   z-index: 40;
   background: color-mix(in srgb, var(--bg) 35%, transparent);
   backdrop-filter: saturate(140%) blur(10px);
+  transition: box-shadow 0.15s;
 }
 .secnav.is-stuck {
-  border-bottom: 1px solid var(--rule);
-  background: color-mix(in srgb, var(--bg) 75%, transparent);
+  box-shadow: 0 2px 12px -4px rgba(20, 30, 45, 0.14);
 }
 .secnav-inner {
   display: flex;
@@ -480,9 +483,9 @@ li {
   border: 0;
   background: none;
   cursor: pointer;
-  font-family: var(--mono);
-  font-size: 12.5px;
-  letter-spacing: 0.02em;
+  /* same voice as the header nav links, not the mono meta face */
+  font-family: var(--sans);
+  font-size: 14.5px;
   color: var(--muted);
 }
 .secnav-dot {
@@ -993,6 +996,12 @@ section.block > .pub:last-child {
   }
   .secnav {
     display: block;
+  }
+  /* stuck secnav joins the header unit: the shadow moves from the header's
+     bottom edge to the secnav's (scoped to <=880px — on desktop the secnav is
+     hidden even though the JS still toggles .is-stuck) */
+  body:has(.secnav.is-stuck) .site-header {
+    box-shadow: none;
   }
   section.block {
     /* anchors must clear the doubled sticky stack (66px header + 44px secnav) */
