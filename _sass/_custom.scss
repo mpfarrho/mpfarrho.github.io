@@ -1095,8 +1095,11 @@ section.block > .pub:last-child {
   .nav-icons {
     gap: 12px;
   }
+  /* one vertical rhythm for all row types: 11px outer padding, ~4px before
+     the mono meta line (entry date / pub meta), 2-3px after the title line */
   .entry {
     grid-template-columns: 1fr;
+    gap: 2px 24px;
     padding-top: 11px;
     padding-bottom: 11px;
   }
@@ -1110,8 +1113,13 @@ section.block > .pub:last-child {
   .pub {
     margin-left: 0;
     padding-left: 14px;
-    padding-top: 12px;
-    padding-bottom: 12px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+  }
+  /* venue label takes the full row so the action pills (and the (#n) index)
+     always break onto their own line on phones */
+  .pub .meta .kind {
+    flex-basis: 100%;
   }
 }
 
