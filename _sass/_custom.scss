@@ -14,10 +14,11 @@
  * "improve" them.
  *
  * July 2026 refinement pass (deliberate deviations from the mockups): item
- * titles/labels use upright Newsreader (--serif-text) while EB Garamond
- * italic is reserved for major headings; --faint darkened for contrast;
- * mobile type/spacing tightened; sticky .secnav dropdown added for <=880px.
- * Do not revert these to the mockup values.
+ * titles/labels (.pub .title, .entry-main .role, .deflist .label) use the sans
+ * face while upright Newsreader (--serif-text) is reserved for the main body
+ * copy (.lead, .note, .personal); EB Garamond italic stays for major headings;
+ * --faint darkened for contrast; mobile type/spacing tightened; sticky .secnav
+ * dropdown added for <=880px. Do not revert these to the mockup values.
  ******************************************************************************/
 
 /* ---------- design tokens ---------- */
@@ -292,6 +293,8 @@ li {
   color: var(--accent);
 }
 .lead {
+  font-family: var(--serif-text);
+  font-weight: 410;
   font-size: 17px;
   line-height: 1.7;
   color: var(--ink);
@@ -299,6 +302,8 @@ li {
   max-width: 60ch;
 }
 .note {
+  font-family: var(--serif-text);
+  font-weight: 410;
   color: var(--ink);
   font-size: 17px;
   line-height: 1.7;
@@ -624,7 +629,7 @@ section.block:last-child {
   background: color-mix(in srgb, var(--accent) 5%, transparent);
 }
 .entry-main .role {
-  font-family: var(--serif-text);
+  font-family: var(--sans);
   font-weight: 400;
   font-size: 18px;
   color: var(--ink);
@@ -672,7 +677,7 @@ section.block:last-child {
   background: color-mix(in srgb, var(--accent) 5%, transparent);
 }
 .deflist .label {
-  font-family: var(--serif-text);
+  font-family: var(--sans);
   font-weight: 400;
   font-size: 18px;
   color: var(--ink);
@@ -740,7 +745,7 @@ section.block:last-child {
   background: color-mix(in srgb, var(--accent) 5%, transparent);
 }
 .pub .title {
-  font-family: var(--serif-text);
+  font-family: var(--sans);
   font-weight: 400;
   font-size: 18px;
   line-height: 1.35;
