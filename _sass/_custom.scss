@@ -14,7 +14,7 @@
  * "improve" them.
  *
  * July 2026 refinement pass (deliberate deviations from the mockups): item
- * titles/labels use upright Source Serif 4 (--serif-text) while EB Garamond
+ * titles/labels use upright Newsreader (--serif-text) while EB Garamond
  * italic is reserved for major headings; --faint darkened for contrast;
  * mobile type/spacing tightened; sticky .secnav dropdown added for <=880px.
  * Do not revert these to the mockup values.
@@ -32,7 +32,7 @@
   --accent: #3b5c7e;
   --accent-2: #6e94b8;
   --serif: "EB Garamond", Garamond, Georgia, "Times New Roman", serif;
-  --serif-text: "Source Serif 4", Georgia, "Times New Roman", serif;
+  --serif-text: "Newsreader", Georgia, "Times New Roman", serif;
   --sans: "IBM Plex Sans", system-ui, -apple-system, Segoe UI, sans-serif;
   --mono: "IBM Plex Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
   --maxw: 1180px;
@@ -292,7 +292,7 @@ li {
   color: var(--accent);
 }
 .lead {
-  font-size: 18px;
+  font-size: 17px;
   line-height: 1.7;
   color: var(--ink);
   margin: 0 0 20px;
@@ -300,7 +300,7 @@ li {
 }
 .note {
   color: var(--ink);
-  font-size: 18px;
+  font-size: 17px;
   line-height: 1.7;
   max-width: 60ch;
   margin: 0 0 18px;
