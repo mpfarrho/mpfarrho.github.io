@@ -42,13 +42,13 @@ sections:
         org: '<a href="https://www.cambridge.org/core/journals/macroeconomic-dynamics">Macroeconomic Dynamics</a>'
         date: "2025&ndash;"
       - type: entry
-        role: "General Secretary"
-        org: 'Austrian Economic Association (<a href="https://www.noeg.ac.at">NOeG</a>)'
-        date: "2025&ndash;2026"
-      - type: entry
         role: "Expert"
         org: "European Commission &ldquo;Macro Modelling and Nowcast Pool,&rdquo; JRC Ispra"
         date: "12/2020&ndash;"
+      - type: entry
+        role: "General Secretary"
+        org: 'Austrian Economic Association (<a href="https://www.noeg.ac.at">NOeG</a>)'
+        date: "2025&ndash;2026"
       - type: deflist
         rows:
           - label: "Memberships"
