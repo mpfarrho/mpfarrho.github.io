@@ -123,8 +123,8 @@ sections:
     blocks:
       - type: deflist
         rows:
-          - label: "Recent"
-            val: '7th Vienna Workshop on High-Dimensional Time Series in Macroeconomics and Finance (IHS); 13th ECB Conference on Forecasting Techniques; SNB Research Seminar (Z&uuml;rich); Insightful Minds in International Macro Seminar (<a href="https://sites.google.com/view/imimseminars/home">IMIM</a>); Economics Research Seminar (JKU Linz); 15th RCEA Bayesian Econometrics Workshop (Universidad del Atl&aacute;ntico Medio)'
+          - label: "Recent and scheduled"
+            val: 'Macroeconomic Modelling in Times of Uncertainty (Banca d&rsquo;Italia); 7th Vienna Workshop on High-Dimensional Time Series in Macroeconomics and Finance (IHS); 13th ECB Conference on Forecasting Techniques; SNB Research Seminar (Z&uuml;rich); Insightful Minds in International Macro Seminar (<a href="https://sites.google.com/view/imimseminars/home">IMIM</a>); Economics Research Seminar (JKU Linz); 15th RCEA Bayesian Econometrics Workshop (Universidad del Atl&aacute;ntico Medio)'
 
   - id: teaching
     nav: Teaching
