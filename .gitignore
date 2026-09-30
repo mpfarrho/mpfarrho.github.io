@@ -15,3 +15,5 @@ node_modules/
 vendor
 # local agent scratch (mockups, settings)
 .claude/
+# local build override (no Docker)
+_config.local.yml
