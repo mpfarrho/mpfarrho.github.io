@@ -7,7 +7,7 @@
 
 # Michael Pfarrhofer
 
-> Assistant Professor at the Department of Economics, WU Vienna University of
+> Associate Professor at the Department of Economics, WU Vienna University of
 > Economics and Business. Research in econometrics for macroeconomic and related
 > applications: Bayesian methods, time series, machine learning, business cycle
 > analysis and forecasting.

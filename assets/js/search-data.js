@@ -11,14 +11,14 @@ ninja.data = [{
     },
   },{id: "nav-home",
           title: "Home",
-          description: "Assistant Professor at WU Vienna, specializing in econometrics for macroeconomic applications.",
+          description: "Associate Professor at WU Vienna, specializing in econometrics for macroeconomic applications.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/";
           },
         },{id: "nav-research",
           title: "Research",
-          description: "Research, working papers and publications of Michael Pfarrhofer, Assistant Professor at WU Vienna.",
+          description: "Research, working papers and publications of Michael Pfarrhofer, Associate Professor at WU Vienna.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/research/";
