@@ -82,8 +82,8 @@
                     {% if b.roles %}
                       <div class="entry entry-stack">
                         {% for r in b.roles %}
-                          <span class="role">{{ r.role }}</span>
-                          <div class="entry-date">{{ r.date }}</div>
+                          <span class="role{% unless forloop.first %} prev{% endunless %}">{{ r.role }}</span>
+                          <div class="entry-date{% unless forloop.first %} prev{% endunless %}">{{ r.date }}</div>
                         {% endfor %}
                         <span class="org">{{ b.org }}</span>
                       </div>

@@ -19,6 +19,15 @@
  * copy (.lead, .note, .personal); EB Garamond italic stays for major headings;
  * --faint darkened for contrast; mobile type/spacing tightened; sticky .secnav
  * dropdown added for <=880px. Do not revert these to the mockup values.
+ *
+ * October 2026 pass: the thin dividers between rows (.entry, .deflist .row,
+ * .pub) were removed; heading rules (.block-rule) and hovers are unchanged.
+ * Promotions stack earlier roles (.entry-stack .prev) under the current one.
+ *
+ * Keep all custom pages in sync: any design change here must also be checked
+ * and, where needed, applied on every custom page — Home (home.liquid),
+ * Research (research.liquid) and the project pages (project.liquid, e.g.
+ * /project18765/), which reuse the same row and section components.
  ******************************************************************************/
 
 /* ---------- design tokens ---------- */
@@ -617,14 +626,10 @@ section.block:last-child {
   gap: 8px 24px;
   margin-left: -18px;
   padding: 13px 0 13px 18px;
-  border-bottom: 1px solid var(--rule-soft);
   border-left: 2px solid transparent;
   transition:
     border-color 0.18s,
     background 0.18s;
-}
-.entry:last-child {
-  border-bottom: 0;
 }
 .entry:hover {
   border-left-color: var(--accent);
@@ -655,9 +660,26 @@ section.block:last-child {
   letter-spacing: -0.01em;
 }
 /* stacked variant: several role/date pairs at one org (promotions). Each pair
-   is a grid row; the org line spans both columns underneath. */
+   is a grid row; the org line spans both columns underneath. Earlier roles
+   (.prev) are indented, faint and marked with an upward arrow; their dates
+   share the date column so they align with the current one. The -4px pulls
+   the row up to the same rhythm as the org line. */
 .entry-stack {
-  row-gap: 4px;
+  row-gap: 0;
+}
+.entry-stack .role.prev {
+  position: relative;
+  padding-left: 20px;
+  color: var(--faint);
+}
+.entry-stack .role.prev,
+.entry-stack .entry-date.prev {
+  margin-top: -4px;
+}
+.entry-stack .role.prev::before {
+  content: "\2191";
+  position: absolute;
+  left: 3px;
 }
 .entry-stack .org {
   grid-column: 1 / -1;
@@ -676,14 +698,10 @@ section.block:last-child {
   margin-left: -18px;
   margin-right: 0;
   padding: 13px 0 13px 18px;
-  border-bottom: 1px solid var(--rule-soft);
   border-left: 2px solid transparent;
   transition:
     border-color 0.18s,
     background 0.18s;
-}
-.deflist .row:last-child {
-  border-bottom: 0;
 }
 .deflist .row:hover {
   border-left-color: var(--accent);
@@ -731,7 +749,6 @@ section.block:last-child {
   position: relative;
   margin-left: -18px;
   padding: 14px 0 14px 18px;
-  border-bottom: 1px solid var(--rule-soft);
   border-left: 2px solid transparent;
   border-radius: 0;
   transition:
@@ -739,8 +756,7 @@ section.block:last-child {
     background 0.18s;
 }
 /* jekyll-scholar wraps each entry in <ol class="bibliography"><li>…</li></ol>;
-   neutralise the list so the .pub rows render exactly like the mockup. Each .pub
-   is the only child of its <li>, so the last hairline is dropped on the last li. */
+   neutralise the list so the .pub rows render exactly like the mockup. */
 .bibliography {
   list-style: none;
   margin: 0;
@@ -749,9 +765,6 @@ section.block:last-child {
 .bibliography li {
   margin: 0;
   padding: 0;
-}
-.bibliography li:last-child .pub {
-  border-bottom: 0;
 }
 .pub:hover {
   border-left-color: var(--accent);
@@ -990,11 +1003,6 @@ body.project .block h3 {
   padding-top: 0;
   border-top: 0;
 }
-/* hand-written .pub entries sit directly in the section (no .bibliography
-   list), so drop the hairline on the last one here too */
-section.block > .pub:last-child {
-  border-bottom: 0;
-}
 
 /* ---------- responsive ---------- */
 @media (max-width: 880px) {
@@ -1128,6 +1136,10 @@ section.block > .pub:last-child {
   }
   .entry-date {
     padding-top: 2px;
+  }
+  .entry-stack .entry-date.prev {
+    padding-left: 20px;
+    margin-top: 0;
   }
   .pub {
     margin-left: 0;
