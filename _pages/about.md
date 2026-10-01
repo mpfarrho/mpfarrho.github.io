@@ -2,7 +2,7 @@
 layout: home
 permalink: /
 title: Home
-description: Assistant Professor at WU Vienna, specializing in econometrics for macroeconomic applications.
+description: Associate Professor at WU Vienna, specializing in econometrics for macroeconomic applications.
 nav: true
 nav_order: 1
 subtitle: Department of Economics &middot; WU Vienna
@@ -12,7 +12,7 @@ profile:
 ---
 
 <p class="lead">
-  I am an Assistant Professor at WU Vienna University of Economics and Business (<a href="https://www.wu.ac.at/en/economics/">Department of Economics</a>), specializing in econometrics for macroeconomic and related applications. I am also an Expert for the Joint Research Centre (JRC) Ispra of the European Commission, and serve as an Associate Editor for <a href="https://www.cambridge.org/core/journals/macroeconomic-dynamics">Macroeconomic Dynamics</a>.
+  I am an Associate Professor at WU Vienna University of Economics and Business (<a href="https://www.wu.ac.at/en/economics/">Department of Economics</a>), specializing in econometrics for macroeconomic and related applications. I am also an Expert for the Joint Research Centre (JRC) Ispra of the European Commission, and serve as an Associate Editor for <a href="https://www.cambridge.org/core/journals/macroeconomic-dynamics">Macroeconomic Dynamics</a>.
 </p>
 <p class="note">
   My research interests include empirical macroeconomics and econometric methods for dynamic models, with a particular focus on business cycle analysis and forecasting. Methodologically, my work centers on time series, Bayesian econometrics and machine learning.

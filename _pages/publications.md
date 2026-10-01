@@ -3,7 +3,7 @@ layout: research
 permalink: /research/
 title: Research
 subtitle: Publications &amp; other works
-description: Research, working papers and publications of Michael Pfarrhofer, Assistant Professor at WU Vienna.
+description: Research, working papers and publications of Michael Pfarrhofer, Associate Professor at WU Vienna.
 nav: true
 nav_order: 2
 # Publication sections rendered by _layouts/research.liquid: one TOC entry and

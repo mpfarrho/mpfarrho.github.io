@@ -79,12 +79,22 @@
               {% for b in s.blocks %}
                 {% case b.type %}
                   {% when 'entry' %}
-                    <div class="entry">
-                      <div class="entry-main">
-                        <span class="role">{{ b.role }}</span><span class="org">{{ b.org }}</span>
+                    {% if b.roles %}
+                      <div class="entry entry-stack">
+                        {% for r in b.roles %}
+                          <span class="role">{{ r.role }}</span>
+                          <div class="entry-date">{{ r.date }}</div>
+                        {% endfor %}
+                        <span class="org">{{ b.org }}</span>
                       </div>
-                      <div class="entry-date">{{ b.date }}</div>
-                    </div>
+                    {% else %}
+                      <div class="entry">
+                        <div class="entry-main">
+                          <span class="role">{{ b.role }}</span><span class="org">{{ b.org }}</span>
+                        </div>
+                        <div class="entry-date">{{ b.date }}</div>
+                      </div>
+                    {% endif %}
                   {% when 'sub' %}
                     <div class="sub">{{ b.text }}</div>
                   {% when 'deflist' %}

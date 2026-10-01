@@ -99,6 +99,7 @@ body.project a:focus {
 .lead a,
 .note a,
 .entry-main .org a,
+.entry-stack .org a,
 .deflist .val a,
 .personal a,
 .colophon a,
@@ -118,6 +119,7 @@ body.project .block li a {
 .lead a:hover,
 .note a:hover,
 .entry-main .org a:hover,
+.entry-stack .org a:hover,
 .deflist .val a:hover,
 .personal a:hover,
 .colophon a:hover,
@@ -628,13 +630,15 @@ section.block:last-child {
   border-left-color: var(--accent);
   background: color-mix(in srgb, var(--accent) 5%, transparent);
 }
-.entry-main .role {
+.entry-main .role,
+.entry-stack .role {
   font-family: var(--sans);
   font-weight: 400;
   font-size: 17px;
   color: var(--ink);
 }
-.entry-main .org {
+.entry-main .org,
+.entry-stack .org {
   display: block;
   color: var(--muted);
   font-size: 15.5px;
@@ -649,6 +653,15 @@ section.block:last-child {
   padding-top: 5px;
   padding-right: 8px;
   letter-spacing: -0.01em;
+}
+/* stacked variant: several role/date pairs at one org (promotions). Each pair
+   is a grid row; the org line spans both columns underneath. */
+.entry-stack {
+  row-gap: 4px;
+}
+.entry-stack .org {
+  grid-column: 1 / -1;
+  margin-top: -2px;
 }
 
 .deflist {
@@ -1076,6 +1089,7 @@ section.block > .pub:last-child {
     margin: 24px 0 12px;
   }
   .entry-main .role,
+  .entry-stack .role,
   .deflist .label,
   .pub .title {
     font-size: 17px;

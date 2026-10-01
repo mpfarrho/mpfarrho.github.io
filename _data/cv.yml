@@ -1,7 +1,9 @@
 # Drives the home page CV sections (see _layouts/home.liquid).
 # Each section: id (must match the mockup + scroll-spy verbatim), nav (TOC
 # label), title (h2), and an ordered list of typed blocks:
-#   - type: entry    -> role / org / date ledger row (.entry)
+#   - type: entry    -> role / org / date ledger row (.entry); give `roles:`
+#                       (a list of role/date pairs) instead of role/date to
+#                       stack several titles at one org (e.g. a promotion)
 #   - type: sub      -> serif-italic subheading (.sub)
 #   - type: deflist  -> label/value rows (.deflist), one <dl> per block
 #   - type: personal -> the "Off the clock" box (.personal)
@@ -13,9 +15,12 @@ sections:
     title: Curriculum vitae
     blocks:
       - type: entry
-        role: "Assistant Professor"
+        roles:
+          - role: "Associate Professor"
+            date: "10/2026&ndash;"
+          - role: "Assistant Professor"
+            date: "09/2023&ndash;09/2026"
         org: "Department of Economics, WU Vienna"
-        date: "09/2023&ndash;"
       - type: entry
         role: "Professor of Macroeconomics"
         org: "Department of Economics, University of Vienna"
