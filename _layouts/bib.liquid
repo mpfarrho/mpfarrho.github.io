@@ -47,9 +47,9 @@
       {%- if entry.arxiv -%}
         <a class="pill" href="http://arxiv.org/abs/{{ entry.arxiv }}">wp</a>
       {%- endif -%}
-      {%- if entry.code -%}
-        <a class="pill" href="{{ entry.code }}">code</a>
-      {%- endif -%}
+    {%- endif -%}
+    {%- if entry.code -%}
+      <a class="pill" href="{{ entry.code }}">code</a>
     {%- endif -%}
     {%- if entry.bibtex_show -%}
       <a class="pill bib-toggle" role="button" tabindex="0" aria-expanded="false">bib</a>
