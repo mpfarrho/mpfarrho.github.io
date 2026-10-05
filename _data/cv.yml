@@ -34,9 +34,12 @@ sections:
         org: "International Institute for Applied Systems Analysis (IIASA)"
         date: "11/2020&ndash;10/2021"
       - type: entry
-        role: "Postdoc"
+        roles:
+          - role: "Postdoc"
+            date: "10/2019&ndash;08/2022"
+          - role: "Senior Scientist"
+            date: "11/2018&ndash;09/2019"
         org: "Department of Economics, University of Salzburg"
-        date: "10/2019&ndash;08/2022"
 
   - id: activities
     nav: Activities
