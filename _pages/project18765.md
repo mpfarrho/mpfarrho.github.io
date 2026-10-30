@@ -128,10 +128,10 @@ This project aims to develop new Bayesian nonparametric methods that are robust 
 </div>
 
 <div class="pub" id="p18765-hauzenberger2024gpmidas">
-  <span class="title">Nowcasting with Mixed Frequency Data Using Gaussian Processes</span>
+  <span class="title">Direct Gaussian Process Predictive Regressions with Mixed Frequency Data</span>
   <div class="authors">N. Hauzenberger, M. Marcellino, M. Pfarrhofer and A. Stelzer</div>
   <div class="meta">
-    <span class="kind">Working paper</span>
+    <span class="kind">Journal of Business &amp; Economic Statistics, forthcoming</span>
     <a class="pill" href="https://arxiv.org/abs/2402.10574">wp</a>
     <a class="pill abs-toggle" role="button" tabindex="0" aria-expanded="false">abstract</a>
   </div>
