@@ -72,7 +72,7 @@ sections:
           - label: "Journals"
             val: "Energy Economics, Economics Letters, IMF Economic Review, International Journal of Forecasting, Journal of Applied Econometrics, Journal of Business &amp; Economic Statistics, Journal of Econometrics, Journal of Economic Dynamics &amp; Control, Journal of Money, Credit and Banking, Journal of the American Statistical Association, Journal of the Royal Statistical Society, Macroeconomic Dynamics, Review of Economic Studies, Review of Economics and Statistics, Statistica Sinica, Quantitative Economics, among others"
           - label: "Other"
-            val: "ECB Working Paper Series, OeNB Jubil&auml;umsfonds, Swiss National Science Foundation"
+            val: "Deutsche Forschungsgemeinschaft (DFG), ECB Working Paper Series, OeNB Jubil&auml;umsfonds, Swiss National Science Foundation"
 
   - id: education
     nav: Education
