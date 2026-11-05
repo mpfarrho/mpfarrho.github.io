@@ -132,7 +132,7 @@ This project aims to develop new Bayesian nonparametric methods that are robust 
   <div class="authors">N. Hauzenberger, M. Marcellino, M. Pfarrhofer and A. Stelzer</div>
   <div class="meta">
     <span class="kind">Journal of Business &amp; Economic Statistics, forthcoming</span>
-    <a class="pill" href="https://arxiv.org/abs/2402.10574">wp</a>
+    <a class="pill" href="https://doi.org/10.1080/07350015.2026.2760595">doi</a>
     <a class="pill abs-toggle" role="button" tabindex="0" aria-expanded="false">abstract</a>
   </div>
   <div class="pub-abstract" hidden>
